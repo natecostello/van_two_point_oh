@@ -1,0 +1,45 @@
+# 24V Electrical Concept
+
+### Assumptions
+
+* 24V 400AH LFP
+* 24V Fridge and Freezer
+* 24V Multiplus 3000
+* 24V Alternator
+* 2+ [24/12-25 Orion DC-DC Converters](https://www.victronenergy.com/upload/documents/Datasheet-Orion-DC-DC-converters-high-power,-non-isolated-EN.pdf)
+* [Smart Solar 150/45](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-150-45-up-to-150-100-EN.pdf)
+
+### Open Questions
+
+* Does REC BMS that supports 24V also support Victron? [Yes](http://www.rec-bms.com/datasheet/UserManual_REC_Victron_BMS.pdf)
+
+* Does Wakespeed 500 support 24V? Yes according to Nation's? Yes according to Nations and Wakespeed manual.
+
+### Benefits
+
+* MPPT is 3 kg and 4393750 mm^3  and ~$450 for 24V vs 4.5 kg and 6563160 mm^3 and $700 for 12V
+* Alternator line temperature rise will be 1/4 of 12V for equivalent wire.
+
+
+
+Similar/Equavalent Wire Comparisons:
+
+**12v to 24v Equivalent Voltage Drop % and Equal Loss for the Same Transmitted Power**
+
+V=IR.  Because I has decreased by 1/2 and Vsource has increased by 2, to achive the same fraction of Vsource/Vdrop, Vdrop must also double.  This implies R must increase by a factor of 4.
+
+P = R*I<sup>2</sup>.  I has decreased by a factor of 1/2, thus I<sup>2</sup> has decreased by a factor of 1/4.  This implies R must increase by a factor of 4.
+
+4/0 becomes 2 AWG
+
+2 AWG becomes 8 AWG
+
+8 AWG becomes 14 AWG
+
+**12v to 24v Equivalent Ampacity for Same Power**
+
+4/0 becomes 2 AWG
+
+2 AWG becomes 6 AWG
+
+8 AWG becomes 14 AWG
