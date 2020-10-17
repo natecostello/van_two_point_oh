@@ -4,7 +4,7 @@ category: "electrical"
 title: "Why 24V"
 author: "Stello"
 date: "2020-10-26"
-tags: ["24V", "12V, " "design", "concept", "electrical", "van"]
+tags: ["24V", "12V", "design", "concept", "electrical", "van"]
 ---
 # 24V Electrical Concept
 
