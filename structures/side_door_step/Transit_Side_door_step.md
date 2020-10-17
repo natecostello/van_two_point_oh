@@ -1,3 +1,12 @@
+---
+section: "van"
+category: "structures"
+title: "Side Door Step"
+author: "Stello"
+data: " 2020-10-16"
+tags: ["step", "floor"]
+---
+
 # Transit Side Door Step
 
 This structure will support extension of the floor over the sliding door step area.  Piece-parts are standard metal shapes (angle and flat bar) welded and cut to drawing.  It will be attached to where the floor overhangs the step on the aft and forward sides of the step (through-bolted).

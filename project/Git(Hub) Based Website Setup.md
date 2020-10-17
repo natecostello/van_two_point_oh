@@ -1,4 +1,13 @@
-# Git(Hub) Based Website Setup
+---
+section: "meta"
+category: "web"
+title: "Git(Hub) & Gatsby Based Website Setup"
+author: "Stello"
+data: " 2020-10-16"
+tags: ["web", "meta"]
+---
+
+# Git(Hub) & Gatsby Based Website Setup
 
 ## Structure
 
@@ -99,3 +108,32 @@ To add the required Action to to the web_repo:
 
 
 
+## Structure
+
+Landing Page
+
+​	Menu: [Blog About Van ...]
+
+​		-Blog ["section"]
+
+​			--Post ["category"]
+
+​				---Title
+
+​				 ---Date
+
+​				 ---Author
+
+​				 ---Tags
+
+​			 -About (fixed page) ["section"]
+
+​			 -Van ["section"]
+
+​				 --Electrical ["catagory"]
+
+​					---Title
+
+​					---Date (Should be "last updated")
+
+​					---Tags

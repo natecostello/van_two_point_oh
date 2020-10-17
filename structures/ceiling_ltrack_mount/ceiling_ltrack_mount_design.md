@@ -1,3 +1,12 @@
+---
+section: "van"
+category: "structures"
+title: "Ceiling L-track Mounting"
+author: "Stello"
+data: " 2020-10-16"
+tags: ["L-track", "design", "concept"]
+---
+
 # Ceiling L-Track Mounting
 
 Following are design concepts for mounting the L-Track to the ceiling ribs.
