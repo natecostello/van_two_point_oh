@@ -1,3 +1,13 @@
+---
+section: "van"
+category: "electrical"
+title: "REC Bi-Stable Latching Relay Driver Inverter"
+author: "Stello"
+date: "2020-10-26"
+tags: ["relay", "design", "concept", "electrical", "van", "logic"]
+---
+
+
 # REC Bi-Stable Latching Relay Driver Inverter
 
 For the design application, inverting the REC BSLRD outputs: 

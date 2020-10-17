@@ -1,10 +1,10 @@
-
-
 ---
-title: "Precharge"
-date: 2020-07-25T21:10:12Z
-draft: true
-
+section: "van"
+category: "electrical"
+title: "Need For Pre-charge"
+author: "Stello"
+date: "2020-07-25"
+tags: ["Pre-charge", "design", "concept", "electrical", "van"]
 ---
 
 # Need For Pre-charge
