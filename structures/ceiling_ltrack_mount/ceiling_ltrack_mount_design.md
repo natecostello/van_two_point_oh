@@ -33,7 +33,7 @@ This option borrows from the method used by Carryingforks described in the link 
 
 ### Negatives
 
-This is the weakest method evaluated.  We also must evaluate how will will join L-track if pieces of sufficent length are not available to span the entire ceiling length.  This may necissitate using one of the alternative methods at least in part.  TODO: EVALUATE JOINING/REQUIRED LENGTH.
+This is the weakest method evaluated.  We also must evaluate how will will join L-track if pieces of sufficent length are not available to span the entire ceiling length.  This may necissitate using one of the alternative methods at least in part.  TODO: EVALUATE JOINING/REQUIRED LENGTH (129ish inches).
 
 ### Positives
 
