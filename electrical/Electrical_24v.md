@@ -1,7 +1,7 @@
 ---
 section: "van"
 category: "electrical"
-title: "Why 24V"
+title: "24V Electrical Concept"
 author: "Stello"
 date: "2020-10-26"
 tags: ["24V", "12V", "design", "concept", "electrical", "van"]
@@ -12,10 +12,10 @@ tags: ["24V", "12V", "design", "concept", "electrical", "van"]
 
 * 24V 400AH LFP
 * 24V Fridge and Freezer
-* 24V Multiplus 3000
+* [Multiplus 24/3000/70](https://www.victronenergy.com/upload/documents/Datasheet-Multiplus-inverter-charger_2kVA-and-3kVA-120V-US-EN.pdf) ($1,284)
 * 24V Alternator
-* 2+ [24/12-25 Orion DC-DC Converters](https://www.victronenergy.com/upload/documents/Datasheet-Orion-DC-DC-converters-high-power,-non-isolated-EN.pdf)
-* [Smart Solar 150/45](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-150-45-up-to-150-100-EN.pdf)
+* 2+ [24/12-25 Orion DC-DC Converters](https://www.victronenergy.com/upload/documents/Datasheet-Orion-DC-DC-converters-high-power,-non-isolated-EN.pdf) (2*75$) or 1 480W 24V to 12V for ($38)
+* [Smart Solar 150/45](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-150-45-up-to-150-100-EN.pdf) ($450)
 
 ### Open Questions
 
