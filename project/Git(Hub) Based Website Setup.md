@@ -110,6 +110,8 @@ To add the required Action to to the web_repo:
 
 ## Structure
 
+TODO: Revisit the [mozilla page on structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure) for later planning.
+
 Landing Page
 
 ​	Menu: [Blog About Van ...]
