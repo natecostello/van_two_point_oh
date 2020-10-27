@@ -2,15 +2,13 @@
 
 ## Solar
 
-Aluminess tubing is 1 5/16". Assuming aluminess drawing is outer dimension of upper rack, that means, available space between upper rack tubes is 61.875". [TODO: Confirm with Aluminess]  Panasonic solar panel dimensions are 62.6".  We have an interference.  They could sit on top the upper rails.  4 Grape Solar panels could be used at the expense of roof space for roof deck.  Upside is more solar.
+Aluminess has [confirmed](emails_with_aluminess.pdf) that width shown in thier [dimensioned drawing](Transit_148_EB_Tall Roof.PDF) is center to center of the lower loop of the rack and that the inner width of the upper loop is 63".    Panasonic solar panel dimensions are 62.6" so they will tuck between the upper rails with a custom mounting solution.  4 Grape Solar panels could be used at the expense of roof space for roof deck.  Upside is more solar.  Note: Elsewhere I found a aluminess tube diameter of 1 5/16".
 
 Spacing between athwart rack supports on Low Pro Rack is under 58".  Panasonic panels would over hang substantially.  Grape Solar would almost sit above flush (due to inward angle at the top of the athwart supports).
 
 To provide voltage headroom over a 24V system, the Grape Solar panels (24V) would need to be wired in series.  This does require an even number of panels.
 
 Another Panel Option 200W 58.7 x 26.8 x 1.4 MP Imp is 9.8A Isc is 10.2 https://richsolar.com/collections/solar-panels/products/200-watt-solar-panel
-
-**Based on the model, both racks (Aluminess and Low Pro) will accomodate the 4 200W solar panels.**
 
 ## Fan Location
 

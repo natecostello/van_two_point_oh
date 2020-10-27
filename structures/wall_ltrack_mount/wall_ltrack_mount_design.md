@@ -8,3 +8,6 @@ tags: ["L-track", "design", "concept"]
 ---
 
 TODO: Need to carefully consider wall mounting due to the Boron steel over the passenger door per the BEMM.  Will need to use existing holes in this area or skip l-track/overhead storage in this region.
+
+According to the forum (search "boron") you can drill boron steel if you do so properly with cobalt drill bits.  Also, according to the forum, you can place a plus nut in a square hole, and you can insert, partial crush, and insert if depth is shallow: [forum discussion](https://www.fordtransitusaforum.com/threads/several-plusnut-questions-different-size-holes.67194/)
+
