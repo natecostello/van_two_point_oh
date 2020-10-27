@@ -9,7 +9,7 @@ tags: ["L-track", "design", "concept"]
 
 # Ceiling L-Track Mounting
 
-Following are design concepts for mounting the L-Track to the ceiling ribs.
+Following are design concepts for mounting the L-Track to the ceiling ribs.  TODO: One area that needs consideration is the connection to van over the rear doors.  This area is boron steel so drilling into it is not an option.
 
 ## Carryingforks Method
 
