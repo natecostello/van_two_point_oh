@@ -20,8 +20,8 @@ tags: ["24V", "12V", "design", "concept", "electrical", "van"]
 ### Open Questions
 
 * Does REC BMS that supports 24V also support Victron? [Yes](http://www.rec-bms.com/datasheet/UserManual_REC_Victron_BMS.pdf)
-
 * Does Wakespeed 500 support 24V? Yes according to Nation's? Yes according to Nations and Wakespeed manual.
+* Availability of 24V alternator for 2021 Transit?  According to 10-27-220 discussion with Nations, the only 24V alternator available that is compatible with the 2020 Transit is the 55XP-WS500 serious which is $3299.95.  Not verified: Compatibility with 2021 3.5 Ecoboost, Price of 2nd alternator bracket, and whether price includes wakespeed 500.
 
 ### Benefits
 
