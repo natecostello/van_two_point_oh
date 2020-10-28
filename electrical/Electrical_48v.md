@@ -35,6 +35,7 @@ tags: ["48V", 24V", "12V", "design", "concept", "electrical", "van"]
 * Inverter is same size, 5W higher no load, and same weight for 24V and 12V (but more expensive)
 * Extra parasitic draw for 24V conversion
 * Extra loss for 24V conversion
+* This [post from forum user **Van Gohg** sums it all up](https://www.fordtransitusaforum.com/threads/12v-24v-or-48v-house-battery.82319/post-1069724)
 
 Similar/Equavalent Wire Comparisons:
 
