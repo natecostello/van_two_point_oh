@@ -12,3 +12,7 @@ tags: ["insulation", "design", "concept"]
 
 [Video Regarding XPS vs PolyISO](https://www.youtube.com/watch?v=evMsenbwttw) - XPS prefered with potential moisture and more physically robust.
 
+## Ceiling
+
+![Ceiling Thermal Model](ceiling_thermal_model.svg)
+
