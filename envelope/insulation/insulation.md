@@ -22,3 +22,5 @@ TODO: Pull in data showing XPS vs Thinsulate
 
 TODO: Pull in data showing sensitivity to rib and panel insulation
 
+In this [forum discussion](https://www.fordtransitusaforum.com/threads/spray-foam-insulation-roof-leaks.74412/post-986882), Hein refers to the roof rib thermal break as urethane foam.
+
