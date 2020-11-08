@@ -20,7 +20,7 @@ tags: ["insulation", "design", "concept"]
 
 ## Ceiling
 
-**TLDR:  XPS doesn't offer a substantial advantage over Thisulate.  Insulating the backside of the panels doesn't offer a substantial advantage over not insulating the backside of the panels.**
+**TLDR:  XPS doesn't offer a substantial advantage over Thinsulate.  Insulating the backside of the panels doesn't offer a substantial advantage over not insulating the backside of the panels.**
 
 [Link to google spreadsheet](https://docs.google.com/spreadsheets/d/17qdIqUtVVReb5lz_uMptEpswP-8dfLng_9TE0L671E0/edit?usp=sharing) used to calculate resistance values.  One area of uncertainty is the thermal break between the roof skin and ribs.  In this [forum discussion](https://www.fordtransitusaforum.com/threads/spray-foam-insulation-roof-leaks.74412/post-986882), Hein refers to the roof rib thermal break as urethane foam.  Specific details for associated assumptions are in the google spreadsheet.
 
