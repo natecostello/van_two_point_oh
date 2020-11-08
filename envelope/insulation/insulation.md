@@ -16,3 +16,9 @@ tags: ["insulation", "design", "concept"]
 
 ![Ceiling Thermal Model](ceiling_thermal_model.svg)
 
+[Link to google spreadsheet](https://docs.google.com/spreadsheets/d/17qdIqUtVVReb5lz_uMptEpswP-8dfLng_9TE0L671E0/edit#gid=26841769)
+
+TODO: Pull in data showing XPS vs Thinsulate
+
+TODO: Pull in data showing sensitivity to rib and panel insulation
+
