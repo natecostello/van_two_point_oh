@@ -20,7 +20,7 @@ TODO:  Include some sketches/photos of key parameters in the model (e.g. Ltrack 
 
 ## Ceiling
 
-**TLDR:  XPS doesn't offer a substantial advantage over Thinsulate.  Insulating the backside of the panels doesn't offer a substantial advantage over not insulating the backside of the panels.**
+**TLDR:  XPS doesn't offer a substantial advantage over Thinsulate.  Insulating the backside of the panels doesn't offer a substantial advantage over not insulating the backside of the panels.  Lizard Skin isn't worth it.**
 
 [Link to google spreadsheet](https://docs.google.com/spreadsheets/d/17qdIqUtVVReb5lz_uMptEpswP-8dfLng_9TE0L671E0/edit?usp=sharing) used to calculate resistance values.  One area of uncertainty is the thermal break between the roof skin and ribs.  In this [forum discussion](https://www.fordtransitusaforum.com/threads/spray-foam-insulation-roof-leaks.74412/post-986882), Hein refers to the roof rib thermal break as urethane foam.  Specific details for associated assumptions are in the google spreadsheet.
 
@@ -93,3 +93,37 @@ The following analyses use a delta T of 30C applied as a DC voltage potential to
 | I(R3)    | 124.992                         | 132.579                            |
 | I(R2)    | 57.3427                         | 72.8633                            |
 | I(R1)    | 182.335                         | 205.443                            |
+
+
+
+### Lizard Skin Evaluation
+
+The following analyses use a delta T of 30C applied as a DC voltage potential to the resistor network.  Current represents heat flow in watts.  Lizard Skin was looked at in two different cases.  In one case, the effect of Lizard Skin was examined by modeling it as insulation on the backside of panels, which would be analogous to applying it to the full interior surface of the ceiling (including the ribs).  In the second case, the effect of Lizard Skin was examined by modeling it as rib insulation, which would be analogous to applying it to just the ribs.  Total loss for Lizard Skin applied to the full interior, the ribs, and no treatment are 203.8W, 204.4W, and 205.4W respectively.  All of the above cases used Thinsulate for bulk insulation as the base case.
+
+| Resistor | Full Lizard Skin | Rib Lizard Skin | No Lizard Skin |
+|----------|------------------|-----------------|----------------|
+| I(R25)   | 203.834          | 204.356         | 205.443        |
+| I(R24)   | 14.6532          | 14.6684         | 14.5922        |
+| I(R23)   | 61.7214          | 61.6933         | 62.977         |
+| I(R22)   | 61.7214          | 61.6933         | 62.977         |
+| I(R21)   | 61.7214          | 61.6933         | 0              |
+| I(R19)   | 9.2951           | 9.29086         | 9.22395        |
+| I(R18)   | 0.667534         | 0.66723         | 0.662424       |
+| I(R17)   | 1.34707          | 1.34646         | 1.33158        |
+| I(R16)   | 63.0685          | 63.0397         | 64.3086        |
+| I(R15)   | 8.61556          | 8.61163         | 8.55479        |
+| I(R14)   | 8.61556          | 8.61163         | 8.55479        |
+| I(R13)   | 63.0685          | 63.0397         | 64.3086        |
+| I(R12)   | 71.684           | 71.6514         | 72.8633        |
+| I(R11)   | 4.69058          | 4.71029         | 4.70583        |
+| I(R10)   | 4.69058          | 4.71029         | 4.70583        |
+| I(R9)    | 4.69058          | 0               | 0              |
+| I(R8)    | 4.69058          | 4.71029         | 4.70583        |
+| I(R7)    | 127.459          | 127.995         | 127.873        |
+| I(R6)    | 127.459          | 127.995         | 127.873        |
+| I(R5)    | 127.459          | 0               | 0              |
+| I(R4)    | 127.459          | 127.995         | 127.873        |
+| I(R3)    | 132.15           | 132.705         | 132.579        |
+| I(R2)    | 71.684           | 71.6514         | 72.8633        |
+| I(R1)    | 203.834          | 204.356         | 205.443        |
+
