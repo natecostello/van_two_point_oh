@@ -7,7 +7,17 @@ data: " 2020-10-22"
 tags: ["walls", "design", "concept"]
 ---
 
-In an effort to minimize any organic (read mold nuturing) materials, we are considering plastic as the basis for the walls.  The plan is to use a material similar to the stock wall panels that we had in our Sprinter upon reciept.   This material is a possible candidate: [https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html](https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html)
+In an effort to minimize any organic (read mold nuturing) materials, we are considering plastic as the basis for the walls.  The plan is to use a material similar to the stock wall panels that we had in our Sprinter upon reciept.   [Some discussion in this sprinter-source post](https://sprinter-source.com/forums/index.php?threads/43201/).
+
+Possible candidates: 
+
+[https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html](https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html) [Use described here on sprinter-source](https://sprinter-source.com/forums/index.php?threads/20471/#post-179129).
+
+[https://www.pennelcomonline.com/us/Penn-Elcom-FLight-Panel-77-x-52-Black-Composite-Panel---Thickness-7mm-14-M865007/m-8832.aspx](https://www.pennelcomonline.com/us/Penn-Elcom-FLight-Panel-77-x-52-Black-Composite-Panel---Thickness-7mm-14-M865007/m-8832.aspx)
+
+[https://www.diyroadcasesstore.com/corerigid-heavy-duty-composite-sheet-black-7mm-1-4/](https://www.diyroadcasesstore.com/corerigid-heavy-duty-composite-sheet-black-7mm-1-4/)
+
+One concern is the ability to adhere things to the coroplast (HDPE).  This [post](https://www.fordtransitusaforum.com/threads/coroplast-ceiling.79384/post-1042373) shows fabric over coroplast that used 3M90 and 3M headliner according to this [post](https://www.fordtransitusaforum.com/threads/coroplast-ceiling.79384/post-1043258).  3M does suggest 90 will work with polyethylene.
 
 The corrugated plastic sheet would be covered by a layer of closed cell neoprene (probably 1/8") and a fabric.  One fabric to consider is [marine vinyl](https://www.marinevinylfabric.com/products/marine-vinyl-fabric).  
 
