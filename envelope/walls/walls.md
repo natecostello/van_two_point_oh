@@ -38,3 +38,9 @@ The corrugated plastic sheet would be covered by a layer of closed cell neoprene
 
 [3M80](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-Rubber-And-Vinyl-80-Spray-Adhesive/?N=5002385+3293194236&rt=rud) literally looks like it was made to bond vinyl to neoprene.
 
+
+
+### Notes from corrugated plastics call
+
+
+
