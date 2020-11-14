@@ -1,5 +1,7 @@
 # Roof Arrangement Notes
 
+## TODO: Add tags and file properly
+
 ## Solar
 
 Aluminess has [confirmed](emails_with_aluminess.pdf) that width shown in thier [dimensioned drawing](Transit_148_EB_Tall Roof.PDF) is center to center of the lower loop of the rack and that the inner width of the upper loop is 63".    Panasonic solar panel dimensions are 62.6" so they will tuck between the upper rails with a custom mounting solution.  4 Grape Solar panels could be used at the expense of roof space for roof deck.  Upside is more solar.  Note: Elsewhere I found a aluminess tube diameter of 1 5/16".
@@ -39,3 +41,8 @@ The rear of the aluminess rack appears to clear the fan.
 ## Antenna
 
 The forum has stated that all 2020 Transits have a shark fin antenna.  The BMMM provides relocation guidance but it appears that the present location would interfear with the roof arrangements being considered.  TODO: Evaluate antenna location/relocation/integration with other comms.
+
+## Rack Cost and Availability
+
+Aluminess [stated](email_with_alumines_shipping_cost.pdf) the cost for shipping to MD would be $650 to home or $500 to a commercial address.
+
