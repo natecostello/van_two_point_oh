@@ -19,6 +19,8 @@ Assuming the largest width battery design, with 3" XPS on the largest battery un
 
 Alternatively, with 2.5" XPS there is enough room to through-bolt the box.  Through-bolting should simplify the installation.
 
+[This post](https://www.fordtransitusaforum.com/threads/lwb-extended-tall-day-van-tailgater.37297/post-547929) includes an underbody battery box, though not open to interior, but it doesn have good underside photos with the tire removed. 
+
 TODO: Determine box flange - consider enough width to extend over the frame pinch welds for greater structural support under normal load (gravity)
 
 TODO: Evaluate fore-aft dimensions.
