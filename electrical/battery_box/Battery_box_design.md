@@ -9,6 +9,12 @@ tags: ["battery", "design", "concept"]
 
 The battery box will be custom aluminum "trunk" centered in the rear of the cargo space between the frame members.  It is inspired by the [vancompass rear storage trunk for sprinters](https://vancompass.com/products/van-compass-rear-storage-trunk-2007-sprinter).  Note, while made for the sprinter, Van Compass did install it in a Transit as documented [in this thread](https://expeditionportal.com/forum/threads/van-compass-ford-transit-build-1-ton-4x4-conversion.188858/post-2437143).  Vancompass also stated via email that a [few customers have installed them on the short Transits](2020-8-2_email_with_van_compass.pdf).
 
+
+
+**Alternative Design** It looks as if the 800AH arranged in the long form placed athwart could tuck between the frame and cross members with no cutting required.  May have to insulate external to the box.
+
+![underside measurement notes](underside_measurement_notes.jpg)
+
 ## Fitup and Dimensions
 
 To allow for installation of the battery box, the spare tire will be relocated to the rear door.  Additionally the 2nd to last cross-member will be cut flush with the inner frame sides.
