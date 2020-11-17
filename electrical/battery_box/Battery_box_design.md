@@ -10,11 +10,6 @@ tags: ["battery", "design", "concept"]
 The battery box will be custom aluminum "trunk" centered in the rear of the cargo space between the frame members.  It is inspired by the [vancompass rear storage trunk for sprinters](https://vancompass.com/products/van-compass-rear-storage-trunk-2007-sprinter).  Note, while made for the sprinter, Van Compass did install it in a Transit as documented [in this thread](https://expeditionportal.com/forum/threads/van-compass-ford-transit-build-1-ton-4x4-conversion.188858/post-2437143).  Vancompass also stated via email that a [few customers have installed them on the short Transits](2020-8-2_email_with_van_compass.pdf).
 
 
-
-**Alternative Design** It looks as if the 800AH arranged in the long form placed athwart could tuck between the frame and cross members with no cutting required.  May have to insulate external to the box.
-
-![underside measurement notes](underside_measurement_notes.jpg)
-
 ## Fitup and Dimensions
 
 To allow for installation of the battery box, the spare tire will be relocated to the rear door.  Additionally the 2nd to last cross-member will be cut flush with the inner frame sides.
@@ -54,3 +49,11 @@ Assuming 0.3 mOhm internal cell resistances, a 16 cell 24V battery will disipate
 
 However, we must account for the specific heat capacity of the bank itself.  [This paper](https://core.ac.uk/download/pdf/144147357.pdf) provides lumped parameter assumptions for LFP.  Using the more conservative value for specific heat capacity (825 J/kg*C), with a pack mass of 87kg (16 280HA cells), a two hour 200A charge produces a bulk temperature increase of 21W * 7200s / (87kg * 825 J/kg*C) = **2.1C**, assuming adiabatic conditions.  Based on these numbers, overheating shouldn't be a problem even in summer as long is there is some communicaiton with the van interior.  
 
+## Alternative Design
+
+~~It looks as if the 800AH arranged in the long form placed athwart could tuck between the frame and cross members with no cutting required.  May have to insulate external to the box.~~
+
+![underside measurement notes](underside_measurement_notes.jpg)
+
+On a close look at the spot welds in the floor, which signifies the location of the flanges of the frame  and cross members, there isn't room without cutting into those flanges/welds.  In short I don't think this will work without cutting a frame member.  **Its either cut the crossmember, or move inside.**
+![floor spot welds](floor5_small.JPG)
