@@ -11,7 +11,7 @@ In an effort to minimize any organic (read mold nuturing) materials, we are cons
 
 Possible candidates: 
 
-[https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html](https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html) [Use described here on sprinter-source](https://sprinter-source.com/forums/index.php?threads/20471/#post-179129).
+[https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html](https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html) [Use described here on sprinter-source](https://sprinter-source.com/forums/index.php?threads/20471/#post-179129).  Samples of 500lb, 400lb, and 300lb material ordered on 11/17/20.
 
 [https://www.pennelcomonline.com/us/Penn-Elcom-FLight-Panel-77-x-52-Black-Composite-Panel---Thickness-7mm-14-M865007/m-8832.aspx](https://www.pennelcomonline.com/us/Penn-Elcom-FLight-Panel-77-x-52-Black-Composite-Panel---Thickness-7mm-14-M865007/m-8832.aspx)
 
