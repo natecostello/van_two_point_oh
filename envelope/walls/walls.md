@@ -40,7 +40,9 @@ The corrugated plastic sheet would be covered by a layer of closed cell neoprene
 
 
 
-### Notes from corrugated plastics call
+### Windows
+
+We are considering bunk windows.  Lorax used Motion and have a higher bed than us, so they should be find installed at the highest possible point.
 
 
 
