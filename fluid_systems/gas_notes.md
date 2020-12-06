@@ -15,5 +15,7 @@ The area occupied by the spare tire appears amenable to storage of a propane tan
 
 FarOutRide states thier 20 lb (4.6 gal) propane tank used for cooking and showers every other day lasts them two months.  The above tank would yield over 10 weeks at the same burn rate.  I would expect more given no showers.  We can also use an adapter to patch in a 20 lb tank if filling up was a problem (say in Mexico).
 
+## Remote Fill
 
+A [remote fill kit](https://www.fordtransitusaforum.com/threads/nashfuel-remote-propane-fill-kit.71888/#post-955602) will probably make fill attendents a little less grumpy. 
 
