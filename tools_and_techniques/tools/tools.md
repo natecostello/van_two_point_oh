@@ -1,7 +1,7 @@
 ---
 section: "van"
 category: "tools and techniques"
-title: "Walls"
+title: "Tools"
 author: "Stello"
 data: " 2020-11-13"
 tags: ["tools", "fabrication"]
@@ -26,4 +26,8 @@ Examples: [Transfer Screw Set on Amazon](https://www.amazon.com/HHIP-3601-0250-P
 **Stop Block System** - Useful for cutting precise lengths of 80/20.
 
 Example: [Kreg system](https://www.kregtool.com/shop/cutting/miter-saw-cutting/precision-trak-stop-kit/KMS8000.html?fbclid=IwAR0sE1Tpf1dBXN9FFO-cDCK8d-jp5T2DfMBtDocI2LxzzkcbDgPuF6IJ2Bo)
+
+**Hot Wire Foam Cutter** - Will be used to cut the foam used to fill the channels in the van before the top upper layer of XPS.
+
+Example: [Hercules Hot Wire Foam Cutter](https://www.amazon.com/gp/product/B07HY8PFD8/ref=ox_sc_act_title_1?smid=A2IGZ09LPUKLVH&psc=1)
 
