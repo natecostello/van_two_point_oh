@@ -23,3 +23,7 @@ Examples: [Penn Tool Hole Transfer Center Punch](https://www.penntoolco.com/prec
 
 Examples: [Transfer Screw Set on Amazon](https://www.amazon.com/HHIP-3601-0250-Piece-Transfer-Screw/dp/B00N411MCC/ref=sr_1_4?dchild=1&keywords=transfer+screw&qid=1605278170&sr=8-4)
 
+**Stop Block System** - Useful for cutting precise lengths of 80/20.
+
+Example: [Kreg system](https://www.kregtool.com/shop/cutting/miter-saw-cutting/precision-trak-stop-kit/KMS8000.html?fbclid=IwAR0sE1Tpf1dBXN9FFO-cDCK8d-jp5T2DfMBtDocI2LxzzkcbDgPuF6IJ2Bo)
+
