@@ -115,9 +115,11 @@ No mudflaps?
 
 94A Side sensing system:    Includes BLIS, Sounds a chime when vehicle gets close to surrounding vehicles and objects.   Basically like a side facing parking sensor.
 
-65B Safety Glass ([Worth it](https://www.caranddriver.com/news/a28422725/car-windows-glass-aaa-unbreakable/)) (not available for cargo)
+41H Engine Block Heater: For price seems worth it.  [Some discussion](https://www.fordtransitusaforum.com/threads/blocker-heater-41h-really-needed.82841/#post-1076562).
 
-Radio Differences: 58Y (no NAV) vs 584 (yes NAV)
+65B Safety Glass: ([Worth it](https://www.caranddriver.com/news/a28422725/car-windows-glass-aaa-unbreakable/)) (not available for cargo)
+
+Radio Differences: 58Y (no NAV) vs 584 (yes NAV), Standard radio vs SYNC3 - SYNC3 has "car play" support.
 
 Power outlet is not compatible with Programable Battery Guard
 
@@ -134,8 +136,6 @@ Auto High Beam Headlights is Standard
 Lane Keeping is Standard
 
 Rain Sensing Windshield Wipers is Standard
-
-Standard radio vs SYNC3 - SYNC3 has car play support.
 
 85B Heavy Duty Scuff Plate Kit covers the back portion of the cargo floor.
 
