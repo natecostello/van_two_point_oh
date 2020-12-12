@@ -11,105 +11,71 @@ We are using the B-O-B (build ordering book?) from Matt Ford to plan the order o
 
 [Spreadsheet is here](https://docs.google.com/spreadsheets/d/1GbHanoyVEuOgMkrxPkj72uFH5GokW-yG0rvje04YDuk/edit?usp=sharing).
 
-Order Code: 101A (Cargo Van)
+## Selected Options
 
-Body Code: W3U (High Roof Transit-350 Extended 148" AWD GVWR 9500#) [47710]
+| Code | Cost  | Description                                       | Notes                                                        |
+| ---- | ----- | ------------------------------------------------- | ------------------------------------------------------------ |
+| 101A |       | Cargo Van                                         |                                                              |
+| W3U  | 47710 | High Roof Transit-350 GVWR 9950 AWD 148" Extended |                                                              |
+| 99G  | 1775  | EcoBoost V6                                       | With body code W3U, this option includes the 3.73 Limited Slip Rear Axle (X7L) and Heavy Duty Front Axle (41E) |
+| DR   | 200   | Avalanche Gray                                    |                                                              |
+| 21T  | 395   | Dark Palazzo Gray Cloth, 4-way manual swivel      | $395 if selected with Adventure Prep Package.  Includes Dual AGM (63E). |
+| 47N  | 3995  | Adventure Prep Package                            |                                                              |
+| 655  | 285   | Extended Range Fuel Tank                          |                                                              |
+| 53B  | 485   | Heavy Duty Trailer Tow Package                    |                                                              |
+| 67D  | 230   | Trailer Brake Controller                          | $230 if selected with 53B                                    |
+| 92E  | 225   | Privacy Glass                                     | $225 when selected with 17B                                  |
+| 67C  | 260   | Upfitter Package                                  | $260 if selected with 47N. Includes high capacity upfitter switches, large center console (67E) and Aux fuse panel with high spec interface (87E). |
+| 86F  | 75    | Keys: 2 Additional                                |                                                              |
+| 85A  | 150   | Rear Door Scuff Plate Kit                         |                                                              |
+| 61D* | 255   | Front/Rear Splitview                              |                                                              |
+| 65C* | 995   | Power Sliding Door                                |                                                              |
+| 41H* | 75    | Engine Block Heater                               |                                                              |
+| 85D* | 20    | Two Tone Horn                                     |                                                              |
+| 91B* | 30    | Wiper Activated Headlamps                         |                                                              |
+| 61C* | 45    | Vehicle Maintenance Monitor                       |                                                              |
 
-Wheelbase: 148"
+**Options that are Included Based on Packages or Other Selections or Standard**
 
-Engine Code: 99G (3.5L EcoBoost V6) (NOTE: Includes Auto-Start Stop Technology?) [1775]
-
-NOTE: W3U + EcoBoost includes 3.73 Limited Slip Rear Axle AND Heavy Duty Front Axle.
-
-Exterior Color Code: YZ (oxford white) or UX (ingot silver) or DR (avalanch gray)
-
-Interior Front Seating Code: 21T (Dark Palazo Gray Cloth, 4-way Manual Swivel, includes Daul AGM 63E) [1385 or 395 with 47N]
-
-Interior Rear Seating Code: 96K (Standard - no rear seats)
-
-## STANDARD or Included based on Above
-
-41E - Heavy Duty Front Axle [Standard]
-
-180 Rear Doors
-
-250A Alternator
-
-16C - Vinyl Flooring Front (Standard for cargo)
-
-63E - Dual AGM (included)
-
-## OPTIONAL Equipment
-
-### Non-Negotiable
-
-655 - Extended Range Fuel Tank
-
-53B - Heavy-Duty Trailer Tow Package (deletes rear tow hook)
-
-67D - Trailer Brake Controller (This must be done at order apparently) (requires Tow/Haul mode or Tow Package)
-
-17B - Fixed Rear Cargo Door Glass and Fixed Passenger-side Glass - Includes rear defroster
-
-60C* - Cruise Control
-
-60D - Adaptive Cruise Control
-
-65A - BLIS 
-
-92E - Privacy Glass
-
-67C - Upfitter Package (includes switches, large center console, and 87E aux fuse panel and high spec interface)
-
-52C - Keyless Entry Keypad
-
-86F - Two extra keys
-
-15C - Front Wheel well liners
-
-66D - Front Overhead Shelf
-
-[SYNC3 Radio]
-
-85A - Rear Door Scuff Plate Kit
-
-### Negotiable
-
-91B* - Wiper Activated Headlamps
-
-55D* -  Front Fog Lamps (included with 94A and 61D)
-
-85C* - Illuminated Sun Visors (included with interior upgrade package)
-
-Engine Block Heater
-
-two tone horn
-
-65C - Power Sliding Door - On the fence...held up last year's orders a lot
-
-
-
-
-
-
-
-
+| Code  | Cost | Description                                          | Notes                                                        |
+| ----- | ---- | ---------------------------------------------------- | ------------------------------------------------------------ |
+| X7L   |      | 3.73 Limited Slip Rear Axle                          | Included with W3U                                            |
+| 41E   |      | Heavy Duty Front Axle                                | Included with W3U                                            |
+| 96X   |      | 2 Passenger Seating                                  | Standard for Cargo                                           |
+| 63E** |      | Dual AGM                                             | Included with 21T (Also Included with Adventure Prep Package) |
+| 642** |      | 16" Black Steel Wheel                                | Included with Adventure Prep Package                         |
+| 55D** |      | Front Fog Lamps                                      | Included with Adventure Prep Package                         |
+| 67E   |      | Large Center Console                                 | Included with Upfitter Package                               |
+| 87E   |      | Aux Fuse Panel with High Interface Spec              | Included with Upfitter Package                               |
+| 57E   |      | Modified Vehicle Wiring System and Kit               | Included with Upfitter Package                               |
+| 90D** |      | Power Outlet                                         | Included with Adventure Prep Package                         |
+| 87A** |      | Power Point (12V)                                    | Included with Adventure Prep Package                         |
+| 43R** |      | Reverse Sensing System                               | Included with Adventure Prep Package                         |
+| 94A** |      | Side Sensing System                                  | Included with Adventure Prep Package                         |
+| 17B   |      | Fixed Rear Cargo Door Glass and Passenger Side Glass | Included with Adventure Prep Package                         |
+| 65A   |      | BLIS                                                 | Included with Adventure Prep Package                         |
+| 60D   |      | Adaptive Cruise                                      | Included with Adventure Prep Package                         |
+| 85C** |      | Illuminated Sun Visors                               | Included with Adventure Prep Package                         |
+| 52C   |      | Keyless Entry Pad                                    | Included with Adventure Prep Package                         |
+| 15C   |      | Wheel Well Liners (front only)                       | Included with Adventure Prep Package                         |
+| 66D   |      | Front Overhead Shelf                                 | Included with Adventure Prep Package                         |
+| 58Y*  |      | AM/FM Bluetooth, USB, SYNC3, 8" screen               | Included with Adventure Prep Package                         |
 
 
 
 **Questions:**
 
-Scuff plate kit vs heavy duty scuff plate kit?
+Scuff plate kit vs heavy duty scuff plate kit?  Can also upgrade to heavy duty scuff plate.
 
-Aftermarket security vs Perimeter alarm
+Aftermarket security vs Perimeter alarm? Will do aftermarket.
 
-What is the Vehicle maintenance Monitor?
+What is the Vehicle maintenance Monitor?  Displays oil left and TPMS on the main display.
 
-Can you have both 60C and 60D (Cruise Control and Adaptive Cruise) (Do you need both)
+Can you have both 60C and 60D (Cruise Control and Adaptive Cruise) (Do you need both). No Just Adaptive.
 
-Is there an aftermarket film for safety glass
+Is there an aftermarket film for safety glass? Will research.
 
-No mudflaps?
+No mudflaps?  Available at the dealer.
 
 **Notes: **
 
