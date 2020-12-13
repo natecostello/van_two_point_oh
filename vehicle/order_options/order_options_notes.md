@@ -13,27 +13,27 @@ We are using the B-O-B (build ordering book?) from Matt Ford to plan the order o
 
 ## Selected Options
 
-| Code | Cost  | Description                                       | Notes                                                        |
-| ---- | ----- | ------------------------------------------------- | ------------------------------------------------------------ |
-| 101A |       | Cargo Van                                         |                                                              |
-| W3U  | 47710 | High Roof Transit-350 GVWR 9950 AWD 148" Extended |                                                              |
-| 99G  | 1775  | EcoBoost V6                                       | With body code W3U, this option includes the 3.73 Limited Slip Rear Axle (X7L) and Heavy Duty Front Axle (41E) |
-| DR   | 200   | Avalanche Gray                                    |                                                              |
-| 21T  | 395   | Dark Palazzo Gray Cloth, 4-way manual swivel      | $395 if selected with Adventure Prep Package.  Includes Dual AGM (63E). |
-| 47N  | 3995  | Adventure Prep Package                            |                                                              |
-| 655  | 285   | Extended Range Fuel Tank                          |                                                              |
-| 53B  | 485   | Heavy Duty Trailer Tow Package                    |                                                              |
-| 67D  | 230   | Trailer Brake Controller                          | $230 if selected with 53B                                    |
-| 92E  | 225   | Privacy Glass                                     | $225 when selected with 17B                                  |
-| 67C  | 260   | Upfitter Package                                  | $260 if selected with 47N. Includes high capacity upfitter switches, large center console (67E) and Aux fuse panel with high spec interface (87E). |
-| 86F  | 75    | Keys: 2 Additional                                |                                                              |
-| 85A  | 150   | Rear Door Scuff Plate Kit                         |                                                              |
-| 61D* | 255   | Front/Rear Splitview                              |                                                              |
-| 65C* | 995   | Power Sliding Door                                |                                                              |
-| 41H* | 75    | Engine Block Heater                               |                                                              |
-| 85D* | 20    | Two Tone Horn                                     |                                                              |
-| 91B* | 30    | Wiper Activated Headlamps                         |                                                              |
-| 61C* | 45    | Vehicle Maintenance Monitor                       |                                                              |
+| Code    | Cost    | Description                                       | Notes                                                        |
+| ------- | ------- | ------------------------------------------------- | ------------------------------------------------------------ |
+| 101A    |         | Cargo Van                                         |                                                              |
+| W3U     | 47710   | High Roof Transit-350 GVWR 9950 AWD 148" Extended |                                                              |
+| 99G     | 1775    | EcoBoost V6                                       | With body code W3U, this option includes the 3.73 Limited Slip Rear Axle (X7L) and Heavy Duty Front Axle (41E) |
+| DR      | 200     | Avalanche Gray                                    |                                                              |
+| 21T     | 395     | Dark Palazzo Gray Cloth, 4-way manual swivel      | $395 if selected with Adventure Prep Package.  Includes Dual AGM (63E). |
+| 47N     | 3995    | Adventure Prep Package                            |                                                              |
+| 655     | 285     | Extended Range Fuel Tank                          |                                                              |
+| 53B     | 485     | Heavy Duty Trailer Tow Package                    |                                                              |
+| 67D     | 230     | Trailer Brake Controller                          | $230 if selected with 53B                                    |
+| ~~92E~~ | ~~225~~ | ~~Privacy Glass~~                                 | ~~$225 when selected with 17B~~                              |
+| 67C     | 260     | Upfitter Package                                  | $260 if selected with 47N. Includes high capacity upfitter switches, large center console (67E) and Aux fuse panel with high spec interface (87E). |
+| 86F     | 75      | Keys: 2 Additional                                |                                                              |
+| 85A     | 150     | Rear Door Scuff Plate Kit                         |                                                              |
+| 61D*    | 255     | Front/Rear Splitview                              |                                                              |
+| 65C*    | 995     | Power Sliding Door                                |                                                              |
+| 41H*    | 75      | Engine Block Heater                               |                                                              |
+| 85D*    | 20      | Two Tone Horn                                     |                                                              |
+| 91B*    | 30      | Wiper Activated Headlamps                         |                                                              |
+| 61C*    | 45      | Vehicle Maintenance Monitor                       |                                                              |
 
 **Options that are Included Based on Packages or Other Selections or Standard**
 
@@ -60,6 +60,7 @@ We are using the B-O-B (build ordering book?) from Matt Ford to plan the order o
 | 15C   |      | Wheel Well Liners (front only)                       | Included with Adventure Prep Package                         |
 | 66D   |      | Front Overhead Shelf                                 | Included with Adventure Prep Package                         |
 | 58Y*  |      | AM/FM Bluetooth, USB, SYNC3, 8" screen               | Included with Adventure Prep Package                         |
+| 92E   |      | Privacy Glass                                        | Included with Advencture Prep Package                        |
 
 
 
