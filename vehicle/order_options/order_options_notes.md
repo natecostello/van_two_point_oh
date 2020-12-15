@@ -113,3 +113,7 @@ Engine Block Heater - Recommended if temp is 10F or below
 Power Outlet doesn't allow programable battery guard
 
 Front and Rear view camera (61D) - Includes Side Senging (94R) and Reverse Sensing (43R) Requires 8" display (58X, 58Y, or 584).  [Here is one post on backing up with it](https://www.fordtransitusaforum.com/threads/a-popular-hr-extended-cargo-van-arrives-at-matt-ford.81413/post-1059979). [Another post with some information about it](https://www.fordtransitusaforum.com/threads/2020-transit-front-rear-split-view-camera.78215/#post-1029072). It's cheap add to adventure package.
+
+**Progress:**
+
+Emailed preview order to nick c at sheehy gaithersburg on 2020-12-15
