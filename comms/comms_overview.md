@@ -46,16 +46,28 @@ Could also just use any device with good open-wrt support and run it using multw
 
 If running from an internal device to an external antenna plan for good cable like LMR400 or better.  For roof pass throughs, a few of [these boxes](https://www.amazon.com/LeMotech-Waterproof-Dustproof-Universal-230mmx150mmx87mm/dp/B07G5CQV95/ref=sr_1_7?dchild=1&keywords=LeMotech&qid=1608251153&sr=8-7) installed [like this](https://www.rvwithtito.com/articles/run-cable-through-rv-roof/) or something similar should work.  The pass through boxes should probably be tucked under the rear most solar panel.  DON'T forget to account for them in the roof rack order.
 
-## HAM
+## Radio
 
-### Mobile 2M
+### Mobile 2M Ham
 
-Will want mobile 2M ability.  Probably something with DMR capability if Hatteras is any indication. [This Anytone](http://www.dmrfordummies.com/anytone-at-d578uv-pro-product-review/) is probably the best (DMR + analog) out right now.
+Will want mobile 2M ability.  Probably something with DMR capability if Hatteras is any indication. [This Anytone](http://www.dmrfordummies.com/anytone-at-d578uv-pro-product-review/) is probably the best (DMR + analog) out right now.  Might want to use with handheld for downwinders (but need soph to get licensed) ([Anytone also makes some waterproof VHF/UHF DMR handhelds](https://www.passion-radio.com/dmr-equipment/d868uv-751.html)).
 
-### Semi-Mobile
+### Semi-Mobile Ham
 
 Would be cool to be able to deploy a larger antenna for HF bands when stationary for some amount of time.
+
+### GMRS
+
+May want to consider a mobile GMRS to use with handhelds (wouldn't require soph to get Ham licensed).
 
 ## Weather
 
 Probably want a [tempest](https://weatherflow.com/tempest-weather-system/) or something similar.
+
+## Tanks
+
+[This covers a well reviewed easy to interface freshwater tank sensor](https://livelikepete.com/fresh-water-tank-level-sensor-and-gauge-install/).
+
+[This should take care of an LPG tank](https://www.amazon.com/Manchester-Tank-G12846-LP-Gas/dp/B003D3WPGS/ref=pd_sbs_4?pd_rd_w=etHKf&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=AXKXCG2N3KMHDTZ6BQQ5&pd_rd_r=38593e48-8fb0-48be-a0dc-9a879f51b0b6&pd_rd_wg=yntO2&pd_rd_i=B003D3WPGS&psc=1).
+
+Both of the above would easily be integrated into signal K.
