@@ -62,7 +62,7 @@ May want to consider a mobile GMRS to use with handhelds (wouldn't require soph 
 
 ## Weather
 
-Probably want a [tempest](https://weatherflow.com/tempest-weather-system/) or something similar.
+Probably want a [tempest](https://weatherflow.com/tempest-weather-system/) or something similar.  And they have an [API](https://weatherflow.github.io/Tempest/api/).
 
 ## Tanks
 
