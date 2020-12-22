@@ -32,10 +32,7 @@ tags: ["24V", "12V", "design", "concept", "electrical", "van"]
 
 ### Other Notes
 
-* I don't think the latching relay approach is worth the complexity.  GigaVac makes contactors in the MX line that have 24V high efficiency coils (GigaVAc MX14,MX64,MX15 - NO, I=400A, P<sub>coil_48V_listed</sub>=2.0W, P<sub>contact@400A</sub>=60W, R<sub>contact_max</sub>=0.375ohm).
-
-  
-
+* I don't think the latching relay approach is worth the complexity.  GigaVac makes contactors in the MX line that have 24V high efficiency coils (GigaVAc MX14,MX64,MX15 - NO, I=400A, P<sub>coil_48V_listed</sub>=2.0W, P<sub>contact@400A</sub>=60W, R<sub>contact_max</sub>=0.375ohm).  TYCO has a nice option as well: TYCO makes an attractive option - [KILOVAC EV200](http://www.rec-bms.com/datasheet/Technical_datasheet_Kilovac.pdf): P<sub>coil_24V_listed</sub>=1.7W, P<sub>contact_typ@400A</sub>=32W, R<sub>contact_typ@200A</sub>=0.2mOhm.
 
 
 Similar/Equavalent Wire Comparisons:

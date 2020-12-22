@@ -100,3 +100,6 @@ Most GigaVac GV series are 7.6W or 6W at 48V
 
 GigaVac GV240,GV140 - NO, I=400A, P<sub>coil_48V_listed</sub>=2.0W, P<sub>contact@400A</sub>=48-54W
 
+TYCO makes an attractive option - [KILOVAC EV200](http://www.rec-bms.com/datasheet/Technical_datasheet_Kilovac.pdf):
+
+P<sub>coil_48V_listed</sub>=1.44W, P<sub>contact_typ@400A</sub>=32W
