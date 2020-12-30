@@ -111,9 +111,9 @@ MPPT will be powered on at all times.
 
 Cerbo will be powered at all times.
 
-
-
 ### Converter Sizing
+
+It is neccesary to size the DC converters for each concept to determine the no-load power consumption and apply the spec efficiency to converter power loads to analyze base and nominal load cases.
 
 **TLDR:** The 48V concept requires 12V conversion in excess of 886W, resulting in two 600W converters.  The 24V concept requires 12V conversion in excess of 233W, resulting in one 360W converter.
 
@@ -179,15 +179,61 @@ Propane Solenoid On ([20W](https://www.amazon.com/Stainless-Steel-Electric-Solen
 
 Water Pump On (176W)
 
-
-
-​	
-
+## Reliability
 
 
 
+## Rapid Charge Capability
 
+**TLDR:** The 24V concept is adequate from a rapid charge capability for our use case (occasional off grid AC).  The 48V concept greatly exceeds the rapid charge capability of the 24V concept and can likely do so without any use of the factory alternator.
 
+Both these concepts leverage the ability to perform rapid battery charge via the alternator(s).  Both concepts will make use of alternator speed and/or temperature sense to determine charge rate.  Both concepts will make use of the [Transit Stationary Elevated Idle Control (SEIC)](SVE Bulletin Q-239 Stationary Elevated Idle Control.pdf) to achieve high charge rates during idle.  Alternator-Engine RPM ratio is 2.7 per the BEMM.  This results in a base idle alternator speed of 1755 RPM and a SEIC range of 2160 RPM to 6480 RPM.
+
+### 24V Concept Rapid Charge
+
+**TLDR:** By using maximum idle and both alternators maximally, a charge rate of 5124W (183A at 28V) should be achievable.  This equates to about 10 hours of air conditioning per hour of idle or driving.  By only using the second alternator, a charge rate of 3724W should be achievable, equating to about 7 hours of air conditioning per hour of idle or driving.
+
+#### Second Alternator Charging
+
+The 24V concept will make use of a Nations "24-150" alternator that is [capable](24V_150_Specs.jpg) of 90A at 28V while idling at 2250 RPM (altenator speed).  Note, the specification for this alternator was provided by a forum member.  I have not recieved confirmation from Nations on performance.  Based on this assumed performance we can achieve the following charge rates:
+
+60A or 1680W at base idle
+
+84A or 2352W at 2160 RPM (low SEIC)
+
+133A or 3724W at 6480 RPM (high SEIC)
+
+#### Factory Alternator Charging
+
+The 24V concept may make use of charging via the Multiplus Compact via Inverter via stock HD Alternator.  The Multiplus Compact is limited to 50A charge or 1400W assuming 28V.  With 94% efficiency, this corresponds to input power of 1490W supplied by the forward inverter.  With 90% efficiency, this corresponds to input power of 1660W supplied by the stock alternator.
+
+The capability of the stock HD alternator is unclear and the subject of much debate on the forum.  Another key question is what is the base load required by the vehicle.   Note CCP2 is fused at 175A and is specified to be kept below 175A, though this should not be a bounding concern.  Assuming Hot (60C/13.5V-115C/12.9V) conditions, the BEMM states the stock alternator is capable of:
+
+~70A or 903W/945W at base idle
+
+~130A/150A or 1677W/2025W at 2160 RPM (low SEIC)
+
+~195A/235A or 2515W/3172W at 6480 RPM (high SEIC)
+
+These numbers suggest that in all cases, at high SEIC, the max charge rate of 50A at the battery should be achievable from the stock alternator.  The breakpoint to lower the charge rate is unclear.  The multiplus is capable of using an aux contact to change the input current limit.  Driving this contact with a microcontroller that is sensing either engine RPM and/or alternator temperature should not be difficult.
+
+### 48V Concept Rapid Charge
+
+**TLDR:** By using maximum idle and both alternators maximally, a charge rate of 5320W to 7560W could be achievable.  This equates to about 10-16 hours of air conditioning per hour of idle or driving.
+
+The 48V concept will make use of a Nations "48-100" alternator that is alledgedly [capable](https://www.fordtransitusaforum.com/threads/2020-awd-148-t-250-hr-van-compass-2-lift-fox-pro-resis-skid-plate-shock-mount-edit-custom-spare-carrier-265-75-16-terrain-contact-at-32-2.81387/post-1076831) of 60A at 56V while idling at 2250 RPM (altenator speed).  Note, the specifications for this alternator were quoted by a forum member based on conversations with Adam Nations.  I have not recieved confirmation from Nations on performance.  Based on this assumed performance we can achieve the following charge rates:
+
+60A or 3360W at base idle
+
+100A or 5600W at some unknown RPM
+
+#### Factory Alternator Charging
+
+The 24V concept may make use of charging via the Quattro via Inverter via stock HD Alternator.  The Multiplus Compact is limited to 35A charge or 1960W assuming 56V.  With 94% efficiency, this corresponds to input power of 2085W supplied by the forward inverter.  With 90% efficiency, this corresponds to input power of 2317W supplied by the stock alternator.
+
+The capability of the stock HD alternator is unclear and the subject of much debate on the forum.  Another key question is what is the base load required by the vehicle.   Note CCP2 is fused at 175A and is specified to be kept below 175A which could be a bounding concern under hot alternator conditions.  
+
+Based on the factory alternator performance discussed in the 24V concept, at high SEIC, the max charge rate of 35A at the battery may be achievable from the stock alternator.  Limiitations of the CCP2 could  The breakpoint to lower the charge rate is unclear.  The multiplus is capable of using an aux contact to change the input current limit.  Driving this contact with a microcontroller that is sensing either engine RPM and/or alternator temperature should not be difficult.
 
 
 
