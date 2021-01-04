@@ -71,3 +71,8 @@ Probably want a [tempest](https://weatherflow.com/tempest-weather-system/) or so
 [This should take care of an LPG tank](https://www.amazon.com/Manchester-Tank-G12846-LP-Gas/dp/B003D3WPGS/ref=pd_sbs_4?pd_rd_w=etHKf&pf_rd_p=ed1e2146-ecfe-435e-b3b5-d79fa072fd58&pf_rd_r=AXKXCG2N3KMHDTZ6BQQ5&pd_rd_r=38593e48-8fb0-48be-a0dc-9a879f51b0b6&pd_rd_wg=yntO2&pd_rd_i=B003D3WPGS&psc=1).
 
 Both of the above would easily be integrated into signal K.
+
+## MISC Equipment Monitoring
+
+Will leverage signal K.  This [sensor package](https://www.seeedstudio.com/Grove-10A-DC-Current-Sensor-ACS725-p-2927.html?utm_source=blog&utm_medium=blog) looks great for current monitoring.
+
