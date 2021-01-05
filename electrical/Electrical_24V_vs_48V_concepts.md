@@ -187,7 +187,7 @@ Water Pump On (176W)
 
 **TLDR:** The 24V concept is adequate from a rapid charge capability for our use case (occasional off grid AC).  The 48V concept greatly exceeds the rapid charge capability of the 24V concept and can likely do so without any use of the factory alternator.
 
-Both these concepts leverage the ability to perform rapid battery charge via the alternator(s).  Both concepts will make use of alternator speed and/or temperature sense to determine charge rate.  Both concepts will make use of the [Transit Stationary Elevated Idle Control (SEIC)](SVE Bulletin Q-239 Stationary Elevated Idle Control.pdf) to achieve high charge rates during idle.  Alternator-Engine RPM ratio is 2.7 per the BEMM.  This results in a base idle alternator speed of 1755 RPM and a SEIC range of 2160 RPM to 6480 RPM.
+Both these concepts leverage the ability to perform rapid battery charge via the alternator(s).  Both concepts will make use of alternator speed and/or temperature sense to determine charge rate.  Both concepts will make use of the [Transit Stationary Elevated Idle Control (SEIC)](SVE Bulletin Q-239 Stationary Elevated Idle Control.pdf) to achieve high charge rates during idle.  Alternator-Engine RPM ratio is 2.7 per the BEMM.  This results in a base idle alternator speed of 1755 RPM and a SEIC range of 2160 RPM to 6480 RPM.  [This forum post](https://www.fordtransitusaforum.com/threads/rpms.83245/) suggests crusing at 65mph with the new 10 speed transmissions would yield an alternator speed of 5130 RPM.
 
 ### 24V Concept Rapid Charge
 
