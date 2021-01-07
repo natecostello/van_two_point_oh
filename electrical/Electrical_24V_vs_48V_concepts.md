@@ -215,6 +215,8 @@ The capability of the stock HD alternator is unclear and the subject of much deb
 
 ~195A/235A or 2515W/3172W at 6480 RPM (high SEIC)
 
+The best data for baseline Transit draw I have found is [here](https://www.fordtransitusaforum.com/threads/ammeter-for-alternator-output.65585/#post-891193).
+
 These numbers suggest that in all cases, at high SEIC, the max charge rate of 50A at the battery should be achievable from the stock alternator.  The breakpoint to lower the charge rate is unclear.  The multiplus is capable of using an aux contact to change the input current limit.  Driving this contact with a microcontroller that is sensing either engine RPM and/or alternator temperature should not be difficult.
 
 ### 48V Concept Rapid Charge
