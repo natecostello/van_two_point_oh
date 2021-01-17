@@ -13,7 +13,7 @@ tags: ["8020", "aluminess", "roof", "rack", "solar", "concept"]
 
 #### Aluminess 
 
-I haven't been able to pin down a weight for an aluminess rack.  [Barefoot theory](https://bearfoottheory.com/aluminess-review-sprinter-van-roof-rack-accessories/#:~:text=Being%20able%20to%20hang%20out,of%20holes%20in%20your%20roof.) states heres is 125 lbs.  With a longer touring style rack, I'd estimate ours would be at least 150 lbs.
+I haven't been able to pin down a weight for an aluminess rack.  [Barefoot theory](https://bearfoottheory.com/aluminess-review-sprinter-van-roof-rack-accessories/#:~:text=Being%20able%20to%20hang%20out,of%20holes%20in%20your%20roof.) states hers is 125 lbs.  With a longer touring style rack, I'd estimate ours would be at least 150 lbs.
 
 #### 80/20
 
