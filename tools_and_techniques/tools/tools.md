@@ -31,3 +31,9 @@ Example: [Kreg system](https://www.kregtool.com/shop/cutting/miter-saw-cutting/p
 
 Example: [Hercules Hot Wire Foam Cutter](https://www.amazon.com/gp/product/B07HY8PFD8/ref=ox_sc_act_title_1?smid=A2IGZ09LPUKLVH&psc=1)
 
+**Cheap But Accurate DMM (Logging a plus)** - Will be used for battery construction and cell balancing.
+
+Example:[ut61e+](https://www.eevblog.com/forum/testgear/new-uni-t-ut61-series-(ut61e)/)
+
+Look into sigrok for logging without installing stupid software.
+
