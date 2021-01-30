@@ -35,5 +35,9 @@ Example: [Hercules Hot Wire Foam Cutter](https://www.amazon.com/gp/product/B07HY
 
 Example:[ut61e+](https://www.eevblog.com/forum/testgear/new-uni-t-ut61-series-(ut61e)/)
 
-Look into sigrok for logging without installing stupid software.
+Look into sigrok for logging without installing stupid software.  Also considering picking up one of [these](https://www.ebay.ca/itm/AD584-High-Precision-Voltage-Reference-Module-4-Channel-2-5V-7-5V-5V-10V/311498494419?_trkparms=aid%3D1110009%26algo%3DSPLICE.COMPLISTINGS%26ao%3D1%26asc%3D20200423103423%26meid%3D5e0d3126ee144abbb35236831af89d67%26pid%3D100011%26rk%3D3%26rkt%3D12%26mehot%3Dpp%26sd%3D300937695293%26itm%3D311498494419%26pmt%3D1%26noa%3D0%26pg%3D2047675%26algv%3Ddefault%26brand%3DUnbranded&_trksid=p2047675.c100011.m1850) to check it.
+
+**Top Balancing System** - Will be used to top balance cells for battery construction.
+
+Example: [ESP32 based system](https://diysolarforum.com/threads/top-balancing-setup-w-arduino-monitoring.15773/).  This system uses a [HRPG-300-3.3](https://www.mouser.com/datasheet/2/260/HRPG-300-SPEC-1511701.pdf) which is capable of 60A at 3.8V.  This would charge 16 280AH cells in approximately 37 hours from 50% SOC.  It would require use of shotty diodes in parallel detailed in that the above thread.
 
