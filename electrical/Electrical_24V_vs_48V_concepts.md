@@ -181,7 +181,13 @@ Water Pump On (176W)
 
 ## Reliability
 
+### 24V Reliability
 
+If the 24V to 12V converter fails the system would maintain the capability to power fridge, freezer, water pump, internal fans, lights, laptops/phones, and all AC loads.
+
+### 48V Reliability
+
+If the 48V to 12V converter fails the system would maintain AC loads only.
 
 ## Rapid Charge Capability
 
@@ -258,7 +264,7 @@ Based on the factory alternator performance discussed in the 24V concept, at hig
 
 ### Benefits
 
-* MPPT is 0.65 kg and 678000 mm<sup>3</sup> and $166 for 48V vs 3 kg and 4393750 mm^3  and ~$450 for 24V vs 4.5 kg and 6563160 mm^3 and $700 for 12V
+* MPPT is 0.65 kg and 678000 mm<sup>3</sup> and $166 for 48V vs 3 kg and 4393750 mm^3  and ~$450 for 24V
 * Alternator line temperature rise will be 1/16 of 12V for equivalent wire.
 * Second Quattro AC input can be used for Orton Method charging with an independent current limit.
 * Much smaller wire and forgiveness on lugged connections
