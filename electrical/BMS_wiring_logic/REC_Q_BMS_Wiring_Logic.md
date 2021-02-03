@@ -12,11 +12,11 @@ tags: ["BMS", "design", "concept", "electrical", "van"]
 
 **ON**
 
-[REC Q BMS](http://www.rec-bms.com/datasheet/UserManual_REC_Victron_BMS.pdf) is always attached, Internal relay is normally closed. When Remote Switch (RS) is closed, Vbat is applied through internal relay, through RS, to [REC PRE-CHARGE](http://www.rec-bms.com/datasheet/UserManualPrechargeNew.pdf) (RPC) BMS+ Input. RPC Applies VBat via 66 ohm relay to load side of contactor via System + connection for x seconds. After x seconds, RPC energizes Contactor - via an open collector, and will continue to do so. This signal is applied continuously to the Input of the [REC Bi-Stable Latching Relay Driver](http://www.rec-bms.com/datasheet/UserManual_BSLRD.pdf) (RBSLRD). Upon first application, the RBSLRD will produce a 100 msec GND pulse on Set Relay Coil -. This signal is inverted by the [RBLSRD inverter](REC_BSLRD_inverter.md) to a 100 msec Vbat signal that is applied to the [BlueSea Remote Battery Switch](http://assets.bluesea.com/files/resources/instructions/980035680-001-7701100-7703100.pdf) (RBS) CLOSE input, which closes the RBS contactor. 
+[REC Q BMS](http://www.rec-bms.com/datasheet/UserManual_REC_Victron_BMS.pdf) is always attached, Internal relay is normally closed. When Remote Switch (RS) is closed, Vbat is applied through internal relay, through RS, to [REC PRE-CHARGE](http://www.rec-bms.com/datasheet/UserManualPrechargeNew.pdf) (RPC) BMS+ Input. RPC Applies VBat via 66 ohm relay to load side of contactor via System + connection for a preset delay. After the preset delay, RPC energizes the main contactor coil continuously to close the main contactor. After one second, application of power via System+ is removed and all power flows to the system via the main contactor. 
 
 **OFF**
 
-When the RS is opened, or the REC Q internal relay is opened*, Vbat is removed from the RPC BMS+ input. The RPC will float its Contactor - output and continue to do so. When the RBSLRD Input pin floats, the RBSLRD will produce a 100 msec GND pulse on Reset Relay Coil -. This signal is inverted to a 100 msec Vbat signal that is applied to the RBS OPEN input, which opens the RBS contactor.
+When the RS is opened, or the REC Q internal relay is opened*, Vbat is removed from the RPC BMS+ input. The RPC will float its Contactor- output continuosly which deenergizes the main contactor coil and opens the main contactor.
 
 
 
@@ -50,13 +50,13 @@ BMS internal comm failure
 
 ## Over Voltage Backup Protection
 
-This is accomplished by the disconnection of the Main Contactor by the BMS via its internal relay.
+This is accomplished by opening the main contactor by the BMS via its internal relay.
 
 
 
 ## Under Voltage Backup Protection
 
-This is accomplished by the disconnection of the Main Contactor by the BMS via its internal relay.
+This is accomplished by opening the main contactor by the BMS via its internal relay.
 
 
 
