@@ -243,61 +243,59 @@ The capability of the stock HD alternator is unclear and the subject of much deb
 
 Based on the factory alternator performance discussed in the 24V concept, at high SEIC, the max charge rate of 35A at the battery may be achievable from the stock alternator.  Limiitations of the CCP2 could  The breakpoint to lower the charge rate is unclear.  The multiplus is capable of using an aux contact to change the input current limit.  Driving this contact with a microcontroller that is sensing either engine RPM and/or alternator temperature should not be difficult.
 
+## Cost
 
+**TLDR:** With the known or estimatible costs available, the 48V system would cost about $582 more than the 24V system.
 
+### Alternator Cost
 
+Without knowing the cost of the 48V alternator option from Nations, it is difficult to judge, but it is safe to assume the 48V alternator option will cost more than the 24V option.
 
-* 48V 200AH LFP
-* 24V Fridge and Freezer
-* [Quattro 48/3000/35-50/50 120V](https://www.victronenergy.com/upload/documents/Datasheet-Quattro-3-10kVA-120V-EN.pdf) ($1855)
-* 48V Alternator
-* 1 48V to 24V converter (1500W) [Candidate](https://www.ato.com/Content/doc/dc-dc-converter-48v-to-24v/ATOWG-48S2463.pdf) ($99) (or skip 24V all together)
-* 1 48V to 12V converter (? W) [Candidate](https://www.ato.com/Content/doc/dc-dc-converter-48v-to-12v/ATOWG-48S1230.pdf) ($37)
-* [Smart Solar 100/20-48](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-75-10,-75-15,-100-15,-100-20_48V-EN.pdf) ($166)
-* Need HV Solar panels so would use Panasonics (Victron MPPT "chooser" says they should work)
+### Inverter Cost
 
-### Open Questions
+The [Quattro 48/3000/35-50/50 120V](https://www.victronenergy.com/upload/documents/Datasheet-Quattro-3-10kVA-120V-EN.pdf) for the 48V system is $1855 vs the Multiplus Compact for the 24V system which is $1155.
 
-* Does REC BMS that supports 48V also support Victron? [Yes](http://www.rec-bms.com/datasheet/UserManual_REC_Victron_BMS.pdf)
+### MPPT Cost
 
-* Does Wakespeed 500 support 48V? Yes according to Nation's? Yes according to Nations and Wakespeed manual.
+The [Smart Solar 100/20-48](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-75-10,-75-15,-100-15,-100-20_48V-EN.pdf) for the 48V system is $166 vs the [Smart Solar 150/45](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-150-45-up-to-150-100-EN.pdf) for the 24V system is $450.
 
-### Benefits
+### Wiring Cost
 
-* MPPT is 0.65 kg and 678000 mm<sup>3</sup> and $166 for 48V vs 3 kg and 4393750 mm^3  and ~$450 for 24V
-* Alternator line temperature rise will be 1/16 of 12V for equivalent wire.
-* Second Quattro AC input can be used for Orton Method charging with an independent current limit.
-* Much smaller wire and forgiveness on lugged connections
+Estimating the factor of four reduction in wiring diameter for the 48V system vs the 24V system would reduce the 48V system cost by approximately $200 compared to the 24V system.
 
-### Downsides
+### 12V Conversion Cost
 
-* Known latching relays are limited 12V and 24V (Gigavac)
-* Known high efficiency (~1W) non-latching relays are limited to 12V and 24V (Gigavac) vs ~8W
-* BlueSea Remote Battery Switch is limited to 12V or 24V
-* Not all MEGA fuses are rated beyond 24V
+The 48V system requires two [600W converters](https://www.ato.com/Content/doc/dc-dc-converter-48v-to-12v/ATOWG-48S1250.pdf) at [$640](https://www.ato.com/dc-dc-buck-converter-48v-to-12v) total.  The 24V system requires one [360W converter](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1230.pdf) at [$174](https://www.ato.com/dc-dc-buck-converter-24v-to-12v).
 
-* Inverter is same size, 5W higher no load, and same weight for 24V and 12V (but more expensive)
-* Extra parasitic draw for 12V (and 24V if optioned) conversion
-* Extra loss for 24V conversion
-* This [post from forum user **Van Gohg** sums it all up](https://www.fordtransitusaforum.com/threads/12v-24v-or-48v-house-battery.82319/post-1069724)
+### Other Cost
 
-Similar/Equavalent Wire Comparisons:
+To take advantage of the factory alternator using the Orton method, the 24V system will require a transfer switch due to limitations of the Multiplus Compact.  This would increase the 24V system by approximately $100.
 
-**12v to 48v Equivalent Voltage Drop % and Equal Loss for the Same Transmitted Power**
+## Volume and Weight
 
-V=IR.  Because I has decreased by 1/4 and Vsource has increased by 4, to achive the same fraction of Vsource/Vdrop, Vdrop must also double.  This implies R must increase by a factor of 16.
+**TLDR:** Volume and weight are not a major factor.  
 
-P = R*I<sup>2</sup>.  I has decreased by a factor of 1/2, thus I<sup>2</sup> has decreased by a factor of 1/16.  This implies R must increase by a factor of 16.
+The 48V system would weight about 20 lbs more due to the weight of the DC power conversion and the larger inverter charger offset by a smaller MPPT.  Volume-wise, the 48V system might be more difficult to arrange due to the additional DC power conversion, but wiring would be easier with the smaller required gauge.
 
-4/0 becomes 8 AWG [TODO: Check the math on all these]
+## Wiring
 
-2 AWG becomes 14 AWG
+**TLDR:** 48V uses much smaller (1/4th) size wire than 24V for comprable performance.  This pays of in cost, difficulty in routing, difficulty in terminating, and criticality of terminations.
 
-**12v to 48v Equivalent Ampacity for Same Power**
+**24v to 48v Equivalent Voltage Drop % and Equal Loss for the Same Transmitted Power**
 
-4/0 becomes 6 AWG
+V=IR.  Because I has decreased by 1/2 and Vsource has increased by 2, to achive the same fraction of Vsource/Vdrop, Vdrop must also double.  This implies R must increase by a factor of 4.
 
+P = R*I<sup>2</sup>.  I has decreased by a factor of 1/2, thus I<sup>2</sup> has decreased by a factor of 1/4.  This implies R must increase by a factor of 4.
 
+**Roughly:**
+
+4/0 becomes 2 AWG
+
+2 AWG becomes 6 AWG
+
+8 AWG becomes 14 AWG
+
+**Cost Deltas:**
 
 50 ft 4/0 Ancor = $290
 
