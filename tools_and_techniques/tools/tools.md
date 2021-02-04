@@ -41,3 +41,7 @@ Look into sigrok for logging without installing stupid software.  Also consideri
 
 Example: [ESP32 based system](https://diysolarforum.com/threads/top-balancing-setup-w-arduino-monitoring.15773/).  This system uses a [HRPG-300-3.3](https://www.mouser.com/datasheet/2/260/HRPG-300-SPEC-1511701.pdf) which is capable of 60A at 3.8V.  This would charge 16 280AH cells in approximately 37 hours from 50% SOC.  It would require use of [shotty diodes](https://www.digikey.com/en/products/detail/stmicro/STPS20SM60D/2827130) in parallel detailed in that the above thread.
 
+**Capacity Tester** - This will be used to test individual cell capacity to allow matching/verifying cells.  The example below all so has serial out, so logging of tests via raspberry pi should be pretty easy.
+
+Example: [Atorch 4-wire](https://www.amazon.com/Electronic-upgraded-electronic-adjustment-discharge/dp/B08MQG1FQ8)
+
