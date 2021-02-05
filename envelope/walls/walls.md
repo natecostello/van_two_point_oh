@@ -11,9 +11,9 @@ In an effort to minimize any organic (read mold nuturing) materials, we are cons
 
 Possible candidates: 
 
-[https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html](https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html) [Use described here on sprinter-source](https://sprinter-source.com/forums/index.php?threads/20471/#post-179129).  Samples of 500lb, 400lb, and 300lb material ordered on 11/17/20.
+[https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html](https://corrugatedplastics.net/4mmFlutedCorrugatedPlasticSheets.html) [Use described here on sprinter-source](https://sprinter-source.com/forums/index.php?threads/20471/#post-179129).  Samples of 500lb, 400lb, and 300lb material ordered on 11/17/20.  Material is subject to buckle and creasing when stressed along direction of corrogations.  Also, they would not send 500lb sample after they failed to provide (in spite of having paid for it).
 
-[https://www.pennelcomonline.com/us/Penn-Elcom-FLight-Panel-77-x-52-Black-Composite-Panel---Thickness-7mm-14-M865007/m-8832.aspx](https://www.pennelcomonline.com/us/Penn-Elcom-FLight-Panel-77-x-52-Black-Composite-Panel---Thickness-7mm-14-M865007/m-8832.aspx)
+[https://www.pennelcomonline.com/us/Penn-Elcom-FLight-Panel-77-x-52-Black-Composite-Panel---Thickness-7mm-14-M865007/m-8832.aspx](https://www.pennelcomonline.com/us/Penn-Elcom-FLight-Panel-77-x-52-Black-Composite-Panel---Thickness-7mm-14-M865007/m-8832.aspx) This material looks promising.  Confirmed on 2/5/21 that local pickup in New Jersey is available.
 
 [https://www.diyroadcasesstore.com/corerigid-heavy-duty-composite-sheet-black-7mm-1-4/](https://www.diyroadcasesstore.com/corerigid-heavy-duty-composite-sheet-black-7mm-1-4/)
 
