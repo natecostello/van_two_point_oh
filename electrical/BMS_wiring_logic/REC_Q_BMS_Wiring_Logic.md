@@ -104,6 +104,8 @@ TODO: Determine if **Function In** is active high or low.  Specifically, if >8.5
 
 TODO: Determine which ground the **Function In** is referenced to.  Determine max input current draw of **Function In**.
 
+NOTE: [This Github Issue related to Victron-Wakespeed integration is relevant to **Feature In.**](https://github.com/victronenergy/venus/issues/779)
+
 ### All Together
 
 TODO: Since we need separate dry contacts or opto-couplers for two components, we will need a "splitter".  A starting place would be [this sparkfun opto-isolator breakout](https://www.sparkfun.com/products/9118).  TODO: Since we need a >8.5v DC 'wet' signal we will also need some conditioning.  Could possibly use the RBSLD inverter.
