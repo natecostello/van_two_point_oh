@@ -41,7 +41,7 @@ Look into sigrok for logging without installing stupid software.  Also consideri
 
 Example: [ESP32 based system](https://diysolarforum.com/threads/top-balancing-setup-w-arduino-monitoring.15773/).  This system uses a [HRPG-300-3.3](https://www.mouser.com/datasheet/2/260/HRPG-300-SPEC-1511701.pdf) which is capable of 60A at 3.8V.  This would charge 16 280AH cells in approximately 37 hours from 50% SOC.  It would require use of [shotty diodes](https://www.digikey.com/en/products/detail/stmicro/STPS20SM60D/2827130) in parallel detailed in that the above thread.
 
-**High Capacity DC PSU** - Could be used to top balance cells and to test the 12V and 24V electrical system ahead of battery light off.
+**High Capacity DC PSU** - Could be used to top balance cells and to test the 12V and 24V electrical system ahead of battery light off.  Can also be used as a virtual solar array to provide input to MPPT.
 
 Example:[Riden RD6018](https://www.amazon.com/dp/B08JPKQD41/ref=cm_sw_r_tw_dp_2KKXKZ460C1FY0MTXQV3)
 
