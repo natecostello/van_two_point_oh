@@ -7,6 +7,8 @@ date: "2021-2-6"
 tags: ["solar", "panels", "design", "concept"]
 ---
 
+**TLDR:**  The system will use 4 [Rich Solar](https://richsolar.com/products/200-watt-24-volt-solar-panel) 200W panels in a 2S2P arrangement and either a [SmartSolar 100/50](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-100-30-&-100-50-EN.pdf) or [SmartSolar 150/35](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-150-35-EN.pdf) MPPT.  A ground array will use a separate MPPT to maximize flexibility in panel choice (specifically dimensional flexibility).
+
 ## Requirements
 
 ### Electrical
@@ -25,7 +27,7 @@ Based on the dimensional requirements, the two panels that will fit are the [Gra
 
 The [Rich Solar](https://richsolar.com/products/200-watt-24-volt-solar-panel)  (58.7 x 26.8 x 1.4 in) 200W 24V panel provides the max power density and optimal voltage.
 
-### Specifications
+**Specifications:**
 
 - Maximum Power(Pmax): 200W
 - Maximum Power Voltage(Vmp): 37.6V
@@ -35,10 +37,74 @@ The [Rich Solar](https://richsolar.com/products/200-watt-24-volt-solar-panel)  (
 - Weight: 26.5 lbs
 - Dimensions: 58.7 x 26.8 x 1.4 in
 
+## Wiring Configurations
+
+For the main roof array, either 4S1P, 2S2P, or 1S4P could be supported and ensure enough headroom over the system voltage to ensure MPPT operation.
+
+Assuming 10AWG wire from the panels, with a single run length of 15ft, assuming Vmp and Imp, the PV efficiency is as follows:
+
+1S4P: I<sub>array</sub> = 21.44A, V<sub>array</sub> = 37.6V, V<sub>drop</sub> = 0.64V, P<sub>loss</sub> = 0.64*21.44 = 13.72W
+
+2S2P: I<sub>array</sub> = 10.72A, V<sub>array</sub> = 75.2V, V<sub>drop</sub> = 0.32V, P<sub>loss</sub> = 0.32*10.72 = 3.43W
+
+4S1P: I<sub>array</sub> = 5.83A, V<sub>array</sub> = 150.40, V<sub>drop</sub> = 0.17V, P<sub>loss</sub> = 0.17*5.83 = 0.99W
+
+The 1S4P arrangement has the worst efficiency and is current limited by the Victron MPPT models that could take advantage of the low array voltage (specifically the 75/X models are limited to an output current of 15A)
+
+The 4S1P arrangement will required the SmartSolar 250/XX line which sells at a premium to equivalent lower voltage models with the same output current capability (e.g. 250/60 at $638 vs 150/60 at $540) and isn't available in models that match our maximum output current (~33A).
+
+The 2S2P arrangement provides the best tradeoff on system efficiency (~99%) and provides more flexibility for MPPT selection (specifically the 100/X and 150/X lines). 
+
+## MPPT Requirements
+
+* Minimize Cost
+
+* Fully Utilize Solar Array Power
+
+* Minimize Parasitic Draw
+
+* Minimize Cost
+
+* Minimize Size
+
+## MPPT Selection
+
+**TLDR:** The SmartSolar 100/50 or 150/35 are both capable of supporting the planned array.  Both are the same cost, same weight, and same size.  The 100/50 will not run as hard against current limits.  The selection should come down to which design is more modern and has a better track record.
+
+The evaluation below assumes a 2S2P arrangment.  To maximize flexibility (and panel geometry) of any future ground array, we will plan to install a separate MPPT.  As such, the following only assumes the MPPT is optimized to support the existing array.
+
+Assuming a 2S2P arrangement, a SmartSolar 100/30 is recommended by Victron (via thier online tool).  However, based on the EVE 280 cell datasheet, the battery voltage, when fully charged, at a low (0.1C) discharge rate is only 26.4V at which point the 100/30 is current limited at 30A.  
+
+#### SmartSolar 100/30 
+
+($226, 20mA parasitic, 98% efficiency, 5.12x7.32x2.76, 2.87lbs)
+
+This model is recommended by the Victron online tool.  However, based on the EVE 280 cell datasheet, the battery voltage is 26.4V, when fully charged at a low (0.1C) discharge rate, at which point this MPPT is current limited at 30A and would be for all lower SOC conditions in full sun.  This results in the MPPT running at 100% power during all full sun conditions.
+
+#### SmartSolar 100/50 
+
+($324, 20mA parasitic, 98% efficency, 5.12x7.32x2.76 in, 2.87lbs )
+
+This model can sustain full array power output all the way down to a SOC below the knee of the curve (<~5% SOC) shown on the EVE 280 cell datasheet.
+
+By installing two, it could support the same array configurations as a ground array, and support up to 3 [Panasonic 330W](https://panasonic.net/lifesolutions/solar/pdf/96/spec/N330_325SJ47Datasheet_190401_ol_LS.PDF) panels in either a 1S2P or 1S3P.
+
+#### SmartSolar 150/35 
+
+($323, 15mA parasitic, 98% efficiency, 5.12x7.32x2.76 in, 2.76lbs)
+
+This model can sustain full array power output all the way down to a SOC below the knee of the curve (<~5% SOC) shown on the EVE 280 cell datasheet.
+
+This model could also support a 3S1P configuration (future flexibility).  By installing two, it could support the same array configurations as a ground array, and support 2 [Panasonic 330W](https://panasonic.net/lifesolutions/solar/pdf/96/spec/N330_325SJ47Datasheet_190401_ol_LS.PDF) panels in either a 2S1P, 1S2P.
+
+#### SmartSolar 150/45 
+
+($492, ~30mA parasitic, 98% efficiency, 7.28x9.84x3.74 in, 6.61lbs)
+
+This model is substantially more expensive, larger, and heavier.  It has greater power capacity, but that is in excess of the array's capability and is not warranted.
 
 
-Assuming a 2S2P arrangement, a SmartSolar 100/30 is recommended by Victron.  It would max current at low SOC and high solar power.
 
-Assuming a 2S4P arrangement (a ground array for exanded capability), a SmartSolar  150/60 is recommented by Victron.  It would max current at low SOC and high solar power.  For an incremental cost increase, a 150/70 would be less likely to limit current.  TODO: Ask on the forum.
+
 
 
