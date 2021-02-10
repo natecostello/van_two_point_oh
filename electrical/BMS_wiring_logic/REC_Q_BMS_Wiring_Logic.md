@@ -64,6 +64,8 @@ This is accomplished by opening the main contactor by the BMS via its internal r
 
 This is accomplished by disabling each charging source by the BMS via its charger enable opto-coupler.  The REC documentation describes the charger enable as open collector and open emitter, and also as an opto-coupler.  While this could be directly connected to a single component (e.g. MPPT), because it has to control mutliple devices, this signal should drive a relay or relays that will intern signal the component.
 
+[These relay pcbs](https://www.amazon.com/HiLetgo-Channel-Module-Isolation-Support/dp/B00LW2H5GC?ref_=ast_sto_dp) could be used to drive the MPPT and Multiplus from the BMS charge enable opto-coupler.
+
 ### MPPT
 
 From the 150/XX MPPT Manual
