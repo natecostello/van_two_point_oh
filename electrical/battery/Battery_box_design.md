@@ -51,23 +51,44 @@ Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC, the spring rate to achive
 
 * Assuming 10 points of compression, spring rate is 839.75 lbf/in ((265.34 - 199.00)/0.079).
 
-**To achieve this range of compression the spring must have a *spring rate* of at least the above value for each case and allow at least 0.79 in of compressive travel.**
+**To achieve this range of compression the spring must have a *spring rate* of no more than the above value for each case and allow at least 0.079 in of compressive travel.**
+
+**Candidate Springs (must be 1 in or less in free length)**
+
+* For 15 points of compression, the following spring meets the above requirements:
+  * LHL 625D 01 at $3.66 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 5/16 all thread.  It would provide 12.394 PSI compressed solid at 100% SOC and 9.018 PSI at 0% SOC.
+
+* For 10 points of compression, the following springs meet the above requirements:
+
+  * LHL 750C 01 at $4.93 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 3/8 all thread.  It would provide 10.786 PSI compressed solid at 100% SOC and 7.9458 PSI at 0% SOC.
+
+  * LHL 1000B 01at $5.97 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 1/2 all thread.  It would provide 10.375 PSI compressed solid at 100% SOC and 8.1595 PSI at 0% SOC.
+  * LHL 1000C 01at $6.40 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 1/2 all thread.  It would provide 14.924 PSI compressed solid at 100% SOC and 10.994 PSI at 0% SOC.
+  * LHL 750D 01at $5.53 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 3/8 all thread.  It would provide 13.002 PSI compressed solid at 100% SOC and 8.8709 PSI at 0% SOC.
+
+### Design for Cell Testing and Top Balance
+
+**100% SOC Condition Compression**
+
+Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  Assuming 12 PSI, this yields a total force of 663.35 lbf.  Assuming 4 points of compression, this yields a force per compression point of 165.84 lbf.
+
+**To achieve this compressive force the spring must have a *load at solid height* of at least the above value for each case.  If this parameter matches closely, setup will be easier by simply tightening to the solid condition at 100% SOC.**
+
+**0% SOC Condition Compression**
+
+Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  Assuming 9 PSI, this yields a total force of 497.0 lbf.  Assuming 4 points of compression, this yields a force per compression point of 124.38 lbf.
+
+**Growth Allowance**
+
+Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC for four cells, total growth of a 16 cell stack would be 0.3160 in (8 mm).  The spring rate for four points of compression, to achive the desired compression at each SOC, is 131.20 lbf/in ((165.84 - 124.38)/0.3160).
+
+**To achieve this range of compression the spring must have a *spring rate* of at nor more than above value for each case and allow at least 0.3160 in of compressive travel.**
 
 **Candidate Springs**
 
-* For 15 points of compression, the following spring meets the above requirements:
+For four points of compression, the following springs meet the above requirements:
 
-  * LHL 625D 01 at $3.66 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 5/16 all thread.
-
-  * LHL 1000C 01, LHL 750D 01, LHL 1000B 01 could also be used but are not close matches on *load at solid height*.  LHL 1000B 01 would put us at 15.562 PSI at solid height.
-
-* For 10 points of compression, the following spring meets the above requirements:
-
-  * LHL 750D 01 at $5.53 per spring has a *load at solid height* of 287.5 lbf or 13.002 PSI and could use up to 3/8 all thread.
-
-  * LHL 1000C 01has a *load at solid height* of 330 lbf or 14.942 PSI
-
-### Design for Cell Testing and Top Balance
+* LHL 750B 08 at $6.29 per spring [from here](https://www.leespring.com/compression-springs) has a load at solid height of 183 lbf, 1.43 in of travel, and a spring rate of 128 lbf/in.  This could use up to 3/8 all thread.  It would provide 13.242 PSI compressed solid at 100% SOC and 12.894 PSI at 0% SOC.
 
 ## Cell Interconnection
 
@@ -83,5 +104,5 @@ For the EVE 280AH from Amy, the studs are [M6](https://diysolarforum.com/threads
 
 
 
-[These busbars](https://www.aliexpress.com/item/1005001940967607.html?spm=a2g0o.productlist.0.0.18e64b71vAtzyG&algo_pvid=9b8bd3b4-3b93-4a0c-ba41-009269daf1a8&algo_expid=9b8bd3b4-3b93-4a0c-ba41-009269daf1a8-0&btsid=0b0a556e16128926681981046e2c00&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) should work.  They appear to be about 2mm thick, composed of laminated copper sheets.  By separating and re-combining, they could achieve the ampacity desired.  Because of the curve, the should accomodate the small amount of movement needed for parallel cell interconnects.  For series connections, a solid bar is probably fine because growth in that dimension should be negligable.  24-32 should be enough.  This would cost about $200.  It might be worth nickle plating.  
+[These busbars](https://www.aliexpress.com/item/1005001940967607.html?spm=a2g0o.productlist.0.0.18e64b71vAtzyG&algo_pvid=9b8bd3b4-3b93-4a0c-ba41-009269daf1a8&algo_expid=9b8bd3b4-3b93-4a0c-ba41-009269daf1a8-0&btsid=0b0a556e16128926681981046e2c00&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_) should work.  They appear to be about 2mm thick, composed of laminated copper sheets.  By separating and re-combining, they could achieve the ampacity desired.  Because of the curve, the should accomodate the small amount of movement needed for parallel cell interconnects.  For series connections, a solid bar is probably fine because growth in that dimension should be negligable.  24-32 should be enough.  This would cost about $200.  It might be worth nickle plating.   @cinergi from the diysolarpower forum pointed me to [this supplier](https://amprevolt.com/collections/battery-accessories/products/prismatic-cell-lifepo4-busbar?variant=32166752223284) of the same bus bars for $2.50 each.  This would bring the cost to under $100.
 
