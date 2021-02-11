@@ -7,7 +7,9 @@ date: "2020-1-30"
 tags: ["battery", "design", "concept"]
 ---
 
-The battery will be constructed of 280AH cells.  It will be installed behind the driver side rear wheel.
+The battery will be constructed of 280AH cells.  It will be installed behind the driver side rear wheel.  A rough idea of the design is illustrated below.
+
+![](battery_configuration.jpg)
 
 ## Cell Insulation
 
