@@ -100,6 +100,8 @@ I = 0.0013 in<sup>4</sup>
 
 Deflection = 0.296 in
 
+K<sub>eff</sub> = 2209 lbf/in
+
 **1/8 A36 Steel**
 
 E = 29,000 ksi
@@ -107,6 +109,8 @@ E = 29,000 ksi
 I = 0.0013 in<sup>4</sup>
 
 Deflection = 0.102 in
+
+K<sub>eff</sub> = 6411 lbf/in
 
 **3/16 Aluminum**
 
@@ -116,6 +120,8 @@ I = 0.00439 in<sup>4</sup>
 
 Deflection = 0.0876 in
 
+K<sub>eff</sub> = 7465 lbf/in
+
 **3/16 A36 Steel**
 
 E = 29,000 ksi
@@ -123,6 +129,8 @@ E = 29,000 ksi
 I = 0.00439 in<sup>4</sup>
 
 Deflection = 0.0302 in
+
+K<sub>eff</sub> = 21655 lbf/in
 
 **1/2 Plywood**
 
@@ -134,7 +142,9 @@ Deflection = 0.0455 in
 
 #### Additional Notes
 
-The outer most fasteners should be backed off from solid by sufficient length (based on the spring rate) to correspond to half the force/load of the rest of the fasteners as the load imposed on them is one half of the others.  This will ensure more equal PSI loading on the cells.
+The outer most fasteners should be backed off from solid by sufficient length (based on the spring rate) to correspond to half the force/load of the rest of the fasteners as the load imposed on them is one half of the others.  This will ensure more equal PSI loading on the cells.  Forum member X suggested halving the spring rate on the outer springs to match the force applied per cell per displacment to provide consistent PSI.  This is worth considering but requires more thought.
+
+For the system to work as analyzed, the effective spring rate of the plate (deforming) must be >> than the spring rate of the springs.  How much isn't obvious.  Twice might be enough in which case 1/8 steel might be sufficient.  3/16 steel would certainly be sufficient (its almost an order of magnitude).
 
 
 ### Design for Cell Testing and Top Balance
