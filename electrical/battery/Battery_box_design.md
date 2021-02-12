@@ -17,7 +17,7 @@ According to the Will Prowes' forum, the aluminum cased cells have positive term
 
 ## Cell Compression
 
-EVE engineers recommend approximately 12 PSI, with no more than 17 PSI, to be maintained on the cells.  Allegedly this increases rated cycles from 2500 to 3500.  They also identify approximately 1 mm expansion between 0 and 100% SOC.  This will be accomplished by threaded rod preloaded with belleville washers arranged to give adequate pressure over the expected displacement.  Aluminum sheet will be used for the compression plates.  [This forum post has lots of good information](https://diysolarforum.com/threads/source-of-belleville-washers-for-300kgf-fixture.16733/).  Plan for about [$100](https://www.mcmaster.com/belleville-disc-springs/for-shaft-diameter~1-2/) in belleville washers.
+EVE engineers recommend approximately 12 PSI, with no more than 17 PSI, to be maintained on the cells.  Allegedly this increases rated cycles from 2500 to 3500.  They also identify approximately 1 mm expansion between 0 and 100% SOC.  This will be accomplished by threaded rod preloaded with belleville washers or springs arranged to give adequate pressure over the expected displacement.  Aluminum or steel sheet will be used for the compression plates.  [This forum post has lots of good information](https://diysolarforum.com/threads/source-of-belleville-washers-for-300kgf-fixture.16733/).  Plan for about [$100](https://www.mcmaster.com/belleville-disc-springs/for-shaft-diameter~1-2/) in belleville washers.
 
 ### Empirical Data
 
@@ -100,6 +100,14 @@ I = 0.0013 in<sup>4</sup>
 
 Deflection = 0.296 in
 
+**1/8 A36 Steel**
+
+E = 29,000 ksi
+
+I = 0.0013 in<sup>4</sup>
+
+Deflection = 0.102 in
+
 **3/16 Aluminum**
 
 E = 10,000 ksi
@@ -107,6 +115,14 @@ E = 10,000 ksi
 I = 0.00439 in<sup>4</sup>
 
 Deflection = 0.0876 in
+
+**3/16 A36 Steel**
+
+E = 29,000 ksi
+
+I = 0.00439 in<sup>4</sup>
+
+Deflection = 0.0302 in
 
 **1/2 Plywood**
 
