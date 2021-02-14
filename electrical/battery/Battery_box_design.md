@@ -169,7 +169,7 @@ Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC for four cells, total grow
 
 For four points of compression, the following springs meet the above requirements:
 
-* LHL 750B 08 at $6.29 per spring [from here](https://www.leespring.com/compression-springs) has a load at solid height of 183 lbf, 1.43 in of travel, and a spring rate of 128 lbf/in.  This could use up to 3/8 all thread.  It would provide 13.242 PSI compressed solid at 100% SOC and 12.894 PSI at 0% SOC.
+* LHL 750B 08 at $6.29 per spring [from here](https://www.leespring.com/compression-springs) has a load at solid height of 183 lbf, 1.43 in of travel, and a spring rate of 128 lbf/in.  This could use up to 3/8 all thread.  It would provide 13.242 PSI compressed solid at 100% SOC and 10.315 PSI at 0% SOC.
 
 #### Plate Thickness
 
