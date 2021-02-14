@@ -181,7 +181,7 @@ For the EVE 280AH from Amy, the studs are [M6](https://diysolarforum.com/threads
 
 ~~[This product](https://www.erico.com/part.asp?part=MBJ16-100-6) is sized for an M6 stud, is 3.94 in center-to-center, has 31.57 kcmil cross section (5-6 AWG equivalent), and has an ampacity of 120A.  This ampacity rating is consistent with a [6AWG](http://assets.bluesea.com/files/resources/reference/21731.pdf) wire if the cross section is accurate.  Two trippled up connections stack to 0.354 in or 9 mm.  With a M6 nylock nut height of [6mm](http://www.fasnetdirect.com/refguide/Metnutd985.pdf) it should (barely) fit the stud.  It should work (tripled up) for the parallel cell interconnects (ampacity ~270A).~~
 
-~~[This product](https://www.erico.com/part.asp?part=MBJ16-150-6) is sized for an M6 stud, is 5.9 in center-to-center, has 31.57 kcmil cross section (5-6 AWG equivalent), and has an ampacity of 120A.  This ampacity rating is consistent with a [6AWG](http://assets.bluesea.com/files/resources/reference/21731.pdf) wire if the cross section is accurate.  It should work (trippled up) for the series cell interconnects (ampacity ~270A).~~
+~~[This product](https://www.erico.com/part.asp?part=MBJ16-150-6) is sized for an M6 stud, is 5.9 in center-to-center, has 31.57 kcmil cross section (5-6 AWG equivalent), and has an ampacity of 120A.  This ampacity rating is consistent with a [6AWG](http://assets.bluesea.com/files/resources/reference/21731.pdf) wire if the cross section is accurate.  It should work (trippled up) for the series cell interconnects (ampacity ~270A)..~~
 
 ~~23*3 = 69 interconnects.  This would cost like $600~~
 
