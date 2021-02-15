@@ -6,11 +6,11 @@ author: "Stello"
 date: "2020-10-26"
 tags: ["24V", "design", "concept", "electrical", "van", "schematic"]
 ---
-# Rough 24V system
+# High-Level 24V System Schematic
 
 
 
-[![Electrical Schematic](schematic_24v.svg)](schematic_24v.svg)
+![Electrical Schematic](schematic/schematic.svg)
 
 
 
