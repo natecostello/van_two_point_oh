@@ -115,7 +115,7 @@ Cerbo will be powered at all times.
 
 It is neccesary to size the DC converters for each concept to determine the no-load power consumption and apply the spec efficiency to converter power loads to analyze base and nominal load cases.
 
-**TLDR:** The 48V concept requires 12V conversion in excess of 886W, resulting in two 600W converters.  The 24V concept requires 12V conversion in excess of 233W, resulting in one 360W converter.
+**TLDR:** The 48V concept requires 12V conversion in excess of 944W, resulting in two 600W converters.  The 24V concept requires 12V conversion in excess of 291W, resulting in one 360W converter (480W is also an option in the same form factor/efficiency/no-load draw).  The uncertainty on load is greater for the 48V concept based on the number of loads that require conversion.
 
 #### Assumptions
 
@@ -155,7 +155,9 @@ Radio powered and transmitting
 
 ​	[Anytone AT-D578UVIIIPRo](https://www.bridgecomsystems.com/collections/amateur-mobile-radios/products/at-d578uv) = 50W (12V)
 
-Heater at max load. [B4L](https://www.heatso.com/espar-b4l-gasoline-heater-kit-12v-4kw/) = 42W (12V)
+~~Heater at max load. [B4L](https://www.heatso.com/espar-b4l-gasoline-heater-kit-12v-4kw/) = 42W (12V)~~
+
+Heater while starting. [B4L](https://www.heatso.com/espar-b4l-gasoline-heater-kit-12v-4kw/) =< 100W (12V)
 
 Max Laptop Draw ([Limited by Charger to 46W](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_) )
 
