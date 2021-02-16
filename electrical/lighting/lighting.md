@@ -18,3 +18,7 @@ These look perfect:  red and white modes, dimmable, and support 24V:
 This site has lots of options:
 
 https://www.fullcompass.com/prod/283873-littlite-an-te24-led-anser-lamp-set-with-built-in-dimmer-and-24-gooseneck?dfw_tracker=36058-283873
+
+This is an OEM that has lots of options (but maybe not exactly what we want):
+
+https://www.littlite.com/products
