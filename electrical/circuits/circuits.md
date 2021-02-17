@@ -16,7 +16,8 @@ This section describes the power circuits planned for the van.
 
 * Comm Area
 * Garage Area
-* Counter Level - Driver Side
+* Counter Level - Driver Side 
+  * [This](https://www.farmandfleet.com/products/148585-carlon-shallow-box.html?blaintm_source=google&blaintm_medium=pla&gclid=Cj0KCQiA962BBhCzARIsAIpWEL0ZxBo7hZ6lRTTaHp_B29eZpyMVcut_WesCwzd3hvVADxaRMHoxAHIaAqlkEALw_wcB) (1.25 depth) or [This](https://www.zoro.com/cantex-electrical-box-square-pvc-ez08sf/i/G3145073/?pla=true&utm_source=google&utm_medium=surfaces&utm_campaign=shopping%20feed&utm_content=free%20google%20shopping%20clicks&gclid=Cj0KCQiA962BBhCzARIsAIpWEL3SRmi1h1tdaUfajjNUF3tNYXX8NsH1hppcAxP2JZjMDwf-0M5kTtEaAj6NEALw_wcB&gclsrc=aw.ds) (1.25 depth) could place these against bed
 * Counter Level - Passenger Side
 * Under Counter - Driver Side
 * Under Counter - Passenger Side
@@ -38,7 +39,7 @@ Heater Control will be located XXXXX
 
 Max Fan Control will be located XXXXX
 
-Water Pump On/Off will be located XXXXX
+Water Pump On/Off will be located on the side of the passenger side counter, easily accessible from outside with the door open.
 
 Gas Solenoid On/Off will be located XXXXX
 
