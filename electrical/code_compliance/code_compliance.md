@@ -6,6 +6,32 @@ author: "Stello"
 date: "2020-10-26"
 tags: ["design", "concept", "electrical", "van", "ABYC", "compliance", "code"]
 ---
+## TLDR: 
+
+### An ELCI will be used for the Shore Power Disconnect Circuit Breaker
+
+Use of an ELCI as the shore power disconnect circuit breaker will provide a trip:
+
+* if a hot-to-ground fault occurs upstream of the Main Panelboard ELCI while connected to shore power with a functioning ground.
+* if a latent hot-to-ground fault exists upstream of the Main Panelboard ELCI with an open shore power ground, when a person completes the path to earth (e.g. touches van metal while standing on earth). 
+
+In the two cases above, and ELCI or GFCI at the shore power source should also provide the same protection, but will not be relied on.  Additionally, if the fault occurs downstream of the Main Panelboard ELCI, it would also provide the above trips.
+
+### The Alternator-Inverter Will Not Have an Output Circuit Breaker
+
+Because the Alternator-Inverter is self-limiting, it does not require overcurrent protection on its output.  
+
+In the event of a hot-to-neutral fault between the Alternator-Inverter output and the Main Panelboard ELCI, the Alternator-Inverter will latch in an Overload / Short Circuit Shut Down ([assuming a Samlex PST](https://www.samlexamerica.com/documents/manuals/11001-PST-1500-2000-12-24-0513.pdf)).
+
+In the event of a hot-to-ground fault between the Alternator-Inverter output and the Main Panelboard ELCI, the Alternator-Inverter will latch an Overload / Short Circuit Shut Down ([assuming a Samlex PST](https://www.samlexamerica.com/documents/manuals/11001-PST-1500-2000-12-24-0513.pdf)) because the gound and neutral are bonded at the Alternator-Inverter.
+
+### The Main Panelboard will have an ELCI and Voltage Meter
+
+### All Outlets will be GFCI Protected
+
+
+
+
 ## Electrical System Compliance with ABYC
 
 11.4  **DEFINITIONS**
@@ -210,7 +236,7 @@ tags: ["design", "concept", "electrical", "van", "ABYC", "compliance", "code"]
 
 **NOTE: An example of such a label follows:**
 
-![image-20210220131158852](/Users/ncos/Library/Application Support/typora-user-images/image-20210220131158852.png)
+![image-20210220131158852](image-20210220131158852.png)
 
 **EXCEPTIONS:**
 **1. Item 3 is not required if a polarity indicator is not installed. (See E-11.6.3.3)**
