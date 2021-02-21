@@ -29,7 +29,15 @@ In the event of a hot-to-ground fault between the Alternator-Inverter output and
 
 ### All Outlets will be GFCI Protected
 
+## Sources
 
+ABYC
+
+The Boatowner's Illustrated Electrical Handbook
+
+[A good website on boating electrical](https://gilwellbear.wordpress.com/2020/02/16/abyc-electrical-standard-mapped-to-sanctuarys-ac-system/)
+
+Boatowners Mechanical and Electrical Manual 4E
 
 
 ## Electrical System Compliance with ABYC
