@@ -24,3 +24,4 @@ For 2.5' x 8':
 2.5' 2x4 (4)
 cut left over 3/4 widths of ply to length 35"
 
+ 
