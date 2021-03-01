@@ -23,6 +23,10 @@ Examples: [Penn Tool Hole Transfer Center Punch](https://www.penntoolco.com/prec
 
 Examples: [Transfer Screw Set on Amazon](https://www.amazon.com/HHIP-3601-0250-Piece-Transfer-Screw/dp/B00N411MCC/ref=sr_1_4?dchild=1&keywords=transfer+screw&qid=1605278170&sr=8-4)
 
+**Center Scribe** - Useful to scribe a center line down a long strip of metal (e.g. 1/2 series 80/20 or L-track) to aid in drilling/transfering holes.
+
+Example: [Center Scribe](https://www.amazon.com/Center-Finder-Tweippy-Woodworking-Marking/dp/B0823ZPC1X)
+
 **Stop Block System** - Useful for cutting precise lengths of 80/20.
 
 Example: [Kreg system](https://www.kregtool.com/shop/cutting/miter-saw-cutting/precision-trak-stop-kit/KMS8000.html?fbclid=IwAR0sE1Tpf1dBXN9FFO-cDCK8d-jp5T2DfMBtDocI2LxzzkcbDgPuF6IJ2Bo)
