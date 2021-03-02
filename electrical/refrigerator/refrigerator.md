@@ -9,7 +9,7 @@ tags: ["appliances", "fridge", "concept"]
 
 
 
-**TLDR: **For lots of reasons (arrangement flexibility, efficiency, maintainability, etc) we are going with Vitrifrigo.
+**TLDR: ** For lots of reasons (arrangement flexibility, efficiency, maintainability, etc) we are going with Vitrifrigo.
 
 ​	**Fridge**
 ​		Vitrifrigo 4.7cuft 62.6lb 24V
@@ -51,8 +51,15 @@ Vitrifrigo 4.7cuft 62.6lb 24V
 
 Model: C130RBD4-F AS FRIDGE ONLY VERSION
 
+Supplier Quote $1120
+
 ### Freezer
 
 Vitrifrigo 1.8cuft 60 lbs
 
 Model: C55RBN4-F 
+
+Supplier Quote $1333
+
+### Conversation with Supplier
+
