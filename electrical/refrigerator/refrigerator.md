@@ -7,7 +7,20 @@ date: "2020-11-17"
 tags: ["appliances", "fridge", "concept"]
 ---
 
-## Fridge Options
+
+
+**TLDR: **For lots of reasons (arrangement flexibility, efficiency, maintainability, etc) we are going with Vitrifrigo.
+
+​	**Fridge**
+​		Vitrifrigo 4.7cuft 62.6lb 24V
+​		Model: C130RBD4-F AS FRIDGE ONLY VERSION
+​	**Freezer**
+​		Vitrifrigo 1.8cuft 60 lbs
+​		Model: C55RBN4-F 
+
+
+
+## Fridge/Freezer Options
 
 Vitrifrigo has a separate compressor/condenser that might be good for arranging and optimizing airflow.  Thats what was used by [Lorax](https://www.fordtransitusaforum.com/threads/the-lorax-build-thread.72698/post-997532).  Local dealer is Annapolis Cruisair 410-224-0970
 
@@ -27,3 +40,19 @@ A forum user found some online materials that suggest the external cooling unit 
 > 4. I see a build up of dust and whatever on the cooling fins of the radiator. Best if you can place it where a soft brush vacuum can hit it once or twice a year to keep the cooling as efficient as possible.
 
 The point about accessibility for cleaning is another benefit I hadn't considered, but is substantial.
+
+We've decided to maximize fridge and freezer space which is reflected in our preferred candidate arrangement.  Specifically:
+
+
+
+### Fridge
+
+Vitrifrigo 4.7cuft 62.6lb 24V
+
+Model: C130RBD4-F AS FRIDGE ONLY VERSION
+
+### Freezer
+
+Vitrifrigo 1.8cuft 60 lbs
+
+Model: C55RBN4-F 
