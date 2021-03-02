@@ -20,8 +20,9 @@ For 2.5' x 8':
 7' 11.5" 2x4 (1)
 
 ## Shelf Shopping List:
-8' 2x4 (4)
-2.5' 2x4 (4)
-cut left over 3/4 widths of ply to length 35"
+93 5/8" 2x4 (6)
+48" 2x4 (4) * These need to be the same length, fairly precise
+93 5/8" - 7 7/16" = 86 3/16"   (2)
+10 pieces total (~ $50)
 
  
