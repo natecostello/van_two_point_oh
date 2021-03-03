@@ -53,6 +53,8 @@ Model: C130RBP4-F-1 is the Fridge only version (verified with Vitrifrigo Rep)
 
 Supplier Quote $1196
 
+Ordered 3/3/21 for Delivery 5/20/21
+
 ### Freezer
 
 Vitrifrigo 1.8cuft 60 lbs 12V/24V/120VAC
@@ -61,5 +63,7 @@ Model: C55RBN4-F
 
 Supplier Quote $1333
 
-### \
+Ordered 3/3/21 for Delivery 5/20/21
+
+### 
 
