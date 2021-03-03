@@ -132,3 +132,16 @@ NOTE: [This Github Issue related to Victron-Wakespeed integration is relevant to
 
 TODO: Since we need separate dry contacts or opto-couplers for two components, we will need a "splitter".  A starting place would be [this sparkfun opto-isolator breakout](https://www.sparkfun.com/products/9118).  TODO: Since we need a >8.5v DC 'wet' signal we will also need some conditioning.  Could possibly use the RBSLD inverter.
 
+### Open Questions to REC Q Supplier
+
+The REC temperature sensor - does it contain 3 sensors?
+
+When will variable REC precharge be available?
+
+Can a remote switch be used to turn off/on Battery/Main Contactor?
+
+What cables are included?
+
+If not included, Recommended Wire for Battery Voltage Sense, Shunt?
+
+If not included, what is the BMS side shunt connector type?
