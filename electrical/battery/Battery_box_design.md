@@ -214,7 +214,7 @@ Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
 
 Linear Load 663.35 lbf / 7.874 in = 84.246 lfb/in =  1010.9 lbf/ft 
 
-**Custom 0.120 in Aluminum (1/2" reinforcement)**
+**Custom 0.120 in Aluminum (1/2" reinforcement) (~8lbs)**
 
 E = 10,000 ksi
 
@@ -224,7 +224,7 @@ Deflection = 0.0661 in
 
 K<sub>eff</sub> = 663.35/0.0661 = 10035 lbf/in
 
-**Custom 0.120 in Aluminum (3/4" reinforcement)**
+**Custom 0.120 in Aluminum (3/4" reinforcement) (~8lbs)**
 
 E = 10,000 ksi
 
@@ -233,6 +233,26 @@ I = 0.0397 in<sup>4</sup>
 Deflection = 0.0241 in
 
 K<sub>eff</sub> = 663.35/0.0241 = 27525 lbf/in
+
+**Custom 0.120 in Steel (1/2" reinforcement) (~22lbs)**
+
+E = 29,000 ksi
+
+I = 0.0145 in<sup>4</sup>
+
+Deflection = 0.0228 in
+
+K<sub>eff</sub> = 663.35/0.0228 = 29094 lbf/in
+
+**Custom 0.120 in Steel (3/4" reinforcement) (~22lbs)**
+
+E = 29,000 ksi
+
+I = 0.0397 in<sup>4</sup>
+
+Deflection = 0.00831 in
+
+K<sub>eff</sub> = 663.35/0.00831 = 79826 lbf/in
 
 #### Additional Notes
 
