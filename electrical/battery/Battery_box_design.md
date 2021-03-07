@@ -1,5 +1,5 @@
 ---
- section: "van"
+  section: "van"
 category: "electrical"
 title: "Battery Design"
 author: "Stello"
@@ -7,11 +7,13 @@ date: "2020-1-30"
 tags: ["battery", "design", "concept"]
 ---
 
-The battery will be constructed of 280AH cells.  It will be installed behind the driver side rear wheel.  Two rough concepts (A and B) of the design are illustrated below.
+The battery will be constructed of 280AH cells.  It will be installed behind the driver side rear wheel.  Two rough concepts (A, B, and C) of the design are illustrated below.
 
 ![](battery_configuration_concept_A.jpg)
 
 ![](battery_configuration_concept_B.jpg)
+
+o![](battery_configuration_concept_C.jpg)
 
 ## Cell Insulation
 
@@ -67,7 +69,7 @@ Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC, the spring rate to achive
 
 **To achieve this range of compression the spring must have a *spring rate* of no more than the above value for each case and allow at least 0.079 in of compressive travel.**
 
-#### Candidate Springs (must be 1 in or less in free length)
+#### Candidate Compression Springs (must be 1 in or less in free length)
 
 * For 15 points of compression, the following spring meets the above requirements:
   
@@ -87,7 +89,12 @@ Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC, the spring rate to achive
 
   * LHL 1000C 01at $6.40 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 1/2 all thread.  It would provide 11.939 PSI compressed solid at 100% SOC and 8.7952 PSI at 0% SOC.
 
-#### Plate Thickness (Concept A)
+#### Candidate Extension Springs (Concept C) (must be ~11 in or less in free length) 
+
+* For 8 points of compression, using doubled up springs at each point, the following spring meets the above requirement:
+  * [3630N389](https://www.mcmaster.com/3630N389/) at $10.06 per spring from [McMaster](https://www.mcmaster.com/3630N389/).  It would provide 12.31 PSI at full extension at 100% SOC and 11.75 PSI at 0% SOC.
+
+#### Deformation (Concept A)
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
@@ -157,7 +164,7 @@ Deflection = 0.0455 in
 
 K<sub>eff</sub> = 663.35/0.0455 = 14579 lbf/in
 
-#### Rectangular Dimensions (Concept B)
+#### Deformation (Concept B)
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
@@ -186,6 +193,46 @@ I = 0.196 in<sup>4</sup>
 Deflection = 0.00342 in
 
 K<sub>eff</sub> = 663.35/0.00342 = 193962 lbf/in
+
+#### Deformation (Concept C)
+
+Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
+
+**Conditions**
+
+Center distance between compression 9.75 in
+
+Width of plate 7.21 in 
+
+Pinned boundary conditions
+
+Start of load 0.813 in
+
+End of load 8.937 in (these don't exactly align with battery dimension thus analyzed load is high)
+
+Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
+
+Linear Load 663.35 lbf / 7.874 in = 84.246 lfb/in =  1010.9 lbf/ft 
+
+**Custom 0.120 in Aluminum (1/2" reinforcement)**
+
+E = 10,000 ksi
+
+I = 0.0145 in<sup>4</sup>
+
+Deflection = 0.0661 in
+
+K<sub>eff</sub> = 663.35/0.0661 = 10035 lbf/in
+
+**Custom 0.120 in Aluminum (3/4" reinforcement)**
+
+E = 10,000 ksi
+
+I = 0.0397 in<sup>4</sup>
+
+Deflection = 0.0241 in
+
+K<sub>eff</sub> = 663.35/0.0241 = 27525 lbf/in
 
 #### Additional Notes
 
