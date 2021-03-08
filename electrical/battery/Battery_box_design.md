@@ -1,5 +1,5 @@
 ---
-  section: "van"
+section: "van"
 category: "electrical"
 title: "Battery Design"
 author: "Stello"
