@@ -260,6 +260,15 @@ The outer most compression points will see half the force/load of the rest of th
 
 For the system to work as analyzed, the effective spring rate of the plate (deforming) must be >> than the spring rate of the springs.  How much isn't obvious.  Twice might be enough in which case 1/8 steel might be sufficient.  3/16 steel would certainly be sufficient (its almost an order of magnitude).
 
+For concept C, ATD Metal gave the following rough quote:
+
+>Here are the prices:
+>- steel, horizontal bars only $120 each 
+>- aluminum, horizontal bars only $135 each
+>- add vertical bars to either-additional $100
+>- add holes $60
+
+He also noted that aluminum welds have larger fillets (like 1/4) that shouldn't be ground down.  This favors the steel option.
 
 ### Design for Cell Testing and Top Balance
 
