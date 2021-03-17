@@ -26,15 +26,19 @@ Continuous Rating 4/0 300A
 
 Cost $200 (Amazon)
 
-Doesn't require separate battery disconnect
-
 *This should be good enough.  Manual interrupt will occur at low current as a matter of practice.  Un-planned loaded interrupt will generally be at :
 
 * cell OV conditions under charge, which should be low current as managed by the BMS.
 
 * cell UV conditions under discharge, which should be well under 150A even with a fully loaded multiplus compact (~75A).
 
-  
+Based on some second hand discussion with Blue Sea, this device will also function as a manual battery disconnect.
+
+>**Me:** what I’d like to know is if the manual switch will physically open (ie break welded contacts) or is it just a secondary soft control...any idea?
+
+>**[@Van Gogh](https://www.fordtransitusaforum.com/members/van-gogh.89410/):**Nevermind, I see what you mean. Read your github, so 24V, and you're asking about yellow manual switch behavior during or after a fault scenario that welded its contacts. I'll add it to my next round of questions for Blue Sea.
+
+>**[@Van Gogh](https://www.fordtransitusaforum.com/members/van-gogh.89410/):**They confirmed its a mechanical breaking of the contacts.
 
 ### Normally Open (NO) Contactor
 
@@ -52,4 +56,4 @@ Continuous Rating 400MCM 500A
 
 Cost $178
 
-Requires separate battery disconnect
+Requires separate manual battery disconnect
