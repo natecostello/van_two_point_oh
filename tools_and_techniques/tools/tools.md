@@ -9,7 +9,7 @@ tags: ["tools", "fabrication"]
 
 
 
-The right tool for the right job!
+The right tool for the right job!  This [thread](https://www.fordtransitusaforum.com/threads/must-have-tools-for-camper-conversion.79127/#post-1038918) is a good startingn point.
 
 **Transfer Punch Set** - These are used to "transfer" a pattern of holes from one piece to another.  Note, when transfering holes from thin materials, the raised part that dimples the material can prevent the circumference of the transfer punch from locating itself relative to a hole.
 
@@ -58,3 +58,6 @@ Example:[Riden RD6018](https://www.amazon.com/dp/B08JPKQD41/ref=cm_sw_r_tw_dp_2K
 Example: [Atorch 4-wire](https://www.amazon.com/Electronic-upgraded-electronic-adjustment-discharge/dp/B08MQG1FQ8) ($100)
 
 **Plus-Nut Setting Tool** - This Tool is used to set plus nuts consistantly
+
+Example: [Astro Pnuematic Tool 1450](https://www.amazon.com/gp/product/B01JBNNJ3Q/ref=ppx_yo_dt_b_asin_title_o05_s04?ie=UTF8&psc=1) is recommended in this [forum thread](https://www.fordtransitusaforum.com/threads/must-have-tools-for-camper-conversion.79127/post-1038821).
+
