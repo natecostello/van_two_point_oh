@@ -7,7 +7,7 @@ date: "2020-1-30"
 tags: ["battery", "design", "concept"]
 ---
 
-The battery will be constructed of 280AH cells.  It will be installed behind the driver side rear wheel.  Two rough concepts (A, B, and C) of the design are illustrated below.
+The battery will be constructed of 280AH cells.  It will be installed behind the driver side rear wheel.  Four rough concepts (A, B, C, and D) of the design are illustrated below.
 
 ![](battery_configuration_concept_A.jpg)
 
@@ -15,15 +15,23 @@ The battery will be constructed of 280AH cells.  It will be installed behind the
 
 ![](battery_configuration_concept_C.jpg)
 
-## Cell Insulation
+![](battery_configuration_concept_D.jpg)
+
+
+
+
+
+## Cell Electrical Insulation
 
 According to the Will Prowes' forum, the aluminum cased cells have positive terminal voltage on the outer case.  This means each group of cells will need to be isolated from each other and from any structure.  This will be accomplished by Kapton tape.
 
 ## Cell Compression
 
-**TLDR: Concept C should provide adequate compression and is the most compact but requires more expensive extension springs and custom side plates.  It also eliminates the gaps between cells (vs concept A) potentially allowing for off the shelf busbars while minimizing overal length (at the expense of height).**
+**TLDR: Concept D should provide adequate compression and is the most compact and simplest design.  It also eliminates the gaps between cells (vs concept A) potentially allowing for off the shelf busbars while minimizing overal length (at the expense of height).**
 
-EVE engineers recommend approximately 12 PSI, with no more than 17 PSI, to be maintained on the cells.  Allegedly this increases rated cycles from 2500 to 3500.  They also identify approximately 1 mm expansion between 0 and 100% SOC.  This will be accomplished by threaded rod preloaded with belleville washers or springs arranged to give adequate pressure over the expected displacement.  Aluminum or steel sheet will be used for the compression plates.  [This forum post has lots of good information](https://diysolarforum.com/threads/source-of-belleville-washers-for-300kgf-fixture.16733/).  Plan for about [$100](https://www.mcmaster.com/belleville-disc-springs/for-shaft-diameter~1-2/) in belleville washers.
+EVE engineers recommend approximately 12 PSI, with no more than 17 PSI, to be maintained on the cells.  Allegedly this increases rated cycles from 2500 to 3500.  They also identify approximately 1 mm expansion between 0 and 100% SOC.  Concepts A, B and C accomplish pressure and expansion allowance by threaded rod preloaded with belleville washers or springs arranged to give adequate pressure over the expected displacement.  Aluminum or steel sheet are used used for the compression side plates.  [This forum post has lots of good information](https://diysolarforum.com/threads/source-of-belleville-washers-for-300kgf-fixture.16733/).  Plan for about [$100](https://www.mcmaster.com/belleville-disc-springs/for-shaft-diameter~1-2/) in belleville washers.
+
+However, a fourth concept (D) occurred to me while evaluating A, B, and C.  The flex of the side plates themselves function as two springs in series with any other springs in the system.  By designing the plates appropriately, they can be relied on exclusively for compression at high SOC and to accomodate the expected growth.  To apply some compression at low SOC, single bellville washers, fully flattened, can be used.  While this method will not be as calibrated as the others, it can guarentee some compression above 0 and less than 12 PSI at full SOC and is more compact, simpler, and cheaper.  This [belleville washer](https://www.mcmaster.com/9712K62/) fully flattened will give about 4 PSI at 0% SOC for this design.
 
 ### Empirical Data
 
@@ -35,7 +43,7 @@ His [spring](https://www.leespring.com/compression-springs-hefty?search=LHL625D0
 
 #### 100% SOC Condition Compression
 
-Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  With four cells in the arrangement, the total area under compression is 221.12 in2.  Assuming 12 PSI, this yields a total force of 2653.4 lbf.
+Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  With four cells in the arrangement, the total area under compression is 221.12 in<sup>2</sup>.  Assuming 12 PSI, this yields a total force of 2653.4 lbf.
 
 * Assuming 15 points of compression, this yields a force per compression point of 176.89 lbf.
 
@@ -54,7 +62,7 @@ Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  With four cells i
 
 * Assuming 10 points of compression, this yields a force per compression point of 199.00 lbf.
 
-* Assuming 10 points of compression, this yields a force per compression point of 248.75 lbf.
+* Assuming 8 points of compression, this yields a force per compression point of 248.75 lbf.
 
 
 #### Growth Allowance
@@ -75,15 +83,9 @@ Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC, the spring rate to achive
   
   * LHL 625D 01 at $3.66 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 5/16 all thread.  It would provide 12.394 PSI compressed solid at 100% SOC and 9.018 PSI at 0% SOC.
   
-* For 10 points of compression, the following springs meet the above requirements:
+* For 10 points of compression, the following spring (of many) meets the above requirement:
 
   * LHL 750C 01 at $4.93 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 3/8 all thread.  It would provide 10.786 PSI compressed solid at 100% SOC and 7.9458 PSI at 0% SOC.
-
-  * LHL 1000B 01at $5.97 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 1/2 all thread.  It would provide 10.375 PSI compressed solid at 100% SOC and 8.1595 PSI at 0% SOC.
-  
-  * LHL 1000C 01at $6.40 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 1/2 all thread.  It would provide 14.924 PSI compressed solid at 100% SOC and 10.994 PSI at 0% SOC.
-  
-  * LHL 750D 01at $5.53 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 3/8 all thread.  It would provide 13.002 PSI compressed solid at 100% SOC and 8.8709 PSI at 0% SOC.
 
 * For 8 points of compression, the following spring meets the above requirements:
 
@@ -114,55 +116,15 @@ Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
 
 Linear Load 663.35 lbf / 6.95 in = 95.446 lfb/in =  1145.3 lbf/ft
 
-**1/8 Aluminum**
+| Material      | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
+| ------------- | ------- | ------------------ | --------------- | ------------------------- |
+| 1/8 Aluminum  | 10,000  | 0.0013             | 0.296           | 1120.5                    |
+| 1/8 Steel     | 29,000  | 0.0013             | 0.102           | 3251.7                    |
+| 3/16 Aluminum | 10,000  | 0.00439            | 0.0876          | 3786.2                    |
+| 3/16 Steel    | 29,000  | 0.00439            | 0.0302          | 10982.6                   |
+| 1/2 Plywood   | 1,1015  | 0.0833             | 0.0455          | 7289.6                    |
 
-E = 10,000 ksi
-
-I = 0.0013 in<sup>4</sup>
-
-Deflection = 0.296 in
-
-K<sub>eff</sub> = 663.35/0.296 = 2241 lbf/in
-
-**1/8 A36 Steel**
-
-E = 29,000 ksi
-
-I = 0.0013 in<sup>4</sup>
-
-Deflection = 0.102 in
-
-K<sub>eff</sub> =  663.35/0.102 = 6503 lbf/in
-
-**3/16 Aluminum**
-
-E = 10,000 ksi
-
-I = 0.00439 in<sup>4</sup>
-
-Deflection = 0.0876 in
-
-K<sub>eff</sub> = 663.35/0.0876 = 7572 lbf/in
-
-**3/16 A36 Steel**
-
-E = 29,000 ksi
-
-I = 0.00439 in<sup>4</sup>
-
-Deflection = 0.0302 in
-
-K<sub>eff</sub> = 663.35/0.0302 = 21965 lbf/in
-
-**1/2 Plywood**
-
-E = 1,015 ksi
-
-I = 0.0833 in<sup>4</sup>
-
-Deflection = 0.0455 in
-
-K<sub>eff</sub> = 663.35/0.0455 = 14579 lbf/in
+\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series).
 
 #### Deformation (Concept B)
 
@@ -184,15 +146,11 @@ Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
 
 Linear Load 663.35 lbf / 7.874 in = 84.246 lfb/in =  1010.9 lbf/ft
 
-**4 in x 1 in x 0.120 in Aluminum**
+| Material         | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
+| ---------------- | ------- | ------------------ | --------------- | ------------------------- |
+| 4x1x1/8 Aluminum | 10,000  | 0.196              | 0.00342         | 96980.0                   |
 
-E = 10,000 ksi
-
-I = 0.196 in<sup>4</sup>
-
-Deflection = 0.00342 in
-
-K<sub>eff</sub> = 663.35/0.00342 = 193962 lbf/in
+\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series).
 
 #### Deformation (Concept C)
 
@@ -214,45 +172,45 @@ Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
 
 Linear Load 663.35 lbf / 7.874 in = 84.246 lfb/in =  1010.9 lbf/ft 
 
-**Custom 0.120 in Aluminum (1/2" reinforcement) (~8lbs)**
+| Material                | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
+| ----------------------- | ------- | ------------------ | --------------- | ------------------------- |
+| 1/8 Aluminum (1/2 ribs) | 10,000  | 0.0145             | 0.0661          | 5017.8                    |
+| 1/8 Steel (1/2 ribs)    | 29,000  | 0.0145             | 0.0228          | 14547.1                   |
+| 1/8 Aluminum (3/4 ribs) | 10,000  | 0.0397             | 0.0241          | 13762.4                   |
+| 1/8 Steel (3/4 ribs)    | 29,000  | 0.0397             | 0.00831         | 39912.7                   |
 
-E = 10,000 ksi
+\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series).
 
-I = 0.0145 in<sup>4</sup>
+#### Deformation (Concept D)
 
-Deflection = 0.0661 in
+Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
-K<sub>eff</sub> = 663.35/0.0661 = 10035 lbf/in
+**Conditions**
 
-**Custom 0.120 in Aluminum (3/4" reinforcement) (~8lbs)**
+Center distance between compression 8.5 in
 
-E = 10,000 ksi
+Width of plate 6.83 in 
 
-I = 0.0397 in<sup>4</sup>
+Pinned boundary conditions
 
-Deflection = 0.0241 in
+Start of load 0.25 in
 
-K<sub>eff</sub> = 663.35/0.0241 = 27525 lbf/in
+End of load 8.125 in
 
-**Custom 0.120 in Steel (1/2" reinforcement) (~22lbs)**
+Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
 
-E = 29,000 ksi
+Linear Load 663.35/7.87 = 84.288 lfb/in =  1011.46 lbf/ft
 
-I = 0.0145 in<sup>4</sup>
+| Material      | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
+| ------------- | ------- | ------------------ | --------------- | ------------------------- |
+| 1/8 Aluminum  | 10,000  | 0.00111            | 0.512           | 647.803                   |
+| 1/8 Steel     | 29,000  | 0.00111            | 0.177           | 1873.87                   |
+| 3/16 Aluminum | 10,000  | 0.00375            | 0.152           | 2182.07                   |
+| 3/16 Steel    | 29,000  | 0.00375            | 0.0523          | 6341.78                   |
 
-Deflection = 0.0228 in
+\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series).
 
-K<sub>eff</sub> = 663.35/0.0228 = 29094 lbf/in
-
-**Custom 0.120 in Steel (3/4" reinforcement) (~22lbs)**
-
-E = 29,000 ksi
-
-I = 0.0397 in<sup>4</sup>
-
-Deflection = 0.00831 in
-
-K<sub>eff</sub> = 663.35/0.00831 = 79826 lbf/in
+Assuming the plates were just snug, approximate compression would be 9 PSI at 100% SOC if growth was 0.079 in at the center of deflection.
 
 #### Additional Notes
 
@@ -306,7 +264,7 @@ Assuming growth is 0.316 in (8 mm) (four times the growth in four cells of 0.079
 
 #### Plate Thickness
 
-Based on the deflection analysis in the **Design for Service** section, 1/2 in plywood or rectanglar tube aluminum should be completely fine.
+Based on the deflection analysis in the **Design for Service** section, 3/4 in plywood or rectanglar tube aluminum should be completely fine.
 
 ## Cell Interconnection
 
