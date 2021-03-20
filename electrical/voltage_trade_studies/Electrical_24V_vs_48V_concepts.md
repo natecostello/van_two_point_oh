@@ -115,7 +115,7 @@ Cerbo will be powered at all times.
 
 It is neccesary to size the DC converters for each concept to determine the no-load power consumption and apply the spec efficiency to converter power loads to analyze base and nominal load cases.
 
-**TLDR:** The 48V concept requires 12V conversion in excess of 944W, resulting in two 600W converters.  The 24V concept requires 12V conversion in excess of 311W, resulting in one 360W converter (480W is also an option in the same form factor/efficiency/no-load draw).  The uncertainty on load is greater for the 48V concept based on the number of loads that require conversion.
+**TLDR:** The 48V concept requires 12V conversion in excess of 944W, resulting in two [600W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1250.pdf) converters.  The 24V concept requires 12V conversion in excess of 311W, resulting in one [360W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1230.pdf) converter ([480W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1240.pdf) is also an option in the same form factor/efficiency/no-load draw).  The uncertainty on load is greater for the 48V concept based on the number of loads that require conversion.
 
 #### Assumptions
 
