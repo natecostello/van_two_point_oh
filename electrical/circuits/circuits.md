@@ -25,8 +25,8 @@ This section describes the power circuits planned for the van.
 
 USB C Outlets will be in the following locations:
 
-* Rear Bed - Driver Side
-* Rear Bed - Passenger Side
+* ~~Rear Bed - Driver Side~~ (Deemed not needed)
+* ~~Rear Bed - Passenger Side~~ (Deemed not needed)
 * Counter Level - Driver Side
 * Counter Level - Passenger Side
 
@@ -65,8 +65,6 @@ Lighting
 
 Exterior Lighting
 
-Gas Solenoid
-
 Interior Fans
 
 ## 12VDC
@@ -78,4 +76,8 @@ Heater
 MaxAir Fan
 
 Outlets (Driverside Overhead Shelf)
+
+Oven/Propane Solenoid
+
+
 
