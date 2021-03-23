@@ -37,7 +37,7 @@ Maximum charge current is 72A assuming minimum battery voltage (22.4V) and perfe
 
 ## Main DC Panel to Lynx
 
-Maximum discharge current is 42A based on the maximum load in the converter sizing study in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing) assuming minimum battery voltage (22.4V).  Round trip wire length is approximately 12 ft.  By ampacity, minimum wire size is 12 AWG.  By voltage drop, minimum wire size is 11 AWG.  However, as this distribution panel functions as the source to downstream loads, voltage drop to the panel should be minimized.  To minimize voltage drop, and simplify wire ordering and termination, 2 AWG will be considered.
+Maximum discharge current is 42A based on the maximum load (944W) in the converter sizing study in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing) assuming minimum battery voltage (22.4V).  Round trip wire length is approximately 12 ft.  By ampacity, minimum wire size is 12 AWG.  By voltage drop, minimum wire size is 11 AWG.  However, as this distribution panel functions as the source to downstream loads, voltage drop to the panel should be minimized.  To minimize voltage drop, and simplify wire ordering and termination, 2 AWG will be considered.
 
 ## Chassis Ground to Lynx
 
