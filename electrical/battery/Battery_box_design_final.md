@@ -13,6 +13,8 @@ The battery will be constructed of 16 280AH cells in a 2P8S 560AH 24V configurat
 
 The design consists of two 3/16 steel side plates that sandwich the cells and are fastened together with 1/4-20 high strength steel all-thread and nyloc nuts.  The side plates include tabs that capture a plywood-aluminum base plate and plywood end plates to fully secure and constrain the cells.  The baseplate includes channels for installation of heating provisions and a 1/8 inch aluminum thermal diffuser in direct contact with the cells.  The plywood endplates will allow for attachment of battery management system components.
 
+Note: Upon soliciting for fabrication, I found it was cheaper (and easier) to go with [sendcutsend.com](sendcutsend.com) using a bent tab design.  The new design is [here](sideplates_bends_r1.dxf).  To accomplish this, the design was reworked with the tabs the same thickness as the material and minor geometry changes to accommodate the bend allowances.  The critical dimensions (interior tab-to-tab distance, top plate edge-to-interior tab distance, hole spacing relative to center and top edge), remain essentially unchanged.
+
 **For all design concepts evaluated and associated calculations, see the battery box concept design page.**
 
 ## Cell Electrical Insulation
