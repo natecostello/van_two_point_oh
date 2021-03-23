@@ -31,7 +31,7 @@ According to the Will Prowes' forum, the aluminum cased cells have positive term
 
 EVE engineers recommend approximately 12 PSI, with no more than 17 PSI, to be maintained on the cells.  Allegedly this increases rated cycles from 2500 to 3500.  They also identify approximately 1 mm expansion between 0 and 100% SOC.  Concepts A, B and C accomplish pressure and expansion allowance by threaded rod preloaded with belleville washers or springs arranged to give adequate pressure over the expected displacement.  Aluminum or steel sheet are used used for the compression side plates.  [This forum post has lots of good information](https://diysolarforum.com/threads/source-of-belleville-washers-for-300kgf-fixture.16733/).  Plan for about [$100](https://www.mcmaster.com/belleville-disc-springs/for-shaft-diameter~1-2/) in belleville washers.
 
-However, a fourth concept (D) occurred to me while evaluating A, B, and C.  The flex of the side plates themselves function as two springs in series with any other springs in the system.  By designing the plates appropriately, they can be relied on exclusively for compression at high SOC and to accomodate the expected growth.  To apply some compression at low SOC, single bellville washers, fully flattened, can be used.  While this method will not be as calibrated as the others, it can guarentee some compression above 0 and less than 12 PSI at full SOC and is more compact, simpler, and cheaper.  This [belleville washer](https://www.mcmaster.com/9712K62/) fully flattened will give about 4 PSI at 0% SOC for this design.
+However, a fourth concept (D) occurred to me while evaluating A, B, and C.  The flex of the side plates themselves function as two springs in series with any other springs in the system.  By designing the plates appropriately, they can be relied on exclusively for compression at high SOC and to accomodate the expected growth.  To apply some compression at low SOC, single bellville washers, fully flattened, can be used.  While this method will not be as calibrated as the others, it can guarentee some compression above 0 and less than 12 PSI at full SOC and is more compact, simpler, and cheaper.  This [belleville washer](https://www.mcmaster.com/9712K62/) fully flattened will give about 4 PSI at 0% SOC for this design.  This [belleville washer](https://www.mcmaster.com/9712K62/) fully flattened will give about 2.5 PSI at 0% SOC for this design.  
 
 ### Empirical Data
 
@@ -210,7 +210,19 @@ Linear Load 663.35/7.87 = 84.288 lfb/in =  1011.46 lbf/ft
 
 \* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series).
 
-Assuming the plates were just snug, approximate compression would be 9 PSI at 100% SOC if growth was 0.079 in at the center of deflection.
+Assuming the plates were just snug, approximate compression with 3/16 steel plates would be 9 PSI at 100% SOC if growth was 0.079 in at the center of deflection.
+
+**Sanity Check for Max Allowed Compression**
+
+Assumed Load 17 PSI * 55.279 in<sup>2</sup> = 939.74 lbf
+
+Linear Load 939.74/7.87 = 119.401 lfb/in =  1432.89 lbf/ft
+
+| Material   | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
+| ---------- | ------- | ------------------ | --------------- | ------------------------- |
+| 3/16 Steel | 29,000  | 0.00375            | 0.0741          | 6341.03                   |
+
+17 PSI would result in deflections over double (accounting for both plates) the expansion what was observed emprically.  As this analysis doesn't account for the self limiting nature (cells will expand less under pressure), there is no way the cells will see compression of this scale.
 
 #### Additional Notes
 
