@@ -363,6 +363,8 @@ Boatowners Mechanical and Electrical Manual 4E
 > **Thus, if an inverter is self-limiting to within the ampacity of its output wiring, overcurrent protection is not required.**
 >
 > **Thus, the inverter fed by the factory alternator can be direct wired to a transfer switch. **
+>
+> **Related, this would apply to the alternator as well.  Based on this I will not fuse the alternator as the ampacity of its output wire will support its maximum output current in a fault.**
 
 
 
