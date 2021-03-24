@@ -29,6 +29,8 @@ Maximum charge current is 150A.  Round trip wire length is approximately 44 ft. 
 
 Maximum charge current is 50A.  Maximum discharge current is 190A assuming minimum battery voltage (22.4V), peak power (4000W), and maximum efficiency (94%).  Round trip wire length is approximately 11.5 ft.  Wire size is limited by ampacity, not voltage drop. Minimum wire size is 2 AWG.
 
+Note: This is extremely conservative.  The 4000W rating is a [2 minute overload capability](https://community.victronenergy.com/questions/21511/overload-duration-on-multiplus.html).  While this case will be acommodated in the cabling (and fusing), for things like busbar sizing, continuous rates will be used (i.e., 150A busbars will be considered with the multiplus connection adjacent to the battery connection).
+
 ## Solar MPPT to Lynx
 
 For future flexibility, a ground array up to 800W is assumed.  This will use a second MPPT that will be paralleled with the primary roof array of 800W at a terminal, and then routed to the Lynx.  Wiring from the point of parallel to the Lynx and the branch to the MPPTs will be sized for the same ampacity to allow use of a single fuse in the Lynx to cover wire including the branches.
