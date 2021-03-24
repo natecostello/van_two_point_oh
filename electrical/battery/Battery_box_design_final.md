@@ -51,19 +51,19 @@ Nickel plating will be considered.
 
 ### Battery Box
 
-| Item                                 | Quantity | Source                   | Link                                          |
-| ------------------------------------ | -------- | ------------------------ | --------------------------------------------- |
-| High-Strength 1/4-20 threaded rod 3' | 4        | McMaster-Carr            | [Link](https://www.mcmaster.com/3313N11/)     |
-| Belleville Washer                    | 8        | McMaster-Carr            | [Link](https://www.mcmaster.com/9712K62/)     |
-| 1/4-20 nyloc nut                     | 8        | stock                    |                                               |
-| 1/4 washer                           | 8        | stock                    |                                               |
-| High Strength Lock-tite              | 1        | stock                    |                                               |
-| 2x2 ~12'                             | 1        | local/depot              |                                               |
-| 1/2 Baltic Birch 5' x 5'             | 1        | Exotic Lumber            | [Link](https://www.exoticlumber.com/plywood/) |
-| 11" x 27 1/4" 1/8 Aluminum Plate     | 1        | local/metals supermarket | o                                             |
-| Spar Urethane                        | 1        | local/depot              |                                               |
-| Spray Paint                          | 1        | local/depot              |                                               |
-| #10 1 1/4" flat head wood screws     | ~50      | local/depot              |                                               |
-| #10 Counter sink drill bit           | 1        | Amazon                   |                                               |
-| Kapton tape                          | 1        | Amazon                   |                                               |
+| Item                                 | Quantity | Source          | Link                                          |
+| ------------------------------------ | -------- | --------------- | --------------------------------------------- |
+| High-Strength 1/4-20 threaded rod 3' | 4        | McMaster-Carr   | [Link](https://www.mcmaster.com/3313N11/)     |
+| Belleville Washer                    | 8        | McMaster-Carr   | [Link](https://www.mcmaster.com/9712K61/)     |
+| 1/4-20 nyloc nut                     | 8        | stock           |                                               |
+| 1/4 washer                           | 8        | stock           |                                               |
+| High Strength Lock-tite              | 1        | stock           |                                               |
+| 2x2 ~12'                             | 1        | local/depot     |                                               |
+| 1/2 Baltic Birch 5' x 5'             | 1        | Exotic Lumber   | [Link](https://www.exoticlumber.com/plywood/) |
+| 11" x 27 1/4" 1/8 Aluminum Plate     | 1        | sendcutsend.com |                                               |
+| Spar Urethane                        | 1        | local/depot     |                                               |
+| Spray Paint                          | 1        | local/depot     |                                               |
+| #10 1 1/4" flat head wood screws     | ~50      | local/depot     |                                               |
+| #10 Counter sink drill bit           | 1        | Amazon          |                                               |
+| Kapton tape                          | 1        | Amazon          |                                               |
 
