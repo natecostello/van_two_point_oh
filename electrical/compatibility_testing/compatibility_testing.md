@@ -35,16 +35,32 @@ None
 - [ ] Slowly increase the potentiometer resistance while monitoring voltage and the status of the BMS controlled main contactor and charge enable signal.
 - [ ] Record the potentiometer voltage when the charge enable signal is removed.
 	- Potentiometer Voltage: 
-	- BMS Cell Low Voltage Setpoint:
+	- BMS *Cell end of charge voltage* Setpoint:
 	- Date/Time:
 - [ ] Record the potentiometer voltage when the main contactor is opened.
 	- Potentiometer Voltage:
-	- BMS Cell High Voltage Setpoint:
+	- BMS *Cell over-voltage switch-off per cell* Setpoint:
+	- Date/Time:
+- [ ] Slowly lower the potentiometer resistance while monitoring voltage and the status of the BMS controlled main contactor and charge enable signal.
+- [ ] Record the potentiometer voltage when the main contactor is closed.
+	- Potentiometer Voltage:
+	- BMS *Cell over-voltage switch-off per cell* + *Over-voltage switch-off hysteresis per cell* Setpoint:
+	- Date/Time:
+- [ ] Record the potentiometer voltage when the charge enable signal is applied.
+	- Potentiometer Voltage: 
+	- BMS *Cell end of charge voltage*  + *End of charge hysteresis per cell* Setpoint:
 	- Date/Time:
 
 #### Acceptance Criteria
 
-Potentiometer Voltage = BMS Cell High Voltage setpoint +/- 0.1V
+Charge Enable turn off @ Potentiometer Voltage = BMS*Cell end of charge voltage* setpoint +/- 0.1V
+
+Main Contactor open @ Potentiometer Voltage = BMS *Cell over-voltage switch-off per cell* setpoint +/- 0.1V
+
+Charge Enable turn on @ Potentiometer Voltage = BMS *Cell end of charge voltage*  + *End of charge hysteresis per cell* setpoint +/- 0.1V
+
+Main Contactor closed @ Potentiometer Voltage = BMS *Cell over-voltage switch-off per cell* + *Over-voltage switch-off hysteresis per cell* setpoint +/- 0.1V
+
 
 ### Low Cell Voltage Protection Checkout
 
@@ -70,12 +86,18 @@ None
 - [ ] Slowly increase the potentiometer resistance while monitoring voltage and the status of the BMS controlled main contactor.
 - [ ] Record the potentiometer voltage when the main contactor is opened.
 	- Potentiometer Voltage:
-	- BMS Cell Low Voltage Setpoint:
+	- BMS *Under voltage protection switch-off per cell* Setpoint:
+	- Date/Time:
+- [ ] Slowly lower the potentiometer resistance while monitoring voltage and the status of the BMS controlled main contactor.
+- [ ] Record the potentiometer voltage when the main contactor is closed.
+	- Potentiometer Voltage:
+	- BMS *Under voltage protection switch-off per cell* + *Under voltage protection switch-off hysteresis per cell* Setpoint:
 	- Date/Time:
 
 #### Acceptance Criteria
+Main Contactor open @ Potentiometer Voltage = BMS *Under voltage protection switch-off per cell* Setpoint +/- 0.1V
 
-Potentiometer Voltage = BMS Cell Low Voltage Setpoint +/- 0.1V
+Main Contactor closed @ Potentiometer Voltage = BMS *Under voltage protection switch-off per cell* + *Under voltage protection switch-off hysteresis per cell* Setpoint +/- 0.1V
 
 ### Initial Battery Charge
 
