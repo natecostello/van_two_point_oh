@@ -16,7 +16,9 @@ Compatibility testing consists of all testing that occurs prior to installation 
 #### Required Equipment
 
 RIDEN 6018 Power Supply or Equivalent
+
 UNI-T UT61E+ Digital Multimeter or Equivalent
+
 Battery Cell Simulator (7 equal resistors and a pot in series, with taps around each)
 
 #### Prequisites
@@ -49,7 +51,9 @@ Potentiometer Voltage = BMS Cell High Voltage setpoint +/- 0.1V
 #### Required Equipment
 
 RIDEN 6018 Power Supply or Equivalent
+
 UNI-T UT61E+ Digital Multimeter or Equivalent
+
 Battery Cell Simulator (7 resistors and a pot in series, with taps around each)
 
 #### Prequisites
@@ -78,7 +82,9 @@ Potentiometer Voltage = BMS Cell Low Voltage Setpoint +/- 0.1V
 #### Required Equipment
 
 Multiplus Compact with 120VAC Power
+
 UNI-T UT61E+ Digital Multimeter or Equivalent
+
 Logging R-Pi
 
 #### Prequisites
