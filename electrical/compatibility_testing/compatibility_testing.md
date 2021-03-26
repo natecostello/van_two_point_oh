@@ -90,6 +90,7 @@ Logging R-Pi
 #### Prequisites
 
 [High Cell Voltage Protection Checkout](#High-Cell-Voltage-Protection-Checkout)
+
 [Low Cell Voltage Protection Checkout](#Low-Cell-Voltage-Protection-Checkout)
 
 #### Procedure
