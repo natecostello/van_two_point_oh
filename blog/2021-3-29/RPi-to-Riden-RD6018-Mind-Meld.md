@@ -7,7 +7,7 @@ date: "2021-3-21"
 tags: ["blog", "van", "electrical", "test", "equipment"]
 ---
 
-![metametameta](RPi_to_Riden_RD6018_Mind_Meld.jpg)
+![metametameta](RPi_to_Riden_RD6018_Mind_Meld.JPG)
 
 ### Why bother getting an RPi talking to a Riden RD6018
 
