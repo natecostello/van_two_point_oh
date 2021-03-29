@@ -12,7 +12,6 @@ tags: ["blog", "van", "electrical", "test", "equipment"]
 ### Why bother getting an RPi talking to a Riden RD6018
 
 Why? Because you can script and automate testing.  Why an RPi? Because I don't trust hooking up my prized laptop to unknown equipment.  Thats about it.  It required a little poking around and some familiarity with the command line.
-![metametameta](RPi_to_Riden_RD6018_Mind_Meld.jpg)
 ### Getting an RPi talking to a Riden RD6018
 
 After messing around, this is the straight path that got a headless RPi talking to the RD6018:
