@@ -197,6 +197,8 @@ If the 48V to 12V converter fails the system would maintain AC loads only.
 
 Both these concepts leverage the ability to perform rapid battery charge via the alternator(s).  Both concepts will make use of alternator speed and/or temperature sense to determine charge rate.  Both concepts will make use of the [Transit Stationary Elevated Idle Control (SEIC)](SVE Bulletin Q-239 Stationary Elevated Idle Control.pdf) to achieve high charge rates during idle.  Alternator-Engine RPM ratio is 2.7 per the BEMM.  This results in a base idle alternator speed of 1755 RPM and a SEIC range of 2160 RPM to 6480 RPM.  [This forum post](https://www.fordtransitusaforum.com/threads/rpms.83245/) suggests crusing at 65mph with the new 10 speed transmissions would yield an alternator speed of 5130 RPM.
 
+Note: The BMS limit charge via CAN substanitally (~1A) when the highest cell reaches the balance start voltage setting (2.35V) corresponding to a maximum pack voltage of 27.6V.
+
 ### 24V Concept Rapid Charge
 
 **TLDR:** By using maximum idle and both alternators maximally, a charge rate of 5124W (Multiplus Compact 183A at 28V) or 5544W (Multiplus 24/3000 198A at 28V) should be achievable.  This equates to about 10 or 11 hours of air conditioning per hour of idle or driving.  By only using the second alternator, a charge rate of 3724W should be achievable, equating to about 7 hours of air conditioning per hour of idle or driving.
@@ -213,11 +215,11 @@ The 24V concept will make use of a Nations "24-150" alternator that is [capable]
 
 #### Factory Alternator Charging
 
-The 24V concept may make use of charging via the Multiplus Compact via Inverter via stock HD Alternator.  The Multiplus Compact is limited to 50A charge or 1400W assuming 28V.  With 94% Multiplus efficiency, this corresponds to input power of 1490W supplied by the forward inverter.  With 90% forward inverter efficiency, this corresponds to input power of 1660W supplied by the stock alternator.
+The 24V concept may make use of charging via the Multiplus Compact via Inverter via stock HD Alternator.  The Multiplus Compact is limited to 50A charge or 1380W assuming 27.6V.  With 94% Multiplus efficiency, this corresponds to input power of 1468W supplied by the forward inverter.  With 90% forward inverter efficiency, this corresponds to input power of 1631W supplied by the stock alternator.
 
-Alternatively, the 24V concept may make use of charging via the Multiplus 24/3000 via Inverter via stock HD Alternator.  The Multiplus Compact is limited to 70A charge or 1960W assuming 28V.  With 94% Multiplus efficiency, this corresponds to input power of 2085W supplied by the forward inverter.  With 90% forward inverter efficiency, this corresponds to input power of 2317W supplied by the stock alternator.
+Alternatively, the 24V concept may make use of charging via the Multiplus 24/3000 via Inverter via stock HD Alternator.  The Multiplus Compact is limited to 70A charge or 1932W assuming 27.6V.  With 94% Multiplus efficiency, this corresponds to input power of 2055W supplied by the forward inverter.  With 90% forward inverter efficiency, this corresponds to input power of 2284W supplied by the stock alternator.
 
-The capability of the stock HD alternator is unclear and the subject of much debate on the forum.  Another key question is what is the base load required by the vehicle.   Note CCP2 is fused at 175A and is specified to be kept below 175A.  This is a bounding concern if the full 70A charging of the Multiplus 24/3000 is used in hot factory alternator ouput conditions (below 13.25V).  Assuming Hot (60C/13.5V-115C/12.9V) conditions, the BEMM states the stock alternator is capable of:
+The capability of the stock HD alternator is unclear and the subject of much debate on the forum.  Another key question is what is the base load required by the vehicle.   Note CCP2 is fused at 175A and is specified to be kept below 175A.  This is a bounding concern if the full 70A charging of the Multiplus 24/3000 is used in hot factory alternator ouput conditions (below 13.1V).  Assuming Hot (60C/13.5V-115C/12.9V) conditions, the BEMM states the stock alternator is capable of:
 
 ~70A or 903W/945W at base idle
 
@@ -227,7 +229,7 @@ The capability of the stock HD alternator is unclear and the subject of much deb
 
 The best data for baseline Transit draw I have found is [here](https://www.fordtransitusaforum.com/threads/ammeter-for-alternator-output.65585/#post-891193).
 
-These numbers suggest that in all cases, at high SEIC, the max charge rate of 65A at the battery should be achievable from the stock alternator (12.9V * [195A-25A] * 0.9 * 0.96 / 28.8V).  Note, the 25A decrement is based on observed baseline draw.   This is also possible with a 2000W rated forward inverter.  The RPM breakpoint to lower the charge rate is unclear.  The Multiplus or remote panel is capable of using an aux contact to change the input current limit.  Driving this contact with a microcontroller that is sensing either engine RPM and/or alternator temperature should not be difficult.
+These numbers suggest that in all cases, at high SEIC, the max charge rate of 68A at the battery should be achievable from the stock alternator (12.9V * [195A-25A] * 0.9 * 0.96 / 27.6 V).  Note, the 25A decrement is based on observed baseline engine-only draw.   This is also possible with a 2000W rated forward inverter.  The RPM breakpoint to lower the charge rate is unclear.  The Multiplus or remote panel is capable of using an aux contact to change the input current limit.  Driving this contact with a microcontroller that is sensing either engine RPM and/or alternator temperature should not be difficult.
 
 ### 48V Concept Rapid Charge
 
@@ -245,7 +247,7 @@ The 24V concept may make use of charging via the Quattro via Inverter via stock 
 
 The capability of the stock HD alternator is unclear and the subject of much debate on the forum.  Another key question is what is the base load required by the vehicle.   Note CCP2 is fused at 175A and is specified to be kept below 175A which could be a bounding concern under hot alternator conditions.  
 
-Based on the factory alternator performance discussed above in the 24V concept, at high SEIC in all cases, the max charge rate of 32.5A at the battery should be achievable from the stock alternator.  
+Based on the factory alternator performance discussed above in the 24V concept, at high SEIC in all cases, the max charge rate of 34A at the battery should be achievable from the stock alternator.  
 
 ## Cost
 
