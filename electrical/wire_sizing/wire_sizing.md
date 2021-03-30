@@ -13,13 +13,26 @@ The following evaluation assumes wire with insulation rated to 105C based on [th
 
 ## Battery to Positive Bus
 
-Maximum theoritical/ideal charging current is 272A.  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 0 AWG.
+Maximum theoritical/ideal charging current is 272A (Multiplus 24/3000 = 292A) .  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 0 AWG (00 AWG for Multiplus 23/3000).
 
 * Battery at minimum 22.4V (low cell voltage cutoff of 2.8v)
+
 * Max Aftermarket Alternator Charging = 150A
-* Max Multplus Charging = 50A
+
+* Max Multiplus Compact Charging = 50A (Max Multiplus 23/3000 = 70A)
+
 * 800W Primary Solar Charging (perfect efficiency) = 36A
+
 * 800W Ground Array Solar Charging (perfect efficiency) = 36A
+
+If the Multiplus 24/3000 is considered, maximum theoretical discharging current is 326A.  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 00 AWG.
+
+* Battery at minimum 22.4V (low cell voltage cutoff of 2.8v)
+* No Aftermarket Alternator Charging
+* No Solar
+* No Shore Power
+* Max Multiplus 24/3000 Discharge = 284A (see below)
+* Max DC Load Discharge = 42A (see below)
 
 ## Aftermarket Alternator to Positive Bus
 
@@ -30,6 +43,16 @@ Maximum charge current is 150A.  Round trip wire length is approximately 44 ft. 
 Maximum charge current is 50A.  Maximum discharge current is 190A assuming minimum battery voltage (22.4V), peak power (4000W), and maximum efficiency (94%).  Round trip wire length is approximately 11.5 ft.  Wire size is limited by ampacity, not voltage drop. Minimum wire size is 2 AWG.
 
 Note: This is extremely conservative.  The 4000W rating is a [2 minute overload capability](https://community.victronenergy.com/questions/21511/overload-duration-on-multiplus.html).  While this case will be acommodated in the cabling (and fusing), for things like busbar sizing, continuous rates will be used (i.e., 150A busbars will be considered with the multiplus connection adjacent to the battery connection).
+
+## Multiplus 24/3000 Inverter/Charger to Positive Bus [Alternate]
+
+Maximum charge current is 70A.  Maximum discharge current is 284A assuming minimum battery voltage (22.4V), peak power (6000W), and maximum efficiency (94%).  Round trip wire length is approximately 11.5 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 0 AWG.
+
+Maximum discharge current is 143A assuming minimum battery voltage (22.4V), rated power (3000W), and maximum efficiency (94%).  Round trip wire length is approximately 11.5 ft.  Wire size is limited by voltage drop. Minimum wire size is 3 AWG.
+
+Note: This is extremely conservative.  The 6000W rating is a [2 minute overload capability](https://community.victronenergy.com/questions/21511/overload-duration-on-multiplus.html).  While this case will be acommodated in the cabling (and fusing), for things like busbar sizing, continuous rates will be used (i.e., 150A busbars will be considered with the multiplus connection adjacent to the battery connection).
+
+
 
 ## Solar MPPT to Positive Bus
 

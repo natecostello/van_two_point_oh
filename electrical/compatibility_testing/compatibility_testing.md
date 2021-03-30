@@ -11,6 +11,34 @@ tags: ["testing", "compatibility", "electrical", "van"]
 
 Compatibility testing consists of all testing that occurs prior to installation of the electrical system in the van.  Due to the methods used for initial battery charge and cell balancing, it includes those operations as well.
 
+### Equipment List
+
+MPPT
+
+Cerbo
+
+Multiplus Compact
+
+Positive Bus/Fuse Block
+
+Main Contactor
+
+Negative Bus
+
+BMS
+
+Precharge
+
+DMC GX
+
+Battery
+
+Shore Power Simulator
+
+
+
+
+
 ### High Cell Voltage Protection Checkout
 
 #### Required Equipment
