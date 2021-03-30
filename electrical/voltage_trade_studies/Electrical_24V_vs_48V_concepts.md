@@ -8,6 +8,10 @@ tags: ["48V", 24V", "12V", "design", "concept", "electrical", "van"]
 ---
 # 48V vs 24V Electrical Concept
 
+TODO: Extract 24V material into baseline design documentation.
+
+TODO: Update the spreadsheet to reflect multiplus 24/3000 no load draw and propogate that affect on the rest of the analysis.
+
 ## Load Study
 
 The calculations behind the load study are in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing).  For the 48V concept, all DC loads will be powered at 12V via conversion.  For the 24V concept, all loads that can be powered directly from 24V will be.  For the nominal and base load cases, the 24V concept is about 20% more efficient.  Under nominal loads, it would mean more days requiring driving or idling to offset usage (i.e., installed solar is not sufficient) or reliance on auxilliary panels on late fall, winter, ealy spring, or otherwise shaded days.

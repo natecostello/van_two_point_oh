@@ -7,6 +7,7 @@ date: "2020-10-26"
 tags: ["24V", "design", "concept", "electrical", "van", "alternator", "charging", "factory"]
 ---
 
+**TODO: Pull in detail from the 24V-48V study.**
 
 ### Factory Alternator Charging
 

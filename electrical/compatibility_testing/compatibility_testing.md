@@ -17,7 +17,7 @@ MPPT
 
 Cerbo
 
-Multiplus Compact
+Multiplus 24/3000
 
 Positive Bus/Fuse Block
 
