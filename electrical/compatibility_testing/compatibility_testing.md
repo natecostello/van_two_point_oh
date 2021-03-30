@@ -13,7 +13,7 @@ Compatibility testing consists of all testing that occurs prior to installation 
 
 ### Equipment List
 
-MPPT
+MPPT Victron SmartSolar 150/45 (version with Relay+Remote on/off)
 
 Cerbo
 
