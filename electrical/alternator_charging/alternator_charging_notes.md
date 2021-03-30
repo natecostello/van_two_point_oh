@@ -19,9 +19,9 @@ However, the [Digital Multi Control GX Panel](https://www.victronenergy.com/uplo
 
 If case 2 is pursued, the main current limit selected by the DMC panel must be within the capacity of the alternator and alternator-inverter.  This is probably not an issue as there is rarely a reason to ever set the DMC Panel current limit above 15 Amps: 
 
- 1. A current limit of 15 Amps will minimize trips when driveway surfing.  
-
- 2. The max charge current of the Multiplus Compact is 50 Amps which corresponds to 13.3 Amps on the AC input side (50A * 28.8V * 0.9 / 120V).
+  1. A current limit of 15A will minimize trips when driveway surfing.  
+ 2. The max charge current of the Multiplus Compact is 50A which corresponds to 13.3A on the AC input side (50A * 28.8V/(0.9 * 120V)).
+  3. The max charge current of the Multiplus 24/3000 is 70A which corresponds to 18.7A on the AC input side (70A * 28.8V/(0.9 * 120V)).
 
 To maximize flexibility if using case 2, a 2000W alternator-inverter should be used.
 
