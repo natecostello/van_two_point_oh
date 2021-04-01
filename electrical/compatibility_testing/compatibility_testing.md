@@ -13,23 +13,29 @@ Compatibility testing consists of all testing that occurs prior to installation 
 
 ### Equipment List
 
-MPPT Victron SmartSolar 150/45 (version with Relay+Remote on/off)
+MPPT: Victron SmartSolar 150/45 (version with Relay+Remote on/off)
 
-Cerbo
+Victron Cerbo
 
-Multiplus 24/3000
+Multiplus 24/3000-120
 
-Positive Bus/Fuse Block
+Positive Bus/Fuse Block:
 
-Main Contactor
+​	5 Position BusBar: CIP100400060
 
-Negative Bus
+​	Modular Fuse Holder (5): CIP100200100
+
+Main Contactor: ML-RBS Remote Battery Switch with Manual Control Auto-Release - 24V (7717)
+
+Victron DMC GX
+
+Victron Battery Protect 65
+
+Negative Bus: BlueSea Common 150A (2307)
 
 BMS
 
 Precharge
-
-DMC GX
 
 Battery
 

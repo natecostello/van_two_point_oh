@@ -1,13 +1,13 @@
 ---
 section: "blog"
 category: "build"
-title: "RPi to Riden RD6018 Mind Meld"
+title: "RPi to Riden RD6018 Comms"
 author: "Stello"
-date: "2021-3-21"
+date: "2021-3-29"
 tags: ["blog", "van", "electrical", "test", "equipment"]
 ---
 
-![metametameta](RPi_to_Riden_RD6018_Mind_Meld.JPG)
+![metametameta](RPi_to_Riden_RD6018_Comms.JPG)
 
 ### Why bother getting an RPi talking to a Riden RD6018
 
