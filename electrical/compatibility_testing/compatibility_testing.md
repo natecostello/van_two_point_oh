@@ -43,7 +43,51 @@ Shore Power Simulator
 
 
 
+### Initial BMS Powerup
 
+#### Required Equipment
+
+RIDEN 6018 Power Supply or Equivalent
+
+UNI-T UT61E Digital Multimeter or Equivalent
+
+Battery Cell Simulator 
+
+Logging RPi
+
+#### Prequisites
+
+None
+
+#### Procedure
+
+- [x] 1 Match the potentiometer value to equal the values of the 7 resistors.
+- [x] 2 Connect the BMS to Battery Simulator and Logging RPi:
+  - [x] 2a Connect CAN Cable
+  - [x] 2b Set Cell Number and BMS Address
+  - [x] 2c Connect Temperature Sensor
+  - [x] 2d Connect Current Sensor
+  - [x] 2e Connect Outputs
+  - [x] 2f Connect Cells
+- [x] 3 Open/Verify Open BMS to Precharge Switch on Battery Simulator.
+- [x] 4 Attach the Digital Multimeter across the potentiometer to measure voltage.
+- [x] 5 Apply 26V to the Battery Cell Simulator using the power supply.
+- [x] 6 Power up the BMS using the ON Switch.
+- [x] 7 Verify BMS Startup Sat:
+  - [x] 7a Red Error LED on for self test
+  - [x] 7b Red LED off after 7 seconds, Green LED flashes at 2 second intervals
+
+#### Notes
+
+Prior to BMS startup, upon application of voltage, simulated Cell 1 voltage is lower than expected by resistor balance (by approximately 0.4 volts).  This suggests some small microamp level draw from 1st cell when BMS is off.  After turned on, voltage on simulated cell 1 was in line with other other simulated cells based on resistance balance.
+
+Green on briefly, then Red for a few seconds, then Green flashing as expected.  
+
+Disconnected the RPi, power supply reads 0.01 amps (minimum resolution).
+
+With Simulator Powered, RPi disconnected, BMS Off, current draw is 12.752 mA (mostly 24-12v converter).
+
+With Simulator Powered, RPi disconnected, BMS On, current draw is 20-21 mA (fluctuating).
 
 ### High Cell Voltage Protection Checkout
 
@@ -51,7 +95,7 @@ Shore Power Simulator
 
 RIDEN 6018 Power Supply or Equivalent
 
-UNI-T UT61E+ Digital Multimeter or Equivalent
+UNI-T UT61E Digital Multimeter or Equivalent
 
 Battery Cell Simulator (7 equal resistors and a pot in series, with taps around each)
 
@@ -63,7 +107,7 @@ None
 
 - [ ] Match the potentiometer value to equal the values of the 7 resistors.
 - [ ] Connect the BMS to the Battery Cell Simulator treating each resistor and the pot as a cell.
-- [ ] Attach the Digital Multimeter acrss the potentiometer to measure voltage.
+- [ ] Attach the Digital Multimeter across the potentiometer to measure voltage.
 - [ ] Apply 26V to the Battery Cell Simulator using the power supply.
 - [ ] Turn on the battery by closing the switch between the BMS and the Precharge Unit
 - [ ] Slowly increase the potentiometer resistance while monitoring voltage and the status of the BMS controlled main contactor and charge enable signal.
@@ -102,7 +146,7 @@ Main Contactor closed @ Potentiometer Voltage = BMS *Cell over-voltage switch-of
 
 RIDEN 6018 Power Supply or Equivalent
 
-UNI-T UT61E+ Digital Multimeter or Equivalent
+UNI-T UT61E Digital Multimeter or Equivalent
 
 Battery Cell Simulator (7 resistors and a pot in series, with taps around each)
 
@@ -139,7 +183,7 @@ Main Contactor closed @ Potentiometer Voltage = BMS *Under voltage protection sw
 
 Multiplus Compact with 120VAC Power
 
-UNI-T UT61E+ Digital Multimeter or Equivalent
+UNI-T UT61E Digital Multimeter or Equivalent
 
 Logging R-Pi
 
@@ -175,7 +219,7 @@ Logging R-Pi
 
 RIDEN 6018 Power Supply or Equivalent
 
-UNI-T UT61E+ Digital Multimeter or Equivalent
+UNI-T UT61E Digital Multimeter or Equivalent
 
 Logging R-Pi
 
