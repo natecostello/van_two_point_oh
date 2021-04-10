@@ -7,7 +7,7 @@ date: "2021-4-08"
 tags: ["blog", "van", "electrical", "test", "equipment"]
 ---
 
-![RPi-to-REC-Q-Comms-(CAN)](/Users/ncos/GithubRepos/van_two_point_oh/blog/2021-4-8/RPi-to-REC-Q-CAN-Comms.JPG)
+![RPi-to-REC-Q-Comms-(CAN)](RPi-to-REC-Q-CAN-Comms.JPG)
 
 ###  Getting an RPi talking to the REC Q BMS
 
