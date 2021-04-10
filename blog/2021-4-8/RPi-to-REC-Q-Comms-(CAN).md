@@ -84,7 +84,7 @@ The most useful is another product [manual](http://www.rec-bms.com/datasheet/Use
 
 [SIMPBMS](https://github.com/Tom-evnut/SimpBMS/blob/master/Simp%20BMS%20Setup%20Manual%20V0.25.pdf) covers CAN IDs:  0x351, 0x355, 0x356, 0x35A, and 0x373.
 
-[LiTerminal](LiTerminal_Docu_en_sm_SMA CAnbus.pdf) covers CAN IDs: 0x351, 0x355, 0x356, 0x35A, 0x35B, 0x35E, and 0x35F.
+[LiTerminal](LiTerminal_Docu_en_sm_SMA_CAnbus.pdf) covers CAN IDs: 0x351, 0x355, 0x356, 0x35A, 0x35B, 0x35E, and 0x35F.
 
 I've also got an email into REC.  So hopefully they can help in a more direct way.
 
