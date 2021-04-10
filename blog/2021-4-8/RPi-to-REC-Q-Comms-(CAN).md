@@ -41,7 +41,7 @@ dtoverlay=spi-bcm2835-overlay
 
 9. Bring up the CAN interface to 250kbps ~~(The [REC Q manual](http://www.rec-bms.com/datasheet/UserManual_REC_Q.pdf) is wrong)~~:
 
-`sudo ip link set can0 up type can bitrate 125000`
+`sudo ip link set can0 up type can bitrate 250000`
 
 10. `candump can0`
 
@@ -84,6 +84,16 @@ The most useful is another product [manual](http://www.rec-bms.com/datasheet/Use
 
 [SIMPBMS](https://github.com/Tom-evnut/SimpBMS/blob/master/Simp%20BMS%20Setup%20Manual%20V0.25.pdf) covers CAN IDs:  0x351, 0x355, 0x356, 0x35A, and 0x373.
 
-[LiTerminal](LiTerminal_Docu_en_sm-SMA CAnbus.pdf) covers CAN IDs: 0x351, 0x355, 0x356, 0x35A, 0x35B, 0x35E, and 0x35F.
+[LiTerminal](LiTerminal_Docu_en_sm_SMA CAnbus.pdf) covers CAN IDs: 0x351, 0x355, 0x356, 0x35A, 0x35B, 0x35E, and 0x35F.
 
 I've also got an email into REC.  So hopefully they can help in a more direct way.
+
+### Update [2021-4-10]
+
+I wrote a python script that parses/translates the IDs for which I have documentation for into something readable.  Script is here:
+
+[https://github.com/natecostello/REC-BMS_CAN](https://github.com/natecostello/REC-BMS_CAN)
+
+Sample Output:
+
+![output](output.jpg)
