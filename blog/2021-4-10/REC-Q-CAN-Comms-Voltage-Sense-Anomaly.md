@@ -67,6 +67,6 @@ Current into Cell 1+ reads 0.54µA every few seconds (13.05µA in peak mode) wit
 
 ### Conclusions
 
-Not many at this point.  My primary concern is that this voltage discrepancy would also present with real batteries.  There's nothing with the approach of simulating that would make a difference.  **Such a large discrepency will not provide good performance as the high cell would skew end of charge and balancing and could lead to spurious over voltage protections.  The BMS did take high cell actions based on the CAN indicated voltage vice actual voltage, so this is not just a reporting/indication problem.**
+Not many at this point.  My primary concern is that this voltage discrepancy would also present with real batteries.  There's nothing with the approach of simulating that would make a difference.  **Such a large discrepency will hinder performance as the high cell would skew end of charge and balancing and could lead to spurious over voltage protections.  The BMS did take high cell actions based on the CAN indicated voltage vice actual voltage, so this is not just a reporting/indication problem.**
 
-Next steps are to contact REC with all this information as well as working on RS-485 comms to see all cell voltages and get a broader sense of accuracy..
+Next steps are to contact REC with all this information as well as working on RS-485 comms to see all cell voltages and get a broader sense of accuracy.
