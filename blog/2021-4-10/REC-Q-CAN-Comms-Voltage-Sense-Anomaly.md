@@ -70,3 +70,22 @@ Current into Cell 1+ reads 0.54µA every few seconds (13.05µA in peak mode) wit
 Not many at this point.  My primary concern is that this voltage discrepancy would also present with real batteries.  There's nothing with the approach of simulating that would make a difference.  **Such a large discrepency will hinder performance as the high cell would skew end of charge and balancing and could lead to spurious over voltage protections.  The BMS did take high cell actions based on the CAN indicated voltage vice actual voltage, so this is not just a reporting/indication problem.**
 
 Next steps are to contact REC with all this information as well as working on RS-485 comms to see all cell voltages and get a broader sense of accuracy.
+
+### Update 2021-4-11
+
+I hooked up the REC Wi-Fi Module to get more granularity on cell voltages and see if it might provides some clues.  
+
+The home page shows the same max cell voltage discrepancy as the CAN data.
+
+![](wifi_module_home.jpg)
+
+The voltage (and impedance) page don't show cell 8 at all.  Only cells 1-7.  Whether this is related or a different problem I can not say.  The voltages that are shown do match the DMM measurement pretty closely.
+
+![](wifi_module_voltage.jpg)
+
+Lastly, based on the 8th cell not showing up, I verified that the dip switch settings match the manual's instructions for a 8 cell battery.  They did, and do.
+
+![](dip_settings.JPG)
+
+**Still a mystery.**
+
