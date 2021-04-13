@@ -67,7 +67,9 @@ Current into Cell 1+ reads 0.54µA every few seconds (13.05µA in peak mode) wit
 
 ### Conclusions
 
-Not many at this point.  My primary concern is that this voltage discrepancy would also present with real batteries.  There's nothing with the approach of simulating that would make a difference.  **Such a large discrepency will hinder performance as the high cell would skew end of charge and balancing and could lead to spurious over voltage protections.  The BMS did take high cell actions based on the CAN indicated voltage vice actual voltage, so this is not just a reporting/indication problem.**
+**All Good.  REC responded with good advice and the discrepancy is gone.  See update at the end for more.**
+
+~~Not many at this point.  My primary concern is that this voltage discrepancy would also present with real batteries.  There's nothing I can think of with the approach of simulating that would make a difference.  **Such a large discrepency will hinder performance as the high cell would skew end of charge and balancing and could lead to spurious over voltage protections.  The BMS did take high cell actions based on the CAN indicated voltage vice actual voltage, so this is not just a reporting/indication problem.**~~
 
 Next steps are to contact REC with all this information as well as working on RS-485 comms to see all cell voltages and get a broader sense of accuracy.
 
@@ -89,3 +91,24 @@ Lastly, based on the 8th cell not showing up, I verified that the dip switch set
 
 **Still a mystery.**
 
+### Update 2021-4-11 - Anomaly No More!
+
+REC responded and suggested that the high resistor values in the battery simulator might be interfering with the voltage measurements and suggested a lower resistance for the voltage divider components.  Before breaking out the soldering iron, I hacked together some components to reduce the voltage divider resistances down to ~90Ohms per cell.
+
+![voltage_divider_low_r](voltage_divider_low_r.JPG)
+
+**Problem solved.  All BMS measurements moved close in line with the DMM measurements.**
+
+| Measurement | DMM [V] | BMS [V] | Delta [V] |
+| ----------- | ------- | ------- | --------- |
+| Cell 8      | 3.248   | 3.252   | -0.004    |
+| Cell 7      | 3.229   | 3.234   | -0.005    |
+| Cell 6      | 3.238   | 3.24    | -0.002    |
+| Cell 5      | 3.231   | 3.234   | -0.003    |
+| Cell 4      | 3.251   | 3.252   | -0.001    |
+| Cell 3      | 3.243   | 3.246   | -0.003    |
+| Cell 2      | 3.258   | 3.258   | 0         |
+| Cell 1      | 3.254   | 3.255   | -0.001    |
+| Pack        | 25.95   | 25.97   | -0.02     |
+
+![wifi_module_voltage_low_r](wifi_module_voltage_low_r.jpg)
