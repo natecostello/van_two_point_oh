@@ -120,35 +120,37 @@ Bits 4 and 5 are listed as "Bat-Capacity".  and currently read 0x03 0x00.  if I 
 
 No other bits are used by the REC Q for 35F
 
-#### 374
-
-All zeros except first byte
-
-0x33
-
-#### 375
-
-All zeros except first byte
-
-0x38
-
-#### 376
-
-All zeros except first byte
-
-0x31
-
-#### 377
-
-All zeros except first byte
-
-0x31
-
 #### 379
 
 All zeros except first byte
 
 Rated AH, calculated as LSB MSB for 0-250,  and LSB MSB + 1 for > 250AH (weird).  That is that.
+
+
+
+#### 374
+
+All zeros except first byte
+
+0x33 (51)
+
+#### 375
+
+All zeros except first byte
+
+0x38 (56)
+
+#### 376
+
+All zeros except first byte
+
+0x31 (49)
+
+#### 377
+
+All zeros except first byte
+
+0x31 (49)
 
 
 
