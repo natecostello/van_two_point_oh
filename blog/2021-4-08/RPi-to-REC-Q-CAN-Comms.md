@@ -99,3 +99,62 @@ I wrote a python script that parses/translates the IDs for which I have document
 Sample Output:
 
 ![output](output.jpg)
+
+### Update [2021-4-12]
+
+Of the CAN-IDs not covered in the documents:
+
+0x370 is a Model ID of sort.
+
+0x380 is a unit serial number.
+
+Speculation:
+
+#### 35F
+
+35F is listed in the LiTerminal Docs:
+
+Bits 2 and 3 are listed as by LiTerminal as "BMS Version".  Bits 2 and 3 are listed by REC in the other manual as "Hardware Version" low and high byte. and currently are 0x02 0x06. If I used the same little endian format as most other parameters it resolves to 1538.  If I treat them as direct number, they are 2 and 6, which matches the BMS software version, "2.6", listed on via the wifi interface.  So that is that.
+
+Bits 4 and 5 are listed as "Bat-Capacity".  and currently read 0x03 0x00.  if I used the same little endian format as most other parameters, it resolves to 3 right now.  Previously initially it was 100.  Based on this I think this value is remaining capacity in AH.  I reset the current SOC to 100, and bits 4 and 5 are now 0xFA and 0x00 which resolves to 250AH, which is where I set the capacity.  I changed capacity to 200AH, and these bits  are now reads 0xC8 0x00, which resolves to 200.  so that is that.
+
+No other bits are used by the REC Q for 35F
+
+#### 374
+
+All zeros except first byte
+
+0x33
+
+#### 375
+
+All zeros except first byte
+
+0x38
+
+#### 376
+
+All zeros except first byte
+
+0x31
+
+#### 377
+
+All zeros except first byte
+
+0x31
+
+#### 379
+
+All zeros except first byte
+
+Rated AH, calculated as LSB MSB for 0-250,  and LSB MSB + 1 for > 250AH (weird).  That is that.
+
+
+
+
+
+
+
+#### 
+
