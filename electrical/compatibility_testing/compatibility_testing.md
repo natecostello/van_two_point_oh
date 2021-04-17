@@ -87,7 +87,7 @@ Disconnected the RPi, power supply reads 0.01 amps (minimum resolution).
 
 With Simulator Powered, RPi disconnected, BMS Off, current draw is 12.752 mA (mostly 24-12v converter).
 
-With Simulator Powered, RPi disconnected, BMS On, current draw is 20-21 mA (fluctuating).
+With Simulator Powered, RPi disconnected, BMS On, current draw is 20-21 mA (fluctuating).  Pack+ current measured at ~8-9mA with BMS On.
 
 ### High Cell Voltage Protection Checkout
 
