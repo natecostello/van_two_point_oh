@@ -11,38 +11,6 @@ tags: ["testing", "compatibility", "electrical", "van"]
 
 Compatibility testing consists of all testing that occurs prior to installation of the electrical system in the van.  Due to the methods used for initial battery charge and cell balancing, it includes those operations as well.
 
-### Equipment List
-
-MPPT: Victron SmartSolar 150/45 (version with Relay+Remote on/off)
-
-Victron Cerbo
-
-Multiplus 24/3000-120
-
-Positive Bus/Fuse Block:
-
-​	5 Position BusBar: CIP100400060
-
-​	Modular Fuse Holder (5): CIP100200100
-
-Main Contactor: ML-RBS Remote Battery Switch with Manual Control Auto-Release - 24V (7717)
-
-Victron DMC GX
-
-Victron Battery Protect 65
-
-Negative Bus: BlueSea Common 150A (2307)
-
-BMS
-
-Precharge
-
-Battery
-
-Shore Power Simulator
-
-
-
 ### Initial BMS Powerup
 
 #### Required Equipment
@@ -99,18 +67,32 @@ UNI-T UT61E Digital Multimeter or Equivalent
 
 Battery Cell Simulator (7 equal resistors and a pot in series, with taps around each)
 
+Logging RPi
+
 #### Prequisites
 
 None
 
 #### Procedure
 
-- [ ] Match the potentiometer value to equal the values of the 7 resistors.
-- [ ] Connect the BMS to the Battery Cell Simulator treating each resistor and the pot as a cell.
-- [ ] Attach the Digital Multimeter across the potentiometer to measure voltage.
-- [ ] Apply 26V to the Battery Cell Simulator using the power supply.
+- [ ] 1 Match the potentiometer value to equal the values of the 7 resistors.
+- [ ] 2 Connect the BMS to Battery Simulator and Logging RPi:
+  - [ ] 2a Connect CAN Cable
+  - [ ] 2b Set Cell Number and BMS Address
+  - [ ] 2c Connect Temperature Sensor
+  - [ ] 2d Connect Current Sensor
+  - [ ] 2e Connect Outputs
+  - [ ] 2f Connect Cells
+- [ ] 3 Apply 26V to the Battery Cell Simulator using the power supply.
+- [ ] 4 Power up the BMS using the ON Switch.
+- [ ] 5 Use the potentiometer to raise voltage on the assocated cell to ~0.1 volts above the next highest cell voltage.
+- [ ] 6 Attach the Digital Multimeter across the potentiometer to measure VOLTS in MANUAL.
+- [ ] 7 Connect/Verify Connected the Digital Multimeter and power supply to the Logging RPi via USB
+- [ ] 7 Run the cell over voltage protection test script `python3 cell_over_voltage_test.py` and paste the output in the notes below.
+
+
 - [ ] Turn on the battery by closing the switch between the BMS and the Precharge Unit
-- [ ] Slowly increase the potentiometer resistance while monitoring voltage and the status of the BMS controlled main contactor and charge enable signal.
+- [ ] Slowly increase the power supply voltage while monitoring high cell voltage and the status of the BMS controlled main contactor and charge enable signal.
 - [ ] Record the potentiometer voltage when the charge enable signal is removed.
 	- Potentiometer Voltage: 
 	- BMS *Cell end of charge voltage* Setpoint:
