@@ -18,6 +18,23 @@ tags: ["insulation", "design", "concept"]
 
 TODO:  Include some sketches/photos of key parameters in the model (e.g. Ltrack fastenting, panel construction, rib thermal break).
 
+## Floor
+**TLDR: For our build, the thermal benefit of using XPS over all minicell is hard to justify given the additional complexity.  Also the thermal benefiit of a thicker floor is also hard to justify given the loss of headroom.**
+
+The floor is modeled as two parallel series of resistors with each parallel branch corresponding to rib and non-rib fractions of the floor (estimated and thus one source of error).  No consideration was given to the fact that much of the floor will be covered by cabinets or the garage compartement.  Therefore the following analyses should only be used as a basis of comparison.  Actual heat loss will be substantially less.
+
+[Link to google spreadsheet](https://docs.google.com/spreadsheets/d/17qdIqUtVVReb5lz_uMptEpswP-8dfLng_9TE0L671E0/edit?usp=sharing) used for the models.
+
+| Configuration                         | Heat Loss @ 30C DeltaT [watts] |
+|---------------------------------------|--------------------------------|
+| Minicell rib fill + 0.5 inch Minicell | 267.742                        |
+| Minicell rib fill + 0.5 inch XPS      | 228.874                        |
+| XPS rib fill + 0.5 inch XPS           | 210.774                        |
+| Minicell rib fill + 1.0 inch XPS      | 153.930                        |
+| XPS rib fill + 1.0 inch XPS           | 145.152                        |
+
+
+
 ## Ceiling
 
 **TLDR:  XPS doesn't offer a substantial advantage over Thinsulate.  Insulating the backside of the panels doesn't offer a substantial advantage over not insulating the backside of the panels.  Lizard Skin isn't worth it.**
