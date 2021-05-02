@@ -11,15 +11,19 @@ tags: ["step", "floor"]
 
 This structure will support extension of the floor over the sliding door step area.  Piece-parts are standard metal shapes (angle and flat bar) welded and cut to drawing.  It will be attached to where the floor overhangs the step on the aft and forward sides of the step (through-bolted).
 
-All design options include a spacer (probably FR4) up to 1/8 inch thick under the structure to clear any protuberances in the floor.  Even so, some local grinding might be needed in some areas.  
+Most design options include a spacer (probably FR4) up to 1/8 inch thick under the structure to clear any protuberances in the floor.  Even so, some local grinding might be needed in some areas.  
 
 For structual analysis: Assume length is 43.5 in.  A36 E = 30000.  6061 E = 10000.  Apply a point load of 250 lbs at mid point in length (with the exception of Option D).  Using [clearcalcs.com](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) for both I and deflection calcualtions.
 
+For option F, point load is applied at midpoint of longest unsupported span.
+
 ## Selected Design
 
-The selected design is Option E.  It provides a good balence of strength, weight, and simplicity (only 6 fastened points).  It should provide a consistent feel to the floor as the plywood rests on XPS like all other floor areas.  It also provides for easy through bolting of the cabinet overhang if desired.  Lastly, it requires no welds.
+~~The selected design is Option E.  It provides a good balence of strength, weight, and simplicity (only 6 fastened points).  It should provide a consistent feel to the floor as the plywood rests on XPS like all other floor areas.  It also provides for easy through bolting of the cabinet overhang if desired.  Lastly, it requires no welds.~~
 
-![](Transit_Side_door_step_option_E.jpg)
+The selected design is Option F.  With the discovery of sendcutsend, fabrication is simple, and installation is the simplest of all considered options.  
+
+![](Transit_Side_door_step_option_F.jpg)
 
 ## Alternatives Considered
 
@@ -78,6 +82,27 @@ This option would use three pieces of channel.  Aluminum isn't available in a st
 Estimated weight: (3 * 43.5 / 12 inch) * 2.32 lb/ft = 25.23 lb
 
 Structural analysis: I = 0.0599 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0596 in, free-free is 0.239 in. 
+
+### Option F - Flat Plate with mid-span support
+
+This option would use flat 1/4 or 3/8 steel or aluminum with a mid span support that makes use of a factory threaded hole in the side of the step well.  Plate and span would be fabricated by sendcutsend.  While thick, this matches the depth of the ribs, so flooring and insulation would be simple.
+
+The max length of unsupported span is 24.75 inches. 
+
+#### 3/8 Plate
+Estimated weight (Aluminum): 14.68 lb
+Structural analysis (Aluminum): I = 0.0396 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0498 in, free-free is 0.199 in (free-free is the correct boundary for this design).
+
+Estimated weight (Steel): 41.40 lb
+Structural analysis (Steel): I = 0.0396 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0166 in, free-free is 0.0665 in (free-free is the correct boundary for this design).
+
+
+#### 1/4 Plate
+Estimated weight (Aluminum): 9.79 lb
+Structural analysis (Aluminum): I = 0.0117 in<sup>4</sup>.  Max deflection fixed-fixed is 0.169 in, free-free is 0.675 in (free-free is the correct boundary for this design).
+
+Estimated weight (Steel): 27.60 lb
+Structural analysis (Steel): I = 0.0117 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0562 in, free-free is 0.225 in (free-free is the correct boundary for this design).
 
 ## Images
 
