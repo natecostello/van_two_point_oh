@@ -104,6 +104,30 @@ Structural analysis (Aluminum): I = 0.0117 in<sup>4</sup>.  Max deflection fixed
 Estimated weight (Steel): 27.60 lb
 Structural analysis (Steel): I = 0.0117 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0562 in, free-free is 0.225 in (free-free is the correct boundary for this design).
 
+### Option G - Bent Edge Flat Plate with mid-span support
+
+This option would use two flat 3/16 steel or aluminum plate, with a bent edge to increase stiffness and a mid span support that makes use of a factory threaded hole in the side of the step well.  Plate and span would be fabricated by sendcutsend.  FR4 spacers under would be used to match the surface to the top of the ribs to simplify flooring and insulation.
+
+The max length of unsupported span is 23.25 inches. 
+
+#### 3/16 Plate 5/8 Lip
+
+Estimated weight (Aluminum): 7.8 lb
+Structural analysis (Aluminum): I = 0.0139 in<sup>4</sup>.  Max deflection fixed-fixed is 0.118 in, free-free is 0.471 in (free-free is the correct boundary for this design).
+
+Estimated weight (Steel): 22.073 lb
+Structural analysis (Steel): I = 0.0139 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0166 in, free-free is 0.157 in (free-free is the correct boundary for this design).
+
+#### 3/16 Plate 3/4 Lip
+
+Estimated weight (Aluminum): 7.8 lb
+Structural analysis (Aluminum): I = 0.0217 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0754 in, free-free is 0.302 in (free-free is the correct boundary for this design).
+
+Estimated weight (Steel): 22.073 lb
+Structural analysis (Steel): I = 0.0217 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0251 in, free-free is 0.101 in (free-free is the correct boundary for this design).
+
+#### 
+
 ## Images
 
 Relevant Images:
