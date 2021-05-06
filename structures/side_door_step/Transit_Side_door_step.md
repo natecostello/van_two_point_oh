@@ -13,7 +13,7 @@ This structure will support extension of the floor over the sliding door step ar
 
 Most design options include a spacer (probably FR4) up to 1/8 inch thick under the structure to clear any protuberances in the floor.  Even so, some local grinding might be needed in some areas.  
 
-For structual analysis: Assume length is 43.5 in.  A36 E = 30000.  6061 E = 10000.  Apply a point load of 250 lbs at mid point in length (with the exception of Option D).  Using [clearcalcs.com](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) for both I and deflection calcualtions.
+For structual analysis: Assume length is 43.5 in.  A36 E = 30000.  6061 E = 10000.  Plywood E = 1150  Apply a point load of 250 lbs at mid point in length (with the exception of Option D).  Using clearcalcs.com for both  [moment of Inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam deflection](https://clearcalcs.com/freetools/beam-analysis/us) calculations.
 
 For option F, point load is applied at midpoint of longest unsupported span.
 
@@ -21,9 +21,11 @@ For option F, point load is applied at midpoint of longest unsupported span.
 
 ~~The selected design is Option E.  It provides a good balence of strength, weight, and simplicity (only 6 fastened points).  It should provide a consistent feel to the floor as the plywood rests on XPS like all other floor areas.  It also provides for easy through bolting of the cabinet overhang if desired.  Lastly, it requires no welds.~~
 
-The selected design is Option F.  With the discovery of sendcutsend, fabrication is simple, and installation is the simplest of all considered options.  
+~~The selected design is Option F.  With the discovery of sendcutsend, fabrication is simple, and installation is the simplest of all considered options.~~
 
-![](Transit_Side_door_step_option_F.jpg)
+The selected design is Option H.  Its plywood, so lots of flexibility with fitment.  With the discovery of sendcutsend, fabrication of the span support is simple, and installation is the simplest of all considered options.  Weight is also competitive with the lightest options.
+
+![](Transit_Side_door_step_option_H.jpg)
 
 ## Alternatives Considered
 
@@ -126,7 +128,18 @@ Structural analysis (Aluminum): I = 0.0217 in<sup>4</sup>.  Max deflection fixed
 Estimated weight (Steel): 22.073 lb
 Structural analysis (Steel): I = 0.0217 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0251 in, free-free is 0.101 in (free-free is the correct boundary for this design).
 
-#### 
+### Option H - Plywood with mid-span support
+
+This option would use flat 7/8 inch baltic birch plywood or glued and screwed 1/4 and 3/8 inch baltic birch with a mid span support that makes use of a factory threaded hole in the side of the step well.  Mid-span support would be fabricated by sendcutsend.  While thick, this matches the depth of the ribs plus the minicell, so flooring and insulation would be simple.  By gluing the top to the "plate" to the 1/2 inch baltic birch subfloor a very stiff structure is obtained at fairly low weight compared to competing options.
+
+The max length of unsupported span is 24.75 inches. 
+
+#### 7/8 Plywood (Nominal or glued and screwed)
+Estimated weight: 8.9 lb
+Structural analysis: I = 0.502 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0342 in, free-free is 0.137 in (free-free is the correct boundary for this design).
+
+#### Glued to 1/2" Subfloor
+Structural analysis: I = 1.95 in<sup>4</sup>.  Max deflection fixed-fixed is 0.0088 in, free-free is 0.0352 in (free-free is the correct boundary for this design).
 
 ## Images
 
