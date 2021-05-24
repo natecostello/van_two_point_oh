@@ -139,3 +139,51 @@ Landing Page
 ​					---Date (Should be "last updated")
 
 ​					---Tags
+
+## Notes on using gatsby with github pages
+
+[Gatsby's notes on the subject](https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/)
+
+[Another guide](https://jarednielsen.com/deploy-gatsbyjs-github-pages-user/)
+
+Basically:
+
+1. Initialize your site with ```gatsby new``` (which initializes a new git repository and performs initial commit)
+
+2. Setup your github repo
+
+3. Set your new gatsby site's git repository origin to the new github repo ```git remote add origin```
+
+4. Move existing master branch to a new "develop" branch ```git branch -m develop```
+
+5. From now on we push to ```develop``` modifications to the "infrastructure" ```git push origin develop```
+
+6. To set this as default to eliminate need for parameters: ```git push -u origin develop```
+
+7. Install the gatsby gh-pages plugin ```npm install gh-pages --save-dev```
+
+8. Add the following to ``package.json``:
+
+   ```json
+   "scripts": {
+   ...
+   "deploy": "gatsby build && gh-pages -d public -b master",
+   }
+   ```
+   
+   Note: The "-d public" is telling the plugin to commit/push the content in the public folder (created by gatsby build).  The "-b master" is telling the plugin to push that content to the "master" branch (otherwise it defaults to a  "gh-pages" branch (which it will create).  For the gritty details, see the gh-pages [documentation](https://github.com/tschaub/gh-pages).
+   
+9. Configure the github repo to enable github pages and select the "master" branch as the source.
+
+10. Add the path prefix (which should be the name of your repo) to gatsby-config.js:
+
+    ```javascript
+    module.exports = {
+    ...
+      pathPrefix: "/reponame",
+    }
+    ```
+    
+11. Run ```npm run deploy``
+
+12. Thats it.
