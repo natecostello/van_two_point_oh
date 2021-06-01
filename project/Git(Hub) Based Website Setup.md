@@ -140,6 +140,46 @@ Landing Page
 
 ​					---Tags
 
+​				--Mechanical ["category"]
+
+Top Page - About us - instagram feed - widgets - shell companies, Section='', Level=0
+
+Blog Page - Programmatically generated with any thing that has 'Blog' in section field, Section='Blog', Level=1 
+
+Blog Entry - Page (MPX), Section='Blog'
+
+Van Page - Fixed Page (MDX) with overview and programatic links to Catagory Pages, Section='Van', Level=1
+
+Catagory X Page - Fixed Page (MDX) with Summary and written/organized links to Level 3 Pages, programatic links to all articles, programatic links to blog entries tagged electrical, Section='Van', Level=2, Catagory='Electrical', Title='Electrial Overview'
+
+Catagories=[Electrical, Mechanical, Vehicle, Functions/Appliances, Envelope]
+
+Sub-catagory Page - Fixed Page (MDX) that covers topic, Section='Van', Level=3, Catagory='Electrical', Title='Battery', Tags=[Electrical, Battery, Box, Design]
+
+Sub-catagory Page - Fixed Page (MDX) that covers topic, Section='Van', Level=3, Catagory='Electrical', Title='Inverter', Tags=[Electrical, Inverter, Design]
+
+Sub-catagory Page - Fixed Page (MDX) that covers topic, Section='Van', Level=3, Catagory='Electrical', Title='Solar', Tags=[Electrical, Solar, Charging, Design]
+
+Sub-catagory Page - -, Section='Van', Level=3, Category='Electrical', Title='Voltage Selection', Tags=[Electrical, Voltage, Design, Load Analysis]
+
+Sub-category Page - -, Section='Van', Level 3, Category='Electrical', Title='Main Contactor', Tags=[electrical, control, protection]
+
+
+
+
+
+Menu Bar:
+
+Top: [[Home] Van Blog]
+
+Blog: [Home [Blog]]
+
+Van: [Home [Van] CatagoryX CatagoryY CatagoryZ ]
+
+Catagory X[ Home Van [Catagory X] SubCatagoryA SubCatagoryB ]
+
+
+
 ## Notes on using gatsby with github pages
 
 [Gatsby's notes on the subject](https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/)
@@ -167,7 +207,7 @@ Basically:
    ```json
    "scripts": {
    ...
-   "deploy": "gatsby build && gh-pages -d public -b master",
+   "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
    }
    ```
    
@@ -187,3 +227,15 @@ Basically:
 11. Run ```npm run deploy``
 
 12. Thats it.
+
+## Notes on Cloning Repos into a Container (VSCode)
+
+If you .devcontainer folder (which contains a DockerFile and devcontainer.json) in your repo, you can simply clone the repo into a container built by the above config files all inside VS Code [as described here](https://code.visualstudio.com/docs/remote/containers#_quick-start-open-a-git-repository-or-github-pr-in-an-isolated-container-volume).
+
+For this to work, however, the .devcontainer must be in the **default** branch of the github repo.  This is master or main by default, but if you shift to a develop branch like described above, you can have problems.
+
+Also, it seems like the dockerfile is ignored and you need to use devcontainer.json to install gatsby and re-run npm install to allow the site to run after cloning into the container:
+
+``    "postCreateCommand": "yes | npm install -g gatsby-cli && npm install",``
+
+the yes | was an attempt to get it to bypass the prompt for key entry after first install..but it did not work.
