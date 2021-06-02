@@ -232,6 +232,8 @@ Basically:
 
 If you .devcontainer folder (which contains a DockerFile and devcontainer.json) in your repo, you can simply clone the repo into a container built by the above config files all inside VS Code [as described here](https://code.visualstudio.com/docs/remote/containers#_quick-start-open-a-git-repository-or-github-pr-in-an-isolated-container-volume).
 
+To make your .devcontainer stuff see [here](https://code.visualstudio.com/docs/remote/create-dev-container#_automate-dev-container-creation)
+
 For this to work, however, the .devcontainer must be in the **default** branch of the github repo.  This is master or main by default, but if you shift to a develop branch like described above, you can have problems.
 
 Also, it seems like the dockerfile is ignored and you need to use devcontainer.json to install gatsby and re-run npm install to allow the site to run after cloning into the container:
@@ -239,3 +241,8 @@ Also, it seems like the dockerfile is ignored and you need to use devcontainer.j
 ``    "postCreateCommand": "yes | npm install -g gatsby-cli && npm install",``
 
 the yes | was an attempt to get it to bypass the prompt for key entry after first install..but it did not work.
+
+## Notes on using gatsby-source-git
+
+Because this plugin performs a shallow clone (hardcoded) no git information on a file basis is preserved.  If it instead performed a blobless clone, that data would be there to allow use of git information to inform a "last updated" field automatically in posts using something like this: [https://pragmaticpineapple.com/add-updated-at-to-your-gatsby-blog/](https://pragmaticpineapple.com/add-updated-at-to-your-gatsby-blog/).
+
