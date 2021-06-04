@@ -164,11 +164,45 @@ Sub-catagory Page - -, Section='Van', Level=3, Category='Electrical', Title='Vol
 
 Sub-category Page - -, Section='Van', Level 3, Category='Electrical', Title='Main Contactor', Tags=[electrical, control, protection]
 
+#### Alternative thoughts on organization and frontmatter:
 
+Replace levels with fixed types.  Allow multiple categories.  Include metatags to capture things like 'publish' or 'draft'.
 
+```yaml
 
+type: landingpage ||sectionpage || categorypage || article || blogpost
+section: section1
+categories: 
+	# one or more categories is permitted
+	- cat1
+	- cat2
+title: title #to be used in page construction
+navTitle: navTitle #to be used in navigation construction
+author: author
+date: date
+tags:
+	- tag1
+	- tag2
+	- tag3
+metatags:
+	- metatag1
+	- metatag2
+cover: 
+	# image file
+	img: img
+	# if attribution is needed
+	source: [vecteezy]
+	url: url
 
-Menu Bar:
+```
+
+categories: ['electrical', 'galley'] - The idea is that an article can have more than one category to allow flexibility in future organization.
+
+A categorypage can have one or more categories, in which case it covers the union of all articles that contain one of those categories.
+
+The set of all categories is fixed and prescriptive.
+
+### Menu Bar:
 
 Top: [[Home] Van Blog]
 
