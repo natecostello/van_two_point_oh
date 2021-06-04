@@ -19,7 +19,7 @@ The AC System is a 120VAC 60Hz system.  This system is powered by shorepower or 
 # Solar
 
 
-![Electrical Schematic](schematic/schematic.svg)
+![Electrical Schematic]()
 
 
 
