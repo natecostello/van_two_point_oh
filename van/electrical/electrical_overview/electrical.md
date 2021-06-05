@@ -2,9 +2,9 @@
 type: categorypage
 section: van
 categories: 
-	# one or more categories is permitted
-	- electrical
-	- magical
+ # one or more categories is permitted
+ - electrical
+ - magical
 title: Electrical Overview
 navTitle: Electrical
 author: Nate
