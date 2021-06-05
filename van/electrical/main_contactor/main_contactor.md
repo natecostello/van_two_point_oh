@@ -1,11 +1,30 @@
 ---
-section: "van"
-category: "electrical"
-title: "Main Contactor"
-author: "Stello"
-date: "2020-12-29"
-tags: ["24V", "main contactor","design", "concept", "electrical", "van"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Main Contactor
+author: Nate
+date: 2020-12-29
+tags:
+ - main contactor
+ - design
+ - concept
+ - electrical
+ - van
+
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 # Main Contactor
 
 **TLDR:** Under Consideration

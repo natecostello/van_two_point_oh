@@ -1,11 +1,30 @@
 ---
-section: "van"
-category: "electrical"
-title: "Inverter"
-author: "Stello"
-date: "2020-11-03"
-tags: ["inverter", "design", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Inverter
+author: Nate
+date: 2020-11-03
+tags:
+ - inverter
+ - design
+ - concept
+ - electrical
+ - van
+
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 The van will use an inverter/charger to convert DC to AC power to supply AC loads.  It will also allow battery charging while on shore power.
 

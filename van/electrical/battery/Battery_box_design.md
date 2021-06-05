@@ -1,10 +1,28 @@
 ---
-section: "van"
-category: "electrical"
-title: "Battery Design"
-author: "Stello"
-date: "2020-1-30"
-tags: ["battery", "design", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Battery Structure Concepts
+author: Nate
+date: 2021-1-30
+tags:
+ - battery
+ - design
+ - concept
+ - electrical
+ - van
+
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
 
 The battery will be constructed of 280AH cells.  It will be installed behind the driver side rear wheel.  Four rough concepts (A, B, C, and D) of the design are illustrated below.

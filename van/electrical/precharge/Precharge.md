@@ -1,11 +1,30 @@
 ---
-section: "van"
-category: "electrical"
-title: "Need For Pre-charge"
-author: "Stello"
-date: "2020-07-25"
-tags: ["Pre-charge", "design", "concept", "electrical", "van"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Need for Pre-charge
+author: Nate
+date: 2020-7-25
+tags:
+ - pre-charge
+ - design
+ - concept
+ - electrical
+ - van
+
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 # Need For Pre-charge
 

@@ -1,11 +1,30 @@
 ---
-section: "van"
-category: "electrical"
-title: "Wire Size"
-author: "Stello"
-date: "2021-3-20"
-tags: ["wiring", "design", "final"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Wire Size
+author: Nate
+date: 2021-3-20
+tags:
+ - wirin
+ - design
+ - final
+ - electrical
+ - van
+
+metatags:
+ # nothing
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 The following evaluation assumes wire with insulation rated to 105C based on [this chart](http://assets.bluesea.com/files/resources/reference/21731.pdf) and voltage drop calculations based on [this calculator](https://www.calculator.net/voltage-drop-calculator.html?material=copper&wiresize=4.132&voltage=24&phase=dc&noofconductor=1&distance=6&distanceunit=feet&amperes=42&x=50&y=23).  [This chart](http://assets.bluesea.com/files/resources/newsletter/images/DC_wire_selection_chartlg.jpg) is also useful for quick reference.
 

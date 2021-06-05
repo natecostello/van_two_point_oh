@@ -1,11 +1,31 @@
 ---
-section: "van"
-category: "electrical"
-title: "Battery Box"
-author: "Stello"
-date: "2020-11-03"
-tags: ["battery", "design", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Battery Box
+author: Nate
+date: 2020-11-3
+tags:
+ - battery
+ - design
+ - concept
+ - deprecated
+ - electrical
+ - van
+
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 The battery box will be custom aluminum "trunk" centered in the rear of the cargo space between the frame members.  It is inspired by the [vancompass rear storage trunk for sprinters](https://vancompass.com/products/van-compass-rear-storage-trunk-2007-sprinter).  Note, while made for the sprinter, Van Compass did install it in a Transit as documented [in this thread](https://expeditionportal.com/forum/threads/van-compass-ford-transit-build-1-ton-4x4-conversion.188858/post-2437143).  Vancompass also stated via email that a [few customers have installed them on the short Transits](2020-8-2_email_with_van_compass.pdf).
 

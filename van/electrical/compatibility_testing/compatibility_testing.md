@@ -1,11 +1,31 @@
 ---
-section: "van"
-category: "electrical"
-title: "Compatibility Testing"
-author: "Stello"
-date: "2021-3-25"
-tags: ["testing", "compatibility", "electrical", "van"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Compatibility Testing
+author: Nate
+date: 2021-3-25
+tags:
+ - testing
+ - compatibility
+ - battery
+ - bms
+ - electrical
+ - van
+
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 ![Test Schematic](schematic_compatibility_test.jpg)
 

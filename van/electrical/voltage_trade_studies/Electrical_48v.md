@@ -1,11 +1,31 @@
 ---
-section: "van"
-category: "electrical"
-title: "48V Electrical Concept"
-author: "Stello"
-date: "2020-10-26"
-tags: ["48V", 24V", "12V", "design", "concept", "electrical", "van"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: 48V Electrical Concept
+author: Nate
+date: 2020-10-26
+tags:
+ - 12V
+ - 48V
+ - design
+ - concept
+ - electrical
+ - van
+
+metatags:
+ # nothing
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 # 48V Electrical Concept
 
 ### Assumptions

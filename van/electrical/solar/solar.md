@@ -1,11 +1,30 @@
 ---
-section: "van"
-category: "electrical"
-title: "Solar Panels"
-author: "Stello"
-date: "2021-2-6"
-tags: ["solar", "panels", "design", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Solar
+author: Nate
+date: 2021-2-6
+tags:
+ - solar
+ - design
+ - concept
+ - electrical
+ - van
+
+metatags:
+ #
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 **TLDR:**  The system will use 4 [Rich Solar](https://richsolar.com/products/200-watt-24-volt-solar-panel) 200W panels in a 2S2P arrangement and a [SmartSolar 150/45](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-150-45-up-to-150-70-EN.pdf) MPPT.  A ground array will use a separate MPPT to maximize flexibility in panel choice (specifically dimensional flexibility).
 
@@ -110,7 +129,6 @@ This model does NOT support remote on/off in addition to VE.Direct communication
 This model is substantially more expensive, larger, and heavier.  It has greater power capacity, but that is in excess of the array's capability and is not warranted.  It could support an 1S2P ground array of the Rich Solar panels in parallel with the roof array if desired.
 
 However, this is the lowest power model of the 150/XX line that offers separate VE.Direct communication and remote on/off.  This allows the BMS to provide a low temperature hardware backup shutoff in the event of CANBUS failure or Cerbo failure.  It is not needed for cell overvoltage, cell undervoltage, and cell overtemperature as this is provided by the BMS opening the main contactor.  **For this reason only, low temperature backup protection, this will be the selected MPPT.**
-
 
 
 

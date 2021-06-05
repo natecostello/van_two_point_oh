@@ -2,8 +2,8 @@
 type: article
 section: van
 categories: 
-	# one or more categories is permitted
-	- electrical
+ # one or more categories is permitted
+ - electrical
 navTitle: 
 title: Alternator Charging
 author: Nate

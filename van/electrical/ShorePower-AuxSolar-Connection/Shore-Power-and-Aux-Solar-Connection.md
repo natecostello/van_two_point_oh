@@ -1,11 +1,31 @@
 ---
-section: "van"
-category: "electrical"
-title: "Shore Power and Aux Solar Connection"
-author: "Stello"
-date: "2020-11-26"
-tags: ["shorepower", "solar", "auxilliary", "design", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Shore Power and Auxilliary Solar Connection
+author: Nate
+date: 2020-10-26
+tags:
+ - shore power
+ - solar
+ - design
+ - concept
+ - electrical
+ - van
+
+metatags:
+ # none
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 
 

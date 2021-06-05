@@ -1,11 +1,31 @@
 ---
-section: "van"
-category: "electrical"
-title: "REC Bi-Stable Latching Relay Driver Inverter"
-author: "Stello"
-date: "2020-10-26"
-tags: ["relay", "design", "concept", "electrical", "van", "logic"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Bi-Stable Latching Relay Driver Inverter
+author: Nate
+date: 2020-10-26
+tags:
+ - relay
+ - design
+ - concept
+ - electrical
+ - van
+ - deprecated
+
+metatags:
+ - deprecated
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 
 # REC Bi-Stable Latching Relay Driver Inverter

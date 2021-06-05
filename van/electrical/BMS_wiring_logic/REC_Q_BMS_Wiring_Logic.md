@@ -1,11 +1,31 @@
 ---
-section: "van"
-category: "electrical"
-title: "REC Q BMS Wiring"
-author: "Stello"
-date: "2020-10-26"
-tags: ["BMS", "design", "concept", "electrical", "van"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: REC Q BMS Wiring
+author: Nate
+date: 2020-10-26
+tags:
+ - BMS
+ - battery
+ - design
+ - concept
+ - electrical
+ - van
+
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 # REC Q BMS Wiring Logic
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
 ## Operation

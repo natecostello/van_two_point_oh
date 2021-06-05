@@ -1,11 +1,30 @@
 ---
-section: "van"
-category: "electrical"
-title: "Circuits"
-author: "Stello"
-date: "2020-10-26"
-tags: ["24V", "12V", "120V", "DC", "AC", "circuits", design", "concept", "electrical"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: Circuits
+author: Nate
+date: 2020-10-26
+tags:
+ - wiring
+ - design
+ - concept
+ - electrical
+ - van
+
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 # Electrical Circuits
 
 This section describes the power circuits planned for the van.

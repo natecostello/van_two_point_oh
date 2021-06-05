@@ -202,7 +202,7 @@ A categorypage can have one or more categories, in which case it covers the unio
 
 The set of all categories is fixed and prescriptive.
 
-#### NAVBar Thoughts
+#### NAVBar Thoughts - this wont work...just name nav bar in page for now
 
 Use a YAML file similar to Janosh.  Instead of being like [nav.yml](https://github.com/janosh/blog/blob/main/content/nav.yml):
 
@@ -250,6 +250,7 @@ const { catnav } = useStaticQuery(graphql`
 TODO: Flesh out
 Then use categories filter another query to get slug
 Then build navBar
+Never mind...it looks like you can not do compound filters
 ```
 
 
