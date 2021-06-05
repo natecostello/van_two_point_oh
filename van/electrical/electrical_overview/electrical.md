@@ -1,12 +1,26 @@
 ---
-section: "van"
-category: "electrical"
-title: "Electrical Overview"
-author: "Stello"
-date: "2020-10-26"
-tags: []
-level: 1
+type: categorypage
+section: van
+categories: 
+	# one or more categories is permitted
+	- electrical
+	- magical
+title: Electrical Overview
+navTitle: Electrical
+author: Nate
+date: 2020-10-26
+tags:
+	# no tags
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 This page provides an overview of the electrical system.
 
 # DC Electric Plant

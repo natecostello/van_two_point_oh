@@ -1,11 +1,34 @@
 ---
-section: "van"
-category: "electrical"
-title: "Alternator Charging"
-author: "Stello"
-date: "2020-10-26"
-tags: ["24V", "design", "concept", "electrical", "van", "alternator", "charging", "factory"]
+type: article
+section: van
+categories: 
+	# one or more categories is permitted
+	- electrical
+navTitle: 
+title: Alternator Charging
+author: Nate
+date: 2020-10-26
+tags:
+ - 24v
+ - design
+ - concept
+ - electrical
+ - van
+ - alternator
+ - charging
+ - factory
+
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
+
 
 **TODO: Pull in detail from the 24V-48V study.**
 

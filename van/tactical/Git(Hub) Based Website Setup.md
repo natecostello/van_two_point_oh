@@ -202,6 +202,58 @@ A categorypage can have one or more categories, in which case it covers the unio
 
 The set of all categories is fixed and prescriptive.
 
+#### NAVBar Thoughts
+
+Use a YAML file similar to Janosh.  Instead of being like [nav.yml](https://github.com/janosh/blog/blob/main/content/nav.yml):
+
+```yaml
+- title: Physics
+  url: /physics
+
+- title: ML
+  url: /ml
+```
+
+Make it:
+
+```
+catagory:
+	- title: Electrical
+    categories:
+    	electrical
+  - title: Interior
+  	categories:
+  		parietal
+  		structual
+section:
+  - title: Van
+    section: van
+  - title: Blog
+    section: blog
+landing:
+	- title: GS
+```
+
+To construct the NAVbar
+
+```react
+const { catnav } = useStaticQuery(graphql`
+    {
+      nav: allNavYaml {
+        nodes {
+          title
+          categories
+        }
+      }
+    }
+  `)
+TODO: Flesh out
+Then use categories filter another query to get slug
+Then build navBar
+```
+
+
+
 ### Menu Bar:
 
 Top: [[Home] Van Blog]
