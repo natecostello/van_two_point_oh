@@ -17,7 +17,7 @@ tags:
  - van
 
 metatags:
-	# no metatags
+ -deprecated
 cover: 
 	# image file
 	# img: img
