@@ -351,7 +351,7 @@ This limits flexibility on site organization or re-organization down the road.  
 
 This approach is more work up front, but gives the best of all worlds:
 
-Parse MD/MDX and extract links.  If the link is to a local MD/MDX, using the path, find the corresponding node, from the node, obtain the slug, replace the path with the slug.
+Parse MD/MDX and extract links.  If the link is to a local MD/MDX, using the path, find the corresponding node, from the node, obtain the slug, replace the path with the slug.  Sorta...following the source for 'gatsby-remark-copy-linked-files' would be a good start and fairly straightforward.
 
 Resources:
 
