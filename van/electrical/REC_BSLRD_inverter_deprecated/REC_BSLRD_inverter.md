@@ -17,7 +17,6 @@ tags:
  - deprecated
 metatags:
  - deprecated
- - test
 cover: 
 	# image file
 	# img: img

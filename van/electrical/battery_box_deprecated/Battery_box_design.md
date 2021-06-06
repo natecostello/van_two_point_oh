@@ -16,7 +16,7 @@ tags:
  - electrical
  - van
 metatags:
- -deprecated
+ - deprecated
 cover: 
 	# image file
 	# img: img

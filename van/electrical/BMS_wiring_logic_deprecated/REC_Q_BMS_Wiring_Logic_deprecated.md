@@ -18,7 +18,7 @@ tags:
  - deprecated
 
 metatags:
- -deprecated
+ - deprecated
 cover: 
 	# image file
 	# img: img
