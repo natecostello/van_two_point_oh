@@ -1,10 +1,29 @@
 ---
-section: "van"
-category: "arrangements"
-title: "Roof Rack Arrangement and Evaluation"
-author: "Stello"
-data: " 2020-1-16"
-tags: ["8020", "aluminess", "roof", "rack", "solar", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - vehicular
+navTitle: 
+title: Roof Rack and Arrangement Evaluation
+author: Nate
+date: 2021-1-16
+tags:
+ - 8020
+ - design
+ - concept
+ - aluminess
+ - vehicular
+ - roof
+ - van
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
 
 **TLDR:** The Angle AL Hein Rack results in minimum weight, minimum cost, and minimum aerodynamic impact.  It also is extremely flexible.  It results in the least usable roof space after solar is installed.  It also doesn't look the coolest.  All things considered, it is the choice we are going with.  The Aluminess touring rack was strongly considered.  The low pro rack is incompatible with our fan location, so that was a deal breaker.
