@@ -14,7 +14,6 @@ tags:
  - concept
  - electrical
  - van
-
 metatags:
 	# no metatags
 cover: 

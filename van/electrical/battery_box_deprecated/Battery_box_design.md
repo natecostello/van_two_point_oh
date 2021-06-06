@@ -15,7 +15,6 @@ tags:
  - deprecated
  - electrical
  - van
-
 metatags:
  -deprecated
 cover: 
