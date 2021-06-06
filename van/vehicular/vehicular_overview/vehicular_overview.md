@@ -6,7 +6,7 @@ categories:
  - vehicular
 
 title: Vehicular Overview
-navTitle: 
+navTitle: Vehicular
 author: Nate
 date: 2020-10-26
 tags:
