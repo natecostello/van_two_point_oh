@@ -1,10 +1,30 @@
 ---
-section: "van"
-category: "structures"
-title: "Headliner Shelf"
-author: "Stello"
-data: " 2020-11-9"
-tags: ["shelf","headliner", "design", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - structural
+ - functional
+
+title: Headliner Shelf
+navTitle:
+author: Nate
+date: 2020-11-19
+tags:
+ - van
+ - structural
+ - functional
+ - storage
+ - concept
+ - design
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
 
 [This has hardware and a paper template and is $120!](https://vancillary.com/products/ford-transit-headliner-shelf-diy-kit)

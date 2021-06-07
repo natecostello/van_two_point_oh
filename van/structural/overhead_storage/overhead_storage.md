@@ -1,11 +1,32 @@
 ---
-section: "van"
-category: "structures"
-title: "Overhead Storage"
-author: "Stello"
-data: "2020-10-27"
-tags: ["L-track", "design", "concept", "storage", "duffles"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - structural
+ - functional
+
+title: Overhead Storage
+navTitle:
+author: Nate
+date: 2020-10-27
+tags:
+ - van
+ - structural
+ - functional
+ - storage
+ - concept
+ - design
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 Based on available L-track placements, we need to look at 14x14 inch bags.
 

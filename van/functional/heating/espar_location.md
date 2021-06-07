@@ -1,11 +1,34 @@
 ---
-section: "van"
-category: "hvac"
-title: "Espar Heater Location"
-author: "Stello"
-date: "2020-11-04"
-tags: ["espar", "heat", "install"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - functional
+
+title: Heating
+navTitle: 
+author: Nate
+date: 2020-11-4
+tags:
+ - van
+ - functional
+ - concept
+ - design
+ - heating
+ - espar
+ - hvac
+ - climate
+	# no tags
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 [Link to forum post of transit under-passenger-seat install](https://www.fordtransitusaforum.com/threads/successful-espar-b4l-m2-heater-install-notes.82387/post-1071077)
 

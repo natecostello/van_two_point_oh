@@ -1,10 +1,28 @@
 ---
-section: "van"
-category: "structures"
-title: "Ceiling L-track Mounting"
-author: "Stello"
-data: " 2020-10-16"
-tags: ["L-track", "design", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - structural
+
+title: Ceiling L-Track Mounting
+navTitle:
+author: Nate
+date: 2020-10-16
+tags:
+ - van
+ - structural
+ - l-track
+ - concept
+ - design
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
 
 # Ceiling L-Track Mounting

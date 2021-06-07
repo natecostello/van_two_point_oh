@@ -1,10 +1,29 @@
 ---
-section: "van"
-category: "hvac"
-title: "Air Conditioning"
-author: "Stello"
-date: "2020-11-14"
-tags: ["HVAC", "cooling", "install"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - functional
+
+title: Air Conditioning
+navTitle: 
+author: Nate
+date: 2020-11-14
+tags:
+ - van
+ - functional
+ - hvac
+ - cooling
+ - climate
+	# no tags
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
 
 ## Options

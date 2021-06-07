@@ -1,11 +1,33 @@
 ---
-section: "van"
-category: "structures"
-title: "Galley"
-author: "Stello"
-data: "2020-10-27"
-tags: ["8020", "design", "concept", "storage", "kitchen"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - structural
+ - functional
+
+title: Galley
+navTitle:
+author: Nate
+date: 2020-10-27
+tags:
+ - van
+ - structural
+ - functional
+ - galley
+ - cooking
+ - concept
+ - design
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 Orton privides a great [hint](https://www.fordtransitusaforum.com/threads/what-to-make-countertop-from.76956/post-1015234): "If your countertop is located at the slider door add to the width of the countertop where it is in front of the door. The part of the countertop in front of the door extends 3 1/2" toward the door. Makes a big difference to have the counter top wider."
 

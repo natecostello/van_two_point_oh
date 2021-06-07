@@ -1,13 +1,32 @@
 ---
-section: "van"
-category: "comms"
-title: "Comms Overview"
-author: "Stello"
-date: "2021-1-12"
-tags: ["cell", "wifi", "internet", "antenna"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - functional
+
+title: Comms
+navTitle: 
+author: Nate
+date: 2021-1-12
+tags:
+ - van
+ - functional
+ - concept
+ - design
+ - comms
+ - internet
+ - wifi
+	# no tags
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
-
-
 
 ## Cell
 

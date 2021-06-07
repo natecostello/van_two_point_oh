@@ -1,10 +1,29 @@
 ---
-section: "van"
-category: "electrical"
-title: "Lighting"
-author: "Stello"
-date: "2021-2-11"
-tags: ["appliances", "lighting", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - functional
+
+title: Lighting
+navTitle: 
+author: Nate
+date: 2021-2-11
+tags:
+ - van
+ - functional
+ - concept
+ - design
+ - lighting
+	# no tags
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
 
 ## Lighting Options

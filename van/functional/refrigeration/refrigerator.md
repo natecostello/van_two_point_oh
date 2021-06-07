@@ -1,13 +1,31 @@
 ---
-section: "van"
-category: "electrical"
-title: "Refrigerator"
-author: "Stello"
-date: "2020-11-17"
-tags: ["appliances", "fridge", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - functional
+
+title: Refrigeration
+navTitle: 
+author: Nate
+date: 2020-11-17
+tags:
+ - van
+ - functional
+ - refrigeration
+ - concept
+ - design
+ - appliance
+	# no tags
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
-
-
 
 **TLDR: ** For lots of reasons (arrangement flexibility, efficiency, maintainability, etc) we are going with Vitrifrigo.
 
