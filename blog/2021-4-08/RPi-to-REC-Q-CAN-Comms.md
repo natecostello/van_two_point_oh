@@ -1,11 +1,29 @@
 ---
-section: "blog"
-category: "build"
-title: "RPi to REC Q CAN Comms"
-author: "Stello"
-date: "2021-4-08"
-tags: ["blog", "van", "electrical", "test", "equipment"]
+type: post
+section: blog
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: RPi to REC Q CAN Comms
+author: Nate
+date: 2021-4-8
+tags:
+ - van
+ - electrical
+ - test
+ - bms
+ - battery
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 ![RPi-to-REC-Q-Comms-(CAN)](RPi-to-REC-Q-CAN-Comms.JPG)
 

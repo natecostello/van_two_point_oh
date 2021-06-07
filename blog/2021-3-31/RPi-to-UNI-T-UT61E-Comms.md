@@ -1,10 +1,26 @@
 ---
-section: "blog"
-category: "build"
-title: "RPi to UNI-T UT61E Comms"
-author: "Stello"
-date: "2021-3-31"
-tags: ["blog", "van", "electrical", "test", "equipment"]
+type: post
+section: blog
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: RPi to UNI-T UT61E Comms
+author: Nate
+date: 2021-3-31
+tags:
+ - van
+ - electrical
+ - test
+ - tools
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
 
 ![metameta](RPi-to-UNI-T-UT61E-Comms.JPG)

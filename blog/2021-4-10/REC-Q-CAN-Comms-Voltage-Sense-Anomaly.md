@@ -1,11 +1,29 @@
 ---
-section: "blog"
-category: "build"
-title: "REC Q CAN Comms Voltage Sense Anomaly"
-author: "Stello"
-date: "2021-4-08"
-tags: ["blog", "van", "electrical", "test", "equipment", "BMS", "REC"]
+type: post
+section: blog
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: REC Q CAN Comms Voltage Sense Anomaly
+author: Nate
+date: 2021-4-10
+tags:
+ - van
+ - electrical
+ - test
+ - bms
+ - battery
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 ![](REC-Q-CAN-Comms-Voltage-Sense-Anomaly.JPG)
 
