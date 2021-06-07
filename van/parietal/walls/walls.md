@@ -1,10 +1,27 @@
 ---
-section: "van"
-category: "envelope"
-title: "Walls"
-author: "Stello"
-data: " 2020-10-22"
-tags: ["walls", "design", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - parietal
+navTitle: 
+title: Walls
+author: Nate
+date: 2020-10-22
+tags:
+ - walls
+ - design
+ - concept
+ - parietal
+ - van
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
 
 In an effort to minimize any organic (read mold nuturing) materials, we are considering plastic as the basis for the walls.  The plan is to use a material similar to the stock wall panels that we had in our Sprinter upon reciept.   [Some discussion in this sprinter-source post](https://sprinter-source.com/forums/index.php?threads/43201/).

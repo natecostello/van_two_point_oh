@@ -1,13 +1,28 @@
 ---
-section: "van"
-category: "envelope"
-title: "Insulation"
-author: "Stello"
-data: " 2020-11-5"
-tags: ["insulation", "design", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - parietal
+navTitle: 
+title: Insulation
+author: Nate
+date: 2020-11-5
+tags:
+ - insulation
+ - design
+ - concept
+ - parietal
+ - van
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
-
-
 
 ## Helpful Links
 

@@ -1,10 +1,31 @@
 ---
-section: "van"
-category: "structures"
-title: "Cable and Hose Pass-Throughs"
-author: "Stello"
-date: "2021-1-12"
-tags: ["wire", "cable", "hose", "pass-through", "gland"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - structural
+
+title: Cable and Hose Pass-Throughs
+navTitle:
+author: Nate
+date: 2021-1-12
+tags:
+ - van
+ - structural
+ - wire
+ - hose
+ - gland
+ - pass-through
+ - concept
+ - design
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
 
 

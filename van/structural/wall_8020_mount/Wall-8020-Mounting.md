@@ -1,11 +1,30 @@
 ---
-section: "van"
-category: "structures"
-title: "Wall 80/20 Mounting"
-author: "Stello"
-data: " 2020-1-14"
-tags: ["8020", "design", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - structural
+
+title: Wall 8020 Mounting
+navTitle:
+author: Nate
+date: 2020-1-14
+tags:
+ - van
+ - structural
+ - 8020
+ - concept
+ - design
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 
 

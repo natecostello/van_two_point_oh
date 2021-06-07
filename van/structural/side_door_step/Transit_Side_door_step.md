@@ -1,11 +1,30 @@
 ---
-section: "van"
-category: "structures"
-title: "Side Door Step"
-author: "Stello"
-data: " 2020-10-16"
-tags: ["step", "floor"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - structural
+
+title: Side Door Step
+navTitle:
+author: Nate
+date: 2020-10-16
+tags:
+ - van
+ - structural
+ - floor
+ - concept
+ - design
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
+
 
 # Transit Side Door Step
 

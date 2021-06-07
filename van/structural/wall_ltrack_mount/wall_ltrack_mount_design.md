@@ -1,4 +1,30 @@
 ---
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - structural
+
+title: Wall L-Track Mounting
+navTitle:
+author: Nate
+date: 2020-10-27
+tags:
+ - van
+ - structural
+ - l-track
+ - concept
+ - design
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
+---
+---
 section: "van"
 category: "structures"
 title: "Wall L-track Mounting"
