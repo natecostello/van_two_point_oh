@@ -119,13 +119,13 @@ Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC, the spring rate to achive
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
 **Conditions**
--Center distance between compression 7.475t in
--Width of plate 8 in 
--Pinned boundary conditions
--Start of load 0.3125 in
--End of load 7.163 in
--Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
--Linear Load 663.35 lbf / 6.95 in = 95.446 lfb/in =  1145.3 lbf/ft
+- Center distance between compression 7.475t in
+- Width of plate 8 in 
+- Pinned boundary conditions
+- Start of load 0.3125 in
+- End of load 7.163 in
+- Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
+- Linear Load 663.35 lbf / 6.95 in = 95.446 lfb/in =  1145.3 lbf/ft
 
 | Material      | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
 | ------------- | ------- | ------------------ | --------------- | ------------------------- |
@@ -134,54 +134,38 @@ Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.c
 | 3/16 Aluminum | 10,000  | 0.00439            | 0.0876          | 3786.2                    |
 | 3/16 Steel    | 29,000  | 0.00439            | 0.0302          | 10982.6                   |
 | 1/2 Plywood   | 1,1015  | 0.0833             | 0.0455          | 7289.6                    |
-
-\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series).
+_\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series)._
 
 #### Deformation (Concept B)
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
 **Conditions**
-
-Center distance between compression 8.874 in
-
-Width of plate 4 in 
-
-Pinned boundary conditions
-
-Start of load 0.5 in
-
-End of load 8.374 in
-
-Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
-
-Linear Load 663.35 lbf / 7.874 in = 84.246 lfb/in =  1010.9 lbf/ft
+- Center distance between compression 8.874 in
+- Width of plate 4 in 
+- Pinned boundary conditions
+- Start of load 0.5 i
+- End of load 8.374 in
+- Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
+- Linear Load 663.35 lbf / 7.874 in = 84.246 lfb/in =  1010.9 lbf/ft
 
 | Material         | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
 | ---------------- | ------- | ------------------ | --------------- | ------------------------- |
 | 4x1x1/8 Aluminum | 10,000  | 0.196              | 0.00342         | 96980.0                   |
-
-\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series).
+_\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series)._
 
 #### Deformation (Concept C)
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
 **Conditions**
-
-Center distance between compression 9.75 in
-
-Width of plate 7.21 in 
-
-Pinned boundary conditions
-
-Start of load 0.813 in
-
-End of load 8.937 in (these don't exactly align with battery dimension thus analyzed load is high)
-
-Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
-
-Linear Load 663.35 lbf / 7.874 in = 84.246 lfb/in =  1010.9 lbf/ft 
+- Center distance between compression 9.75 in
+- Width of plate 7.21 in 
+- Pinned boundary conditions
+- Start of load 0.813 in
+- End of load 8.937 in (these don't exactly align with battery dimension thus analyzed load is high
+- Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lb
+- Linear Load 663.35 lbf / 7.874 in = 84.246 lfb/in =  1010.9 lbf/ft 
 
 | Material                | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
 | ----------------------- | ------- | ------------------ | --------------- | ------------------------- |
@@ -189,28 +173,20 @@ Linear Load 663.35 lbf / 7.874 in = 84.246 lfb/in =  1010.9 lbf/ft
 | 1/8 Steel (1/2 ribs)    | 29,000  | 0.0145             | 0.0228          | 14547.1                   |
 | 1/8 Aluminum (3/4 ribs) | 10,000  | 0.0397             | 0.0241          | 13762.4                   |
 | 1/8 Steel (3/4 ribs)    | 29,000  | 0.0397             | 0.00831         | 39912.7                   |
-
-\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series).
+_\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series)._
 
 #### Deformation (Concept D)
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
 **Conditions**
-
-Center distance between compression 8.5 in
-
-Width of plate 6.83 in 
-
-Pinned boundary conditions
-
-Start of load 0.25 in
-
-End of load 8.125 in
-
-Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
-
-Linear Load 663.35/7.87 = 84.288 lfb/in =  1011.46 lbf/ft
+- Center distance between compression 8.5 in
+- Width of plate 6.83 in 
+- Pinned boundary condition
+- Start of load 0.25 i
+- End of load 8.125 in
+- Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lb
+- Linear Load 663.35/7.87 = 84.288 lfb/in =  1011.46 lbf/ft
 
 | Material      | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
 | ------------- | ------- | ------------------ | --------------- | ------------------------- |
@@ -218,8 +194,7 @@ Linear Load 663.35/7.87 = 84.288 lfb/in =  1011.46 lbf/ft
 | 1/8 Steel     | 29,000  | 0.00111            | 0.177           | 1873.87                   |
 | 3/16 Aluminum | 10,000  | 0.00375            | 0.152           | 2182.07                   |
 | 3/16 Steel    | 29,000  | 0.00375            | 0.0523          | 6341.78                   |
-
-\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series).
+_\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series)._
 
 Assuming the plates were just snug, approximate compression with 3/16 steel plates would be 9 PSI at 100% SOC if growth was 0.079 in at the center of deflection.
 
