@@ -61,6 +61,7 @@ The following analyses use a delta T of 30C applied as a DC voltage potential to
 
 <details>
 <summary>Loss by Model Component</summary>
+
 | Resistor | Thinsulate Watts | XPS Watts |
 | -------- | ------------------ | ----------- |
 | I(R25)   | 182.335            | 155.128     |
@@ -87,6 +88,7 @@ The following analyses use a delta T of 30C applied as a DC voltage potential to
 | I(R3)    | 124.992            | 96.4505     |
 | I(R2)    | 57.3427            | 58.6778     |
 | I(R1)    | 182.335            | 155.128     |
+
 </details>
 
 ### Panel Backside Insulation Sensitivity
@@ -94,6 +96,7 @@ The following analyses use a delta T of 30C applied as a DC voltage potential to
 The following analyses use a delta T of 30C applied as a DC voltage potential to the resistor network.  Current represents heat flow in watts.  Backside insulation consists of 1/8" of Neoprene adhered to the backside of panels.  Total loss for backside insulation and no-backside insulation are 182W and 205W respectively.  Most of the additional heat loss is seen in the rib regions.
 <details>
 <summary>Loss by Model Component</summary>
+
 | Resistor | Panel Backside Insulation Watts | NO Panel Backside Insulation Watts |
 | -------- | ------------------------------- | ---------------------------------- |
 | I(R25)   | 182.335                         | 205.443                            |
@@ -120,12 +123,15 @@ The following analyses use a delta T of 30C applied as a DC voltage potential to
 | I(R3)    | 124.992                         | 132.579                            |
 | I(R2)    | 57.3427                         | 72.8633                            |
 | I(R1)    | 182.335                         | 205.443                            |
+
 </details>
+
 ### Lizard Skin Evaluation
 
 The following analyses use a delta T of 30C applied as a DC voltage potential to the resistor network.  Current represents heat flow in watts.  Lizard Skin was looked at in two different cases.  In one case, the effect of Lizard Skin was examined by modeling it as insulation on the backside of panels, which would be analogous to applying it to the full interior surface of the ceiling (including the ribs).  In the second case, the effect of Lizard Skin was examined by modeling it as rib insulation, which would be analogous to applying it to just the ribs.  Total loss for Lizard Skin applied to the full interior, the ribs, and no treatment are 203.8W, 204.4W, and 205.4W respectively.  All of the above cases used Thinsulate for bulk insulation as the base case.
 <details>
 <summary>Loss by Model Component</summary>
+
 | Resistor | Full Lizard Skin | Rib Lizard Skin | No Lizard Skin |
 |----------|------------------|-----------------|----------------|
 | I(R25)   | 203.834          | 204.356         | 205.443        |
@@ -152,6 +158,7 @@ The following analyses use a delta T of 30C applied as a DC voltage potential to
 | I(R3)    | 132.15           | 132.705         | 132.579        |
 | I(R2)    | 71.684           | 71.6514         | 72.8633        |
 | I(R1)    | 203.834          | 204.356         | 205.443        |
+
 </details>
 
 ## Helpful Links
