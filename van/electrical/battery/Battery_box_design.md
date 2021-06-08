@@ -27,15 +27,16 @@ cover:
 The battery will be constructed of 280AH cells.  It will be installed behind the driver side rear wheel.  Four rough concepts (A, B, C, and D) of the design are illustrated below.
 
 ![concept A](battery_configuration_concept_A.jpg)
+_Concept A_
 
 ![](battery_configuration_concept_B.jpg)
+_Concept B_
 
 ![](battery_configuration_concept_C.jpg)
+_Concept C_
 
 ![](battery_configuration_concept_D.jpg)
-
-
-
+_Concept D_
 
 
 ## Cell Electrical Insulation
