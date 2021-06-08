@@ -118,7 +118,7 @@ Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC, the spring rate to achive
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
-####Conditions
+#### Conditions
 - Center distance between compression 7.475t in
 - Width of plate 8 in 
 - Pinned boundary conditions
@@ -140,7 +140,7 @@ _\* Effective Spring Rate doubles deflection from calc to account for the deform
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
-####Conditions
+#### Conditions
 - Center distance between compression 8.874 in
 - Width of plate 4 in 
 - Pinned boundary conditions
@@ -158,7 +158,7 @@ _\* Effective Spring Rate doubles deflection from calc to account for the deform
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
-####Conditions
+#### Conditions
 - Center distance between compression 9.75 in
 - Width of plate 7.21 in 
 - Pinned boundary conditions
@@ -179,7 +179,7 @@ _\* Effective Spring Rate doubles deflection from calc to account for the deform
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
-####Conditions
+#### Conditions
 - Center distance between compression 8.5 in
 - Width of plate 6.83 in 
 - Pinned boundary condition
@@ -198,7 +198,7 @@ _\* Effective Spring Rate doubles deflection from calc to account for the deform
 
 Assuming the plates were just snug, approximate compression with 3/16 steel plates would be 9 PSI at 100% SOC if growth was 0.079 in at the center of deflection.
 
-####Sanity Check for Max Allowed Compression
+#### Sanity Check for Max Allowed Compression
 Assumed Load 17 PSI * 55.279 in<sup>2</sup> = 939.74 lbf
 Linear Load 939.74/7.87 = 119.401 lfb/in =  1432.89 lbf/ft
 
