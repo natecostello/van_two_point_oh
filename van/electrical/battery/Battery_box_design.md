@@ -205,6 +205,7 @@ Linear Load 939.74/7.87 = 119.401 lfb/in =  1432.89 lbf/ft
 | Material   | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
 | ---------- | ------- | ------------------ | --------------- | ------------------------- |
 | 3/16 Steel | 29,000  | 0.00375            | 0.0741          | 6341.03                   |
+_\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series)._
 
 17 PSI would result in deflections over double (accounting for both plates) the expansion what was observed emprically.  As this analysis doesn't account for the self limiting nature (cells will expand less under pressure), there is no way the cells will see compression of this scale.
 
