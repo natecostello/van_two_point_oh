@@ -39,11 +39,11 @@ _Concept C_
 _Concept D_
 
 
-## Cell Electrical Insulation
+# Cell Electrical Insulation
 
 According to the Will Prowes' forum, the aluminum cased cells have positive terminal voltage on the outer case.  This means each group of cells will need to be isolated from each other and from any structure.  This will be accomplished by Kapton tape.
 
-## Cell Compression
+# Cell Compression
 
 **TLDR: Concept D should provide adequate compression and is the most compact and simplest design.  It also eliminates the gaps between cells (vs concept A) potentially allowing for off the shelf busbars while minimizing overal length (at the expense of height).**
 
@@ -51,15 +51,15 @@ EVE engineers recommend approximately 12 PSI, with no more than 17 PSI, to be ma
 
 However, a fourth concept (D) occurred to me while evaluating A, B, and C.  The flex of the side plates themselves function as two springs in series with any other springs in the system.  By designing the plates appropriately, they can be relied on exclusively for compression at high SOC and to accomodate the expected growth.  To apply some compression at low SOC, single bellville washers, fully flattened, can be used.  While this method will not be as calibrated as the others, it can guarentee some compression above 0 and less than 12 PSI at full SOC and is more compact, simpler, and cheaper.  This [belleville washer](https://www.mcmaster.com/9712K62/) fully flattened will give about 4 PSI at 0% SOC for this design.  This [belleville washer](https://www.mcmaster.com/9712K62/) fully flattened will give about 2.5 PSI at 0% SOC for this design.  
 
-### Empirical Data
+## Empirical Data
 
 In [this post](https://diysolarforum.com/threads/cinergis-28-kwh-4-kw-solar-10-kw-inverter-rv-build.13786/post-198767), user @cinergi measured growth on 4 cells arranged in a similar fashion as they charged from 0 to 100%.  His springs were compressed to 30mm.  At 100% SOC he measured 1.0, 1.4, 1.4, and 2.0 mm growth over the four cells.  Between terminals he measured 0.15, 0.14, and 0.19 mm growth.
 
 His [spring](https://www.leespring.com/compression-springs-hefty?search=LHL625D03) rate specification is 380 lbf/in per spring with a free length of 1.5 in.  Compression to 30mm would correspond to spring compression of 0.32 in (1.5 - 1.18).  That level of compression would correspond to 486.40 lbf (380x0.32x4) and 8.799 PSI initially.  The final level of compression would be 571 lbf  (380*((1.5-1.142) + (1.5-1.126) + (1.5-1.126) + (1.5-1.102))) and 10.339 PSI.
 
-### Design for Service
+## Design for Service
 
-#### 100% SOC Condition Compression
+### 100% SOC Condition Compression
 
 Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  With four cells in the arrangement, the total area under compression is 221.12 in<sup>2</sup>.  Assuming 12 PSI, this yields a total force of 2653.4 lbf.
 
@@ -72,7 +72,7 @@ Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  With four cells i
 
 **To achieve this compressive force the spring must have a *load at solid height* of at least the above value for each case.  If this parameter matches closely, setup will be easier by simply tightening to the solid condition at 100% SOC.**
 
-#### 0% SOC Condition Compression
+### 0% SOC Condition Compression
 
 Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  With four cells in the arrangement, the total area under compression is 221.12 in2.  Assuming 9 PSI, this yields a total force of 1990.0 lbf.
 
@@ -83,7 +83,7 @@ Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  With four cells i
 * Assuming 8 points of compression, this yields a force per compression point of 248.75 lbf.
 
 
-#### Growth Allowance
+### Growth Allowance
 
 Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC, the spring rate to achive the desired compression at each SOC is:
 
@@ -95,7 +95,7 @@ Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC, the spring rate to achive
 
 **To achieve this range of compression the spring must have a *spring rate* of no more than the above value for each case and allow at least 0.079 in of compressive travel.**
 
-#### Candidate Compression Springs (must be 1 in or less in free length)
+### Candidate Compression Springs (must be 1 in or less in free length)
 
 * For 15 points of compression, the following spring meets the above requirements:
   
@@ -109,16 +109,16 @@ Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC, the spring rate to achive
 
   * LHL 1000C 01at $6.40 per spring [from here](https://www.leespring.com/compression-springs).  This could use up to 1/2 all thread.  It would provide 11.939 PSI compressed solid at 100% SOC and 8.7952 PSI at 0% SOC.
 
-#### Candidate Extension Springs (Concept C) (must be ~11 in or less in free length) 
+### Candidate Extension Springs (Concept C) (must be ~11 in or less in free length) 
 
 * For 8 points of compression, using doubled up springs at each point, the following spring meets the above requirement:
   * [3630N389](https://www.mcmaster.com/3630N389/) at $10.06 per spring from [McMaster](https://www.mcmaster.com/3630N389/).  It would provide 12.31 PSI at full extension at 100% SOC and 11.75 PSI at 0% SOC.
 
-#### Deformation (Concept A)
+### Deformation (Concept A)
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
-**Conditions**
+####Conditions
 - Center distance between compression 7.475t in
 - Width of plate 8 in 
 - Pinned boundary conditions
@@ -136,11 +136,11 @@ Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.c
 | 1/2 Plywood   | 1,1015  | 0.0833             | 0.0455          | 7289.6                    |
 _\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series)._
 
-#### Deformation (Concept B)
+### Deformation (Concept B)
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
-**Conditions**
+####Conditions
 - Center distance between compression 8.874 in
 - Width of plate 4 in 
 - Pinned boundary conditions
@@ -154,11 +154,11 @@ Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.c
 | 4x1x1/8 Aluminum | 10,000  | 0.196              | 0.00342         | 96980.0                   |
 _\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series)._
 
-#### Deformation (Concept C)
+### Deformation (Concept C)
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
-**Conditions**
+####Conditions
 - Center distance between compression 9.75 in
 - Width of plate 7.21 in 
 - Pinned boundary conditions
@@ -175,11 +175,11 @@ Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.c
 | 1/8 Steel (3/4 ribs)    | 29,000  | 0.0397             | 0.00831         | 39912.7                   |
 _\* Effective Spring Rate doubles deflection from calc to account for the deformation in the opposite side plate (essentially another spring in series)._
 
-#### Deformation (Concept D)
+### Deformation (Concept D)
 
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
-**Conditions**
+####Conditions
 - Center distance between compression 8.5 in
 - Width of plate 6.83 in 
 - Pinned boundary condition
@@ -198,10 +198,8 @@ _\* Effective Spring Rate doubles deflection from calc to account for the deform
 
 Assuming the plates were just snug, approximate compression with 3/16 steel plates would be 9 PSI at 100% SOC if growth was 0.079 in at the center of deflection.
 
-**Sanity Check for Max Allowed Compression**
-
+####Sanity Check for Max Allowed Compression
 Assumed Load 17 PSI * 55.279 in<sup>2</sup> = 939.74 lbf
-
 Linear Load 939.74/7.87 = 119.401 lfb/in =  1432.89 lbf/ft
 
 | Material   | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
@@ -210,7 +208,7 @@ Linear Load 939.74/7.87 = 119.401 lfb/in =  1432.89 lbf/ft
 
 17 PSI would result in deflections over double (accounting for both plates) the expansion what was observed emprically.  As this analysis doesn't account for the self limiting nature (cells will expand less under pressure), there is no way the cells will see compression of this scale.
 
-#### Additional Notes
+### Additional Notes
 
 The outer most compression points will see half the force/load of the rest of the fasteners for concept A.  Forum member [noenegdod](https://diysolarforum.com/members/noenegdod.6778/) suggested halving the spring rate on the outer springs to match the force applied per cell per displacment to provide consistent PSI.  If the 10 or 15 compression point designs are pursured, I will incorporate this suggestion.
 
@@ -226,9 +224,9 @@ For concept C, ATD Metal gave the following rough quote:
 
 He also noted that aluminum welds have larger fillets (like 1/4) that shouldn't be ground down.  This favors the steel option.
 
-### Design for Cell Testing and Top Balance
+## Design for Cell Testing and Top Balance
 
-#### 100% SOC Condition Compression
+### 100% SOC Condition Compression
 
 Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  Assuming 12 PSI, this yields a total force of 663.35 lbf.  
 
@@ -237,14 +235,14 @@ Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  Assuming 12 PSI, 
 
 **To achieve this compressive force the spring must have a *load at solid height* of at least the above value for each case.  If this parameter matches closely, setup will be easier by simply tightening to the solid condition at 100% SOC.**
 
-#### 0% SOC Condition Compression
+### 0% SOC Condition Compression
 
 Cell dimensions are 6.85 x 8.07 in.  Cell area is 55.279 in2.  Assuming 9 PSI, this yields a total force of 497.0 lbf.  
 
 * Assuming 4 points of compression, this yields a force per compression point of 124.38 lbf.
 * Assuming 2 points of compression, this yields a force per compression point of 248.76 lbf.
 
-#### Growth Allowance
+### Growth Allowance
 
 Assuming growth is 0.316 in (8 mm) (four times the growth in four cells of 0.079 in) from 0 to 100% SOC for 16 cells, the spring rate to achieve the desired compression at each SOC is:
 
@@ -253,18 +251,18 @@ Assuming growth is 0.316 in (8 mm) (four times the growth in four cells of 0.079
 
 **To achieve this range of compression the spring must have a *spring rate* of no more than above value for each case and allow at least 0.3160 in of compressive travel.**
 
-#### Candidate Springs
+### Candidate Springs
 
 * For four points of compression, the following spring meets the above requirements:
   * LHL 750B 08 at $6.29 per spring [from here](https://www.leespring.com/compression-springs) has a load at solid height of 183 lbf, 1.43 in of travel, and a spring rate of 128 lbf/in.  This could use up to 3/8 all thread.  It would provide 13.242 PSI compressed solid at 100% SOC and 10.315 PSI at 0% SOC.
 * For two points of compression, the following spring meets the above requirements:
   * LHL 1000B 08 at $7.55 per spring [from here](https://www.leespring.com/compression-springs) has a load at solid height of 300 lbf, 1.39 in of travel, and a spring rate of 216 lbf/in.  This could use up to 0.5 in all thread.  It would provide 10.8540 PSI compressed solid at 100% SOC and 8.3845 PSI at 0% SOC.
 
-#### Plate Thickness
+### Plate Thickness
 
 Based on the deflection analysis in the **Design for Service** section, 3/4 in plywood or rectanglar tube aluminum should be completely fine.
 
-## Cell Interconnection
+# Cell Interconnection
 
 For the EVE 280AH from Amy, the studs are [M6](https://diysolarforum.com/threads/introducing-the-new-improved-shenzhen-luyuan-technology-co.15880/post-195184) with [15mm](https://diysolarforum.com/threads/introducing-the-new-improved-shenzhen-luyuan-technology-co.15880/post-203138) usable length. 
 
