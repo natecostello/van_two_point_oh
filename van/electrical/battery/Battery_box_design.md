@@ -119,20 +119,13 @@ Assuming growth is 0.079 in (2 mm) from 0 to 100% SOC, the spring rate to achive
 Calculations performed using clearcalcs [moment of inertia](https://clearcalcs.com/freetools/free-moment-of-inertia-calculator/us) and [beam](https://clearcalcs.com/freetools/beam-analysis/us) calculators.
 
 **Conditions**
-
-Center distance between compression 7.475t in
-
-Width of plate 8 in 
-
-Pinned boundary conditions
-
-Start of load 0.3125 in
-
-End of load 7.163 in
-
-Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
-
-Linear Load 663.35 lbf / 6.95 in = 95.446 lfb/in =  1145.3 lbf/ft
+-Center distance between compression 7.475t in
+-Width of plate 8 in 
+-Pinned boundary conditions
+-Start of load 0.3125 in
+-End of load 7.163 in
+-Assumed Load 12 PSI * 55.279 in<sup>2</sup> = 663.35 lbf
+-Linear Load 663.35 lbf / 6.95 in = 95.446 lfb/in =  1145.3 lbf/ft
 
 | Material      | E [ksi] | I [in<sup>4</sup>] | Deflection [in] | K<sub>eff</sub> [lbf/in]* |
 | ------------- | ------- | ------------------ | --------------- | ------------------------- |
