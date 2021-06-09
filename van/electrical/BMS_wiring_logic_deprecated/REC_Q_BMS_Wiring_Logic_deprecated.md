@@ -34,7 +34,7 @@ cover:
 
 [REC Q BMS](http://www.rec-bms.com/datasheet/UserManual_REC_Victron_BMS.pdf) is always attached, Internal relay is normally closed. When Remote Switch (RS) is closed, Vbat is applied through internal relay, through RS, to [REC PRE-CHARGE](http://www.rec-bms.com/datasheet/UserManualPrechargeNew.pdf) (RPC) BMS+ Input. RPC Applies VBat via 66 ohm relay to load side of contactor via System + connection for x seconds. After x seconds, RPC energizes Contactor - via an open collector, and will continue to do so. This signal is applied continuously to the Input of the [REC Bi-Stable Latching Relay Driver](http://www.rec-bms.com/datasheet/UserManual_BSLRD.pdf) (RBSLRD). 
 
-Upon first application, the RBSLRD will produce a 100 msec GND pulse on Set Relay Coil -. This signal is inverted by the [RBLSRD inverter](/van/electrical/REC_BSLRD_inverter_deprecated/REC_BSLRD_inverter.md) to a 100 msec Vbat signal that is applied to the [BlueSea Remote Battery Switch](http://assets.bluesea.com/files/resources/instructions/980035680-001-7701100-7703100.pdf) (RBS) CLOSE input, which closes the RBS contactor. 
+Upon first application, the RBSLRD will produce a 100 msec GND pulse on Set Relay Coil -. This signal is inverted by the [RBLSRD inverter](/van/electrical/REC_BSLRD_inverter_deprecated/REC_BSLRD_inverter) to a 100 msec Vbat signal that is applied to the [BlueSea Remote Battery Switch](http://assets.bluesea.com/files/resources/instructions/980035680-001-7701100-7703100.pdf) (RBS) CLOSE input, which closes the RBS contactor. 
 
 **OFF**
 
