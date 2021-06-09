@@ -2,7 +2,7 @@
 type: post
 section: blog
 categories: 
- # one or more categories is permitted
+ # one or more categories is permittedtypora-root-url
  - electrical
 navTitle: 
 title: RPi to Riden RD6018 Comms
@@ -38,11 +38,8 @@ After messing around, this is the straight path that got a headless RPi talking 
 2. Boot up, find the RPi's IP, and SSH in.  Note, some of the following commands will require sudo, but I wasn't paying close attention.
 
 3. ```apt update```
-
 4. ```apt upgrade```
-
 5. ``` apt install git``` (Raspian Lite doesn't come with it)
-
 6. ```apt-get install raspberrypi-kernel-headers``` (This was needed to *make* in the following steps)
 
 7. ```git clone https://github.com/natecostello/CH341SER.git``` (This is the RIDEN USB Linux Driver)

@@ -359,3 +359,21 @@ Resources:
 
 [https://www.gatsbyjs.com/tutorial/remark-plugin-tutorial/](https://www.gatsbyjs.com/tutorial/remark-plugin-tutorial/)
 
+### Do Nothing
+
+It turns out, since the slugs are generated from the file path, you can simply omit the file extension in the internal link, and link from the project root, and it all works.  Internal links without the extension are broken in github, but they do work in typora.  However, typora doesn't allow you to specify a project root, so they are broken for that reason in typora.  However, both of these things seem to work in VSCode (not sure how it infers the project root, probably from the project directory).  What would be great is if typora used the project root you can set for images, for markdown or other files.
+
+## Website Todo
+
+Write category page contents.
+
+Fix colors.
+
+Incorporate darkmode.
+
+Incorporate Title Images.
+
+Incorporate TOC
+
+Incorporate Tag Cloud
+
