@@ -40,7 +40,7 @@ Precharge is recommended to minimize damage to contactors that apply battery pow
 
 How the other DC loads could cause complications?  Namely, while you've connected the capacitors, you have also connected DC loads, which will also draw power and could affect the required precharge time and resistor value and rating.  The REC unit manual says, "Some of the inverters/controllers on the system side may start to work with low voltage and their power consumption prevent system voltage to rise."  Probably just need to test.  Probably just fine.
 
-How to integrate this with a latching relay like the BlueSea Remote Battery Switch?  One promising option is the .  It supports 24V, supports 6A coil driving current, has a 100ms pulse, and sleeps at 35 micoA.  See the proposed solution in the [REC Q wiring concept](REC_Q_BMS_Wiring_Logic.md).
+How to integrate this with a latching relay like the BlueSea Remote Battery Switch?  Since forming the question we have become aware of the a variant of the BlueSea Remote Battery Switch that behaves interface-wise as a simple Normally Open relay which has been incorporated into our design.
 
 How is the BMS powered?  I think it needs to be directly (switch/fused) off the battery.  It would remain powered after the main relay opens.  I think this is ok as long as the BMS has low power consumption.  Also could implement redundant relay (in series approach).
 
