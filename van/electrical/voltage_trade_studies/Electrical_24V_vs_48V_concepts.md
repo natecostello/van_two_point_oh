@@ -44,7 +44,7 @@ The calculations behind the load study are in [this spreadsheet](https://docs.go
 #### Assumptions
 These are assumed loads that will run at all times while the electrical system is operational.  Essentially, these are the loads that need to be able to run indefinitely via solar power, including times while we are away from the van.
 
-Battery Relay is non-latching and engaged at all times.
+Battery Relay is non-latching and engaged at all times. TODO - Update.
 
 [Max air fan](https://faroutride.com/maxxfan-review/) at 2 = (0.2*13.5V = 3W)
 
@@ -86,7 +86,7 @@ Cerbo will be powered at all times.
 
 These are assumed loads running on a daily basis during normal usage.  This would account for things like laptop usage, phone charging, and lights.
 
-Battery Relay is non-latching and engaged at all times.
+Battery Relay is non-latching and engaged at all times. TODO - Update.
 
 [Max air fan](https://faroutride.com/maxxfan-review/) at 5 = (0.6*13.5V = 8.1W) 10 hours per day
 
@@ -138,7 +138,7 @@ Cerbo will be powered at all times.
 
 ### Converter Sizing
 
-It is neccesary to size the DC converters for each concept to determine the no-load power consumption and apply the spec efficiency to converter power loads to analyze base and nominal load cases.
+It is neccesary to size the DC converters for each concept to determine the no-load power consumption and apply the specified conversion efficiency to loads powered via conversion.  These factors are then applied to the base and nominal load cases.
 
 **TLDR:** The 48V concept requires 12V conversion in excess of 944W, resulting in two [600W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1250.pdf) converters.  The 24V concept requires 12V conversion in excess of 311W, resulting in one [360W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1230.pdf) converter ([480W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1240.pdf) is also an option in the same form factor/efficiency/no-load draw).  The uncertainty on load is greater for the 48V concept based on the number of loads that require conversion.
 
@@ -146,65 +146,63 @@ It is neccesary to size the DC converters for each concept to determine the no-l
 
 The converter(s) will be sized to be capable of providing max simultaneous demand from all loads.  While this is conservative, we don't want to have to consider what is running when we fire up a load, turn on the water, etc.
 
-Air Compressor will be powered from house system and can be powered under all load conditions.
+The air compressor will be powered from the house system and may be powered under all load conditions.
 
 ​	[Hypergrade](https://www.viaircorp.com/recently-added-products/330c-hg) 200 psi (14A*13.5V = 189W) (12 or 24V)
 
-Fans
+Fans are running at maximum speed.
 
-​	[Max Air fan](https://faroutride.com/maxxfan-review/) @ max power (2.8A*13.5V = 38W) (12V)
+​- [Max Air fan](https://faroutride.com/maxxfan-review/) @ max power (2.8A*13.5V = 38W) (12V)
 
-​	[Sirocco II](https://www.amazon.com/Sirocco-24V-Gimbal-Size-Black/dp/B01LDY4X36/ref=sr_1_8?dchild=1&keywords=Marine+12+Volt+Fan&qid=1609256579&sr=8-8) x 2 @ max power (2x0.35Ax13.5V=10W) (2x0.21Ax27V=12W) (12 or 24W)
+​- [Sirocco II](https://www.amazon.com/Sirocco-24V-Gimbal-Size-Black/dp/B01LDY4X36/ref=sr_1_8?dchild=1&keywords=Marine+12+Volt+Fan&qid=1609256579&sr=8-8) x 2 @ max power (2x0.35Ax13.5V=10W) (2x0.21Ax27V=12W) (12 or 24W)
 
-Fridge and Freezer can be at max draw
+Fridge and Freezer are at max load
 
-​	Freezer: [C55BT](https://www.vitrifrigo.com/ww/en/c55bt_freezer_external_cooling_unit) = (38W) (12 or 24V)
+​- Freezer: [C55BT](https://www.vitrifrigo.com/ww/en/c55bt_freezer_external_cooling_unit) = (38W) (12 or 24V)
 
-​	Fridge: [C130L](https://www.vitrifrigo.com/ww/en/c130l-external-cooling-unit) = (45W) (12 or 24V)
+​- Fridge: [C130L](https://www.vitrifrigo.com/ww/en/c130l-external-cooling-unit) = (45W) (12 or 24V)
 
-Router, Switch, etc powered at maximum 
+Router, Switch, NAS, and rPIs at max load 
 
-​	AP One Rugged = 13W (12V)
+​- AP One Rugged = 13W (12V)
 
-​	MAX BR1 MK2 = 16W (12V)
+​- MAX BR1 MK2 = 16W (12V)
 
-​	[Prosafe GS108V4](https://www.netguardstore.com/datasheets/Switch/GS105_GS108_GS108PP_DS.pdf) = 5W (12V)
+​- [Prosafe GS108V4](https://www.netguardstore.com/datasheets/Switch/GS105_GS108_GS108PP_DS.pdf) = 5W (12V)
 
-NAS full access. [DS218](https://www.synology.com/en-us/products/compare/DS218/DS218play/DS418) = 15W (12V)
+- NAS full access. [DS218](https://www.synology.com/en-us/products/compare/DS218/DS218play/DS418) = 15W (12V)
 
-Raspberry Pi 4 max power = 6W (12V)
+- Raspberry Pi 4 max power = 6W (12V)
 
-Lights (24W) (Based on Van 1.0)
+Lights (24W) (Based on Van 1.0) (12 or 14V)
 
-Radio powered and transmitting
+HAM Radio is transmitting at rated power
 
 ​	[Anytone AT-D578UVIIIPRo](https://www.bridgecomsystems.com/collections/amateur-mobile-radios/products/at-d578uv) = 50W (12V)
 
 ~~Heater at max load. [B4L](https://www.heatso.com/espar-b4l-gasoline-heater-kit-12v-4kw/) = 42W (12V)~~
 
-Heater while starting. [B4L](https://www.heatso.com/espar-b4l-gasoline-heater-kit-12v-4kw/) =< 100W (12V)
+Heater is drawing starting load ([100W](https://www.heatso.com/espar-b4l-gasoline-heater-kit-12v-4kw/)) (12V)
 
-Max Laptop Draw ([Limited by Charger to 46W](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_) )
+Max Laptop Draw ([Limited by Charger to 46W](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_)):
 
-​	MBP (46W)
+​- MBP (46W) (12 or 24V)
 
-​	MBA (46W)
+​- MBA (46W) (12 or 24V)
 
-Phone Charging ([Neglect secondary power conversion](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_))
+Phone Charging ([same as laptop charger](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_)):
 
-​	Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/)
+​- Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/) (12 or 24V)
 
-​	Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/)
+​- Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/) (12 or 24V)
 
 Note: Camera will charge from 120VAC so not counted.
 
-Drone Charging
+Drone Charging: [Mavic Air 2 12V Charger](https://store.dji.com/product/mavic-air-2-car-charger?set_country=US&gclid=CjwKCAiAxKv_BRBdEiwAyd40N7s4sUNNY8LttvijuelUnwwQHZfPSOqMRu1qVGWplTxsHLgBQC6FOxoC408QAvD_BwE) (36W) (12V)
 
-​	[Mavic Air 2 12V Charger](https://store.dji.com/product/mavic-air-2-car-charger?set_country=US&gclid=CjwKCAiAxKv_BRBdEiwAyd40N7s4sUNNY8LttvijuelUnwwQHZfPSOqMRu1qVGWplTxsHLgBQC6FOxoC408QAvD_BwE) (36W)
+Propane Solenoid On ([20W](https://www.amazon.com/Stainless-Steel-Electric-Solenoid-Valve/dp/B00APDEASA/ref=sr_1_6?dchild=1&keywords=propane+solenoid+valve+24V&qid=1609269304&sr=8-6)) (12 or 24V) TODO: Update to 12 for stove power.
 
-Propane Solenoid On ([20W](https://www.amazon.com/Stainless-Steel-Electric-Solenoid-Valve/dp/B00APDEASA/ref=sr_1_6?dchild=1&keywords=propane+solenoid+valve+24V&qid=1609269304&sr=8-6))
-
-Water Pump On (176W)
+Water Pump On (176W) (12 or 24V) TODO: Verify
 
 ## Reliability
 
