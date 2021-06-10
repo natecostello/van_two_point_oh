@@ -26,22 +26,19 @@ cover:
 	# url: url
 ---
 
-
-# 48V vs 24V Electrical Concept
-
 TODO: Extract 24V material into baseline design documentation.
 
 TODO: Update the spreadsheet to reflect multiplus 24/3000 no load draw and propogate that affect on the rest of the analysis.
 
-## Load Study
+# Load Study
 
 The calculations behind the load study are in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing).  For the 48V concept, all DC loads will be powered at 12V via conversion.  For the 24V concept, all loads that can be powered directly from 24V will be.  For the nominal and base load cases, the 24V concept is about 20% more efficient.  Under nominal loads, it would mean more days requiring driving or idling to offset usage (i.e., installed solar is not sufficient) or reliance on auxilliary panels on late fall, winter, ealy spring, or otherwise shaded days.
 
-### Base Load
+## Base Load
 
 **TLDR:** Base load for the 48V concept is 21% (514 watt-hours) higher than the 24V concept.
 
-#### Assumptions
+### Assumptions
 These are assumed loads that will run at all times while the electrical system is operational.  Essentially, these are the loads that need to be able to run indefinitely via solar power, including times while we are away from the van.
 
 Battery Relay is non-latching and engaged at all times. TODO - Update.
@@ -78,11 +75,11 @@ MPPT will be powered on at all times.
 
 Cerbo will be powered at all times.
 
-### Nominal Load
+## Nominal Load
 
 **TLDR:** Nominal load for the 48V concept is 17% (553 watt-hours) higher than the 24V concept.
 
-#### Assumptions
+### Assumptions
 
 These are assumed loads running on a daily basis during normal usage.  This would account for things like laptop usage, phone charging, and lights.
 
@@ -136,65 +133,53 @@ MPPT will be powered on at all times.
 
 Cerbo will be powered at all times.
 
-### Converter Sizing
+## Converter Sizing
 
 It is neccesary to size the DC converters for each concept to determine the no-load power consumption and apply the specified conversion efficiency to loads powered via conversion.  These factors are then applied to the base and nominal load cases.
 
 **TLDR:** The 48V concept requires 12V conversion in excess of 944W, resulting in two [600W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1250.pdf) converters.  The 24V concept requires 12V conversion in excess of 311W, resulting in one [360W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1230.pdf) converter ([480W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1240.pdf) is also an option in the same form factor/efficiency/no-load draw).  The uncertainty on load is greater for the 48V concept based on the number of loads that require conversion.
 
-#### Assumptions
+### Assumptions
 
 The converter(s) will be sized to be capable of providing max simultaneous demand from all loads.  While this is conservative, we don't want to have to consider what is running when we fire up a load, turn on the water, etc.
 
 The air compressor will be powered from the house system and may be powered under all load conditions.
-
-​	[Hypergrade](https://www.viaircorp.com/recently-added-products/330c-hg) 200 psi (14A*13.5V = 189W) (12 or 24V)
+* [Hypergrade](https://www.viaircorp.com/recently-added-products/330c-hg) 200 psi (14A*13.5V = 189W) (12 or 24V)
 
 Fans are running at maximum speed.
 
-​- [Max Air fan](https://faroutride.com/maxxfan-review/) @ max power (2.8A*13.5V = 38W) (12V)
-
-​- [Sirocco II](https://www.amazon.com/Sirocco-24V-Gimbal-Size-Black/dp/B01LDY4X36/ref=sr_1_8?dchild=1&keywords=Marine+12+Volt+Fan&qid=1609256579&sr=8-8) x 2 @ max power (2x0.35Ax13.5V=10W) (2x0.21Ax27V=12W) (12 or 24W)
+- [Max Air fan](https://faroutride.com/maxxfan-review/) @ max power (2.8A*13.5V = 38W) (12V)
+- [Sirocco II](https://www.amazon.com/Sirocco-24V-Gimbal-Size-Black/dp/B01LDY4X36/ref=sr_1_8?dchild=1&keywords=Marine+12+Volt+Fan&qid=1609256579&sr=8-8) x 2 @ max power (2x0.35Ax13.5V=10W) (2x0.21Ax27V=12W) (12 or 24W)
 
 Fridge and Freezer are at max load
 
-​- Freezer: [C55BT](https://www.vitrifrigo.com/ww/en/c55bt_freezer_external_cooling_unit) = (38W) (12 or 24V)
-
-​- Fridge: [C130L](https://www.vitrifrigo.com/ww/en/c130l-external-cooling-unit) = (45W) (12 or 24V)
+- Freezer: [C55BT](https://www.vitrifrigo.com/ww/en/c55bt_freezer_external_cooling_unit) = (38W) (12 or 24V)
+- Fridge: [C130L](https://www.vitrifrigo.com/ww/en/c130l-external-cooling-unit) = (45W) (12 or 24V)
 
 Router, Switch, NAS, and rPIs at max load 
-
-​- AP One Rugged = 13W (12V)
-
-​- MAX BR1 MK2 = 16W (12V)
-
-​- [Prosafe GS108V4](https://www.netguardstore.com/datasheets/Switch/GS105_GS108_GS108PP_DS.pdf) = 5W (12V)
-
+- AP One Rugged = 13W (12V)
+- MAX BR1 MK2 = 16W (12V)
+- [Prosafe GS108V4](https://www.netguardstore.com/datasheets/Switch/GS105_GS108_GS108PP_DS.pdf) = 5W (12V)
 - NAS full access. [DS218](https://www.synology.com/en-us/products/compare/DS218/DS218play/DS418) = 15W (12V)
-
 - Raspberry Pi 4 max power = 6W (12V)
 
 Lights (24W) (Based on Van 1.0) (12 or 14V)
 
 HAM Radio is transmitting at rated power
 
-​	[Anytone AT-D578UVIIIPRo](https://www.bridgecomsystems.com/collections/amateur-mobile-radios/products/at-d578uv) = 50W (12V)
-
-~~Heater at max load. [B4L](https://www.heatso.com/espar-b4l-gasoline-heater-kit-12v-4kw/) = 42W (12V)~~
+* [Anytone AT-D578UVIIIPRo](https://www.bridgecomsystems.com/collections/amateur-mobile-radios/products/at-d578uv) = 50W (12V)
 
 Heater is drawing starting load ([100W](https://www.heatso.com/espar-b4l-gasoline-heater-kit-12v-4kw/)) (12V)
 
 Max Laptop Draw ([Limited by Charger to 46W](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_)):
 
-​- MBP (46W) (12 or 24V)
-
-​- MBA (46W) (12 or 24V)
+- MBP (46W) (12 or 24V)
+- MBA (46W) (12 or 24V)
 
 Phone Charging ([same as laptop charger](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_)):
 
-​- Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/) (12 or 24V)
-
-​- Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/) (12 or 24V)
+- Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/) (12 or 24V)
+- Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/) (12 or 24V)
 
 Note: Camera will charge from 120VAC so not counted.
 
@@ -204,17 +189,17 @@ Propane Solenoid On ([20W](https://www.amazon.com/Stainless-Steel-Electric-Solen
 
 Water Pump On (176W) (12 or 24V) TODO: Verify
 
-## Reliability
+# Reliability
 
-### 24V Reliability
+## 24V Reliability
 
 If the 24V to 12V converter fails the system would maintain the capability to power fridge, freezer, water pump, internal fans, lights, laptops/phones, and all AC loads.  You would lose propane.
 
-### 48V Reliability
+## 48V Reliability
 
 If the 48V to 12V converter fails the system would maintain AC loads only.
 
-## Rapid Charge Capability
+# Charge Capability
 
 **TLDR:** The 24V concept is adequate from a rapid charge capability for our use case (occasional off grid AC).  The 48V concept greatly exceeds the rapid charge capability of the 24V concept and can likely do so without any use of the factory alternator.
 
@@ -222,11 +207,11 @@ Both these concepts leverage the ability to perform rapid battery charge via the
 
 Note: The BMS limit charge via CAN substanitally (~1A) when the highest cell reaches the balance start voltage setting (2.35V) corresponding to a maximum pack voltage of 27.6V.
 
-### 24V Concept Rapid Charge
+## 24V Concept Rapid Charge
 
 **TLDR:** By using maximum idle and both alternators maximally, a charge rate of 5124W (Multiplus Compact 183A at 28V) or 5544W (Multiplus 24/3000 198A at 28V) should be achievable.  This equates to about 10 or 11 hours of air conditioning per hour of idle or driving.  By only using the second alternator, a charge rate of 3724W should be achievable, equating to about 7 hours of air conditioning per hour of idle or driving.
 
-#### Second Alternator Charging
+### Second Alternator Charging
 
 The 24V concept will make use of a Nations "24-150" alternator that is [capable](24V_150_Specs.jpg) of 90A at 28V while idling at 2250 RPM (alternator speed).  Note, the specification for this alternator was provided by a forum member.  I have not recieved confirmation from Nations on performance.  Based on this assumed performance we can achieve the following charge rates:
 
@@ -236,7 +221,7 @@ The 24V concept will make use of a Nations "24-150" alternator that is [capable]
 
 133A or 3724W at 6480 RPM (high SEIC)
 
-#### Factory Alternator Charging
+### Factory Alternator Charging
 
 The 24V concept may make use of charging via the Multiplus Compact via Inverter via stock HD Alternator.  The Multiplus Compact is limited to 50A charge or 1380W assuming 27.6V.  With 94% Multiplus efficiency, this corresponds to input power of 1468W supplied by the forward inverter.  With 90% forward inverter efficiency, this corresponds to input power of 1631W supplied by the stock alternator.
 
@@ -254,7 +239,7 @@ The best data for baseline Transit draw I have found is [here](https://www.fordt
 
 These numbers suggest that in all cases, at high SEIC, the max charge rate of 68A at the battery should be achievable from the stock alternator (12.9V * [195A-25A] * 0.9 * 0.96 / 27.6 V).  Note, the 25A decrement is based on observed baseline engine-only draw.   This is also possible with a 2000W rated forward inverter.  The RPM breakpoint to lower the charge rate is unclear.  The Multiplus or remote panel is capable of using an aux contact to change the input current limit.  Driving this contact with a microcontroller that is sensing either engine RPM and/or alternator temperature should not be difficult.
 
-### 48V Concept Rapid Charge
+## 48V Concept Rapid Charge
 
 **TLDR:** By using maximum idle and both alternators maximally, a charge rate of 5320W to 7560W could be achievable.  This equates to about 10-16 hours of air conditioning per hour of idle or driving.
 
@@ -264,7 +249,7 @@ The 48V concept will make use of a Nations "48-100" alternator that is alledgedl
 
 100A or 5600W at some unknown RPM
 
-#### Factory Alternator Charging
+### Factory Alternator Charging
 
 The 24V concept may make use of charging via the Quattro via Inverter via stock HD Alternator.  The Quattro is limited to 35A charge or 1960W assuming 56V.  With 94% efficiency, this corresponds to input power of 2085W supplied by the forward inverter.  With 90% forward inverter efficiency, this corresponds to input power of 2317W supplied by the stock alternator.
 
@@ -272,41 +257,41 @@ The capability of the stock HD alternator is unclear and the subject of much deb
 
 Based on the factory alternator performance discussed above in the 24V concept, at high SEIC in all cases, the max charge rate of 34A at the battery should be achievable from the stock alternator.  
 
-## Cost
+# Cost
 
 **TLDR:** With the known or estimatible costs available, the 48V system would cost about $582 more than the 24V system.
 
-### Alternator Cost
+## Alternator Cost
 
 Without knowing the cost of the 48V alternator option from Nations, it is difficult to judge, but it is safe to assume the 48V alternator option will cost more than the 24V option.
 
-### Inverter Cost
+## Inverter Cost
 
 The [Quattro 48/3000/35-50/50 120V](https://www.victronenergy.com/upload/documents/Datasheet-Quattro-3-10kVA-120V-EN.pdf) for the 48V system is $1855 vs the Multiplus Compact for the 24V system which is $1155.
 
-### MPPT Cost
+## MPPT Cost
 
 The [Smart Solar 100/20-48](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-75-10,-75-15,-100-15,-100-20_48V-EN.pdf) for the 48V system is $166 vs the [Smart Solar 150/45](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-150-45-up-to-150-100-EN.pdf) for the 24V system is $450.
 
-### Wiring Cost
+## Wiring Cost
 
 Estimating the factor of four reduction in wiring diameter for the 48V system vs the 24V system would reduce the 48V system cost by approximately $200 compared to the 24V system.
 
-### 12V Conversion Cost
+## 12V Conversion Cost
 
 The 48V system requires two [600W converters](https://www.ato.com/Content/doc/dc-dc-converter-48v-to-12v/ATOWG-48S1250.pdf) at [$640](https://www.ato.com/dc-dc-buck-converter-48v-to-12v) total.  The 24V system requires one [360W converter](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1230.pdf) at [$174](https://www.ato.com/dc-dc-buck-converter-24v-to-12v).
 
-### Other Cost
+## Other Cost
 
 To take advantage of the factory alternator using the Orton method, the 24V system will require a transfer switch due to limitations of the Multiplus Compact.  This would increase the 24V system by approximately $100.
 
-## Volume and Weight
+# Volume and Weight
 
 **TLDR:** Volume and weight are not a major factor.  
 
 The 48V system would weight about 20 lbs more due to the weight of the DC power conversion and the larger inverter charger offset by a smaller MPPT.  Volume-wise, the 48V system might be more difficult to arrange due to the additional DC power conversion, but wiring would be easier with the smaller required gauge.
 
-## Wiring
+# Wiring
 
 **TLDR:** 48V uses much smaller (1/4th) size wire than 24V for comprable performance.  This pays of in cost, difficulty in routing, difficulty in terminating, and criticality of terminations.
 
