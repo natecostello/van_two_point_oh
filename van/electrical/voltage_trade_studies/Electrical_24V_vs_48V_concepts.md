@@ -34,6 +34,44 @@ TODO: Update the spreadsheet to reflect multiplus 24/3000 no load draw and propo
 
 The calculations behind the load study are in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing).  For the 48V concept, all DC loads will be powered at 12V via conversion.  For the 24V concept, all loads that can be powered directly from 24V will be.  For the nominal and base load cases, the 24V concept is about 20% more efficient.  Under nominal loads, it would mean more days requiring driving or idling to offset usage (i.e., installed solar is not sufficient) or reliance on auxilliary panels on late fall, winter, ealy spring, or otherwise shaded days.
 
+## Converter Sizing
+
+For both the 24V and 48V concept, DC-to-DC power conversion will be required to power DC loads that require 12V.  It is neccesary to size the DC converters for each concept to determine the no-load power consumption of the converter(s) and apply the specified conversion efficiency to loads powered via the converter(s).  These factors are then applied to the base and nominal load cases.
+
+<details>
+<summary>Assumptions</summary> 
+
+The converter(s) will be sized to be capable of providing maximum simultaneous demand from all DC loads that require conversion to 12V.  While this is conservative, we don't want to have to consider what is running when we fire up a load, turn on the water, etc.
+- [Hypergrade](https://www.viaircorp.com/recently-added-products/330c-hg) 200 psi (14A*13.5V = 189W) (12 or 24V)
+- [Max Air fan](https://faroutride.com/maxxfan-review/) @ max power (2.8A*13.5V = 38W) (12V)
+- [Sirocco II](https://www.amazon.com/Sirocco-24V-Gimbal-Size-Black/dp/B01LDY4X36/ref=sr_1_8?dchild=1&keywords=Marine+12+Volt+Fan&qid=1609256579&sr=8-8) x 2 @ max power (2x0.35Ax13.5V=10W) (2x0.21Ax27V=12W) (12 or 24W)
+- Freezer: [C55BT](https://www.vitrifrigo.com/ww/en/c55bt_freezer_external_cooling_unit) = (38W) (12 or 24V)
+- Fridge: [C130L](https://www.vitrifrigo.com/ww/en/c130l-external-cooling-unit) = (45W) (12 or 24V)
+- Pepwave AP One Rugged = 13W (12V)
+- Pepwave MAX BR1 MK2 = 16W (12V)
+- [NetGear Prosafe GS108V4](https://www.netguardstore.com/datasheets/Switch/GS105_GS108_GS108PP_DS.pdf) = 5W (12V)
+- NAS full access. [DS218](https://www.synology.com/en-us/products/compare/DS218/DS218play/DS418) = 15W (12V)
+- Raspberry Pi 4 max power = 6W (12V)
+- Lights (24W) (Based on Van 1.0) (12 or 14V)
+- HAM Radio [(Anytone AT-D578UVIIIPRo)](https://www.bridgecomsystems.com/collections/amateur-mobile-radios/products/at-d578uv) = 50W (12V)
+- B4L Heater under starting load ([100W](https://www.heatso.com/espar-b4l-gasoline-heater-kit-12v-4kw/)) (12V)
+- Laptop MBP [Limited by Charger](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_) (46W) (12 or 24V)
+- Laptop MBA [Limited by Charger](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_) (46W) (12 or 24V)
+- Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/) (12 or 24V)
+- Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/) (12 or 24V)
+- Drone Charging: [Mavic Air 2 12V Charger](https://store.dji.com/product/mavic-air-2-car-charger?set_country=US&gclid=CjwKCAiAxKv_BRBdEiwAyd40N7s4sUNNY8LttvijuelUnwwQHZfPSOqMRu1qVGWplTxsHLgBQC6FOxoC408QAvD_BwE) (36W) (12V)
+- Propane Solenoid On ([20W](https://www.amazon.com/Stainless-Steel-Electric-Solenoid-Valve/dp/B00APDEASA/ref=sr_1_6?dchild=1&keywords=propane+solenoid+valve+24V&qid=1609269304&sr=8-6)) (12 or 24V) TODO: Update to 12 for stove power.
+- Water Pump On (176W) (12 or 24V) TODO: Verify
+Note: Camera will charge from 120VAC so not counted.
+
+</details>
+
+
+
+**TLDR:** The 48V concept requires 12V conversion in excess of 944W, resulting in two [600W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1250.pdf) converters.  The 24V concept requires 12V conversion in excess of 311W, resulting in one [360W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1230.pdf) converter ([480W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1240.pdf) is also an option in the same form factor/efficiency/no-load draw).  The uncertainty on load is greater for the 48V concept based on the number of loads that require conversion.
+
+
+
 ## Base Load
 
 **TLDR:** Base load for the 48V concept is 21% (514 watt-hours) higher than the 24V concept.
@@ -133,71 +171,14 @@ MPPT will be powered on at all times.
 
 Cerbo will be powered at all times.
 
-## Converter Sizing
 
-It is neccesary to size the DC converters for each concept to determine the no-load power consumption and apply the specified conversion efficiency to loads powered via conversion.  These factors are then applied to the base and nominal load cases.
+# Reliability/Degradation
 
-**TLDR:** The 48V concept requires 12V conversion in excess of 944W, resulting in two [600W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1250.pdf) converters.  The 24V concept requires 12V conversion in excess of 311W, resulting in one [360W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1230.pdf) converter ([480W](https://www.ato.com/Content/doc/dc-dc-converter-24v-to-12v/ATOWG-24S1240.pdf) is also an option in the same form factor/efficiency/no-load draw).  The uncertainty on load is greater for the 48V concept based on the number of loads that require conversion.
+The 24V concept wins.
 
-### Assumptions
+For the 24V concept, if the 24V to 12V converter fails the system would maintain the capability to power fridge, freezer, water pump, internal fans, lights, laptops/phones, and all AC loads.  You would lose propane.
 
-The converter(s) will be sized to be capable of providing max simultaneous demand from all loads.  While this is conservative, we don't want to have to consider what is running when we fire up a load, turn on the water, etc.
-
-The air compressor will be powered from the house system and may be powered under all load conditions.
-* [Hypergrade](https://www.viaircorp.com/recently-added-products/330c-hg) 200 psi (14A*13.5V = 189W) (12 or 24V)
-
-Fans are running at maximum speed.
-
-- [Max Air fan](https://faroutride.com/maxxfan-review/) @ max power (2.8A*13.5V = 38W) (12V)
-- [Sirocco II](https://www.amazon.com/Sirocco-24V-Gimbal-Size-Black/dp/B01LDY4X36/ref=sr_1_8?dchild=1&keywords=Marine+12+Volt+Fan&qid=1609256579&sr=8-8) x 2 @ max power (2x0.35Ax13.5V=10W) (2x0.21Ax27V=12W) (12 or 24W)
-
-Fridge and Freezer are at max load
-
-- Freezer: [C55BT](https://www.vitrifrigo.com/ww/en/c55bt_freezer_external_cooling_unit) = (38W) (12 or 24V)
-- Fridge: [C130L](https://www.vitrifrigo.com/ww/en/c130l-external-cooling-unit) = (45W) (12 or 24V)
-
-Router, Switch, NAS, and rPIs at max load 
-- AP One Rugged = 13W (12V)
-- MAX BR1 MK2 = 16W (12V)
-- [Prosafe GS108V4](https://www.netguardstore.com/datasheets/Switch/GS105_GS108_GS108PP_DS.pdf) = 5W (12V)
-- NAS full access. [DS218](https://www.synology.com/en-us/products/compare/DS218/DS218play/DS418) = 15W (12V)
-- Raspberry Pi 4 max power = 6W (12V)
-
-Lights (24W) (Based on Van 1.0) (12 or 14V)
-
-HAM Radio is transmitting at rated power
-
-* [Anytone AT-D578UVIIIPRo](https://www.bridgecomsystems.com/collections/amateur-mobile-radios/products/at-d578uv) = 50W (12V)
-
-Heater is drawing starting load ([100W](https://www.heatso.com/espar-b4l-gasoline-heater-kit-12v-4kw/)) (12V)
-
-Max Laptop Draw ([Limited by Charger to 46W](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_)):
-
-- MBP (46W) (12 or 24V)
-- MBA (46W) (12 or 24V)
-
-Phone Charging ([same as laptop charger](https://www.amazon.com/Charger-Waterproof-Delivery-Voltmeter-Motorcycle/dp/B07NV9D61R/ref=sr_1_4?dchild=1&keywords=24v%2BUSB%2Bc%2Bcharger&qid=1609255486&sr=8-4&th=1_)):
-
-- Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/) (12 or 24V)
-- Iphone 11 [(25W)](http://www.chargerlab.com/iphone-11-pro-max-charging-test/) (12 or 24V)
-
-Note: Camera will charge from 120VAC so not counted.
-
-Drone Charging: [Mavic Air 2 12V Charger](https://store.dji.com/product/mavic-air-2-car-charger?set_country=US&gclid=CjwKCAiAxKv_BRBdEiwAyd40N7s4sUNNY8LttvijuelUnwwQHZfPSOqMRu1qVGWplTxsHLgBQC6FOxoC408QAvD_BwE) (36W) (12V)
-
-Propane Solenoid On ([20W](https://www.amazon.com/Stainless-Steel-Electric-Solenoid-Valve/dp/B00APDEASA/ref=sr_1_6?dchild=1&keywords=propane+solenoid+valve+24V&qid=1609269304&sr=8-6)) (12 or 24V) TODO: Update to 12 for stove power.
-
-Water Pump On (176W) (12 or 24V) TODO: Verify
-
-# Reliability
-
-## 24V Reliability
-
-If the 24V to 12V converter fails the system would maintain the capability to power fridge, freezer, water pump, internal fans, lights, laptops/phones, and all AC loads.  You would lose propane.
-
-## 48V Reliability
-
-If the 48V to 12V converter fails the system would maintain AC loads only.
+For the 48V concept, if the 48V to 12V converter fails the system would maintain AC loads only.
 
 # Charge Capability
 
@@ -207,19 +188,17 @@ Both these concepts leverage the ability to perform rapid battery charge via the
 
 Note: The BMS limit charge via CAN substanitally (~1A) when the highest cell reaches the balance start voltage setting (2.35V) corresponding to a maximum pack voltage of 27.6V.
 
-## 24V Concept Rapid Charge
+## 24V Concept Charge
 
 **TLDR:** By using maximum idle and both alternators maximally, a charge rate of 5124W (Multiplus Compact 183A at 28V) or 5544W (Multiplus 24/3000 198A at 28V) should be achievable.  This equates to about 10 or 11 hours of air conditioning per hour of idle or driving.  By only using the second alternator, a charge rate of 3724W should be achievable, equating to about 7 hours of air conditioning per hour of idle or driving.
 
 ### Second Alternator Charging
 
-The 24V concept will make use of a Nations "24-150" alternator that is [capable](24V_150_Specs.jpg) of 90A at 28V while idling at 2250 RPM (alternator speed).  Note, the specification for this alternator was provided by a forum member.  I have not recieved confirmation from Nations on performance.  Based on this assumed performance we can achieve the following charge rates:
+The 24V concept will make use of a Nations "24-150" alternator that is [capable](24v-150-specs.pdf) of 90A at 28V while idling at 2250 RPM (alternator speed).  Based on this assumed performance we can achieve the following charge rates:
 
-60A or 1680W at base idle
-
-84A or 2352W at 2160 RPM (low SEIC)
-
-133A or 3724W at 6480 RPM (high SEIC)
+- 60A or 1680W at base idle
+- 84A or 2352W at 2160 RPM (low SEIC)
+- 133A or 3724W at 6480 RPM (high SEIC)
 
 ### Factory Alternator Charging
 
@@ -229,11 +208,9 @@ Alternatively, the 24V concept may make use of charging via the Multiplus 24/300
 
 The capability of the stock HD alternator is unclear and the subject of much debate on the forum.  Another key question is what is the base load required by the vehicle.   Note CCP2 is fused at 175A and is specified to be kept below 175A.  This is a bounding concern if the full 70A charging of the Multiplus 24/3000 is used in hot factory alternator ouput conditions (below 13.1V).  Assuming Hot (60C/13.5V-115C/12.9V) conditions, the BEMM states the stock alternator is capable of:
 
-~70A or 903W/945W at base idle
-
-~130A/150A or 1677W/2025W at 2160 RPM (low SEIC)
-
-~195A/235A or 2515W/3172W at 6480 RPM (high SEIC)
+- ~70A or 903W/945W at base idle
+- ~130A/150A or 1677W/2025W at 2160 RPM (low SEIC)
+- ~195A/235A or 2515W/3172W at 6480 RPM (high SEIC)
 
 The best data for baseline Transit draw I have found is [here](https://www.fordtransitusaforum.com/threads/ammeter-for-alternator-output.65585/#post-891193).
 
@@ -243,7 +220,7 @@ These numbers suggest that in all cases, at high SEIC, the max charge rate of 68
 
 **TLDR:** By using maximum idle and both alternators maximally, a charge rate of 5320W to 7560W could be achievable.  This equates to about 10-16 hours of air conditioning per hour of idle or driving.
 
-The 48V concept will make use of a Nations "48-100" alternator that is alledgedly [capable](https://www.fordtransitusaforum.com/threads/2020-awd-148-t-250-hr-van-compass-2-lift-fox-pro-resis-skid-plate-shock-mount-edit-custom-spare-carrier-265-75-16-terrain-contact-at-32-2.81387/post-1076831) of 60A at 56V while idling at 2250 RPM (altenator speed).  Note, the specifications for this alternator were quoted by a forum member based on conversations with Adam Nations.  I have not recieved confirmation from Nations on performance.  Based on this assumed performance we can achieve the following charge rates:
+The 48V concept will make use of a Nations "48-100" alternator that is [alledgedly capable](https://www.fordtransitusaforum.com/threads/2020-awd-148-t-250-hr-van-compass-2-lift-fox-pro-resis-skid-plate-shock-mount-edit-custom-spare-carrier-265-75-16-terrain-contact-at-32-2.81387/post-1076831) of 60A at 56V while idling at 2250 RPM (altenator speed).  Adam Nations confirmed by email capability of 50-60A at idle.  Based on this assumed performance we can achieve the following charge rates:
 
 60A or 3360W at base idle
 

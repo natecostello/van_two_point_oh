@@ -378,3 +378,7 @@ Incorporate TOC
 
 Incorporate Tag Cloud
 
+Modify source-git plugin to preserve dates
+
+Write plugin to strip md/mdx extension
+
