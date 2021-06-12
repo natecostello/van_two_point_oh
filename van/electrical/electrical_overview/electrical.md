@@ -24,7 +24,8 @@ cover:
 
 This page provides an overview of the electrical system.
 
-![Electrical Schematic](schematic.jpg)
+![Electrical Schematic](schematic.svg)
+_High level system schematic_
 
 
 
