@@ -21,5 +21,4 @@ cover:
 	# url: url
 ---
 
-[*"of, relating to, or designed for vehicles and especially motor vehicles"*](https://www.merriam-webster.com/dictionary/vehicular)
 
