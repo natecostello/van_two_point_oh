@@ -23,7 +23,6 @@ cover:
 	# url: url
 ---
 
-
 ### Getting an RPi talking to a UNI-T UT61E
 
 This was super painless once I got the right model of multimeter.  Turns out the UT61E+ is NOT supported by sigrok (and it says so right on the webpage UT61E if you can read).  Note, the model I got came with an RS-232 cable, so I did have to dig out a RS232-USB cable ().   This is all it took:
