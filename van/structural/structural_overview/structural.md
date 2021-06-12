@@ -16,9 +16,9 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+ img: structural.JPG
 	# if attribution is needed
-	# source: [vecteezy]
+ source: Van One Point Oh
 	# url: url
 ---
 
