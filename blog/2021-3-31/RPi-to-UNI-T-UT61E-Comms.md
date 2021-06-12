@@ -17,13 +17,12 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+ img: rpi-to-uni-t-ut61e-comms.jpg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
 ---
 
-![metameta](RPi-to-UNI-T-UT61E-Comms.JPG)
 
 ### Getting an RPi talking to a UNI-T UT61E
 

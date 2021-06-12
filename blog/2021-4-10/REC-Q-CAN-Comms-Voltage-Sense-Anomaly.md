@@ -18,14 +18,11 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+ img: rec-q-can-comms-voltage-sense-anomaly.jpg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
 ---
-
-
-![](REC-Q-CAN-Comms-Voltage-Sense-Anomaly.JPG)
 
 ### Wringing out the REC Q BMS
 
@@ -37,7 +34,7 @@ I'm operating the BMS without a battery for now, and instead with something simu
 
 The battery simulator is simply a power supply and a voltage divider of 2.4kOhm resistors that simulate cells.  One of these is actually a potentiometer which allows simulation of a high or low voltage cell by changing the resistance.  Between at each resistor are taps that are used to wire up the BMS per the manual.  By applying ~26V to the voltage divider, the BMS is powered and sees 8 cells with a nominal LFP voltage.
 
-![](Battery_Simulator.jpg)
+![](battery-simulator.jpg)
 
 ### The Anomaly
 
@@ -97,7 +94,7 @@ I hooked up the REC Wi-Fi Module to get more granularity on cell voltages and se
 
 The home page shows the same max cell voltage discrepancy as the CAN data.
 
-![](wifi_module_home.jpg)
+![](wifi-module-home.jpg)
 
 ~~The voltage (and impedance) page don't show cell 8 at all.  Only cells 1-7.  Whether this is related or a different problem I can not say.  The voltages that are shown do match the DMM measurement pretty closely.~~  It was just cut off in the webpage formating.  SMH.
 
@@ -105,7 +102,7 @@ The home page shows the same max cell voltage discrepancy as the CAN data.
 
 Lastly, based on the 8th cell not showing up, I verified that the dip switch settings match the manual's instructions for a 8 cell battery.  They did, and do.
 
-![](dip_settings.JPG)
+![](dip-settings.jpg)
 
 **Still a mystery.**
 
@@ -113,7 +110,7 @@ Lastly, based on the 8th cell not showing up, I verified that the dip switch set
 
 REC responded and suggested that the high resistor values in the battery simulator might be interfering with the voltage measurements and suggested a lower resistance for the voltage divider components.  Before breaking out the soldering iron, I hacked together some components to reduce the voltage divider resistances down to ~90Ohms per cell.
 
-![voltage_divider_low_r](voltage_divider_low_r.JPG)
+![voltage_divider_low_r](voltage-divider-low-r.jpg)
 
 **Problem solved.  All BMS measurements moved close in line with the DMM measurements.**
 
@@ -129,4 +126,4 @@ REC responded and suggested that the high resistor values in the battery simulat
 | Cell 1      | 3.254   | 3.255   | -0.001    |
 | Pack        | 25.95   | 25.97   | -0.02     |
 
-![wifi_module_voltage_low_r](wifi_module_voltage_low_r.jpg)
+![wifi_module_voltage_low_r](wifi-module-home-low-r.jpg)

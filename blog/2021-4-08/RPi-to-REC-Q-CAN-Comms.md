@@ -18,14 +18,12 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+ img: rpi-to-rec-q-can-comms.jpg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
 ---
 
-
-![RPi-to-REC-Q-Comms-(CAN)](RPi-to-REC-Q-CAN-Comms.JPG)
 
 ###  Getting an RPi talking to the REC Q BMS
 
@@ -104,7 +102,7 @@ The most useful is another product [manual](http://www.rec-bms.com/datasheet/Use
 
 [SIMPBMS](https://github.com/Tom-evnut/SimpBMS/blob/master/Simp%20BMS%20Setup%20Manual%20V0.25.pdf) covers CAN IDs:  0x351, 0x355, 0x356, 0x35A, and 0x373.
 
-[LiTerminal](LiTerminal_Docu_en_sm_SMA_CAnbus.pdf) covers CAN IDs: 0x351, 0x355, 0x356, 0x35A, 0x35B, 0x35E, and 0x35F.
+[LiTerminal](literminal-docu-en-sm-sma-canbus.pdf) covers CAN IDs: 0x351, 0x355, 0x356, 0x35A, 0x35B, 0x35E, and 0x35F.
 
 I've also got an email into REC.  So hopefully they can help in a more direct way.
 
@@ -169,12 +167,6 @@ All zeros except first byte
 All zeros except first byte
 
 0x31 (49)
-
-
-
-
-
-
 
 #### 
 

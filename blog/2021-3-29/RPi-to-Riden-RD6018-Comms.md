@@ -17,14 +17,11 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+ img: rpi-to-riden-rd6018-comms.jpg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
 ---
-
-
-![metametameta](RPi_to_Riden_RD6018_Comms.JPG)
 
 ### Why bother getting an RPi talking to a Riden RD6018
 
