@@ -16,9 +16,9 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	img: rando-van-elec.jpeg
+ img: rando-van-elec.jpeg
 	# if attribution is needed
-	source: Van One Point Oh
+ source: Van One Point Oh
 	# url: url
 ---
 
