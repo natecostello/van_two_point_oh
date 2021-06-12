@@ -38,31 +38,18 @@ cover:
 
 When the RS is opened, or the REC Q internal relay is opened*, Vbat is removed from the RPC BMS+ input. The RPC will float its Contactor- output continuosly which deenergizes the main contactor coil and opens the main contactor.
 
-
-
-**\*The following events result in the REC Q Internal Relay opening**
-
-Cell Voltage High (cell over voltage switch-off + hysteresis)
-
-Cell Voltage Low (cell under voltage protection switch-off + hysteresis)
-
-Cell Temp High (cell over temp switch-off + hysteresis) 
-
-Number of cells or BMS address is not set properly
-
-Temperature sensor error (connection problem)
-
-Cell Short Circuit or BMS measurement error
-
-Main Relay is in short circuit
-
-Current measurement disabled or > 2x shunt max current
-
-Wrong Cell Chemistry Selected
-
-Cell balancing or measurement failure
-
-BMS internal comm failure
+**\*The following events result in the REC Q Internal Relay opening:**
+* Cell Voltage High (cell over voltage switch-off + hysteresis
+* Cell Voltage Low (cell under voltage protection switch-off + hysteresis)
+* Cell Temp High (cell over temp switch-off + hysteresis) 
+* Number of cells or BMS address is not set properl
+* Temperature sensor error (connection problem)
+* Cell Short Circuit or BMS measurement error
+* Main Relay is in short circuit
+* Current measurement disabled or > 2x shunt max current
+* Wrong Cell Chemistry Selecte
+* Cell balancing or measurement failure
+* BMS internal communication failure
 
 **Note:** The internal relay is NOT opened under Temperature Low (under temperature charging disable + hysteresis) conditions.  We will use charger enable signal to provide hardware backup protection of low temperature charging under loss of CAN conditions.
 
@@ -72,13 +59,9 @@ BMS internal comm failure
 
 This is accomplished by opening the main contactor by the BMS via its internal relay.
 
-
-
 ## Under Voltage Backup Protection
 
 This is accomplished by opening the main contactor by the BMS via its internal relay.
-
-
 
 ## Low Temp BackUp Protection
 
@@ -109,8 +92,6 @@ One possibility is to use the Charge current control assistant
 **Another possibility is to use the Two-signal BMS support assistant.**   Select "The BMS has one contact which which switches only on a high-cell condition".   Then "The battery is full when [Aux_X] is [open/closed]".  Lastly "[Disable Charger] and [do not adapt SOC] when battery full."  Selecting "battery is full when [Temp_Sense] is [**open**]" and connecting [Temp_Sense] to a NO relay that is energized (CLOSED) when the charger enable signal is provided by the BMS will provide low temp backup protection that is also protected from a broken wire.
 
 Note: The Multiplus Compact only has a temperature sense input, no aux inputs.  Low Temp BackUp protection will depend on being able to use this temperature sense input to support a charge enable control via the assistant.  I have [asked the question here](https://community.victronenergy.com/questions/76757/can-the-multiplus-compact-temperature-sense-input.html).  If the response is negative, I will likely shift the 3KVA Multiplus inspite of its additional parasitic load (20W vs 11W) and slightly higher cost.
-
-
 
 ### Alternator/Wakespeed
 
@@ -151,17 +132,3 @@ NOTE: [This Github Issue related to Victron-Wakespeed integration is relevant to
 ### All Together
 
 TODO: Since we need separate dry contacts or opto-couplers for two components, we will need a "splitter".  A starting place would be [this sparkfun opto-isolator breakout](https://www.sparkfun.com/products/9118).  TODO: Since we need a >8.5v DC 'wet' signal we will also need some conditioning.  Could possibly use the RBSLD inverter.
-
-### Open Questions to REC Q Supplier
-
-The REC temperature sensor - does it contain 3 sensors?
-
-When will variable REC precharge be available?
-
-Can a remote switch be used to turn off/on Battery/Main Contactor?
-
-What cables are included?
-
-If not included, Recommended Wire for Battery Voltage Sense, Shunt?
-
-If not included, what is the BMS side shunt connector type?
