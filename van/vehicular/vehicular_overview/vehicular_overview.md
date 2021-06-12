@@ -5,7 +5,7 @@ categories:
  # one or more categories is permitted
  - vehicular
 
-title: Vehicular Overview
+title: '"involving or by means of a vehicle"'
 navTitle: Vehicular
 author: Nate
 date: 2020-10-26
