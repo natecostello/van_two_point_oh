@@ -1,13 +1,26 @@
 ---
-section: "van"
-category: "tactical"
-title: "Tactical Overview"
-author: "Stello"
-date: "2020-10-26"
-tags: []
-level: 1
+type: categorypage
+section: van
+categories: 
+ # one or more categories is permitted
+ - tactical
+
+title: '"suitable for bringing about a desired result under the circumstances"'
+navTitle: Tactical
+author: Nate
+date: 2020-10-26
+tags:
+	# no tags
+metatags:
+	# no metatags
+cover: 
+	# image file
+ img: march.png
+	# if attribution is needed
+ source: Charles Minard
+	# url: url
 ---
-[*"suitable for bringing about a desired result under the circumstances"*](https://www.merriam-webster.com/thesaurus/tactical)
 
-[*"adroit in planning or maneuvering to accomplish a purpose"*](https://www.merriam-webster.com/dictionary/tactical)
+This is how we get from A to B.
 
+![](Van_Flow_Chart.svg)
