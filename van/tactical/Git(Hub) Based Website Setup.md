@@ -368,8 +368,6 @@ It turns out, since the slugs are generated from the file path, you can simply o
 
 Write category page contents.
 
-Fix colors.
-
 Incorporate darkmode.
 
 Incorporate Title Images.
@@ -381,4 +379,6 @@ Incorporate Tag Cloud
 Modify source-git plugin to preserve dates
 
 Write plugin to strip md/mdx extension
+
+Strip and uninstall unused plugins
 
