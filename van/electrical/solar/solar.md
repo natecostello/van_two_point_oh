@@ -26,7 +26,7 @@ cover:
 ---
 
 
-**TLDR:**  The system will use 4 [Rich Solar](https://richsolar.com/products/200-watt-24-volt-solar-panel) 200W panels in a 2S2P arrangement and a [SmartSolar 150/45](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-150-45-up-to-150-70-EN.pdf) MPPT.  A ground array will use a separate MPPT to maximize flexibility in panel choice (specifically dimensional flexibility).
+**TLDR:**  The system is composed of four [Rich Solar](https://richsolar.com/products/200-watt-24-volt-solar-panel) 200W panels in a 2S2P arrangement and a [SmartSolar 150/45](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-150-45-up-to-150-70-EN.pdf) MPPT.  A portable ground array, if pursued, will use a separate MPPT to maximize flexibility in panel choice (specifically dimensional flexibility).
 
 ## Requirements
 
