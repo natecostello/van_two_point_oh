@@ -47,9 +47,9 @@ We settled on a battery built from 280AH LFP cells that are in heavy production 
 
 **24V 560AH LFP Battery**
 
-With that settled, we ordered our cells and began designing all the things to turn those 16 cells into a battery.  [All the details of the battery physical design can be found in this article.](van/electrical/battery/Battery_box_design_final)  If that isn't enough you can read about the alternative concepts and calculations that led the final design [here](van/electrical/battery/Battery_box_design.md) and and a half-baked abandoned concept [here](van/electrical/battery_box_deprecated/Battery_box_design.md).
+With that settled, we ordered our cells and began designing all the things to turn those 16 cells into a battery.  [All the details of the battery physical design can be found in this article.](/van/electrical/battery/Battery_box_design_final)  If that isn't enough you can read about the alternative concepts and calculations that led the final design [here](/van/electrical/battery/Battery_box_design.md) and and a half-baked abandoned concept [here](/van/electrical/battery_box_deprecated/Battery_box_design.md).
 
-If you roll your own LFP battery, you have to provide a Battery Management System (BMS).  The secondary goal mean we needed a BMS with external charge/discharge cutoff.  Based on our Van 1.0 experience we wanted a BMS that was reasonably open source.  This led us two consider two products, the Orion Jr and the REC Q.  Either would work, we opted for the REC Q because it seems to be the path more traveled when it comes to integrating with a Victron ecosystem of components.  I can't speak for the Orion, but the REC Q is bomb-proof and has been a pleasure to tinker with.  [All the details of integrating the REC Q with the rest of the system to ensure the battery is adquately protected can be found in this article.](van/electrical/BMS_wiring_logic/REC_Q_BMS_Wiring_Logic)
+If you roll your own LFP battery, you have to provide a Battery Management System (BMS).  The secondary goal mean we needed a BMS with external charge/discharge cutoff.  Based on our Van 1.0 experience we wanted a BMS that was reasonably open source.  This led us two consider two products, the Orion Jr and the REC Q.  Either would work, we opted for the REC Q because it seems to be the path more traveled when it comes to integrating with a Victron ecosystem of components.  I can't speak for the Orion, but the REC Q is bomb-proof and has been a pleasure to tinker with.  [All the details of integrating the REC Q with the rest of the system to ensure the battery is adquately protected can be found in this article.](/van/electrical/BMS_wiring_logic/REC_Q_BMS_Wiring_Logic)
 
 
 ## DC System Voltage
@@ -60,17 +60,17 @@ However, because of our secondary goal, we want more than 3000W charge capabilit
 
 To obtain those kind of charge rates, a dedicated alternator operating at the battery voltage is a requirement.  Nations starter and alternator currently has a 24V alternator that fits our van and can supply about 150A.  We can make up the remainder with the factory alternator and some intervening power conversion.  Details on all this to follow.  Nations is about to release a 48V alternator that can source more than enough power.  From a charge source perspective, both 24V and 48V are feasible.  Likewise, the current for the 24V and 48V charge rates are also both managable from a cabling and fusing perspective.
 
-The decision primarily came down how each would integrate with existing off-the-shelf components, reliability, and the effect of system voltage on base load (i.e., the primary goal).  [This article details our evaluation of 24V vs 48V for our system voltage.](van/electrical/voltage_trade_studies/Electrical_24V_vs_48V_concepts)  In short, the 24V system is attractive because of the fans, lights, refridgerators, freezers, fuses, breakers, contactors, etc., etc., that can operate natively at that voltage.  In a 48V system everything has to be powered by an intermediate conversion stage.  That said, I think in 4 years time, I would probably be making a different decision based on where things seem to be heading.  In the meantime, **its 24V for us.**
+The decision primarily came down how each would integrate with existing off-the-shelf components, reliability, and the effect of system voltage on base load (i.e., the primary goal).  [This article details our evaluation of 24V vs 48V for our system voltage.](/van/electrical/voltage_trade_studies/Electrical_24V_vs_48V_concepts)  In short, the 24V system is attractive because of the fans, lights, refridgerators, freezers, fuses, breakers, contactors, etc., etc., that can operate natively at that voltage.  In a 48V system everything has to be powered by an intermediate conversion stage.  That said, I think in 4 years time, I would probably be making a different decision based on where things seem to be heading.  In the meantime, **its 24V for us.**
 
-If you want to read old design detritus looking at the merits of 24V or 48V over a standard 12V system, you can find some [here](van/electrical/voltage_trade_studies/Electrical_24v) and [here](van/electrical/voltage_trade_studies/Electrical_48v).
+If you want to read old design detritus looking at the merits of 24V or 48V over a standard 12V system, you can find some [here](/van/electrical/voltage_trade_studies/Electrical_24v) and [here](/van/electrical/voltage_trade_studies/Electrical_48v).
 
 ## Load Analysis
 
 ## Solar Charging
 
-To support the primary goal, the roof arrangement was optimized for as much solar as possible.  [This article covers physical details of those trade-offs.](van/vehicular/roof_arrangement/roof_rack_and_arrangement_notes)
+To support the primary goal, the roof arrangement was optimized for as much solar as possible.  [This article covers physical details of those trade-offs.](/van/vehicular/roof_arrangement/roof_rack_and_arrangement_notes)
 
-Based on the arrangement constraints, we settled on 800W of solar.  [This article captures all of those details.](van/electrical/solar/solar)
+Based on the arrangement constraints, we settled on 800W of solar.  [This article captures all of those details.](/van/electrical/solar/solar)
 
 
 
