@@ -18,7 +18,7 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+img: sideplate.jpg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
