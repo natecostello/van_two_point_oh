@@ -20,13 +20,12 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+ img: rec-bms.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
 ---
 
-# REC Q BMS Wiring Logic
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
 ## Operation
 

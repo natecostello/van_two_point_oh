@@ -25,9 +25,6 @@ cover:
 	# url: url
 ---
 
-
-# Need For Pre-charge
-
 Precharge is recommended to minimize damage to contactors that apply battery power to the Multplus.  The Multpluss has large input capcitors tied directly to the DC input terminals.  Upon connection to the battery, capacitor charge current is initially limited by conductor resistance and battery internal resistance.  For an LFP system this can be quite high, and result in tack-welding the contactor shut.
 
 [This Discussion](https://community.victronenergy.com/questions/13165/multiplus-123000120-50-120v-inrush-current-on-init.html) convinced me of the need.

@@ -19,15 +19,13 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+ img: circuits.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
 ---
 
-# Electrical Circuits
-
-This section describes the power circuits planned for the van.
+This article describes the power circuits planned for the van.
 
 ## Outlet, Switch, Control Locations
 

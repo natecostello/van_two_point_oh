@@ -21,7 +21,7 @@ metatags:
  - deprecated
 cover: 
 	# image file
-	# img: img
+ img: rec-bms.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
