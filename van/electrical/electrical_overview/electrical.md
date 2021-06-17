@@ -22,7 +22,7 @@ cover:
 	# url: url
 ---
 
-The van electrical system consists of DC and AC portions.  The DC portion is primarily 24V with a 24V 560 AH LFP battery and directly supplies 24V loads and uses power conversion to supply 12V loads.  The AC portion is 120V at 60 Hz and supplies all AC loads.  Connecting the AC and DC portions is an inverter/charger that can supply DC power or AC power.  The system is capable of using and storing power from solar panels installed on the roof, a shore power connection, the factory alternator, and a dedicated alternator.  The schematic below provides an overview of the system.
+The van electrical system consists of DC and AC portions.  The DC portion is primarily 24V with a 24V 560 AH LFP battery and directly supplies 24V loads and uses power conversion to supply 12V loads.  The AC portion is 120V at 60 Hz and supplies all AC loads.  Connecting the AC and DC portions is an inverter/charger that can supply DC power or AC power.  The system is capable of using and storing power from solar panels installed on the roof, a shore power connection, the factory alternator, and a dedicated alternator.  
 
 ![Electrical Schematic](schematic.svg)
 _High level system schematic_
@@ -62,7 +62,7 @@ If you roll your own LFP battery, you have to provide a Battery Management Syste
 
 Most vans out there are 12V these days.  Our first van was based on a 12V DC system.  If you aren't exceeding roughly 3000W charge or discharge, 12V systems make a lot of sense and are simple to design and build.  
 
-However, because of our secondary goal, we want more than 3000W charge capability...a lot more.  In fact, we want as much as we can get, within reason.  A good starting place if you are maximizing charge rate, is to aim to achieve a 0.5C charge rate.  Based on our battery capacity, this equates to 280A with a 24V battery or 140A with a 48V battery. (Note for a 12V system that would be 560A which is basically a non-starter).
+However, because of our secondary goal, we want more than 3000W charge capability.  A good starting place if you are maximizing charge rate, is to aim to achieve a 0.5C, the limit for most LFP cells.  For the battery capcity selected this equates to 280A with a 24V battery or 140A with a 48V battery. (Note for a 12V system that would be 560A which is a non-starter).
 
 To obtain those kind of charge rates, a dedicated alternator operating at the battery voltage is a requirement.  Nations starter and alternator currently has a 24V alternator that fits our van and can supply about 150A.  We can make up the remainder with the factory alternator and some intervening power conversion.  Details on all this to follow.  Nations is about to release a 48V alternator that can source more than enough power.  From a charge source perspective, both 24V and 48V are feasible.  Likewise, the current for the 24V and 48V charge rates are also both managable from a cabling and fusing perspective.
 
@@ -70,25 +70,23 @@ The decision primarily came down how each would integrate with existing off-the-
 
 If you want to read old design detritus looking at the merits of 24V or 48V over a standard 12V system, you can find some [here](/van/electrical/voltage_trade_studies/Electrical_24v) and [here](/van/electrical/voltage_trade_studies/Electrical_48v).
 
-## Load Analysis
-
 ## Solar Charging
 
 Van 2.0 has 800W of installed solar on the roof composed of four [Rich Solar](https://richsolar.com/products/200-watt-24-volt-solar-panel) 200W panels in a 2S2P arrangement and a [SmartSolar 150/45](https://www.victronenergy.com/upload/documents/Datasheet-SmartSolar-charge-controller-MPPT-150-45-up-to-150-70-EN.pdf) MPPT.  A portable ground array, if pursued, will use a separate MPPT to maximize flexibility in panel choice (specifically dimensional flexibility).  Read on for details.
 
 To support the **first goal**, the roof arrangement was optimized for as much solar as possible.  [This article covers physical details of those trade-offs.](/van/vehicular/roof_arrangement/roof_rack_and_arrangement_notes)  Based on these constraints, the maximum we could put on the roof is 800W.
 
-Given our experience on Van 1.0, we know we would be using a Victron MPPT.  For our panels, depending on the final configuration (e.g. 2S2P) multiple MPPT models could be used.  We opted for the SmartSolar 150/45 primarily because of its remote enable/cutoff and the flexibility it provides for system integration.
+For our panels, depending on the final configuration (e.g. 2S2P) multiple MPPT models could be used.  We opted for the Victron SmartSolar 150/45 primarily because of its remote enable/cutoff and the flexibility it provides for system integration.
 
 [This article captures all of the details and design considerations that led to the decisions discussed above.](/van/electrical/solar/solar)
 
 
-## AC, Shore Power, and Shore Power Charging)
+## AC, Shore Power, and Shore Power Charging
 
 
-## Factory Alternator Charging
+## Alternator Charging
 
-## Dedicated Alternator Charging
+## Load Analysis
 
 ## Circuits and Wire Size
 

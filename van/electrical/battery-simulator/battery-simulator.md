@@ -1,0 +1,1 @@
+resistors are 220 ohm 5%
