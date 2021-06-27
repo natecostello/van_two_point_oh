@@ -37,6 +37,8 @@ Use of an ELCI as the shore power disconnect circuit breaker will provide a trip
 
 In the two cases above, and ELCI or GFCI at the shore power source should also provide the same protection, but will not be relied on.  Additionally, if the fault occurs downstream of the Main Panelboard ELCI, it would also provide the above trips.
 
+The Blue Sea [8100 panel](https://www.bluesea.com/products/8100/ELCI_Main_30A_Double_Pole) meets this requirement and will be used.
+
 ### The Alternator-Inverter Will Not Have an Output Circuit Breaker
 
 Because the Alternator-Inverter is self-limiting, it does not require overcurrent protection on its output.  
@@ -47,7 +49,11 @@ In the event of a hot-to-ground fault between the Alternator-Inverter output and
 
 ### The Main Panelboard will have an ELCI and Voltage Meter
 
+The Blue Sea [8102 Panel](https://www.bluesea.com/products/8102/ELCI_Main_30A_Double_Pole_%2B_2_Positions_with_Voltmeter) meets this requirement and will be used.
+
 ### All Outlets will be GFCI Protected
+
+This will be accomplished by using a GFCI as the first outlet in the circuit.
 
 ## Sources
 
