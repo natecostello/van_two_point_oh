@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Battery Interconnect Design
 author: Nate
-date: 2021-6-26
+date: 2021-06-26
 tags:
  - van
  - electrical

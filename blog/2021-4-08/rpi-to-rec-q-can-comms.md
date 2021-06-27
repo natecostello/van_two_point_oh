@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: RPi to REC Q CAN Comms
 author: Nate
-date: 2021-4-8
+date: 2021-04-08
 tags:
  - van
  - electrical

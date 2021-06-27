@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: RPi to Riden RD6018 Comms
 author: Nate
-date: 2021-3-29
+date: 2021-03-29
 tags:
  - van
  - electrical

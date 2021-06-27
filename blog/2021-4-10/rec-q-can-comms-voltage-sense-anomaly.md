@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: REC Q CAN Comms Voltage Sense Anomaly
 author: Nate
-date: 2021-4-10
+date: 2021-04-10
 tags:
  - van
  - electrical

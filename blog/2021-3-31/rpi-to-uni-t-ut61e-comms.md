@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: RPi to UNI-T UT61E Comms
 author: Nate
-date: 2021-3-31
+date: 2021-03-31
 tags:
  - van
  - electrical

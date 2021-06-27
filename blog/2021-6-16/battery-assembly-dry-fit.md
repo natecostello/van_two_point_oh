@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Battery Assembly Dry-fit
 author: Nate
-date: 2021-6-16
+date: 2021-06-16
 tags:
  - van
  - electrical
