@@ -35,28 +35,33 @@ Step 2:  Pair the cells by thier internal resistance provided by the supplier.  
 
 ![](paired-cells.jpeg)
 
-Step 3:  Cover the outer sides of the paired cells with kapton tape.
+Step 3: Cover the outer sides of the paired cells with kapton tape.
 
 ![](kapton-cells.jpeg)
 
-Step 4:  Rack 'em
+Step 4: Rack 'em
 
 ![](full-battery.jpeg)
 
-$$ E*V $$
+Step 5: Measure battery width
 
-$a^2+b^2=c^2$
+![](measure.jpg)
+
+Step 6: Cut the threaded rod
+
+![](cutrod.jpg)
+
+Step 7: Loc-tite nuts on one end
+
+![](loctite.jpg)
+
+Step 8: Heat shrink
+
+![](heatshrink.jpg)
+
+Step 9: Install and snug
+
+![](install.jpg)
 
 
-P = R*I^2
-P = hA(Ts-Tamb)
-P = hATs - hATamb
-C = 1/R
-hATsC - hATambC = I^2
-(W * T * C) + (W * C) = I ^ 2
-
-Cover the jumper design in the battery article.
-
-Cover the findings from the use of the belville washers, and the shift to springs.
-
-Cover the terminal measurements.
+TODO: Write up belville findings

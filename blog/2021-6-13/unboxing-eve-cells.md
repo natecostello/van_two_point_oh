@@ -40,6 +40,9 @@ We ran a few dimensional checks on a couple cells.  All dimensions were found to
 
 The supplier we chose, Luyuan uses laser welds terminals to the cells.  The design they use is results in a smaller terminal lug area than the stock cells, so we were anxious to get actual measurements on this area.  We found this area to be about 68 mm<sup>2</sup>, or the equivalent of a 2/0 cable.  This area is fine for the current each cell will see, but use of the this area must be maximized by avoiding oversized or excessively slotted cell-interconnects.
 
+![terminal lug area](terminal-flat.jpg)
+_Terminal lug area close up._
+
 In the process of ordering, we did ask the supplier to use a longer terminal stud to provide more usable height.  They delivered as promised.
 
 Cell 8B
