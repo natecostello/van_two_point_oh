@@ -1,11 +1,23 @@
 ---
-section: "van"
-category: "technical"
-title: "Technical Overview"
-author: "Stello"
-date: "2020-10-26"
-tags: []
-level: 1
+type:
+section: van
+categories: 
+ # one or more categories is permitted
+ - technical
+
+title: '"of or relating to technique"'
+navTitle: Technical
+author: Nate
+date: 2020-10-26
+tags:
+	# no tags
+metatags:
+	# no metatags
+cover: 
+	# image file
+ img:
+	# if attribution is needed
+ source:
+	# url: url
 ---
-[*"of or relating to technique"*](https://www.merriam-webster.com/dictionary/technical)
 
