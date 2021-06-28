@@ -68,7 +68,11 @@ Once we had the cells and battery structure all kapton'd, assembled, and compres
 ![](terminal-dimensions.jpg)
 _Before spreadsheets we had to do everything with pencil and engineering graph paper._
 
-Because we want to maximize terminal flat contect, we are looking at putting 6 mm holes over 6 mm terminals.  This means no sliding to relieve force imparted to the terminals.  From research and exprience of others, we know that we will likely have to acommodate up to 0.2 mm of terminal displacement.  You can calculate the associated forces and stress and you'll find that your are yielding copper and putting thousands of lbf on the terminals, or moving them (which is worse).  The "Battery Post Force Calculator" tab will give you forces for a given displacement for both straight and "arched" bars of a given dimension and arch radius.
+Because we want to maximize terminal flat contect, we are looking at putting 6 mm holes over 6 mm terminals.  This means no sliding to relieve force imparted to the terminals.  From research and exprience of others, we know that we will likely have to acommodate up to 0.2 mm of terminal displacement.  You can calculate the associated forces and stress and you'll find that your are yielding copper and putting thousands of lbf on the terminals, or moving them (which is worse).  The "Battery Post Force Calculator" tab will give you forces for a given displacement.
+
+
+![pipe expansion loop](expansion-loops.jpg)
+_A feature like a pipe expansion loops will significantly reduce stress at the fixed ends. [© Mick Garret](https://www.geograph.org.uk/profile/343) [ CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)_
 
 So we didn't want to diminsion straight bus bars using terminal measurements we took above.  We wanted to make them longer and then bend a little "arch" into them to make them more compliant to axial movement.  The larger the radius of the "arch" the lower the force imparted on the terminals for a given displacement.  However, we have a few constraints.  We need the series bars to lay on the flat, non-arched, parts of the parallel bars.  We also want the tops of the arches to lay below the top of the battery side plates so the arches don't interfere with putting a lid on the battery down the road.
 
