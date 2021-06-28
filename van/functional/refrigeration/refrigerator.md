@@ -27,16 +27,11 @@ cover:
 	# url: url
 ---
 
-**TLDR: ** For lots of reasons (arrangement flexibility, efficiency, maintainability, etc) we are going with Vitrifrigo.
+**TLDR: For lots of reasons (arrangement flexibility, efficiency, maintainability, etc) we are going with Vitrifrigo.**
 
-​	**Fridge**
-​		Vitrifrigo 4.7cuft 62.6lb 24V
-​		Model: C130RBD4-F AS FRIDGE ONLY VERSION
-​	**Freezer**
-​		Vitrifrigo 1.8cuft 60 lbs
-​		Model: C55RBN4-F 
+​Fridge: Vitrifrigo 4.7cuft 62.6lb 24V - Model: C130RBP4-F-1 (FRIDGE ONLY)
 
-
+Freezer: Vitrifrigo 1.8cuft 60 lbs - Model: C55RBN4-F-1
 
 ## Fridge/Freezer Options
 
