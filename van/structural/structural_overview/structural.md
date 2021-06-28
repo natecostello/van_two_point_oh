@@ -9,7 +9,7 @@ categories:
 title: '"relating to the arrangement of and relations between the parts of a complex whole"'
 navTitle: Structural
 author: Nate
-date: 2021-6-6
+date: 2021-06-06
 tags:
 	# no tags
 metatags:

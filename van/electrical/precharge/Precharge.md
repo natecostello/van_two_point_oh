@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Need for Pre-charge
 author: Nate
-date: 2020-7-25
+date: 2020-07-25
 tags:
  - pre-charge
  - design

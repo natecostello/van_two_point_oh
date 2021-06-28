@@ -8,7 +8,7 @@ categories:
 title: Wall 8020 Mounting
 navTitle:
 author: Nate
-date: 2020-1-14
+date: 2020-01-14
 tags:
  - van
  - structural

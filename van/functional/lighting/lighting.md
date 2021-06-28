@@ -8,7 +8,7 @@ categories:
 title: Lighting
 navTitle: 
 author: Nate
-date: 2021-2-11
+date: 2021-02-11
 tags:
  - van
  - functional

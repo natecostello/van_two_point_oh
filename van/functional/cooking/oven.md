@@ -1,10 +1,30 @@
 ---
-section: "van"
-category: "fluid systems"
-title: "Oven/Stove"
-author: "Stello"
-date: "2021-3-1"
-tags: ["appliances", "oven", "stove", "concept"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - functional
+
+title: Oven and Stove
+navTitle: 
+author: Nate
+date: 2021-03-01
+tags:
+ - van
+ - functional
+ - appliances
+ - oven
+ - stove
+
+	# no tags
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
 ---
 
 

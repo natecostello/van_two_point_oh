@@ -8,7 +8,7 @@ categories:
 title: Heating
 navTitle: 
 author: Nate
-date: 2020-11-4
+date: 2020-11-04
 tags:
  - van
  - functional

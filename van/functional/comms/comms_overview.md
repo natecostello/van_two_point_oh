@@ -8,7 +8,7 @@ categories:
 title: Comms
 navTitle: 
 author: Nate
-date: 2021-1-12
+date: 2021-01-12
 tags:
  - van
  - functional

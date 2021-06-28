@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Solar
 author: Nate
-date: 2021-2-6
+date: 2021-02-06
 tags:
  - solar
  - design

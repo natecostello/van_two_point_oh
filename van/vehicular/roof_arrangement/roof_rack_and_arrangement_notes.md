@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Roof Rack and Arrangement Evaluation
 author: Nate
-date: 2021-1-16
+date: 2021-01-16
 tags:
  - 8020
  - design

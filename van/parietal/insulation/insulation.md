@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Insulation
 author: Nate
-date: 2020-11-5
+date: 2020-11-05
 tags:
  - insulation
  - design

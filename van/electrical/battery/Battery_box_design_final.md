@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Battery
 author: Nate
-date: 2021-3-21
+date: 2021-03-21
 tags:
  - battery
  - design

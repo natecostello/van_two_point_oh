@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Battery Structure Concepts
 author: Nate
-date: 2021-1-30
+date: 2021-01-30
 tags:
  - battery
  - design

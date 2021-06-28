@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Wire Size
 author: Nate
-date: 2021-3-20
+date: 2021-03-20
 tags:
  - wirin
  - design

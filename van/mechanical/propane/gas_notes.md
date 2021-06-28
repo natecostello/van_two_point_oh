@@ -1,11 +1,29 @@
 ---
-section: "van"
-category: "fluid systems"
-title: "Propane"
-author: "Stello"
-date: "2020-12-5"
-tags: ["propane", "gas", "tank"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - mechanical
+
+title: Propane
+navTitle: 
+author: Nate
+date: 2020-12-05
+tags:
+ - propane
+ - mechanical
+ - design
+ - van
+metatags:
+	# no metatags
+cover: 
+	# image file
+ img: 
+	# if attribution is needed
+ source: 
+	# url: url
 ---
+
 
 The van will use propane for cooking.  While the electrical would be sufficent for induction cooking, our experience has been that gas is more convienient.
 

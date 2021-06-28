@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Battery Box
 author: Nate
-date: 2020-11-3
+date: 2020-11-03
 tags:
  - battery
  - design

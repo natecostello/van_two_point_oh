@@ -1,11 +1,30 @@
 ---
-section: "van"
-category: "fluid systems"
-title: "Plumbing"
-author: "Stello"
-date: "2020-12-5"
-tags: ["water", "plumbing"]
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - mechanical
+
+title: Plumbing
+navTitle: 
+author: Nate
+date: 2020-12-05
+tags:
+ - water
+ - plumbing
+ - mechanical
+ - design
+ - van
+metatags:
+	# no metatags
+cover: 
+	# image file
+ img: 
+	# if attribution is needed
+ source: 
+	# url: url
 ---
+
 
 ## Faucet
 
