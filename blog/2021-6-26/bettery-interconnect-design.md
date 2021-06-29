@@ -23,9 +23,14 @@ cover:
 	# url: url
 ---
 
-Our cell interconnect designs are as follows:
+To make our cells function as a battery we have to connect them together in a specific pattern.  We take two cells, and connect the positive terminals together and connect the negative terminals together.  We're refering to the things that make these (parallel) connections as the "parallel" interconnets.  Those two cells in parallel for kind of an uber-cell.  We then connect 8 of those uber cells together in series, positive to negative and so on.  We're referring to the things that make these (series) connections as the "series" interconnects.  
+
+The series interconnects carry the full current that flows into and out of the battery.  The parallel interconnects only carry half, so less copper is needed. 
 
 Each parallel interconnect is composed of 1 mm thick, 25.4 mm wide,  copper bus bars stacked two high.  The interconnect will have a strain-relief arch of radius ~9.525 mm to minimize the force on cell terminals due to growth and movement.  In the final formed configuration they have a center-to-center distance of ~71 mm and a total length of ~103 mm.  In the ordered (flat) condition they have a center-to-center distance of ~80 mm and a total length of ~112 mm.  The two holes are 6mm in diameter.
+
+![parallel](parallel-interconnect.jpg)
+_The parallel interconnects looks something like this.  The series interconnects are similar but a bit wider, a bit longer, and stacked higher._
 
 One series interconnect shares identical dimensions as the parallel bus bars with the exception of a width of 31.75 mm and it is stacked 5 high.
 
@@ -75,9 +80,6 @@ Because we want to maximize terminal flat contect, we are looking at putting 6 m
 _A feature like a pipe expansion loops will significantly reduce stress at the fixed ends. [© Mick Garret](https://www.geograph.org.uk/profile/343) [ CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)_
 
 So we didn't want to diminsion straight bus bars using terminal measurements we took above.  We wanted to make them longer and then bend a little "arch" into them to make them more compliant to axial movement.  The larger the radius of the "arch" the lower the force imparted on the terminals for a given displacement.  However, we have a few constraints.  We need the series bars to lay on the flat, non-arched, parts of the parallel bars.  We also want the tops of the arches to lay below the top of the battery side plates so the arches don't interfere with putting a lid on the battery down the road.
-
-![picture of an arch](arched.jpg)
-_Looking at a bus bar from the side, this is what we mean by "arched"._
 
 To this end, the "Interconnect Length Dimension Calculator" tab in the spreadsheet above figures this all out for us.  We put in some parameters like the bar width and stack height we already figured out, and our desired radius, and it spits out the final length dimensions.  
 
