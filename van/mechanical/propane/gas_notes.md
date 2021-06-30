@@ -35,6 +35,7 @@ FarOutRide states thier 20 lb (4.6 gal) propane tank used for cooking and shower
 
 This [thread](https://www.fordtransitusaforum.com/threads/where-to-get-an-external-propane-tank-installed.77664/) has some good information on locations to install tank.
 
+If [these tanks](lpg-asme-toroidal-v8.pdf) are purchasable, it would work very well in the factory spare location.
 ## Remote Fill
 
 A [remote fill kit](https://www.fordtransitusaforum.com/threads/nashfuel-remote-propane-fill-kit.71888/#post-955602) will probably make fill attendents a little less grumpy. 
