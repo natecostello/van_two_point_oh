@@ -21,6 +21,7 @@ the content_repo will be a submodule that appears as a sub-directory name 'conte
 
 ### CONOPs
 
+## Maybe some future conops
 Blog posts and design information will be pushed to the content_repo via a normal the normal method:
 
 ```git push origin master```
