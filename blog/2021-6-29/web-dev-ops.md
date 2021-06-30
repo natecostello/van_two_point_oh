@@ -80,3 +80,5 @@ When the web-rep gets a "repository dispatch" of type `content-push`, it uses tw
 Also note, `secrets.ACCESS_TOKEN` is a reference to our token mentioned before.  We named it `ACCESS_TOKEN` when we added it to the web-repo.
 
 And if you were wondering how the web-repo gets the content-repo content, it does it by using a plugin, [gatsby-source-git](https://www.gatsbyjs.com/plugins/gatsby-source-git/), that lets gatsby treat a repository like any other  directory full of content files as it builds the site.
+
+Update: After initially posting this, I found the code blocks looked a bit drab and unreadable.  I went ahead and installed a syntax highlighting [gatsby plugin](https://www.gatsbyjs.com/plugins/gatsby-remark-vscode/).  Much better.
