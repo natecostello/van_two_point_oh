@@ -63,7 +63,7 @@ After messing around, this is the straight path that got a headless RPi talking 
 
 18. ```python3 -m serial.tools.list_ports``` 
 
-```shell
+```bash
 /dev/ttyAMA0        
 /dev/ttyUSB0 
 ```

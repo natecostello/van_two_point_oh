@@ -45,7 +45,7 @@ What follows is pretty much verbatim from the PiCAN setup [instructions](http://
 
 5. Add these lines at the end of the file:
 
-```shell
+```bash
 dtparam=spi=on
 dtoverlay=mcp2515-can0,oscillator=16000000,interrupt=25
 dtoverlay=spi-bcm2835-overlay
@@ -65,7 +65,7 @@ dtoverlay=spi-bcm2835-overlay
 
 Boom!
 
-```shell
+```bash
 can0  380   [8]  31 51 2D 31 38 34 35 00
 can0  351   [8]  1F 01 BC 02 E8 03 E7 00
 can0  355   [6]  32 00 64 00 88 13
