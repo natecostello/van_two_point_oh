@@ -51,7 +51,7 @@ We alternate the clamps until the two sliders are as close to each other as they
 
 I'm sure that all sounds confusing.  This time-lapse will make it more clear.
 
-vimeo: https://vimeo.com/571057210
+`vimeo: 571057210`
 
 ## The Learning
 
