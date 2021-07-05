@@ -17,7 +17,7 @@ metatags:
 	# no metatags
 cover: 
 	# image file
- img: interconnect-cover.jpg
+ img: interconnect-cover.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
