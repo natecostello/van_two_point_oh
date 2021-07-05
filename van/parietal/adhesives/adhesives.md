@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Adhesives
 author: Nate
-date: 2020-10-22
+date: 2021-07-05
 tags:
  - adhesives
  - parietal
