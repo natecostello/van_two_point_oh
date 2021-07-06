@@ -5,7 +5,7 @@ categories:
  # one or more categories is permitted
  - electrical
 navTitle: 
-title: Battery Interconnect Fabrication ... Sort of
+title: Battery Interconnect Fabrication Test
 author: Nate
 date: 2021-07-04
 tags:
@@ -59,6 +59,7 @@ We learned a few things:
 
 - We might want to go slightly larger on the holes.  Like 0.25 mm or something.  They are pretty tight on the posts.
 - We are able to form a stack of two bars at once so the parallel connection fabrication method is proven.
+- The process produces triangular vs round bends (no surprise given the process).
 - We CANNOT form a stack of five bars at once.  We think we are at the limits of geometry and copper compliance.  But we think we have a solution with using multiple sets of slightly longer bars and different mandrels to make a stack of five stack tightly.  This is required for the endmost series connection which is in the athwart direction.
 
 Based on that last lesson, we may retreat to straight slotted bars for the other series connections due to the lower fore-aft cell growth and no concern about contact area for those connections.
