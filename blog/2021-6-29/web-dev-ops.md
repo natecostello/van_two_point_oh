@@ -22,7 +22,7 @@ cover:
 	# url: url
 ---
 
-We are using Gatsby, a static site generator, for this website.  It basically uses a GitHub repository of markdown files for all the content, and turns that into HTML automatically.
+We are using Gatsby, a static site generator, for this website.  It uses a GitHub repository of markdown files for all the content, and turns that into HTML automatically.
 
 A goal was to make it so that when new content is pushed (uploaded) to the GitHub repository, the website is automatically rebuilt with the new content.  This post is about making that work.
 

@@ -33,7 +33,7 @@ _These people rock.  Seriously.  Fast service, accurate tolerancing, and free ai
 
 One of us awoke this morning with a vision for bending and set off for the garage and the table saw within it.  The sensible other joined later.
 
-Our approach involved all wooden parts, except the bolts and nuts.  Basically, we use a short piece of dowel cut in half to start the bend.  We help that by driving the ends of the busbar inward.  The wood pieces are sized to fit together so that when everything is fully scrunched, the holes are in the right locations.  That was the idea at least.
+Our approach involved all wooden parts, except the bolts and nuts.  We use a short piece of dowel cut in half to start the bend.  We help that by driving the ends of the busbar inward.  The wood pieces are sized to fit together so that when everything is fully scrunched, the holes are in the right locations.  That was the idea at least.
 
 ![mandrels](mandrels.jpeg)
 _These are two mandrels, one for 3/4 inch diameter bends, and one for 1 inch diameter bends (just in case).  They are sitting on some bending math_
