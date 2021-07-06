@@ -33,3 +33,5 @@ We need adhesives for:
 [Thread](https://www.fordtransitusaforum.com/threads/alternatives-to-the-3m-90-spray-adhesive.84812/) on alternatives to 3M 90:
 - Hein suggest Loctite 300 or gorilla glue spray adhesive.
 - [A tape alternative for thinsulate to sheetmetal](https://www.fordtransitusaforum.com/threads/alternatives-to-the-3m-90-spray-adhesive.84812/post-1120020)
+
+A forum member [recommends](https://www.fordtransitusaforum.com/threads/covering-exposed-metal-with-fabric.65553/post-939864) weldwood Landau.  That version of Weldwood is recommended for automotive, is labled as heat-resistant.
