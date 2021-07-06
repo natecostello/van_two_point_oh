@@ -17,7 +17,7 @@ metatags:
 	# no metatags
 cover: 
 	# image file
- img: battery-interconnect-cover-v2.jpeg
+ img: battery-interconnect-v2-cover.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
@@ -25,7 +25,7 @@ cover:
 
 To make our cells function as a battery we have to connect them together in a specific pattern.  We take two cells, and connect the positive terminals together and connect the negative terminals together.  We're referring to the things that make these (parallel) connections as the "parallel" interconnects.  Those join two cells in parallel for kind of an uber-cell.  We then connect 8 of those uber-cells together in series, positive to negative and so on.  We're referring to the things that make these (series) connections as the "series" interconnects.  
 
-**Note: This is an updated version of [this post](/blog/2021-6-26/bettery-interconnect-design).  Based on the [fabrication trials](/blog/2021-7-4/battery-interconnect-fab.md) we revised the design to make it more producible.**
+**Note: This is an updated version of [this post](/blog/2021-6-26/bettery-interconnect-design).  Based on the [fabrication trials](/blog/2021-7-4/battery-interconnect-fab) we revised the design to make it more producible.**
 
 The series interconnects carry the full current that flows into and out of the battery.  The parallel interconnects only carry half, so less copper is needed. 
 
