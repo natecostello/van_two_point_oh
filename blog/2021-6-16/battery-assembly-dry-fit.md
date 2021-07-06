@@ -64,4 +64,5 @@ Step 9: Install and snug
 ![](install.jpg)
 
 
-TODO: Write up belville findings
+## Findings
+Our initial plan was to tighten the all-thread nuts to fully compress belleville washers in order to set a known compressive force on the batteries in the low SOC (and un-swollen) state.  We settled on [these](https://www.mcmaster.com/9712K62/) from McMaster which would provide 115lbf or 4.2 psi when compressed flat.  From the dry fit, it is clear that the displacement associated with the belleville washers is too small to allow for this approach (even when doubled up in series).  So we are going to pivot to using springs, compressed solid, to set the initial compression for the low SOC state.  Our first candidate is the [LHL 625B 01](https://www.leespring.com/compression-springs-hefty?search=LHL625B01) from Lee Spring which will provide 105 lbf or 3.8 psi when compressed solid.
