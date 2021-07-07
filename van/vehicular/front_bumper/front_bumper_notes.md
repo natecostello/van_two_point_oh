@@ -30,3 +30,5 @@ cover:
 
 The Aluminess bumper is also under consideration.  We need to confirm that it is compatible with the adaptive cruise (and not just parking sensors).  Email sent.
 
+Per 2020-07-07 Phone Call:
+Bumper is compatible with adaptive cruise and has area for relocation of sensor (see small black plexiglass blank).  Addition of front hitch receiver does not interfere with adaptive cruise.
