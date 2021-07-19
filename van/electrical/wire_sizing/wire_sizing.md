@@ -30,51 +30,65 @@ The following evaluation assumes wire with insulation rated to 105C based on [th
 
 It also assumes the BMS is using CAN to communicate/control discharge.  Based on this, it will provide 0A allowable discharge commands when the BMS cell low voltage protection of 2.9V (pack voltage of 23.2V) is reached.
 
+This [website](http://nepsi.com/resources/calculators/short-time-current-rating-of-conductor.htm) provides a calculator for short term overload conditions.
+
 # Main DC Distribution Wiring
 
 ## Battery to Positive Bus
 
-Maximum theoritical/ideal charging current is 272A (Multiplus 24/3000 = 292A) .  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 0 AWG (00 AWG for Multiplus 23/3000).
+Maximum theoritical/ideal charging current is 292A.  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 00 AWG.
 
 * Battery at minimum 22.4V (BMS cell low cutoff of 2.8V)
-
 * Max Aftermarket Alternator Charging = 150A
-
-* Max Multiplus Compact Charging = 50A (Max Multiplus 23/3000 = 70A)
-
+* Max Multiplus 24/3000 Charging = 70A
 * 800W Primary Solar Charging (perfect efficiency) = 36A
-
 * 800W Ground Array Solar Charging (perfect efficiency) = 36A
 
-If the Multiplus 24/3000 is considered, maximum theoretical discharging current is 326A.  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 00 AWG.
+Maximum two-minute discharging current is 316A (during Multiplus overload).  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 00 AWG.
 
 * Battery at minimum 23.2V (BMS cell low voltage protection of 2.9v)
 * No Aftermarket Alternator Charging
 * No Solar
 * No Shore Power
-* Max Multiplus 24/3000 Discharge = 284A (see below)
-* Max DC Load Discharge = 42A (see below)
+* Max Multiplus 24/3000 Discharge = 275A (see below)
+* Max DC Load Discharge = 41A (see below)
+
+Maximum continuous discharging current is 179A.  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 3 AWG.
+
+* Battery at minimum 23.2V (BMS cell low voltage protection of 2.9v)
+* No Aftermarket Alternator Charging
+* No Solar
+* No Shore Power
+* Max Multiplus 24/3000 Discharge = 138A (see below)
+* Max DC Load Discharge = 41A (see below)
+
+### Sharpening the Pencil
+
+The maximum charging case is conservative because it assumes no loads are running, perfect solar, perfect backup solar, and ideal alternator charging.  The Nation's datasheet suggests more like 140A.  Additionally, the factory alternator will likely be limited to cover edge cases to about 68A.  This brings the max charging current to below the 285A ampacity limit for 0 AWG wire.
+
+The maximum continuous discharge case of 179A is well below the 230A limit for 75C rated cable, which implies the wire temperatures would remain well below 75C under the maximum discharge case (assuming 30C ambient).  However, we will be using 105C rated wire.
+
+Assuming the wire size used is 0 AWG, the initial wire temperature is 75C, and the overload current is 316A, the overload calculator predicts 133 seconds to reach a wire temperature of 105C.  This calculation is conservative because it treats the conductor as adiabatic.  In short, by using 105C rated 0 AWG (or higher) wire, the two-minute overload case is not controlling.
+
+The problem is coordinating the battery fuse with the downstream fuses.  Without solid data on class-T long term blow curves, it may not be possible to thread the needle between protecting 0 AWG at less than 285A and ensuring the battery fuse does not clear before the 300A Multiplus fuse (see below).  For this reason we will likely need to upsize to 3/0 or 4/0 wire and employ a 350A or 400A class T fuse for the battery.  
+
+
 
 ## Aftermarket Alternator to Positive Bus
 
 Maximum charge current is 150A.  Round trip wire length is approximately 44 ft.  By ampacity, minimum wire size is 4 AWG.  By voltage drop, minimum wire size is 0 AWG.
 
-## Multiplus Compact Inverter/Charger to Positive Bus
-
-Maximum charge current is 50A.  Maximum discharge current is 184A assuming minimum battery voltage (23.2V), peak power (4000W), and maximum efficiency (94%).  Round trip wire length is approximately 11.5 ft.  Wire size is limited by ampacity, not voltage drop. Minimum wire size is 2 AWG.
-
-Note: This is extremely conservative.  The 4000W rating is a [2 minute overload capability](https://community.victronenergy.com/questions/21511/overload-duration-on-multiplus.html).  While this case will be acommodated in the cabling (and fusing), for things like busbar sizing, continuous rates will be used (i.e., 150A busbars will be considered with the multiplus connection adjacent to the battery connection).
-
 ## Multiplus 24/3000 Inverter/Charger to Positive Bus [Alternate]
 
 Maximum charge current is 70A, and thus not limiting.
 
-Maximum discharge current is 275A assuming minimum battery voltage (23.2V), peak power (6000W), and maximum efficiency (94%).  Round trip wire length is approximately 11.5 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 0 AWG.
-
 Maximum discharge current is 138A assuming minimum battery voltage (23.2V), rated power (3000W), and maximum efficiency (94%).  Round trip wire length is approximately 11.5 ft.  Wire size is limited by voltage drop. Minimum wire size is 6 AWG.
 
-Note: This is extremely conservative.  The 6000W rating is a [2 minute overload capability](https://community.victronenergy.com/questions/21511/overload-duration-on-multiplus.html).  While this case will be acommodated in the cabling (and fusing), for things like busbar sizing, continuous rates will be used (i.e., 150A busbars will be considered with the multiplus connection adjacent to the battery connection).
+Maximum discharge current is 275A assuming minimum battery voltage (23.2V), peak power (6000W), and maximum efficiency (94%).  Round trip wire length is approximately 11.5 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 0 AWG.
 
+Note: This is extremely conservative.  The 6000W rating is a [2 minute overload capability](https://community.victronenergy.com/questions/21511/overload-duration-on-multiplus.html).  While this case will be accommodated in the cabling (and fusing), for things like busbar sizing, continuous rates will be used (i.e., 150A busbars will be considered with the Multiplus connection adjacent to the battery connection).
+
+The Multiplus 24/3000 Manual recommends a 300A fuse and 0 AWG wire.  The 300A fuse will give a little headroom for riding through overload conditions.  We will be using a MEGA/AMG fuses for this application.  Based on looking at 300A rated MEGA/AMG fuses from [bussman](bussmann-amg-fuse-spec-sheet.pdf) and [littlefuse](littelfuse-mega-datasheet.pdf), both should limit well below 300A (e.g., littlefuse has a 300A fuse blowing at 242A at ~70 F ambient).  Based on this data we are comfortable with a wire size as small as 0 AWG even though its ampacity (285A) is below the fuse rating.
 
 
 ## Solar MPPT to Positive Bus
@@ -85,7 +99,7 @@ Maximum charge current is 72A assuming minimum battery voltage (22.4V) and perfe
 
 ## Main DC Panel to Positive Bus
 
-Maximum discharge current is 42A based on the maximum load (944W) in the converter sizing study in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing) assuming minimum battery voltage (23.2V).  Round trip wire length is approximately 12 ft.  By ampacity, minimum wire size is 12 AWG.  By voltage drop, minimum wire size is 11 AWG.  However, as this distribution panel functions as the source to downstream loads, voltage drop to the panel should be minimized.  To minimize voltage drop, and simplify wire ordering and termination, 2 AWG will be considered.
+Maximum discharge current is 41A based on the maximum load (944W) in the converter sizing study in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing) assuming minimum battery voltage (23.2V).  Round trip wire length is approximately 12 ft.  By ampacity, minimum wire size is 12 AWG.  By voltage drop, minimum wire size is 11 AWG.  However, as this distribution panel functions as the source to downstream loads, voltage drop to the panel should be minimized.  To minimize voltage drop, and simplify wire ordering and termination, 2 AWG will be considered.
 
 ## Chassis Ground to Positive Bus
 
