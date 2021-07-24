@@ -1,12 +1,27 @@
 ---
-section: "van"
-category: "tools and techniques"
-title: "Tools"
-author: "Stello"
-data: " 2020-11-13"
-tags: ["tools", "fabrication"]
----
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - technical
 
+title: Tools
+navTitle: 
+author: Nate
+date: 2020-11-13
+tags:
+ - tools
+ - technical
+ - van
+metatags:
+	# no metatags
+cover: 
+	# image file
+ img: 
+	# if attribution is needed
+ source: 
+	# url: url
+---
 
 
 The right tool for the right job!  This [thread](https://www.fordtransitusaforum.com/threads/must-have-tools-for-camper-conversion.79127/#post-1038918) is a good startingn point.
