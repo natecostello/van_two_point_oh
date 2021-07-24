@@ -45,9 +45,9 @@ Example: [Hercules Hot Wire Foam Cutter](https://www.amazon.com/gp/product/B07HY
 
 **Cheap But Accurate DMM (Logging a plus)** - Will be used for battery construction and cell balancing.
 
-Example:[ut61e+](https://www.eevblog.com/forum/testgear/new-uni-t-ut61-series-(ut61e)/)
+Example:[ut61e](https://www.eevblog.com/forum/testgear/new-uni-t-ut61-series-(ut61e)/)
 
-Look into sigrok for logging without installing stupid software.  Also considering picking up one of [these](https://www.ebay.ca/itm/AD584-High-Precision-Voltage-Reference-Module-4-Channel-2-5V-7-5V-5V-10V/311498494419?_trkparms=aid%3D1110009%26algo%3DSPLICE.COMPLISTINGS%26ao%3D1%26asc%3D20200423103423%26meid%3D5e0d3126ee144abbb35236831af89d67%26pid%3D100011%26rk%3D3%26rkt%3D12%26mehot%3Dpp%26sd%3D300937695293%26itm%3D311498494419%26pmt%3D1%26noa%3D0%26pg%3D2047675%26algv%3Ddefault%26brand%3DUnbranded&_trksid=p2047675.c100011.m1850) to check it.
+Look into sigrok for logging without installing stupid software.  Also considering picking up one of [these](https://www.ebay.ca/itm/AD584-High-Precision-Voltage-Reference-Module-4-Channel-2-5V-7-5V-5V-10V/311498494419?_trkparms=aid%3D1110009%26algo%3DSPLICE.COMPLISTINGS%26ao%3D1%26asc%3D20200423103423%26meid%3D5e0d3126ee144abbb35236831af89d67%26pid%3D100011%26rk%3D3%26rkt%3D12%26mehot%3Dpp%26sd%3D300937695293%26itm%3D311498494419%26pmt%3D1%26noa%3D0%26pg%3D2047675%26algv%3Ddefault%26brand%3DUnbranded&_trksid=p2047675.c100011.m1850) to check it.  Note, the 61e+ is not supported by sigrok.  The 61e is supported.  There are also good python repositories that support the 61e.
 
 **Oscilloscope with CAN Decode** - Would be useful.  And I've always wanted one.
 
