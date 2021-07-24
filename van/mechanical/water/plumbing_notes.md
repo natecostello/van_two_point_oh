@@ -44,7 +44,16 @@ The sink will drain outside the van to a temporary collection botter where neede
 
 ## Pump
 
-24V Shurflo
+We considered the following 24V water pumps:
+
+* [Shurflo 4008-131-E65](pds-4008-131-x65.pdf) which can supply 3.2 GPM and is available for ~$140 + shipping
+* [Shurflo Aqua King II](pds-4138-131-x65.pdf) which can supply 3.1 GPM and is available for ~ $150
+* [Shurflo Aqua King II Premium 4.0](pds-4148-163-x75.pdf) which can supply 4.0 GPM and is available for ~ $217 + shipping
+* [Shurflo Aqua King II Supreme 5.0](pds-4158-163-x75.pdf) which can supply 5.0 GPM and is available for $279.98 with shipping
+* [Remco 55Aquajet-AES-24](55aquajet-aes-24-spec.pdf) which can supply 3.4 GPM but cannot be found online.
+* [Remco 55Aquajet-ARV-24](55aquajet-arv-24-spec.pdf) which can supply 5.3 GPM and is available for ~ $340.
+
+We opted for the Shurflo Aqua King II Supreme.  It should have plenty of umph for sourcing a sprayer/shower.  It was backordered at most places, we ordered from AnchorExpress.com, who had the best price, but some questionable reviews and unclear stock.  We'll rant if it goes south.
 
 ## Reverse Osmosis
 
