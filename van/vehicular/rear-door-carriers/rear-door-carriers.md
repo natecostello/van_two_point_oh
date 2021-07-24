@@ -36,3 +36,10 @@ Both rear door carriers are compatible with both hinges types.
 Lead time for the driver side ladder/tire carrier combo: Mid-October +/- 2 weeks
 Lead time for the passenger side box carrier: Mid-September, but could be Mid-October +/- 2 weeks
 Order placed with deposit of ~1/2 total
+
+I asked about weights and got the following response:
+
+> * Transit driver side rear door ladder: Approximate weighs 25 pounds.
+> * Tire carrier and a passenger side rear door box carrier (no box): Approximate weighs 18 pounds.
+
+Related, according to the forum, the [spare tire weighs 74 lbs](https://www.fordtransitusaforum.com/threads/oem-steel-vs-aluminum-wheel-weight.12562/post-199434).
