@@ -1,5 +1,5 @@
 ---
-type:
+type: category
 section: van
 categories: 
  # one or more categories is permitted
