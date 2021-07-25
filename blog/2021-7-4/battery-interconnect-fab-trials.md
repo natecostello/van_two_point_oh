@@ -5,7 +5,7 @@ categories:
  # one or more categories is permitted
  - electrical
 navTitle: 
-title: Battery Interconnect Fabrication Test
+title: Battery Interconnect Fabrication Trials
 author: Nate
 date: 2021-07-04
 tags:
