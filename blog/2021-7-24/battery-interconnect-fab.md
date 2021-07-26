@@ -23,7 +23,7 @@ cover:
 	# url: url
 ---
 
-Birthday bus bars!  Our final battery interconnect materials delivered from sendcutsend on July 12th.
+A very productive day.  Our final battery interconnect materials delivered from sendcutsend on July 12th.
 ![flat bars](flat-bars.jpeg)
 _Six days from drawing submittal to delivered product!_
 
@@ -36,7 +36,7 @@ _The bend tooling dimensions based on the final interconnect design._
 ![clamps](clamps.jpeg)
 _Glueing up the tooling._
 
-We narrowed the "track" that the tooling slides to aid in keeping everything parallel and perpendicular as needed.  We added some UHMW to improve sliding and minimize any binding under the clamping forces.
+We narrowed the "track" that the tooling slides in to aid in keeping everything parallel and perpendicular as needed.  We added some UHMW to improve sliding and minimize any binding under the clamping forces.
 
 ![jig](jig.jpeg)
 _UHMW tape FTW._
@@ -49,15 +49,15 @@ _All done._
 `vimeo: https://vimeo.com/579063079`
 _Clampy, clampy, clampy._
 
-We stayed with the electrical theme and selected "The Current War" for our birthday evening entertainment.  We would pay money to watch Michael Shannon wash dishes at this point.
+We stayed with the electrical theme and selected "The Current War" for our evening entertainment.  We would pay money to watch Michael Shannon wash dishes at this point.
 ![current-war](current-war.jpg)
 _Suck it, Edison!_
 
-The three most important ladies in my life, Sophia, Mom, and Sharon combined forces like Voltron to get me THE BEST PRESENT EVER.
-![oscope](oscope.jpeg)
-_Siglent 4 Channel!!!_
-
-And if bus bars, Michael Shannon, and a new o-scope weren't enough, we've got some EPIC wind forecasted for Assateague tomorrow!  
+And if bus bars and Michael Shannon wasn't enough, we've got some EPIC wind forecasted for Assateague tomorrow!  
 
 ![assateague](assateague.PNG)
 _Baby Hatteras._
+
+### Update: 7-25-21
+![kiting](kiting.jpeg)
+_AZT Delivered_
