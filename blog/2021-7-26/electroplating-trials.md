@@ -23,9 +23,9 @@ cover:
 	# url: url
 ---
 
-We are electroplating our battery interconnects with Nickel to provide corrosion resistance.  We spend a lot of time in highly corrosive salty air.  The [busbar design guide](https://copperalliance.org.uk/resources/pub-22-copper-busbars-guidance-design-installation-2/) from copperalliance.org.uk advises that it is a good idea in harsh high humidity environments.  In any case, we are doing it.  We electroplated the connection points on Van 1.0 using tin, and a brush method.  It turned out ok, but opted to go with a bath this time around.
+We are electroplating our battery interconnects with Nickel to provide corrosion resistance.  We spend a lot of time in highly corrosive salty air.  The [busbar design guide](https://copperalliance.org.uk/resources/pub-22-copper-busbars-guidance-design-installation-2/) from copperalliance.org.uk advises that it is a good idea in harsh high humidity environments.  We electroplated the connection points on Van 1.0 using tin, and a brush method.  It turned out ok, but opted to go with a bath this time around.
 
-Nickel has its own fan club, the [Nickel Institute](https://nickelinstitute.org/), that has great information available about stuff pertaining to Ni.  We used their [Nickel Plating Handbood](nph_141015.pdf).  Its geared towards industrial applications, but has a wealth of relevant information.
+Nickel has its own fan club, the [Nickel Institute](https://nickelinstitute.org/), that has great information available about stuff pertaining to Ni.  We used their [Nickel Plating Handbook](nph_141015.pdf).  Its geared towards industrial applications, but has a wealth of relevant information.
 
 We also referred to some threads and [resources](https://diysolarforum.com/resources/tin-plating-nickle-plating-or-solder-plating-bus-bars.163/) on the diysolarforum.
 
@@ -34,11 +34,10 @@ Lastly, we used the guidance from the Krohn electroplating solution.
 On that subject, you will find lots of examples on the intertubes of people making their own Nickel electrolyte.  We opted to buy ours from Amazon.  At some point, we reach our DIY limit.  
 
 Based on all the above sources, we set out with the following plan/goals:
-* We'll clean the copper beforehand with a mixture of vineger, salt, and dawn dish soap per internet and Bob Villa.
-* We'll use our power supply, in current source mode, to source the equivalent of 20 A/ft<sup>2</sup> (ASF).  This number was based on the Krohn electrolyte label (it said 10-20 ASF).
-* We'll plate for 30 minutes (at 20 ASF) which the Handbook would predict to yield a thickness of 25 um or ~1 mil.
-* We'll try and keep the surfaces being plated as equidistant from the Nickel anode(s) as possible to get even plating, per the handbook.  This means two anodes, one per side.
-* We'll try and keep the surfaces being plated as far from the Nickel anodes as possible to get even plating, per the handbook.
+* Clean the copper beforehand with a mixture of vineger, salt, and dawn dish soap per internet and Bob Villa.
+* Use our power supply, in current source mode, to source the equivalent of 20 A/ft<sup>2</sup> (ASF).  This number was based on the Krohn electrolyte label (it said 10-20 ASF).
+* Plate for 30 minutes (at 20 ASF) which the Handbook would predict to yield a thickness of 25 um or ~1 mil.
+* Try and keep the surfaces being plated equidistant and as far from the Nickel anode(s) as possible to get even plating, per the handbook.  This means two anodes, one per side.
 
 Note, you end up geometry and fluid limited at some point.  And the fluid isn't cheap.  This is what our setup looked like:
 
@@ -67,22 +66,22 @@ _First to last, left to right._
 
 So we paused.  The electrolyte is now almost opaque.  There is some sort of precipitate settling in there.  That can't be normal...
 
-**We pulled out the Nickel electrodes and notices that the alligator clips holding it, and sourcing current to it, had undergone a chemical change of their own.  No idea what it is, but we think that is the cause.  Those clips were probably tin plated.  In the electrolyte they would have also acted as tin anodes which probably contaminated the nickel solution and the plating process.  Maybe we aren't chemists, but that is the theory.**  
+We pulled out the Nickel electrodes and notices that the alligator clips holding it, and sourcing current to it, had undergone a chemical change of their own.  No idea what it is, but we think that is the cause.  Those clips were probably tin plated.  In the electrolyte they would have also acted as tin anodes which probably contaminated the nickel solution and the plating process.  Maybe we aren't chemists, but that is the theory.
 
 So....we will begin again on a new day...
 
 ### Lessons and Improvements
 
 Failure is not an option, so we plan to incorporate the following improvements based on our lesson:
-* We'll clean with a boiled vineger salt process, followed by dawn, and maybe an acetone wipe.
-* We'll use new electrolyte and more of it, so we aren't as constrained on part spacing.
-* We'll run a file over all busbar edges to blunt any sharpness.
-* We'll employ a larger vessel so we can get better spacing between the parts.
-* We'll uses square shot glasses for ballast to adjust the fluid level.
-* We'll add additional anodes and change the orientation to make sure they can source as much Nickle as possible.
-* We'll stick with the 10 ASF number.
-* We'll ensure the clips that source current to the Anodes are ABOVE the electrolyte.  This is likely all that is needed.
-* We'll use a small submersible aquarium pump to agitate the electrolyte and minimize bubbles that form from clinging to the busbar.
-* We'll use a small aquarium heater to regulate the temperature.
+* Clean with a boiled vineger salt process, followed by dawn, and maybe an acetone wipe.
+* Use new electrolyte and more of it, so we aren't as constrained on part spacing.
+* Run a file over all busbar edges to blunt any sharpness.
+* Employ a larger vessel so we can get better spacing between the parts.
+* Uses square shot glasses for ballast to adjust the fluid level.
+* Add additional anodes and change the orientation to make sure they can source as much Nickle as possible.
+* Stick with the 10 ASF number.
+* Ensure the clips that source current to the Anodes are ABOVE the electrolyte.  This is likely all that is needed.
+* Use a small submersible aquarium pump to agitate the electrolyte and minimize bubbles that form from clinging to the busbar.
+* Use a small aquarium heater to regulate the temperature.
 
 
