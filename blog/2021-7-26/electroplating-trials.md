@@ -59,18 +59,18 @@ After 60 minutes, we paused the Woodstock 99 documentary on HBO (it was better i
 ![trial 2 result](trial2-result.jpeg)
 _Worse than the first._
 
-We cleaned the bejeezus out of the third bar.  Put it in, set at timer, watched Fred Durst incite a riot, and then...The worst yet.  Things are getting worse, as you can see in the progression.
+We cleaned the bejeezus out of the third bar.  Put it in, set at timer, watched Fred Durst incite a riot, and then...Things are getting worse, as you can see in the progression.
 
 ![side-by-side](side-by-side.jpeg)
 _First to last, left to right._
 
 So we paused.  The electrolyte is now almost opaque.  There is some sort of precipitate settling in there.  That can't be normal...
 
-We pulled out the Nickel electrodes and notices that the alligator clips holding it, and sourcing current to it, had undergone a chemical change of their own.  No idea what it is, but we think that is the cause.  Those clips were probably tin plated.  In the electrolyte they would have also acted as tin anodes which probably contaminated the nickel solution and the plating process.  Maybe we aren't chemists, but that is the theory.
+We pulled out the Nickel electrodes and noticed that the alligator clips holding it had undergone a chemical change of their own.  No idea what it is, but we think that is the cause.  Those clips were probably tin plated.  In the electrolyte they would have also acted as tin anodes which probably contaminated the nickel solution and the plating process.  Maybe. We aren't chemists, but that is the working theory.
 
 So....we will begin again on a new day...
 
-### Lessons and Improvements
+### Lessons and Improvement
 
 Failure is not an option, so we plan to incorporate the following improvements based on our lesson:
 * Clean with a boiled vineger salt process, followed by dawn, and maybe an acetone wipe.
