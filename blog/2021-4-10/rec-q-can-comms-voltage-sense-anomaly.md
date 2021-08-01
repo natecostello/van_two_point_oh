@@ -90,7 +90,7 @@ Next steps are to contact REC with all this information as well as working on RS
 
 ### Update 2021-4-11
 
-I hooked up the REC Wi-Fi Module to get more granularity on cell voltages and see if it might provides some clues.  
+I hooked up the REC Wi-Fi Module to get more granularity on cell voltages and see if it might provide some clues.  Note to future self, I changed the default IP to `192.168.2.99` in case forget.
 
 The home page shows the same max cell voltage discrepancy as the CAN data.
 
