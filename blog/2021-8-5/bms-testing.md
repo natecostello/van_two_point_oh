@@ -17,7 +17,7 @@ metatags:
 	# no metatags
 cover: 
 	# image file
- img: 
+ img: mhmv2bmsctf-cover.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
