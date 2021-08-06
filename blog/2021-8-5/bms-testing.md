@@ -103,3 +103,4 @@ In addition to the report a max and min temperature, "battery" temperature is al
 ![batt temp is max temp](battery-temperature-falling_temperature_test.png)
 _Was curious what they would do with multiple sensors.  This seems like the most practical thing._
 
+We need to decide on our final protection parameters.  The default high cell voltage cutoff (3.85V) seems high, so we might back that down and lower the hysteresis accordingly.  The default low temperature charging cutoff (-10C) is also a low, and we might set slightly above freezing.
