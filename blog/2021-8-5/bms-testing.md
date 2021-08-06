@@ -23,9 +23,9 @@ cover:
 	# url: url
 ---
 
-It's generally good practice to test equipment that you will depend on for protection.  Given the cost and stored energy in our battery system, we decided to excersise the key protections provided by the BMS before we actually hook it up for initial charge (when we would be counting on said protections).  Aside from testing the protections it also can illuminate unadvertised behaviors that are worth understanding.
+It's generally good practice to test equipment that you will depend on for protection.  Given the cost and stored energy in our battery system, we decided to exercise the key protections provided by the BMS before we actually hook it up for initial charge (when we would be counting on said protections).  Aside from testing the protections it also can illuminate unadvertised behaviors that are worth understanding.
 
-We also thought this would be a good project to tie together some of the past work we've done to work up control and monitoring python code.  Lastly we decided to explore Python's unittesting suite as the tool to implement this testing.  Understand, this kind of job is NOT what that suite is meant for, but why not.
+We also thought this would be a good project to tie together some of the past work we've done to work up control and monitoring python code.  Lastly we decided to explore Python's `unittest` suite as the tool to implement this testing.  Understand: this kind of job is NOT what that suite is meant for, but why not.
 
 Spoiler: The REC did fine and performs pretty much as described in the manual except for some minor findings.
 
@@ -55,7 +55,7 @@ The hardware used/required for the testing (as we went about it) includes:
 * Logging Raspberry Pi 4 with a CANBus hat (running all this code)
 * Battery Simulator
 
-Together, these parts combine like Voltron to form the M. Henneberger Memorial Van 2.0 Battery Management System Compatibility Test Facility or MHMV2BMSCTF for short.
+Together, these parts combine like Voltron to form the *M. Henneberger Memorial Van 2.0 Battery Management System Compatibility Test Facility* or MHMV2BMSCTF for short.
 
 ## Results
 
@@ -63,18 +63,41 @@ Together, these parts combine like Voltron to form the M. Henneberger Memorial V
 
 The purpose of this test is to verify the BMS takes protective action to communicate via CANBus to stop charging, to communicate via the CHARGE ENABLE to stop charging, and finally open the main contactor as a last resort to stop charging.  Also, we care whether it does these things at the voltage thresholds it's supposed to.  It did. [CSV data](rising_voltage_test.csv)
 
+![max cell rising voltage](max-cell-voltage-and-end-of-charge-rising_voltage_test.png)
+_This plot shows the desired behavior of "soft" software controls acting (Charge Current Limit reduction), then "hard" software controls (Charge Enable low), and then hardware backup_
 
 ### Falling Cell/Battery Voltage
 The purpose of this test is to verify the BMS takes protective action to communicate via CANBus to stop discharging and to open the main contactor as a last resort to stop discharging.  Also, we care whether it does these things at the voltage thresholds it's supposed to.  It did. [CSV data](falling_voltage_test.csv)
 
 ![](min-cell-voltage-and-end-of-discharge-falling_voltage_test.png)
+_Discharge current limit precedes the contactor as desired.  Note, loads and inverters generally can't reduce current, so the system can only respond to discharge current limit reduction by staggered or abrupt load shed._
 
 ### Rising Cell/Battery Temperature
 The purpose of this test is to verify the BMS takes protective action to communicate via CANBus to stop charging and discharging, communicate via the CHARGE ENABLE to stop charging, and finally open the main contactor as a last resort to stop everything.  Also, we care whether it does these things at the temperature thresholds it's supposed to.  It did. [CSV data](rising_temperature_test.csv)
 
 ![](max-temperature-rising_temperature_test.png)
+_Beautiful coordinated control as in the other cases.  Least to most drastic._
 
 ### Falling Cell/Battery Temperature
 The purpose of this test is to verify the BMS takes protective action to communicate via CANBus to stop charging, communicate via the CHARGE ENABLE to stop charging if temperature gets near freezing.  It did.  Note, the BMS does not open the main contactor on low temperature (nor would you want it to). [CSV data](rising_temperature_test.csv)
 
 ![](min-temperature-falling_temperature_test.png)
+_The early and phased reduction in charge current limit was a surprise, but a good one.  LFP batteries do not like to be charged rapidly when cold._
+
+### Additional Random Thoughts
+
+The while not captured in the plots, the test scripts were closely comparing the voltages and temperatures when specific actions (e.g. open contactor) occurred to the settings in the BMS and manual.  In many cases, due to the time delay/histeresis and logging delay they would be slightly and perhaps fail.  This is just a test artifact.  Even so, we found that if an action was supposed to occur at a specific cell voltage, it did within double-digit millivolts.  Good enough!  
+
+Some behavior could not be observed because we don't have a way to simulate draw down of the battery via the shunt.  This means we could only test behavior driven directly by cell voltage, which is ok, as these are the bounding cases.
+
+With the data we've acquired, we will be able to decode parts of the alarm/warning byte structure and improve our CANBus monitoring behavior.  We will need to do a little more testing to see if the alarm/warning bits are tied to specific cells or temperature sensors.
+
+We were surprised to see that the Charge Voltage Limit rises to, and then tracks pack voltage when the contactor opens due to high cell voltage.  Not sure why, and not sure if it matters at all since the contactor is open.
+![CVL behavior](battery-voltage-rising_voltage_test.png)
+_It also wiggles a bit when it first lowers._
+
+In addition to the report a max and min temperature, "battery" temperature is also reported over CANBus.  The "battery" temperature uses whatever of the three measured temperatures is highest.
+
+![batt temp is max temp](battery-temperature-falling_temperature_test.png)
+_Was curious what they would do with multiple sensors.  This seems like the most practical thing._
+
