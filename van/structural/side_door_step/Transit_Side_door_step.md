@@ -149,7 +149,7 @@ Structural analysis (Steel): I = 0.0217 in<sup>4</sup>.  Max deflection fixed-fi
 
 ### Option H - Plywood with mid-span support
 
-This option would use flat 7/8 inch baltic birch plywood or glued and screwed 1/4 and 3/8 inch baltic birch with a mid span support that makes use of a factory threaded hole in the side of the step well.  Mid-span support would be fabricated by sendcutsend.  While thick, this matches the depth of the ribs plus the minicell, so flooring and insulation would be simple.  By gluing the top to the "plate" to the 1/2 inch baltic birch subfloor a very stiff structure is obtained at fairly low weight compared to competing options.
+This option would use flat 7/8 inch baltic birch plywood or glued and screwed 1/4 and 3/8 inch baltic birch with a mid span support that makes use of a factory threaded hole in the side of the step well.  Alternatively, 24 mm baltic birch could be thinned on the edges with the table saw to ~22.9 mm to match the 0.9 inch stack-up of the mini-cell.  Mid-span support would be fabricated by sendcutsend.  While thick, this matches the depth of the ribs plus the minicell, so flooring and insulation would be simple.  By gluing the top to the "plate" to the 1/2 inch baltic birch subfloor a very stiff structure is obtained at fairly low weight compared to competing options.
 
 The max length of unsupported span is 24.75 inches. 
 
