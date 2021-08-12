@@ -84,3 +84,11 @@ Example: [Atorch 4-wire](https://www.amazon.com/Electronic-upgraded-electronic-a
 
 Example: [Astro Pnuematic Tool 1450](https://www.amazon.com/gp/product/B01JBNNJ3Q/ref=ppx_yo_dt_b_asin_title_o05_s04?ie=UTF8&psc=1) is recommended in this [forum thread](https://www.fordtransitusaforum.com/threads/must-have-tools-for-camper-conversion.79127/post-1038821).
 
+**Air Compressor** - Due to the scarcity and price increases of spray adhesives, we are purchasing sprayable adhesive in liquid form and will spray with compressed air.  This requires an air compressor.
+
+Example: [Central Pneumatic 10 Gal 2.5 HP](https://www.harborfreight.com/air-tools-compressors/air-compressors-tanks/10-gallon-25-hp-125-psi-oil-lube-air-compressor-62441.html) (178.97) - This compressor has greater than 6CFM at 40 PSI so it will support the HVLP guns we are looking at.
+
+**Spray Gun** - One for spraying adhesive, and one for urethane.
+
+Examle: [Central Pneumatic HVLP](https://www.harborfreight.com/20-oz-hvlp-gravity-feed-air-spray-gun-62300.html) (16.99) - Not sure if we need the version with the regulator.
+
