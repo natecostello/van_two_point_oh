@@ -84,6 +84,8 @@ Example: [Atorch 4-wire](https://www.amazon.com/Electronic-upgraded-electronic-a
 
 Example: [Astro Pnuematic Tool 1450](https://www.amazon.com/gp/product/B01JBNNJ3Q/ref=ppx_yo_dt_b_asin_title_o05_s04?ie=UTF8&psc=1) is recommended in this [forum thread](https://www.fordtransitusaforum.com/threads/must-have-tools-for-camper-conversion.79127/post-1038821).
 
+Example: [Air Powered Option](https://www.amazon.com/KIARUO-Self-locking-Gun%EF%BC%8CQuick-Change-Industrial-Adjustable/dp/B07Y73GDYW/ref=sr_1_2?dchild=1&keywords=KIARUO&qid=1628894657&sr=8-2) is highly recommended by this [youtube video](https://www.youtube.com/watch?v=sHiorTMzo1U).
+
 **Air Compressor** - Due to the scarcity and price increases of spray adhesives, we are purchasing sprayable adhesive in liquid form and will spray with compressed air.  This requires an air compressor.
 
 Example: [Central Pneumatic 10 Gal 2.5 HP](https://www.harborfreight.com/air-tools-compressors/air-compressors-tanks/10-gallon-25-hp-125-psi-oil-lube-air-compressor-62441.html) (178.97) - This compressor has greater than 6CFM at 40 PSI so it will support the HVLP guns we are looking at.
