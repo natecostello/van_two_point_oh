@@ -1,6 +1,33 @@
-Flooring:
+---
+type: article
+section: van
+categories: 
+ # one or more categories is permitted
+ - parietal
+navTitle: 
+title: Floor
+author: Nate
+date: 2021-08-14
+tags:
+ - floor
+ - design
+ - concept
+ - parietal
+ - van
+metatags:
+	# no metatags
+cover: 
+	# image file
+	# img: img
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
+---
+
+The floor is constructed of a patchwork of 0.4 inch minicell foam to fill the corrugations, followed by a layer of 0.5 inch minicell for additional insulation, followed 0.5 inch of baltic birch plywood, topped with a continuous sheet of Lonseal vinyl flooring.
 
 
+### Random Notes
 
 Sealed and Dadoed: https://www.fordtransitusaforum.com/threads/plywood-sub-floor.29410/#post-378098
 
