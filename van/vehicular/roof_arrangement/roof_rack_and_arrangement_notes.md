@@ -43,10 +43,9 @@ Two 136 inch runners and three 58 inch crossbars yield 50 lbs (plus a lb or so f
 
 ### Aluminum Angle
 
-1.75x1.75x0.25 inch 6061-T6 Angle is 0.0783 lbs/in and is available from Metal Supermarket.  Two 136 inch angle runners and three 58 inch standard 15 series 80/20 crossbars yield 40 lbs (plus a lb or so for hardware).
+1.75x1.75x0.25 inch 6061-T6 Angle is 0.0783 lbs/in and is available from Metal Supermarket.  Two 136 inch angle runners and three 58 inch standard 15 series 80/20 crossbars yield 40 lbs (plus a lb or so for hardware).  This would yield a near flush mount for the top of the Rich Solar panels (1.4" thick) and flush mount for 80/20 crossbars.  The crossbars would need a chamfer on the lower edge to avoid interfering with the web on the angle.  Moment of Inertia is ~0.222 in<sup>4</sup>.  I think this is the pick.  We'll order 150 inch lengths for margin.
 
 1.75x1.75x0.125 inch 6063-T52 Angle is 0.0417 lbs/in and is available from Metal Supermarket.  Two 136 inch angle runners and three 58 inch standard 15 series 80/20 crossbars yield 30 lbs (plus a lb or so for hardware).
-
 
 
 ## Aerodynamic Impact
