@@ -37,6 +37,8 @@ Residential Minisplits are a cheap catalog option.  Sprinter Source users have s
 
 [This option](https://www.fleetwelcome.com/2020/05/28/hello-world/) appears attractive.  They offer a 24V version on amazon for 1800.  I would prefer something closer to 9000 btu, but for weight and size it looks hard to beat.
 
+[This option](https://sporlanonline.com/literature/misc/parker/Catalog%20J%20ZoomLine.pdf) for flexible hoses looks promising for the residential minisplit options.
+
 ### Notes from call with velo solar (fleetwelcome.com)
 
 Can you mount:  No problem mounting facing down.  Air intake is from sides, blows out face.  Air intake on indoor unit: 1.5 inch gap on top that draws in, blows out bottom.  Variable speed compressor.  Measures indoor temp, controlls fan and flow rate to reach target temperature, then outdoor turns off.  Instead of on and off, gradual power use.  20 SEER.  6000 BTU.  Not looking to produce higher capacity.  24V is new market.  Motor is 24V, power board is 24V, inboard unit 24V.  Noise: 33db low, wisper.  Outdoor unit is 60db.
