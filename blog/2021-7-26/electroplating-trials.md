@@ -72,8 +72,8 @@ So....we will begin again on a new day...
 
 ### Lessons and Improvement
 
-Failure is not an option, so we plan to incorporate the following improvements based on our lesson:
-* Clean with a boiled vineger salt process, followed by dawn, and maybe an acetone wipe.
+Failure is not an option, so we plan to incorporate the following improvements based on our trial:
+* Clean with a boiled vinegar salt process, followed by dawn, and maybe an acetone wipe.
 * Use new electrolyte and more of it, so we aren't as constrained on part spacing.
 * Run a file over all busbar edges to blunt any sharpness.
 * Employ a larger vessel so we can get better spacing between the parts.
