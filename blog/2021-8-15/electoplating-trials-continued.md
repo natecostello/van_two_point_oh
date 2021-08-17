@@ -66,16 +66,16 @@ Better but still seeing a bit of cloudiness around some holes. The working theor
 ![Acid use description](alchemy2.jpg)
 _TIL muriatic acid, which you can buy on Amazon, is just a weakened form of hydrochloric acid._
 
-Below is the *E. Harms Centennial Nickel Plated Copper Preparatory Protocol* (EHMNPCPP):
+Below is the *E. Harms Centennial Nickel Plated Copper Preparatory Protocol* (EHCNPCPP):
 * Dunk bus bar in hydrochloric (aka muriatic) acid
 * Let sit for about 5 minutes, moving it around a few times
 * Rinse
 * Dunk and swirl in distilled water
 * Dunk and swirl in de-ionized water
 
-And then plate.  Better living through stronger chemistry.
+And then plate.  Better living through chemistry.
 
 ![](acid.jpeg)
 _Beautiful, perfect plating, brought to you by harsh chemicals._
 
-Warning: You gotta be safe with these stronger chemicals.  Ventilation!  Masks!  Glasses/Goggles! Gloves/Sleeves! Neutralizer! Etc. 
+Warning: You have to be safe with these stronger chemicals.  Ventilation!  Masks!  Glasses/Goggles! Gloves/Sleeves! Neutralizer! Etc. 
