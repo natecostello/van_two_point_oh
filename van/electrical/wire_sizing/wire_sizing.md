@@ -107,3 +107,6 @@ All current sourced from the Aftermarket Alternator, 150A, will flow through thi
 
 # Branch DC Wiring
 
+# Alternator-Inverter DC Wiring
+
+The alternator inverter will be powered from CCP2 which is fused at 175A.  Wire size will be limited by ampacity.  Minimum wire size is 3 AWG, which really means 2 AWG.s
