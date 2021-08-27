@@ -33,5 +33,6 @@ Orton privides a great [hint](https://www.fordtransitusaforum.com/threads/what-t
 
 TODO: Research whether drawer hardware has lengths that are compatible with our cabinet depths.  Kenetube used [blum](xhttps://www.blum.com/us/en/products/runnersystems/overview/).  Specifically it looks like he used the "tandembox" line.  Catalog is [here](http://downloads.cabinetparts.com/auto/Tandembox-Complete-Catalog-92-pages.pdf).  It appears the have slides in 16, 18, 20, and 22+ inch lengths.
 
+It appears that blum hardware is available to support 5/8 thick cabinet/drawer faces.  We need to use 5/8 because that is the max thickness for standard marine slam latches. 
 
 
