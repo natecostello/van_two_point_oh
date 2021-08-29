@@ -24,5 +24,10 @@ cover:
 
 Top Layer Map
 Cut and Fit
+Dry Fit wood on top of minicell
+Final Trim
+Reseal
 
 More to follow
+
+[Removing factory step insert](https://www.fordtransitusaforum.com/threads/how-to-best-remove-the-plastic-step-liner-as-you-enter-thru-sliding-door.80619/post-1122672)
