@@ -34,12 +34,12 @@ TODO: Measure wall and ceiling L-track
 
 Candidates:
 
-[30x15x14](https://www.duffelbags.com/duffel-bags/travel-gear-bag-xlarge): Not clear which dimension is H or W.  ~$35 SKU:EV-1015XL
+[30x15x14](https://www.duffelbags.com/duffel-bags/travel-gear-bag-xlarge): Not clear which dimension is H or W.  ~$35 SKU:EV-1015XL - Via Phone: 14Hx15W
 
 [30x15Wx14H](https://www.duffelbags.com/duffel-bags/large-polyester-duffel-3sizes): ~$75 SKU:NP-5275-77
 
 [Unknown but interesting](https://www.duffelbags.com/duffel-bags/deluxe-club-sports0bag): 
-~$30 SKU:NUC-DB1204
+~$30 SKU:NUC-DB1204 - Via Phone 20X10X10
 
 [30x14x14](https://www.duffelbags.com/duffel-bags/classic-gear-bag-large): $34 SKU:EV-1005LD
 
