@@ -31,9 +31,11 @@ For joining of the extrusions, we will be using 8020's [interior anchor fastener
 The design tenets for the structure were:
 * Maintain all fasteners accessible to allow tightening or tightness checks.
 * Allow constructions of free-standing submodules to allow assembly in functional stages (e.g., garage).
-* Maintain a reasonable tolerance around all components and van structure.
+* Maintain a reasonable tolerance around all components and van structure (1/8 inch generally).
 
 After measuring 5 times, consulting drawings, agonizing over a computer screen for days, and measuring 5 more times, we completed our design.
+
+TODO: Update with post mockup structure.
 
 ![Isometric](structure-final-iso.jpg)
 _Isometric View_

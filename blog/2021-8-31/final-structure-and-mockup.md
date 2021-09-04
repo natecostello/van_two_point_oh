@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Structural Design and Mockup
 author: Nate
-date: 2021-08-31
+date: 2021-09-03
 tags:
  - van
  - structural
