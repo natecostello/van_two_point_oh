@@ -35,7 +35,7 @@ We cut the strips into 1.5 inch by 2.5 inch blocks.
 
 We sealed the blocks on all but the bottom with two coats of Kilz primer.
 
-While I fabbed the blocks, Sophia cut the bottom layer of minicell foam and cleaned off the contact cement in the areas we planned to mount the blocks.
+While I fabb'd the blocks, Sophia cut the bottom layer of minicell foam and cleaned off the contact cement in the areas we planned to mount the blocks.
 
 Finally, we scuffed the factory paint in the mount locations and used J-B Weld 8276 KwikWeld to expoy the blocks to the floor.  It advertises a strength of 3127 psi, an oddly specific number, but even a quarter of that would be more than enough.
 
