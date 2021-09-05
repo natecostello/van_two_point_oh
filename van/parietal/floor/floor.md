@@ -32,6 +32,7 @@ We used Weldwood Landau contact adhesive anywhere we need things to stick and st
 
 We solicited advice on the Transit forum for how to seal the wood and got some [great ideas](https://www.fordtransitusaforum.com/threads/best-treatment-for-sealing-wood-floor-and-panels.86467/#post-1127785).  Based on those we decided to go with Kilz exterior primer and porch paint.  It is water-based, and very low VOC, which makes application simple.  It also is mold and mildew resistant which is a major concern for any wood in this build.  Additional forum discussions on the merits sealing are [here](https://www.fordtransitusaforum.com/threads/off-gassing-or-wet.79475/#post-1042042), [here](https://www.fordtransitusaforum.com/threads/skadi-%C3%84ventyrsvagnen-four-person-winter-adventure-van.77510/post-1039859), and [here](https://www.fordtransitusaforum.com/threads/van-flooring-options.72196/post-959018).
 
+Based on some light internet research we settled on J-B Weld 8276 KwikWeld to expoy the blocks to the floor that anchor the edges of the plywood subfloor.
 
 ## Insulation
 
@@ -43,7 +44,15 @@ Baltic birch as the floor's structural component is also a well-worn path.  We a
 
 The 4x8 sheets of baltic were cut down to 68 7/8 inches (max floor width).  Two sheets were left at 48 inches wide, one sheet was cut to 44 inches wide, and the last sheet at the back was cut to fit width-wise.  We created a monolithic template of all wheel wells, depressions, etc, and traced it on the wood pieces all at once.  We jigsawed the edge features in and then dry fit all four at once.
 
-To keep the edges from popping we used biscuits and wood glue to join the four pieces.  We did the final wood layer install as a single monolith aided by 16 foot plywood for the insertion.  See [this forum post](https://www.fordtransitusaforum.com/threads/plywood-sub-floor.29410/#post-378098) for an alternative approach.
+~~To keep the edges from popping we used biscuits and wood glue to join the four pieces.  We will install the final wood layer install as a single monolith strong-backed by 16 foot 2x4s for the insertion.~~
+
+To keep the edges from popping and increase ease and flexibility of install, we epoxied 1.5x2.5 inch blocks to the floor at the seams of the plywood pieces.  We then screwed the plywood to these blocks.  The anchor blocks were fabricated from two layers of 1/2" baltic birch glued together.  We then used a hand planer to plane the thickness down to about 7/8 inch, just below the top foam layer.
+
+![floor blocks](floor-blocks.JPG)
+
+This approach allows us to install the floor in pieces and arrange them individually to ensure good clearance from the van walls and features (i.e., no squeaks).
+
+See [this forum post](https://www.fordtransitusaforum.com/threads/plywood-sub-floor.29410/#post-378098) for an alternative approach.
 
 ## Side Door Step
 
