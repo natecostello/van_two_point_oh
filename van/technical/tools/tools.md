@@ -95,3 +95,6 @@ Example: [Central Pneumatic 10 Gal 2.5 HP](https://www.harborfreight.com/air-too
 **Spray Gun** - One for spraying adhesive, and one for urethane.
 
 Example: [Central Pneumatic HVLP](https://www.harborfreight.com/20-oz-hvlp-gravity-feed-air-spray-gun-62300.html) (16.99) - Not sure if we need the version with the regulator.
+
+**Hand Planer** - used to match thickness of foam and ribs
+Example: Ryobi

@@ -42,7 +42,7 @@ Candidates:
 
 [30x15Wx14H](https://www.duffelbags.com/duffel-bags/duffelgear-grand-canyon-duffel-30inch): $24 SKU:DFL30-36
 
-Based on a crude fit test, we've narrowed the sizes to 14x14 and 14Hx15W Bags.  Once we do an actual fit test with L-track in place this could change, but for now, those will be our first trials.
+Based on a crude fit test on Monday 8-30-2021, we've narrowed the sizes to 14x14 and 14Hx15W Bags.  Once we do an actual fit test with L-track in place this could change, but for now, those will be our first trials.
 
 Eliminated Candidates (for now):
 
@@ -54,3 +54,4 @@ Eliminated Candidates (for now):
 [36x16x15](https://www.amazon.com/gp/product/B08NRNSSX6/ref=ox_sc_act_title_1?smid=A2C1PAWGD7RAJ1&psc=1): ~45
 
 [15x15x30](https://www.outdoorshopping.com/os/Outdoor-Products-Black-Mountain-Duffle-Bag-Large-Gym-Travel-Work-15-inchesX-30-inches.html)
+
