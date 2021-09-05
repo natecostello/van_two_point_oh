@@ -26,6 +26,9 @@ cover:
 This is just a stub for now...
 
 Finished final structural design
-Finalized BOM
+Create BOM
 Wood Cuts
 Mockup
+Lessons Learned
+Refine structure
+Finalize BOM
