@@ -16,8 +16,8 @@ tags:
 metatags:
 	# no metatags
 cover: 
-	floor-cover.JPG
- img: 
+    # image file
+ img: floor-cover.JPG
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
