@@ -32,3 +32,5 @@ The Aluminess bumper is also under consideration.  We need to confirm that it is
 
 Per 2020-07-07 Phone Call:
 Bumper is compatible with adaptive cruise and has area for relocation of sensor (see small black plexiglass blank).  Addition of front hitch receiver does not interfere with adaptive cruise.
+
+[This product is also promising.](https://portal.ecb.com.au/products/224176?searchMake=6&searchModel=17&searchCombination=VO+%2805%2F19+to+%29+VAN)

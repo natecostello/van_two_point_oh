@@ -49,3 +49,13 @@ My favored concept uses a 3 inch threaded PVC nipple.  It will pass through a ~3
 # Roof Pass-throughs
 
 The roof pass through will use a similar technique, though multiple smaller holes and PVC may be used to accomodate large dimensioned terminal boxes to maximize room for expansion.  VBH would aid in securing.
+
+To keep below the top of the rail and allow nestling under "deck" or solar panels, height is of interest:
+
+[2.3" high 3x4 10mm diameter wire](https://www.amazon.com/YXQ-Electrical-Connector-Dustproof-Waterproof/dp/B071ZRQN42/ref=asc_df_B071ZRQN42/?tag=hyprod-20&linkCode=df0&hvadid=242022044358&hvpos=&hvnetw=g&hvrand=14452172988249105472&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9007862&hvtargid=pla-430161477760&th=1)
+
+[~2" high possibly up to 6 inputs up to 15mm](https://www.amazon.com/Junction-Waterproof-Connector-Electrical-Protection/dp/B08MTKNN4X/ref=pd_di_sccai_6/138-8434905-4157325?pd_rd_w=YRdz6&pf_rd_p=c9443270-b914-4430-a90b-72e3e7e784e0&pf_rd_r=R40VHDJ1HJ36JQWFR5NW&pd_rd_r=c93a8247-b18f-4f6b-9ca2-85404e3bd7c1&pd_rd_wg=LsPUV&pd_rd_i=B08MTKNN4X&psc=1)
+
+[1.65" high up to 3, inputs up to 10mm](https://www.amazon.com/dp/B08MNX6NC6/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B08MNX6NC6p13NParams&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFLSDFJNlRDV0xFMEMmZW5jcnlwdGVkSWQ9QTAxODQ5NTgyNjhWMjROVUdLT1FWJmVuY3J5cHRlZEFkSWQ9QTAxMzA3NzJJUTNCNURGM1hGVVYmd2lkZ2V0TmFtZT1zcF9kZXRhaWwyJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
+
+[2.17" high 3 and 3 or 4 and 4 high not sure gland size](https://www.amazon.com/dp/B08MYV93S2/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B08MYV93S2&pd_rd_w=KqYYe&pf_rd_p=5d846283-ed3e-4512-a744-a30f97c5d738&pd_rd_wg=NVW7g&pf_rd_r=FAJ0QEZNPX01P5YFXN6C&pd_rd_r=a1184577-a7ed-4859-b147-2f6e16d9dd89&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVFBZSFg1WE5JNDExJmVuY3J5cHRlZElkPUEwNzcyNjc3MlI4M1ZRWlZRMVRZUCZlbmNyeXB0ZWRBZElkPUEwMzUyMzk2MjVVV1I2UVRVODZWWiZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
