@@ -64,4 +64,14 @@ This is the best option I've seen so far: [2.16" (internal) high 4 glands up to 
 
 [2" (internal) 8 glands up to 15mm ](https://www.amazon.com/Electrical-Junction-Vane-Waterproof-Connector/dp/B07JWJTCBT/ref=pd_di_sccai_20/138-8434905-4157325?pd_rd_w=6BLQ5&pf_rd_p=c9443270-b914-4430-a90b-72e3e7e784e0&pf_rd_r=48XHNW4T0B3RD1WQWN2S&pd_rd_r=d796b820-aa9f-4536-94c5-5a59f29d09aa&pd_rd_wg=ZZahc&pd_rd_i=B07JJDF6T6&th=1)
 
-[2.2" plenty of glands not sure of gland size](https://www.amazon.com/dp/B075WZFWFV/ref=sspa_dk_detail_5?pd_rd_i=B075WZFWFV&pd_rd_w=pYk8A&pf_rd_p=5d846283-ed3e-4512-a744-a30f97c5d738&pd_rd_wg=4UJQB&pf_rd_r=2CHAZYJDPFDFX2984PNS&pd_rd_r=acc2cddf-57d6-4080-ba1d-2f45718c0f83&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMUcxNTlMRVJRUkc4JmVuY3J5cHRlZElkPUEwNzMwMDg4M1EyWTRDVklNOVBMWSZlbmNyeXB0ZWRBZElkPUEwMjY2MDA5NzhTQlM3Rks1SlNZJndpZGdldE5hbWU9c3BfZGV0YWlsX3RoZW1hdGljJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1)
+[2.2" (internal i think) plenty of glands not sure of gland size](https://www.amazon.com/dp/B075WZFWFV/ref=sspa_dk_detail_5?pd_rd_i=B075WZFWFV&pd_rd_w=pYk8A&pf_rd_p=5d846283-ed3e-4512-a744-a30f97c5d738&pd_rd_wg=4UJQB&pf_rd_r=2CHAZYJDPFDFX2984PNS&pd_rd_r=acc2cddf-57d6-4080-ba1d-2f45718c0f83&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMUcxNTlMRVJRUkc4JmVuY3J5cHRlZElkPUEwNzMwMDg4M1EyWTRDVklNOVBMWSZlbmNyeXB0ZWRBZElkPUEwMjY2MDA5NzhTQlM3Rks1SlNZJndpZGdldE5hbWU9c3BfZGV0YWlsX3RoZW1hdGljJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ&th=1)
+
+[2.3" lots of room for glands, could probably support up to 14mm diameter cable](https://www.amazon.com/Otdorpatio-Waterproof-Electrical-Electronic-200x120x75/dp/B09B6Q9FS3/ref=pd_di_sccai_5/138-8434905-4157325?pd_rd_w=tZ1pf&pf_rd_p=c9443270-b914-4430-a90b-72e3e7e784e0&pf_rd_r=105X0EFGDB4TWRQG0FB7&pd_rd_r=190ee018-2f3f-499e-8b62-25bd2d8b5475&pd_rd_wg=q98y7&pd_rd_i=B08N1DD5WJ&th=1)
+
+[2" three glands, up to 15mm](https://www.amazon.com/Junction-Waterproof-Connector-Electrical-Protection/dp/B08PT5CWY9/ref=pd_di_sccai_6/138-8434905-4157325?pd_rd_w=YRdz6&pf_rd_p=c9443270-b914-4430-a90b-72e3e7e784e0&pf_rd_r=R40VHDJ1HJ36JQWFR5NW&pd_rd_r=c93a8247-b18f-4f6b-9ca2-85404e3bd7c1&pd_rd_wg=LsPUV&pd_rd_i=B08MTKNN4X&th=1)
+
+This might be the one [2.44" 10 glands, up to 14mm.](https://www.amazon.com/Waterproof-Junction-Electrical-Connector-Terminal/dp/B07VGCZD2D/ref=psdc_495308_t3_B08NV71JL9)
+
+[2.44" many variants up to .55 wire (PEBA)](https://www.amazon.com/Waterproof-Junction-Electrical-Connector-Terminal/dp/B07VN5D2QW/ref=sr_1_5?dchild=1&keywords=PEBA+junction+box&qid=1632349236&sr=8-5)
+
+[1.41" 3 and 2 glands up to .55 (MAKARELE)](https://www.amazon.com/Waterproof-External-Junction-Connector-Electric/dp/B098DJWYFL/ref=sr_1_31_sspa?dchild=1&keywords=PEBA+junction+box&qid=1632349236&sr=8-31-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExTUxJWlVIQVlSTVFFJmVuY3J5cHRlZElkPUEwNjY3MDIyMUYyVVBWQ0VOUEQzMiZlbmNyeXB0ZWRBZElkPUEwMTczNjA4Tjc5ME5EM0U4WlQwJndpZGdldE5hbWU9c3BfYnRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
