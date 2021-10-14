@@ -11,6 +11,7 @@ Finished harness reroute...haven't completed full test and test drive
 Replaced broken clips
 Installed like 100 1/4-20 plus-nuts
 
+
 TODO: Writeup how to remove trim
 
 Notes:
@@ -26,3 +27,6 @@ HOLE    GRIP	        Thread
 0.598″ (19/32)  0.02 – 0.28″	3/8-16	
 
 Ordered 15 5/16-18 and 20 1/4-20
+
+2021-10-11
+Tested after wire harness reroute
