@@ -10,6 +10,8 @@ Finished all neoprene (roof ribs, sides)
 2021-10-15
 Removed trim
 Finished automotive fabric
+Link to trim removal: https://www.fordtransitusaforum.com/threads/b-pillar-trim-removal.82473/post-1071885
+Another helpful post: https://www.fordtransitusaforum.com/threads/driver-side-b-piller-mid-and-lower-dress-panel-removal.82411/
 
 2021-10-16
 Replaced trim
