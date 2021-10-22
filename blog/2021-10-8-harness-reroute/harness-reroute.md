@@ -29,4 +29,4 @@ HOLE    GRIP	        Thread
 Ordered 15 5/16-18 and 20 1/4-20
 
 2021-10-11
-Tested after wire harness reroute
+Tested after wire harness reroute - only forgot 3 connections ;)

@@ -15,4 +15,8 @@ Another helpful post: https://www.fordtransitusaforum.com/threads/driver-side-b-
 
 2021-10-16
 Replaced trim
-Finished all thinsulate
+Finished all thinsulate and neo (except wheel wells)
+
+2021-10-21:
+Neoprened the wheel wells
+Glued the lower thinsulate insulation
