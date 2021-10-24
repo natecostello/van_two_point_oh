@@ -11,3 +11,7 @@ Fabricated insulating spacers that span the plusnut head, but realized that the 
 Fabricated insulating spacers 2.0
 Drilled out the holes for capscrew heads on some wall 80/20.  Had to order a new bit.
 Test fit of short wall 80/20 wth insulating spacers, inserts, and actual capscrews.
+
+2021-10-23:
+Soph drilled out the faces to pass the button head cap screw on all wall 80-20
+chuck fell out 1000000 times
