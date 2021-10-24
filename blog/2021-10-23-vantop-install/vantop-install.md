@@ -26,3 +26,8 @@ routed power up the a-pillar, behind headliner, and through the forward camera m
 see picks for dash removal
 turns out the 2021 is not the same as Gregoryx's brake light assembly, thus ordered a cable gland kit
 
+2021-10-24:
+Turns out fuse 18 on the driver side fuse box is now in use.  Changed ACC power  to fuse 7.
+Mounted rear camera on brake light, and drilled assembly and routed thorugh it.  Will add cable gland later.
+
+Fuse 7 location is actually dead.  Switched to fuse 5.
