@@ -190,6 +190,8 @@ Note: The BMS limit charge via CAN substanitally (~1A) when the highest cell rea
 
 ## 24V Concept Charge
 
+TODO: Strike through, and link to primary Alternator Charging Article.
+
 **TLDR:** By using maximum idle and both alternators maximally, a charge rate of 5124W (Multiplus Compact 183A at 28V) or 5544W (Multiplus 24/3000 198A at 28V) should be achievable.  This equates to about 10 or 11 hours of air conditioning per hour of idle or driving.  By only using the second alternator, a charge rate of 3724W should be achievable, equating to about 7 hours of air conditioning per hour of idle or driving.
 
 ### Second Alternator Charging
@@ -204,7 +206,7 @@ The 24V concept will make use of a Nations "24-150" alternator that is [capable]
 
 The 24V concept may make use of charging via the Multiplus Compact via Inverter via stock HD Alternator.  The Multiplus Compact is limited to 50A charge or 1380W assuming 27.6V.  With 94% Multiplus efficiency, this corresponds to input power of 1468W supplied by the forward inverter.  With 90% forward inverter efficiency, this corresponds to input power of 1631W supplied by the stock alternator.
 
-Alternatively, the 24V concept may make use of charging via the Multiplus 24/3000 via Inverter via stock HD Alternator.  The Multiplus Compact is limited to 70A charge or 1932W assuming 27.6V.  With 94% Multiplus efficiency, this corresponds to input power of 2055W supplied by the forward inverter.  With 90% forward inverter efficiency, this corresponds to input power of 2284W supplied by the stock alternator.
+The 24V concept will make use of charging via the Multiplus 24/3000 via a Samlex PST-2000-24 inverter via the stock HD Alternator.  The Multiplus 24/3000 is limited to 70A charge or 1932W assuming 27.6V.  With 94% Multiplus efficiency, this corresponds to input power of 2055W supplied by the forward inverter.  With 90% forward inverter efficiency, this corresponds to input power of 2284W supplied by the stock alternator.
 
 The capability of the stock HD alternator is unclear and the subject of much debate on the forum.  Another key question is what is the base load required by the vehicle.   Note CCP2 is fused at 175A and is specified to be kept below 175A.  This is a bounding concern if the full 70A charging of the Multiplus 24/3000 is used in hot factory alternator ouput conditions (below 13.1V).  Assuming Hot (60C/13.5V-115C/12.9V) conditions, the BEMM states the stock alternator is capable of:
 
