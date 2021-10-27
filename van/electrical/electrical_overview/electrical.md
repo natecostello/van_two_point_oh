@@ -86,6 +86,8 @@ For our panels, depending on the final configuration (e.g. 2S2P) multiple MPPT m
 
 ## Alternator Charging
 
+Our system uses both a second 24V alternator and the factory alternator (via the "Orton Method") to achieve charge rates inexcess of 5KW, in keeping with our **second goal**.  All the details on the alternator charging are contained in [this article](/van/electrical/alternator_charging/alternator_charging).
+
 ## Load Analysis
 
 ## Circuits and Wire Size

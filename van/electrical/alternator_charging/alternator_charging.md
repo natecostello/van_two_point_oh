@@ -22,7 +22,7 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+ img: alternator-cover.JPG
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
@@ -78,7 +78,7 @@ At minimum battery voltage 22.4V, the 70A Multiplus current limit corresponds to
 Based on these numbers, the maximum/default input current limit to the Multiplus should be set to 16.6A (2000W/120V)
 
 #### CCP2 Fuse Limit
-The Samlex is fed by CCP2 which is fused at 175A.  The factory HD alternator output voltage ranges from 12.9V-14.1V based on temperatures ranging from 240F to 32F per diagram E146660 Rev1 in the BEMM.  Assuming 2222W input power to the Samlex inverter, input current will range from 172.25A to 157.5A.  Thus the CCP fuse SHOULD not be limiting.  However, this doesn't account for voltage drop, and should be tested.
+The Samlex is fed by CCP2 which is fused at 175A.  The factory HD alternator output voltage ranges from 12.9V-14.1V based on temperatures ranging from 240F to 32F per diagram E146660 Rev1 in the [BEMM](/van/vehicular/vehicular_overview/2020-12-bemm.pdf).  Assuming 2222W input power to the Samlex inverter, input current will range from 172.25A to 157.5A.  Thus the CCP fuse SHOULD not be limiting.  However, this doesn't account for voltage drop, and should be tested.
 
 By inspection the low battery voltage case is not limiting from the CCP2 fuse perspective.
 
@@ -86,13 +86,14 @@ By inspection the low battery voltage case is not limiting from the CCP2 fuse pe
 
 The capability of the stock HD alternator is unclear and the subject of much debate on the forum.  Another key question is what is the base load required by the vehicle.  Assuming Hot (60C/13.5V-115C/12.9V) conditions, the BEMM suggests the stock alternator is capable of:
 
-
 - ~115A/125A at 1755 RPM (base idle assuming 650 engine RPM)
 - ~140A/155A at 2160 RPM (low SEIC)
 - ~185A/225A at 4860 RPM (crusing assuming 1800 engine RPM)
 - ~195A/235A at 6480 RPM (high SEIC)
 
-The best data for baseline Transit draw I have found is [here](https://www.fordtransitusaforum.com/threads/ammeter-for-alternator-output.65585/#post-891193).  In summary, just sitting idle with no AC, and no lights, the hotel load draw on the alternator is about 12A.  Idle with AC on high, the hotel load on the alternator is about 51A. Driving, with AC on high and headlights on high, the hotel load draw on the alternator is about 79A.
+![factory alternator performance](factor-alt-performance.jpg)
+
+The best data for baseline Transit current draw I have found is [here](https://www.fordtransitusaforum.com/threads/ammeter-for-alternator-output.65585/#post-891193).  In summary, just sitting idle with no AC, and no lights, the base load on the alternator is about 12A.  Idle with AC on high, the base load on the alternator is about 51A. Driving, with AC on high and headlights on high, the base load on the alternator is about 79A.  We will use the 51A and 79A values for determining useable amps from the factory alternator. 
 
 For the very hot case (12.9V):
 - ~64A (825W) at 1755 RPM (base idle)
@@ -140,15 +141,15 @@ We plan to use a Wakespeed WS500 for regulation and charge control from the seco
 
 #### Misc
 
-Notes from Niel:
+Notes from convo with Niel:
 How does the wakespeed accomodate the Amps vs RPM performance of the alternators being controlled? Some ability to configure. At low RPM, even at full field, alternator wont put out enought voltage.
 
-Use alternator manufacturers recemmendation on snubber for load disconnect. 
+Regarding Use of a sterling load disconnect protector: Use alternator manufacturers recemendation on snubber for load disconnect. 
 
 Does wakespeed care about other charging sources?
-wakespeed is measuring battery current and voltage...when MPPT kicks on, voltage will spike and the BMS will hard disconnect.  Recommend testing with an AGM keeper battery.
+wakespeed is measuring battery current and voltage...when MPPT kicks on, voltage will spike and the BMS may hard disconnect on overvoltage.  Recommend testing with an AGM keeper battery.
 
-Measuring shunt: He doesn't see the benefit of putting it on the positive side.
+Measuring shunt: He doesn't see the benefit of putting it on the positive side.  When measuring battery current via negative, wakespeed will account for current sourced from other charging sources when responding to BMS current request.
 
 TODO: Confirm idle RPM
 TODO: Document RPM assumptions: https://www.fordtransitusaforum.com/threads/2020-hr-awd-rpm-at-various-speeds.80451/
