@@ -28,6 +28,23 @@ cover:
 
 ## Lighting Options
 
+### Strip Lights
+
+Govee is highly recommended (e.g. Bob Villa).  
+
+Not IC lights are not cuttable.
+
+All Govee options with voltage are listed [here](https://www.govee.com/faqs/specs).
+
+For cuttable, 24V lights the best package appears to be H6195 from the table linked above.  It is long enough to support four runs fore-aft.  This model is available on Amazon:
+
+https://www.amazon.com/Govee-Assistant-Control-Lighting-Changing/dp/B083BG9NZV?th=1
+
+Based on looking at the reviews and customer images, it appears that directly sourcing 24V power to the strip controller is totally possible.  It also looks like splicing in lines from the controller to the start of the lights is also do-able.
+
+These appear to be the winner.
+
+
 ### Reading Lights
 
 These look perfect:  red and white modes, dimmable, and support 24V:
