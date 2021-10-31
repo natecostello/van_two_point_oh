@@ -42,8 +42,6 @@ This article describes the power circuits planned for the van.
 
 USB C Outlets will be in the following locations:
 
-* ~~Rear Bed - Driver Side~~ (Deemed not needed)
-* ~~Rear Bed - Passenger Side~~ (Deemed not needed)
 * Counter Level - Driver Side
 * Counter Level - Passenger Side
 
