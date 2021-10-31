@@ -78,6 +78,8 @@ The problem is coordinating the battery fuse with the downstream fuses.  Without
 
 Maximum charge current is 150A.  Round trip wire length is approximately 44 ft.  By ampacity, minimum wire size is 4 AWG.  By voltage drop, minimum wire size is 0 AWG.
 
+TODO: Update to reflect new alternator option.  
+
 ## Multiplus 24/3000 Inverter/Charger to Positive Bus [Alternate]
 
 Maximum charge current is 70A, and thus not limiting.
@@ -104,9 +106,13 @@ Maximum discharge current is 41A based on the maximum load (944W) in the convert
 ## Chassis Ground to Positive Bus
 
 All current sourced from the Aftermarket Alternator, 150A, will flow through this connection.  Its required size is bounded by that calculation.  To simplify wire ordering and termination, the same wire size will be used.
+TODO: Account for factory alternator charge if main negagtive bus is grounded by line back to engine block/second alterntor.
 
-# Branch DC Wiring
 
 # Alternator-Inverter DC Wiring
 
-The alternator inverter will be powered from CCP2 which is fused at 175A.  Wire size will be limited by ampacity.  Minimum wire size is 3 AWG, which really means 2 AWG.s
+The alternator inverter will be powered from CCP2 which is fused at 175A.  Wire size will be limited by ampacity.  Minimum wire size is 3 AWG, which really means 2 AWG.
+
+# Branch Wiring
+
+Refer to separate article on circuits for branch wireing.

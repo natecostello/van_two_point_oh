@@ -52,21 +52,28 @@ USB C Outlets will be in the following locations:
 * Upper Shelf - Driver Side
 * Comm Area
 
-Heater Control will be located XXXXX
+Heater Control will be located in/on the driver side bed side cabinet.
 
-Max Fan Control will be located XXXXX
+Max Fan Control will be located in/on the driver side bed side cabinet.
 
-Water Pump On/Off will be located on the side of the passenger side counter, easily accessible from outside with the door open.
+Water Pump On/Off will be located on the side of the sink cabinet, easily accessible from outside with the door open.
 
-Gas Solenoid On/Off will be located XXXXX
+Gas Solenoid On/Off will be integrated into the oven on/off switch.
 
-Light On/Off/Dim will be located XXXXX
+Light On/Off/Dim will be located on the side of the sink cabinet, easily accessible from outside with the door open.  There will also be a switch located in the bed area on the passenger side in the bed side cabinet.
 
 
 
-## 120VAC
+## 120VAC Circuits
 
-Outlets (Comm, Garage, Counter PORT, Counter STBD, Cabinet PORT, Cabinet STBD, Sliding Door)
+Based on the 30A rating of our Shorepower ELCI Breaker and the AC Main Breaker, all AC wire between the Shorepower connection and the AC Main Breaker Panel will be 12AWG triplex marine wire.  Branch circuit AC wire and AC wire between the factory-alternator-inverter will be 14AWG triplex marine wire.
+
+**Shorepower:** The shorepower circuit will run from the outlet under the driver side rear bumper, up inside the D-pillar, forward through the driver wall void to the shorepower ELCI main breaker.  From that breaker it will tie locally to the shorepower/factory-alternator-inverter transfer switch.  The transfer switch will then tie to the AC input power connection on the Multiiplus 24/3000.  The round trip length is ~12 ft.
+
+**Factory-Alternator-Inverter:** The factory-alternator-inverter circuit will run from the inverter location, forward of the freezer cabinet, aft through the driver wall void to the transfer switch adjacent to the AC Main Panel.  Round trip length is:
+
+**Branch Circuit:** The branch circuit will run from the AC Main Panel, aft through the driver wall void, to a GFCI outlet in the driver side rear garage, forward through the driver wall void, to an outlet inside the aft most driver galley cabinet, up to an outlet in the driver bed/counter region, down to the driver wall void, up and inside the C-pillar, across the C-pillar roof beam, down and inside the passenger C-pillar, into the passenger wall void, to an outlet inside the aft most passenger galley cabinet, up to an outlet in the passenger/counter region, down through the passenger galley to an outlet on the side of the sink cabinet.  The round trip length is:
+
 
 ## 24VDC Circuits
 
@@ -95,26 +102,28 @@ __Note: The USB PD 3.1 spec allows for power up to 240W via USB-C.  The cable re
 
 Estimated round trip length is XX ft. Required wire gauge is about anything based on the low current draw.
 
-**Reading Lights:** The two reading lights will be located in the rear overhead pillar.  The feed and return will be run from the electrical panel aft through the driver wall void, up and inside the D-pillar and to the overhead rear pillar.  Estimated round tirp length is XX ft.
+**Reading Lights:** The two reading lights will be located in the rear overhead pillar.  The feed and return will be run from the electrical panel aft through the driver wall void, up and inside the D-pillar and to the overhead rear pillar.  Estimated round trip length is XX ft.
 
 Required wire gauge is:
 
 
 **Exterior Lighting:**  Exterior lighting will be handled in the future.  It will probably consist of four separate circuits (Front, rear, PORT, STBD).
 
-**Interior Fans:** The two Sirocco II fans combined are ~12W corresponding to ~0.5A at 24V.  They will share a circuit.  The feeed and return will run from the 24V electrical panel, up to the driver fan, down, forward through the driver wall void, up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column, aft through the passenger wall void, and up to the passenger fan.  Estimated round-trip length is XX ft.  Required wire gauge is:
+**Interior Fans:** The two Sirocco II fans combined are ~12W corresponding to ~0.5A at 24V.  They will share a circuit.  The feed and return will run from the 24V electrical panel, up to the driver fan, down, forward through the driver wall void, up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column, aft through the passenger wall void, and up to the passenger fan.  Estimated round-trip length is XX ft.  Required wire gauge is:
+
+**Propane Solenoid:** The propane solenoid load is ~20W corresponding to ~0.8A at 24V.  The feed and return will run from the 24V electrical panel up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the stove cabinet to a relay, from the relay into the passenger wall void, though a wall void floor cut, under the van along the frame to the propane tank behind the rear differential.  Estimated round-trip length is XX ft.  Required wire gauge is:
 
 ## 12VDC
 
-Communication/Computation
+**Communication/Computation:**  These loads are all local to the 12V fuse block such that their wiring will not be factored into any bulk cable purchase/size determination.
 
-Heater
+**Heater:** The B4L max load is <= 100W corresponding to ~8A at 12V.  The feed and return will run from the 12V fuse block aft through the driver wall void, to the heater just aft of the driver rear wheel.  Estimated round trip length is XX ft.  Required wire gauge is:
 
-MaxAir Fan
+**MaxxFan:** The MaxxFan load is ~38W corresponding to ~3A at 12V.  The feed and return will run from the 12V fuse block aft though the driver wall void, up inside the D-pillar, across the D-pillar roof beam to the fan.  Estimated round trip length is XX ft.  Required wire gauge is:
 
-Outlets (Driverside Overhead Shelf)
+**Outlets (Driverside Overhead Shelf):**  This cable run will be for future expansion.  We may elect to convert to 12V on location.  We also may elect to hardwire vs using outlets.  In either case, assume 200W load.  The feed and return will run from the 12V fuse block forward though the driver wall void, up and inside the C-pillar, forward through the upper driver wall void to the overhead shelf region.  Estimated round trip length is XX ft.  Require wire guage is:
 
-Oven/Propane Solenoid
+**Oven:** The oven max load is not listed in the manual but is expected to be minimal (LEDs, sparkers, and relay modification) and bounded by any other 12V components.  The feed and return will run from the 12V fuse block up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the stove cabinet.  Estimated round trip is XX ft.  Required wire gauge is:
 
 
 
