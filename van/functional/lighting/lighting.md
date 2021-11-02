@@ -58,3 +58,5 @@ https://www.fullcompass.com/prod/283873-littlite-an-te24-led-anser-lamp-set-with
 This is an OEM that has lots of options (but maybe not exactly what we want):
 
 https://www.littlite.com/products
+
+The littlite CC-EB18-LED-AW model hits all the wickets: 12-24V power, end-mount 18" gooseneck, bottom mount cord, dimming, red and white.  [BH](https://www.bhphotovideo.com/c/product/1111252-REG/littlite_cc_eb18_led_aw_18_end_mount.html) has them for $135.  Yikes.
