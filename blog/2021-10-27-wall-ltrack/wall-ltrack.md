@@ -52,3 +52,10 @@ take down
 punch intersections
 drill on drill press
 
+See photo series that lays out the process
+
+2021-11-1
+match drilled lower l-track
+milled upper l-track and roof l-track to pass flat-head fasteners
+started counterbores
+Soph removed two interfereing plusnuts and picked up angle for ceiling l-track rear brackets
