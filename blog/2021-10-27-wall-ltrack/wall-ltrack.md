@@ -59,3 +59,9 @@ match drilled lower l-track
 milled upper l-track and roof l-track to pass flat-head fasteners
 started counterbores
 Soph removed two interfereing plusnuts and picked up angle for ceiling l-track rear brackets
+
+2021-11-2
+Finished counterbores
+Fabbed rear roof l-track brackets
+Ordered fasteners
+Drilled and painted for roof l-track brackets
