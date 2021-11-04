@@ -65,3 +65,10 @@ Finished counterbores
 Fabbed rear roof l-track brackets
 Ordered fasteners
 Drilled and painted for roof l-track brackets
+
+2021-11-3
+Soph installed rear brackets
+Soph swapped in proper fasteners for lower l-track
+Soph swapped in proper fasteners for upper and ceiling l-track
+
+DONE!
