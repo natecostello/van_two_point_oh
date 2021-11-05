@@ -77,7 +77,7 @@ Based on the 30A rating of our Shorepower ELCI Breaker and the AC Main Breaker, 
 
 **Water Pump:** The Water Pump is a Shurflo Aqua King II Supreme 5.0.  Shutoff current is 6A at 25.6V.  Open flow current is 2A at 25.6V.  The pump will be located in the sink cabinet.  The feed and return will run from the 24V electrical panel up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the sink cabinet.  Estimated round-trip length is XX ft.  Wire gauge is:
 
-**Fridge and Freezer:** The Fridge and Freezer combined are 83W, corresponding to ~3.5A at 24V.  They will share a circuit.  The feed and return will run from the 24V electrical panel, forward through the driver wall void, and into the fridge cabinet (where the fridge and freezer compressor are located).  Estimated round-trip length is XX ft.  Required wire gauge is:
+**Fridge and Freezer:** The Fridge and Freezer combined are 83W, corresponding to ~3.5A at 24V.  They will share a circuit.  The feed and return will run from the 24V electrical panel, forward through the driver wall void, and into the top of the fridge cabinet (where the fridge and freezer compressor are located).  Estimated round-trip length is XX ft.  Required wire gauge is:
 
 
 **Air Compressor:** The onboard air system will notionally us a Viair 400C compressor with a peak draw of 12A.  Based on the wire diagram for the dual compressor configuration, separate relays are controlled by the pressure switch, thus separate feeds from the power source are fine.  Thus we assume 12A and will add a second wire run for a dual system if desired down the road. The feed and return will run from the 24V electrical panel forward through the driver wall void, though the C-pillar, down through a wall void floor cut, under the van along frame and to the passenger rear corner.  Estimated round trip length is XX ft.
@@ -88,7 +88,7 @@ Required wire gauge is:
 
 **USB Outlets:** USB outlets will be located PORT and STBD at the foot of the bed/start of counter.  Each side will have a bluesea below deck panel, modified with a 24V breaker, and will house two double-USB sockets.  The USB PD spec allows for power up to 100W via USB-C.  We will assume this standard, which would require 200W at each outlet location.  This corresponds to 8.3A each, thus they will each have their own circuit.
 
-The driver feed and return will run from the 24V electrical panel up to the outlet.  Estimated round trip length is XX ft.
+The driver feed and return will run from the 24V electrical panel up to the outlet.  Estimated round trip length is 60".
 
 The passenger feed and return will run from the 24V electrical panel forward through the driver wall void, up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column, aft through the passenger wall void, and up to the outlet.  Estimated round trip length is XX ft.
 
@@ -124,4 +124,11 @@ Required wire gauge is:
 **Oven:** The oven max load is not listed in the manual but is expected to be minimal (LEDs, sparkers, and relay modification) and bounded by any other 12V components.  The feed and return will run from the 12V fuse block up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the stove cabinet.  Estimated round trip is XX ft.  Required wire gauge is:
 
 
+
+Notes:
+from the 24V electrical panel forward through the driver wall void, up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column = 134*2 inches
+
+passenger C-pillar column, out and up to the switch on the forward side of the sink cabinet = 67"
+
+24V electrical panel, forward through the driver wall void, and into the top of the fridge cabinet = 80"
 
