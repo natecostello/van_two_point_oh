@@ -1,4 +1,4 @@
----
+<!-- ---
 type: post
 section: blog
 categories: 
@@ -20,7 +20,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
----
+--- -->
 
 Floor Map
 Template

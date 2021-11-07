@@ -1,13 +1,13 @@
----
+<!-- ---
 type: post
 section: blog
 categories: 
  # one or more categories is permitted
  - parietal
 navTitle: 
-title: Floor Part 3
+title: Floor Part 1
 author: Nate
-date: 2021-08-22
+date: 2021-08-19
 tags:
  - van
  - parietal
@@ -20,11 +20,10 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
----
+--- -->
 
-Paint Coat
-Bottom Layer Minicell Strips
-Test Fit
-Glue
+Wood Pickup
+Width Test
+Rough Cut
 
 More to follow
