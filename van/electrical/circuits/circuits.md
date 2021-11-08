@@ -75,9 +75,9 @@ Based on the 30A rating of our Shorepower ELCI Breaker and the AC Main Breaker, 
 
 ## 24VDC Circuits
 
-**Water Pump:** The Water Pump is a Shurflo Aqua King II Supreme 5.0.  Shutoff current is 6A at 25.6V.  Open flow current is 2A at 25.6V.  The pump will be located in the sink cabinet.  The feed and return will run from the 24V electrical panel up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the sink cabinet.  Estimated round-trip length is XX ft.  Wire gauge is:
+**Water Pump:** The Water Pump is a Shurflo Aqua King II Supreme 5.0.  Shutoff current is 6A at 25.6V.  Open flow current is 2A at 25.6V.  The pump will be located in the sink cabinet.  The feed and return will run from the 24V electrical panel up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the sink cabinet.  Estimated round-trip length is 2x(268+67)".  Wire gauge is:
 
-**Fridge and Freezer:** The Fridge and Freezer combined are 83W, corresponding to ~3.5A at 24V.  They will share a circuit.  The feed and return will run from the 24V electrical panel, forward through the driver wall void, and into the top of the fridge cabinet (where the fridge and freezer compressor are located).  Estimated round-trip length is XX ft.  Required wire gauge is:
+**Fridge and Freezer:** The Fridge and Freezer combined are 83W, corresponding to ~3.5A at 24V.  They will share a circuit.  The feed and return will run from the 24V electrical panel, forward through the driver wall void, and into the top of the fridge cabinet (where the fridge and freezer compressor are located).  Estimated round-trip length is 2x80".  Required wire gauge is:
 
 
 **Air Compressor:** The onboard air system will notionally us a Viair 400C compressor with a peak draw of 12A.  Based on the wire diagram for the dual compressor configuration, separate relays are controlled by the pressure switch, thus separate feeds from the power source are fine.  Thus we assume 12A and will add a second wire run for a dual system if desired down the road. The feed and return will run from the 24V electrical panel forward through the driver wall void, though the C-pillar, down through a wall void floor cut, under the van along frame and to the passenger rear corner.  Estimated round trip length is XX ft.
@@ -96,11 +96,13 @@ Required wire gauge (using limiting case) is:
 
 __Note: The USB PD 3.1 spec allows for power up to 240W via USB-C.  The cable requirements to supply two 240W sockets at 24V is excessive (8AWG or greater).__
 
-**LED Strip Lights:** Four runs of LED strip lighting will run fore-aft in the van along the ceiling and walls.  [This Govee package](/van/functional/lighting/lighting) is the preferred option.  Power for the full length is 60W corresponding to 2.5A.  Notionally, the one switch will be located on the side of the sink cabinet near the entry way.  Another switch will be located on one side of the bed.  The dimmer/control will be located adjacent to the switch by the bed.  Feed and return will run from the 24V electrical panel, forward through the driver wall void, up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column, out and up to the switch on the forward side of the sink cabinet.
+**LED Strip Lights:** Four runs of LED strip lighting will run fore-aft in the van along the ceiling and walls.  [This Govee package](/van/functional/lighting/lighting) is the preferred option.  Power for the full length is 60W corresponding to 2.5A.  One switch will be located on the side of the sink cabinet near the entry way.  Another switch will be located on one side of the bed.  The dimmer/control will be located adjacent to the switch by the bed.  Feed and return will run from the 24V electrical panel, forward through the driver wall void, up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column, out and up to the switch on the forward side of the sink cabinet.  From that switch it will run back inside the passenger wall void aft of the c-pillar and up to a switch by the passenger side bed.
 
 Estimated round trip length is XX ft. Required wire gauge is about anything based on the low current draw.
 
-**Reading Lights:** The two reading lights will be located in the rear overhead pillar.  The feed and return will be run from the electrical panel aft through the driver wall void, up and inside the D-pillar and to the overhead rear pillar.  Estimated round trip length is XX ft.
+We will also want to run two sets of 4 wire to splice in after the controller that runs to the start of the LED strip lighting.  The best location for the start of the LED stirp lighting is the forward edge of the ceiling.
+
+**Reading Lights:** The two reading lights will be located in the rear overhead pillar.  The feed and return will be run from the electrical panel aft through the driver wall void, up and inside the D-pillar and to the overhead rear pillar.  Estimated round trip length is 2*254" ft.
 
 Required wire gauge is:
 
@@ -111,24 +113,33 @@ Required wire gauge is:
 
 **Propane Solenoid:** The propane solenoid load is ~20W corresponding to ~0.8A at 24V.  The feed and return will run from the 24V electrical panel up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the stove cabinet to a relay, from the relay into the passenger wall void, though a wall void floor cut, under the van along the frame to the propane tank behind the rear differential.  Estimated round-trip length is XX ft.  Required wire gauge is:
 
+**Outlets (Driverside Overhead Shelf):**  Originally planned for this cable to be 12V however the required guage is a deal breaker, so we elected to run 24V and convert locally if needed.  This cable run will be for future expansion.  Assume 200W at 8.33A load.  The feed and return will run from the 24V fuse block forward though the driver wall void, up and inside the C-pillar, forward through the upper driver wall void to the overhead shelf region.  Estimated round trip length is 2x247".  Required wire gauge for less than 3% drop is 12 AWG.
+
 ## 12VDC
 
 **Communication/Computation:**  These loads are all local to the 12V fuse block such that their wiring will not be factored into any bulk cable purchase/size determination.
 
-**Heater:** The B4L max load is <= 100W corresponding to ~8A at 12V.  The feed and return will run from the 12V fuse block aft through the driver wall void, to the heater just aft of the driver rear wheel.  Estimated round trip length is XX ft.  Required wire gauge is:
+**Heater:** The B4L max load is <= 100W corresponding to ~8A at 12V.  The feed and return will run from the 12V fuse block aft through the driver wall void, to the heater just aft of the driver rear wheel.  Estimated round trip length is 2x52" z.  Required wire gauge is:
 
-**MaxxFan:** The MaxxFan load is ~38W corresponding to ~3A at 12V.  The feed and return will run from the 12V fuse block aft though the driver wall void, up inside the D-pillar, across the D-pillar roof beam to the fan.  Estimated round trip length is XX ft.  Required wire gauge is:
+**MaxxFan:** The MaxxFan load is ~38W corresponding to ~3A at 12V.  The feed and return will run from the 12V fuse block aft though the driver wall void, up inside the D-pillar, across the D-pillar roof beam to the fan.  Estimated round trip length is 254"x2 ft.  Required wire gauge is:
 
-**Outlets (Driverside Overhead Shelf):**  This cable run will be for future expansion.  We may elect to convert to 12V on location.  We also may elect to hardwire vs using outlets.  In either case, assume 200W load.  The feed and return will run from the 12V fuse block forward though the driver wall void, up and inside the C-pillar, forward through the upper driver wall void to the overhead shelf region.  Estimated round trip length is XX ft.  Require wire guage is:
 
-**Oven:** The oven max load is not listed in the manual but is expected to be minimal (LEDs, sparkers, and relay modification) and bounded by any other 12V components.  The feed and return will run from the 12V fuse block up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the stove cabinet.  Estimated round trip is XX ft.  Required wire gauge is:
+**Oven:** The oven max load is not listed in the manual but is expected to be minimal (LEDs, sparkers, and relay modification) and bounded by any other 12V components.  The feed and return will run from the 12V fuse block up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the stove cabinet.  Estimated round trip is 600" ft.  Required wire gauge is:
 
 
 
 Notes:
-from the 24V electrical panel forward through the driver wall void, up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column = 134*2 inches
+from the 24V electrical panel forward through the driver wall void, up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column = 268"  
 
 passenger C-pillar column, out and up to the switch on the forward side of the sink cabinet = 67"
 
 24V electrical panel, forward through the driver wall void, and into the top of the fridge cabinet = 80"
+
+Needed: fwd side sink cabinet to foot of passenger side of bed
+OR 
+Needded: passenger C-pillar to foot of passenger side of bed 68"
+Needed: 24V panel to foot of driver side of bed 60"
+Needed: 24V panel to base of driver D-pillar 93"
+Needed: base of driver D-pillar, down to passenger D-pillar 77"
+Needed: base of passenger D-pillar to compressor mounting area 30"
 
