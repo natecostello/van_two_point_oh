@@ -18,4 +18,4 @@ https://youtu.be/bBWzx7OZXbA?t=861
 1021-10-23
 Covered blogs in auto fabric
 reinstalled head liner after vantop camera wirinig was ocmplete
-Couldn't get good purchase with pin re-install blobs with all the insulation and neo, will bolt through.
+Couldn't get good purchase with pin re-install blobs with all the insulation and neo, will bolt through. Update - ordered new plastic pins and they installed snug.

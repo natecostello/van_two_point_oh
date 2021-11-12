@@ -32,3 +32,9 @@ Rear fore-aft length is cut to 70 inches (can tolerate stock on of 1/8-1/4)
 20 3/8 + 3 3/8 inner edge of wheel well structure to inner edge fore-aft = 23 6/8 = 23 3/4
 
 remove 12v power point in back pass side
+
+2021-11-11
+Soph removed 12V power point
+Soph drilled and fitup the upper back pieces
+Soph installed rear double angle brackets on fore-aft inner upper pieces
+

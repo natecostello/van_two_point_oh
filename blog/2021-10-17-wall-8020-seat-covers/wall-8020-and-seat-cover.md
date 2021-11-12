@@ -15,3 +15,6 @@ Test fit of short wall 80/20 wth insulating spacers, inserts, and actual capscre
 2021-10-23:
 Soph drilled out the faces to pass the button head cap screw on all wall 80-20
 chuck fell out 1000000 times
+
+2021-10-10:
+Soph loc-tited and torqued the wall 8020
