@@ -38,3 +38,19 @@ Soph removed 12V power point
 Soph drilled and fitup the upper back pieces
 Soph installed rear double angle brackets on fore-aft inner upper pieces
 
+2021-11-12
+Soph drilled and fitup the lower back pieces
+
+Notes on Thru-bolting
+Planning to use 3/8 ID 3/4 OD FR4 Tube for spacer through floor
+Using 1/8 inch thick FR4 sheet for spacer above bracket
+1/4 ID 3/4 OD Washer on outside
+Grade 5 1/4-20 bolt 2.5 inches long zinc
+1/4-20 Grade 5 lock nut zinc
+
+Notes on Multiplus and SmartSolar Mounting
+-Threaded fastners get super mixed review
+-Tee Nuts on Van 1.0 were finicky but ok
+-Planning to use M6 screw in tee nuts
+-Ordering #7 1/2 wood screw to support
+
