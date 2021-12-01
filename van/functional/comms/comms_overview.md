@@ -54,6 +54,8 @@ SISO 802.11n tops out at 72Mbps on a 20Mhz channel or 150Mbps on a 40Mhz channel
 
 SISO 802.11ac out at 433 Mbps (5Ghz only)
 
+Note on wifi-as-wan implementation.  [This thread](https://forum.peplink.com/t/need-antenna-location-advice-metal-shell-rv/33652/3) states "While technically 'doable' to provide client wifi and wifi-as-wan using a single device - it is recommended to have a dedicated AP for client and use the Max Transit as wifi-wan. This will be MUCH more reliable and stable for clients."  This reinforces the approach of using a dedicated internal wifi access point and turning of wifi-lan on the device providing wifi-as-wan.
+
 ### Cellular As Source
 
 One key requirement is to use external antenna(s) for connection to the cellular internet source.  This could be a high-gain omni or uni-directional.  For the cell connection, a pointable, high gain directional might make sense.  For full LTE usage, MIMO is required.  Pyonting makes a few options like [this](https://poynting.tech/antennas-accessories/antennas/farming-agricultural-antennas/xpol-2-5g/?compare=12221,12222,12223,12224) directional (11 dBi).  For MIMO, it looks like the directionals are usually panel shaped.
