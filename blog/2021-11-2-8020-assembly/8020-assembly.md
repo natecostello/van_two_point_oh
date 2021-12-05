@@ -54,3 +54,51 @@ Notes on Multiplus and SmartSolar Mounting
 -Planning to use M6 screw in tee nuts
 -Ordering #7 1/2 wood screw to support
 
+2015-11-14
+Lots of time spent doing initial layout of electrical to make sure back panels make sense.
+Decided to relocate espar to front to remove duct conflict
+
+2021-11-15
+Figured out holes and pass throughs
+Partial final squaring of driver side
+Lots of spent thought on panel mounting (plan to route mount areas down to 1/4")
+May use drop in, may use screw in with drop in nuts, may use cut drilled brackets with threaded clips
+
+2021-11-16
+Maybe a new entry on panels
+Added holes to back panels for wire pass through
+fab'd tiny wheel well panel for transfer switch
+3 coats of water based spar urethane on back panels
+
+21-11-18:
+sanded and added another coat to panels
+
+21-11-18:
+fab'd floor spacers (per below)
+
+Through bolting spacer thickness update:
+
+Assuming nominal foam dimension:
+
+Length: 0.4in + 0.5 in + 12mm (BB) + 2mm (lon marine) = 22.86mm + 12mm + 2mm = 36.860mm = 1.4511811 in = 1 7.2/16 in
+
+Assuming expanded pvc + VHB tapee
+Length: 13/16 + 0.045 + 12mm + 2mm = 20.6375mm + 1.143mm + 12mm + 2mm = 35.781mm = 1.40870079 in = 1 6.5/16 in
+
+Spacer should be 1 3/8 to 1 7/16.  Shoot for just over 1 3/8.
+
+21-11-20:
+added a brushed edge coat to all back panels just in case
+squared driver side
+installed vertial piece for electrical
+
+21-12-2
+added temp support for driver side
+8020 torque guide lines:
+http://fandl8020.com/wp-content/uploads/2015/01/EBN-Spring15.pdf
+spoiler: 10-15 ft-lbs (call it 10 with loctite and angled drive)
+started torquing and locktiting
+
+21-12-3
+torqing and locktiting
+
