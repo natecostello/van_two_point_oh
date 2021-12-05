@@ -27,7 +27,7 @@ The utility of L-track was a major take-away of Van 1.0.  For 2.0, we knew we wo
 
 Van 1.0 used pre-drilled L-track.  This meant we had to drill and plus-nut holes in the van to match the existing holes in the L-track.  For Van 2.0, out of sensitivity to unnecessary drilling/holes, we procured L-track without holes, and match-drilled it to pre-existing holes/plusnut holes.  There are merits to each approach, but think we made the right choice for Van 2.0.  It also meant we didn't have to wrestle with drilling any boron-steel which is a huge plus.
 
-The L-track we used is made by Ancra, is 144 inches long, and was procured by a Baltimore Potomac Truck Center, a local supplier (who was fantastic to work with).  It took some work to verify the right product number for "hole-less" 12 ft L-track but both Ancra and BPTC were super helpful.  In case its helpful, the two product numbers that meet this requirement are 40467-31-144 (6351-T6 material) and 40467-11-144 (7075-T6 material - more expensive). 
+The L-track we used is made by Ancra, is 144 inches long, and was procured by a Baltimore Potomac Truck Center, a local supplier (who was fantastic to work with).  It took some work to verify the right product number for "hole-less" 12 ft L-track but both Ancra and BPTC were super helpful.  In case its helpful, the two product numbers that meet this requirement are 40467-31-144 (6351-T6 material good enough) and 40467-11-144 (7075-T6 material - more expensive). 
 
 The major install steps were measuring and cutting to length, match-drilling, milling where needed, cutting counterbores, and final fastening.
 
@@ -80,18 +80,18 @@ _Step 11_
 ![remove rear fastener](12-rear-fastener-removed.jpeg)
 _Step 12_
 
-13. For the remaining holes moving out from middle-ish:
+13. For the remaining hole location moving outward from middle-ish:
     1. Install transfer screw
     ![transfer screw](13a-install-transfer-screw.jpeg)
     _Step 13.1_
 
-    2. Pivot l-track on middle-ish fastener to cross scribe with the transfer screw
+    2. Pivot L-track on the middle-ish fastener to cross scribe the location with the transfer screw
 
-14. After all holes are scribed, take down, and for each hole:
+14. After all locations are scribed, take down, and for each hole location:
     1. Punch intersections
     ![punch](14a-punch-intersections.jpeg)
     _Step 14.1_
-    * 14b drill hole
+    2. Drill hole
     ![drill](14b-drill-holes.jpeg)
     _Step 14.2_
 
