@@ -45,7 +45,6 @@ _Note that faint center line_
 _Step 2: Measure_
 ![mark](2a-mark.jpeg)
 _Step 2: Mark_
-
 ![scribe](2b-scribe.jpeg)
 _Step 2: Scribe_
 
@@ -79,7 +78,6 @@ _We use the middle-ish fastener as a pivot point_
 13. For the remaining hole location moving outward from middle-ish:
     1. Install a transfer screw
     ![transfer screw](13a-install-transfer-screw.jpeg)
-
     2. Pivot the L-track on the middle-ish fastener to cross scribe the location with the transfer screw
 
 14. After all locations are scribed, take down, and for each hole location:
