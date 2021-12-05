@@ -36,9 +36,9 @@ The major install steps were measuring and cutting to length, match-drilling, mi
 1. Center scribe the L-track
 
 ![center scribe](1-center-scribe.jpeg)
-_Step 1_
+_A center scribe tool is critical_
 ![after center scribe](1-after-center-scribe.jpeg)
-_After Step 1_
+_Note that faint center line_
 
 2. Measure the location for the rear-most hole, mark and cross scribe
 ![measure](2-measure-location-of-rear-hole.jpeg)
@@ -49,59 +49,52 @@ _Step 2: Mark_
 ![scribe](2b-scribe.jpeg)
 _Step 2: Scribe_
 
-3. Punch intersection for rear-most hole
+3. Punch the intersection for rear-most hole
 ![punch](3-punch.jpeg)
-_Step 3_
+
 4. Drill rear-most hole
 ![drill](4-drill.jpeg)
-_Step 4_
 
 5. Bolt up using rear-most hole
 ![bolt](5-bolt-up-rear-hole.jpeg)
-_Step 5_
+
 
 6. Install transfer screw in a middle-ish plusnut
-![transfer screw](6-install-transfer-screw.jpegf)
-_Step 6_
+![transfer screw](6-install-transfer-screw.jpeg)
+_Transfer screws are critical_
 
 7. "Pivot" l-track on rear bolt to cross scribe at the transfer screw
 8. Take down L-track
 9. Punch intersection for midde-ish hole
 ![punch](9-punch-intersection.jpeg)
-_Step 9_
 
 10. Drill middle-ish hole
 
 11. Bolt up using rear-most and middle-ish hole to check accuracy
-![accuracy check](11-accuracy-check.jpeg)
-_Step 11_
 
 12. Remove rear fastener
 ![remove rear fastener](12-rear-fastener-removed.jpeg)
-_Step 12_
+_We use the middle-ish fastener as a pivot point_
 
 13. For the remaining hole location moving outward from middle-ish:
-    1. Install transfer screw
+    1. Install a transfer screw
     ![transfer screw](13a-install-transfer-screw.jpeg)
-    _Step 13.1_
 
-    2. Pivot L-track on the middle-ish fastener to cross scribe the location with the transfer screw
+    2. Pivot the L-track on the middle-ish fastener to cross scribe the location with the transfer screw
 
 14. After all locations are scribed, take down, and for each hole location:
     1. Punch intersections
     ![punch](14a-punch-intersections.jpeg)
-    _Step 14.1_
     2. Drill hole
     ![drill](14b-drill-holes.jpeg)
-    _Step 14.2_
 
 15. Bolt up using all holes as a final fit check
 ![fit check](15-final-check.jpeg)
-
+_Thank the gods_
 
 ## Additional Steps
 
-Before any of the above described work, we recommend running a 14-20 tap through each plusnuts to clean up the threads.  We also recommend "straightening" the plusnut so the threaded hole is properly perpendicular to the surface.  We used 1/4-20 long hex stand-offs from McMaster to accomplish this.
+Before any of the above described work, we recommend running a 1/4-20 tap through each plusnuts to clean up the threads.  We also recommend "straightening" the plusnut so the threaded hole is properly perpendicular to the surface.  We used 1/4-20 long hex stand-offs from McMaster to accomplish this.
 
 ![straighten](straighten-plusnuts.jpeg)
 
@@ -110,7 +103,10 @@ To use all locations in the L-track, you have to counterbore the holes and use f
 
 Flat head fasteners, it turns out, have a larger head diameter than the narrow faces of the L-track.  Therefore, in some locations we had to mill out narrow face to pass the fastener.  This could also be accomplished with a dremel.  Alternatively, you can use a button head fastener and skip the milling and counterbore.  The downside is that you will can't use the L-track adjacent to that fastener.  
 ![](milling.jpeg)
+_End mill_
+
 ![](milled.jpeg)
+_After milling_
 
 For the upper and ceiling L-track, because we didn't want to constrain where our overhead storage could mount, we went through the trouble of counterboring and milling.  For the "lower-wall" L-track we skipped that trouble and used button head (interfereing) fasteners.
 
