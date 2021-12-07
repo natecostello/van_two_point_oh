@@ -141,7 +141,15 @@ We plan to use a Wakespeed WS500 for regulation and charge control from the seco
 
 #### Misc
 
-Notes from convo with Niel:
+APS discussion on 2021-12-7
+What does the low RPM performance look like.  Is there a cutoff below which no voltage/current will be produced?  Yes: around 2000-1800 it will turn on/off (hard on and off) and free spins without excitation below that speed.  Jim will ask the engineers if this can result in cycling on-off at transit idle speeds and if that is a problem.  One possible solution is goign to a 48mm pulley, but he is not aware of that being done commonly.  He also mentioned that a new alternator with lower turn on speed may be coming out.
+
+What is the excitation for the APS model...is it "P-type"? (negative ground).  Jim: Yes it is P-type.  P-type is required to use [this cable](https://www.offgridsoftwaresolutions.com/product/ws500-regulator-harness-for-van-installations/) intended for Van installations.
+
+Load disconnect management is critical and must be provided by BMS.  Regarding the use of the Sterling load disconnect protector, Jim is not sure if recommended.  He will talk to his engineers.
+
+
+Notes from convo with Niel at wakespeed:
 How does the wakespeed accomodate the Amps vs RPM performance of the alternators being controlled? Some ability to configure. At low RPM, even at full field, alternator wont put out enought voltage.
 
 Regarding Use of a sterling load disconnect protector: Use alternator manufacturers recemendation on snubber for load disconnect. 
