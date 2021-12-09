@@ -124,5 +124,8 @@ Glue lonseal
 note shift
 note possible improvements
 
+Tuesday 12/7/21
+Final seal of edges with urethane seam sealer
+
 
 

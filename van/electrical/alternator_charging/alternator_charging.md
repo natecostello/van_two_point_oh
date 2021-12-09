@@ -142,11 +142,11 @@ We plan to use a Wakespeed WS500 for regulation and charge control from the seco
 #### Misc
 
 APS discussion on 2021-12-7
-What does the low RPM performance look like.  Is there a cutoff below which no voltage/current will be produced?  Yes: around 2000-1800 it will turn on/off (hard on and off) and free spins without excitation below that speed.  Jim will ask the engineers if this can result in cycling on-off at transit idle speeds and if that is a problem.  One possible solution is goign to a 48mm pulley, but he is not aware of that being done commonly.  He also mentioned that a new alternator with lower turn on speed may be coming out.
+What does the low RPM performance look like.  Is there a cutoff below which no voltage/current will be produced?  Yes: around 2000-1800 it will turn on/off (hard on and off) and free spins without excitation below that speed.  Jim will ask the engineers if this can result in cycling on-off at transit idle speeds and if that is a problem.  One possible solution is goign to a 48mm pulley, but he is not aware of that being done commonly.  He also mentioned that a new alternator with lower turn on speed may be coming out.  Followup - new alternator is 48V only.  Will email final min cutoff RPM number.
 
 What is the excitation for the APS model...is it "P-type"? (negative ground).  Jim: Yes it is P-type.  P-type is required to use [this cable](https://www.offgridsoftwaresolutions.com/product/ws500-regulator-harness-for-van-installations/) intended for Van installations.
 
-Load disconnect management is critical and must be provided by BMS.  Regarding the use of the Sterling load disconnect protector, Jim is not sure if recommended.  He will talk to his engineers.
+Load disconnect management is critical and must be provided by BMS.  Regarding the use of the Sterling load disconnect protector, Jim is not sure if recommended.  He will talk to his engineers. Followup: Not needed as long as BMS is coordinated.  Maybe needed for other reasons, but not as far as APS alternator is concerned.  
 
 
 Notes from convo with Niel at wakespeed:

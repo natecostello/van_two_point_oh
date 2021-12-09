@@ -31,3 +31,7 @@ Ran heater control wiring
 Ran conduit from under freezer/fridge to battery box area for Wakespeed wiring to alternator
 
 Think about running aux PV (not sure I have enough duplex)
+
+2021-12-6
+Ran 16x4 x2 from pass bed to overhead for LED lighting
+Ran 12x2 from aft driver wheel well (solar breaker location) to driver overhead as PV.

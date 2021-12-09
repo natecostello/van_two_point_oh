@@ -102,3 +102,6 @@ started torquing and locktiting
 21-12-3
 torqing and locktiting
 
+21-12-5
+finished locktighting driver side
+
