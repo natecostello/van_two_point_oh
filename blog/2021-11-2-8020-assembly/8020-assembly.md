@@ -105,3 +105,6 @@ torqing and locktiting
 21-12-5
 finished locktighting driver side
 
+21-12-9
+Realized that some back panel holes need to be opened/slotted based on the squaring process
+

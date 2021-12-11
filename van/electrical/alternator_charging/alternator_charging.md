@@ -84,7 +84,7 @@ By inspection the low battery voltage case is not limiting from the CCP2 fuse pe
 
 #### Factory HD Alternator Limit
 
-The capability of the stock HD alternator is unclear and the subject of much debate on the forum.  Another key question is what is the base load required by the vehicle.  Assuming Hot (60C/13.5V-115C/12.9V) conditions, the BEMM suggests the stock alternator is capable of:
+The capability of the stock HD alternator and base vehicle load is unclear and the subject of much debate on the forum.  Assuming Hot (60C/13.5V-115C/12.9V) conditions, the BEMM suggests the stock alternator is capable of:
 
 - ~115A/125A at 1755 RPM (base idle assuming 650 engine RPM)
 - ~140A/155A at 2160 RPM (low SEIC)
@@ -127,7 +127,7 @@ The details are in this [google spreadsheet](https://docs.google.com/spreadsheet
 
 </details>
 
-While the idle performance of the Nations alternator is superior, substantially higher charge rates are possible with the APC alternator under higher SEIC and cruise conditions.  On that basis, we are leaning towards that option.
+While the idle performance of the Nations alternator is superior, substantially higher charge rates are possible with the APC alternator under higher SEIC and cruise conditions.  On that basis, we are leaning towards that option.  Based on conversations with Jim at APS, the APS alternator cuts off below a minimum RPM.  In a followup email he confirmed the cutoff occurs at 1900 RPM which corresponds to just under 600 RPM for the engine.  This should be low enough to ensure the alternator isn't cycling on and off during idle.
 
 Does the load torque due to the second alternator matter at default idle, where engine torque is pretty low (<100 ft-lbs)?
 
