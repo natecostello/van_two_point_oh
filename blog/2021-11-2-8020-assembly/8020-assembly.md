@@ -108,3 +108,12 @@ finished locktighting driver side
 21-12-9
 Realized that some back panel holes need to be opened/slotted based on the squaring process
 
+21-12-11
+Used dremel to open up holes
+Installed Tee-nuts for multiplus (and screwed up mounting an inch high)
+Tee-nuts protrude through slightly ~1/16 so we need a spacer on the bottom so the multiplus is bearing on the panel and not push out the tee nuts - looks like 3 layers of uhmw tape will be sufficient.  I'll add some to the back of the upper mount as well.
+
+Considering spacing off the MPPT to give better airflow since now tight:
+  Max we can space out is 1 inch to prevent aux mppt from being proud of structure.  M6 standoff max out at a stand off length of 51mm, so wont allow for 2nd MPPT.  1/4-20 options will work: [four of these](https://www.mcmaster.com/93620A194/) and [four of these](https://www.mcmaster.com/93620A035/) would work.  And we will need [these](https://www.mcmaster.com/90611A113/).  The four inch spacers are $$$ so we'll wait until we get that aux MPPT.  Alternatively we can use the 1/4-20 tee-nuts and 4 [3/4 inch spacers](https://www.mcmaster.com/92415A867/).  This leaves the other options available in the future. 
+
+
