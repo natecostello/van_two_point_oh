@@ -21,7 +21,7 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+ img: fridge-cover.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
