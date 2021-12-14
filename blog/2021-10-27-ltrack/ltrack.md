@@ -34,7 +34,6 @@ The major install steps were measuring and cutting to length, match-drilling, mi
 ## General Procedure for Match Drilling L-track
 
 1. Center scribe the L-track
-
 ![center scribe](1-center-scribe.jpeg)
 _A center scribe tool is critical_
 
