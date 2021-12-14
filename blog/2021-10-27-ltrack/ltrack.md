@@ -37,16 +37,14 @@ The major install steps were measuring and cutting to length, match-drilling, mi
 
 ![center scribe](1-center-scribe.jpeg)
 _A center scribe tool is critical_
-![after center scribe](1-after-center-scribe.jpeg)
-_Note that faint center line_
 
-2. Measure the location for the rear-most hole, mark and cross scribe
+2. Measure the location for the rear-most hole, mark and Scribe
 ![measure](2-measure-location-of-rear-hole.jpeg)
-_Step 2: Measure_
+_Measure_
 ![mark](2a-mark.jpeg)
-_Step 2: Mark_
+_Mark_
 ![scribe](2b-scribe.jpeg)
-_Step 2: Scribe_
+_Scribe_
 
 3. Punch the intersection for rear-most hole
 ![punch](3-punch.jpeg)
@@ -57,36 +55,24 @@ _Step 2: Scribe_
 5. Bolt up using rear-most hole
 ![bolt](5-bolt-up-rear-hole.jpeg)
 
-
-6. Install transfer screw in a middle-ish plusnut
+6. Install transfer screw in a middle-ish plusnut and then "Pivot" the L-track on rear bolt to scribe at the transfer screw location
 ![transfer screw](6-install-transfer-screw.jpeg)
 _Transfer screws are critical_
 
-7. "Pivot" l-track on rear bolt to cross scribe at the transfer screw
-8. Take down L-track
-9. Punch intersection for midde-ish hole
+7. Punch at thee intersection for midde hole (after taking down the L-track) and drill
 ![punch](9-punch-intersection.jpeg)
 
-10. Drill middle-ish hole
-
-11. Bolt up using rear-most and middle-ish hole to check accuracy
-
-12. Remove rear fastener
+8. Bolt up using rear-most and middle hole to check accuracy, then remove the rear fastener
 ![remove rear fastener](12-rear-fastener-removed.jpeg)
-_We use the middle-ish fastener as a pivot point_
+_We use the middle fastener as a pivot point_
 
-13. For the remaining hole location moving outward from middle-ish:
-    1. Install a transfer screw
-    ![transfer screw](13a-install-transfer-screw.jpeg)
-    2. Pivot the L-track on the middle-ish fastener to cross scribe the location with the transfer screw
+9. For the remaining hole locations moving outward from the middle hole, one a time, install a transfer screw and pivot the L-track on the middle fastener to scribe each location with the transfer screw
+![transfer screw](13a-install-transfer-screw.jpeg)
+    
+10. Punch the intersections and drill
+![drill](14b-drill-holes.jpeg)
 
-14. After all locations are scribed, take down, and for each hole location:
-    1. Punch intersections
-    ![punch](14a-punch-intersections.jpeg)
-    2. Drill hole
-    ![drill](14b-drill-holes.jpeg)
-
-15. Bolt up using all holes as a final fit check
+11. Bolt up using all holes as a final fit check
 ![fit check](15-final-check.jpeg)
 _Thank the gods_
 
