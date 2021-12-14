@@ -58,7 +58,7 @@ _Scribe_
 ![transfer screw](6-install-transfer-screw.jpeg)
 _Transfer screws are critical_
 
-7. Punch at thee intersection for midde hole (after taking down the L-track) and drill
+7. Punch at the intersection for the middle hole (after taking down the L-track) and drill
 ![punch](9-punch-intersection.jpeg)
 
 8. Bolt up using rear-most and middle hole to check accuracy, then remove the rear fastener
