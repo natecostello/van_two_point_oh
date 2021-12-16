@@ -35,3 +35,7 @@ Think about running aux PV (not sure I have enough duplex)
 2021-12-6
 Ran 16x4 x2 from pass bed to overhead for LED lighting
 Ran 12x2 from aft driver wheel well (solar breaker location) to driver overhead as PV.
+
+2021-12-15
+Ran 12x2 for Aux Solar Connection
+Ran 14x3 for Outside outlet
