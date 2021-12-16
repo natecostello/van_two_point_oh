@@ -44,10 +44,10 @@ Once we were satisfied that everything fit, I finished the design in Fusion 360.
 ![shorepower](smartplug-plate-dims.png)
 _The smartplug/aux solar dxf is [here](smartplug-plate-order.dxf)._
 
-While I was at it, I when ahead and designed a second plate for the adjacent rectangular port that will house an [exterior plug](https://www.amazon.com/gp/product/B07SLM8LT5/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1), now that I knew it wouldn't be needed for the aux solar connection.  This was much more straight forward.
+While I was at it, I when ahead and designed a second plate for the adjacent rectangular port that will house an [exterior plug](https://www.amazon.com/gp/product/B07SLM8LT5/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1), now that I knew it wouldn't be needed for the aux solar connection.  This was much more straight forward.  Update:  Oops, didn't take the time to do a physical sanity check, and there is an interference with the tow hitch stucture...so there will be another design iteration.  Repeat after me: All models are wrong.  Don't confuse the map for the territory.
 
 ![outlet](plug-mount-dims.png)
-_The outlet plate dxf is [here](outlet-plate-order.dxf)._
+_The outlet plate dxf is [here](outlet-plate-order.dxf). This is wrong!_
 
 Lastly, we sent the designs off to sendcutsend.  We ordered them in 1/8 aluminum which should be plenty stout and corrosion resistant.  The total for both plates was $19 even.  Not bad.
 
