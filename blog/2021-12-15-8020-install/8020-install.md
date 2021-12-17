@@ -5,3 +5,9 @@ Installed wall brackets
 Drilled 4 holes
 Primed 4 holes
 
+2021-12-16
+Fabbed floor brackeets
+Through-bolted structure to floor
+Loctited and torqued structure to wall 8020
+Soph finalized wall panel tweaks and installed
+Soph started installing foam base for fridge and freezer

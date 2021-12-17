@@ -129,3 +129,6 @@ Installed all rear panel fasteners except MPPT tee nuts
 
 21-12-14
 Installed MPPT tee nuts.  Ended up going with 5/16 hardware as the 1/4-20 tee nuts were wimpy.  Used a step bit to open up the holes in the MPPT.  Mounting design is: 5/16 screw in tee nut, panel, 1.25 inch fender washer, 0.75 inch spacer, 1.5 inch 5/16 wide flange button head screw.
+
+21-12-16
+Started squaring passenger side
