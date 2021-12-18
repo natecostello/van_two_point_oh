@@ -132,3 +132,9 @@ Installed MPPT tee nuts.  Ended up going with 5/16 hardware as the 1/4-20 tee nu
 
 21-12-16
 Started squaring passenger side
+
+21-12-17
+Finished squaring passenger side
+Started loctite on passenger side
+
+

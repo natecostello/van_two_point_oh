@@ -6,3 +6,6 @@ Installed passenger side wheel well insert along with mudflaps.  Still need to e
 
 2021-12-5
 Installed driver side wheel well insert along with mudflaps and eternabonded.  Still neeed to eternabond pass side.
+
+2021-12-16
+Soph used some VHB instead of selftappers 
