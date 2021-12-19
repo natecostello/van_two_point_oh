@@ -137,4 +137,7 @@ Started squaring passenger side
 Finished squaring passenger side
 Started loctite on passenger side
 
+21-12-18
+Finished locktiting passenger side
+Slotted holes on rear panel
 

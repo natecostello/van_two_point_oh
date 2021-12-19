@@ -10,4 +10,5 @@ Fabbed floor brackeets
 Through-bolted structure to floor
 Loctited and torqued structure to wall 8020
 Soph finalized wall panel tweaks and installed
-Soph started installing foam base for fridge and freezer
+
+
