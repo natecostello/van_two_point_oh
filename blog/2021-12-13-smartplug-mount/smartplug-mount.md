@@ -65,6 +65,7 @@ _Back view with components._
 ![fitcheck](fitcheck.jpeg)
 _Fitup in place._
 
+Next up is to trim some adhesive foam backing, install plusnuts, wire and bolt into place.
 
 
 ## Other Useful Things
