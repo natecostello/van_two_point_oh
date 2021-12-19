@@ -49,7 +49,23 @@ While I was at it, I when ahead and designed a second plate for the adjacent rec
 ![outlet](plug-mount-dims.png)
 _The outlet plate dxf is [here](outlet-plate-order.dxf). This is wrong!_
 
-Lastly, we sent the designs off to sendcutsend.  We ordered them in 1/8 aluminum which should be plenty stout and corrosion resistant.  The total for both plates was $19 even.  Not bad.
+We sent the designs off to sendcutsend.  We ordered them in 1/8 aluminum which should be plenty stout and corrosion resistant.  The total for both plates was $19 even.  Not bad.
+
+We received the plates and did a fit check.  There is, as was expected an interference on the outlet plate between the plusnut and the hitch structure.  We'll fix that and order a new plate.  The shorepower plate is fire.
+
+![delivery](delivery.jpeg)
+_Pretty much my favorite company to get packages from._
+
+![front](front.jpeg)
+_Front view with components._
+
+![back](back.jpeg)
+_Back view with components._
+
+![fitcheck](fitcheck.jpeg)
+_Fitup in place._
+
+
 
 ## Other Useful Things
 
@@ -64,3 +80,4 @@ Note, this doesn't reflect full time effort. It's mostly evenings and partial da
 
 * Templated/designed (Mon 12-13-2021)
 * Made drawings and placed order (Tue 12-14-2021)
+* Received plates and fit check (Sat 12-17-2021)
