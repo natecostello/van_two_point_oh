@@ -141,3 +141,6 @@ Started loctite on passenger side
 Finished locktiting passenger side
 Slotted holes on rear panel
 
+21-12-19
+Bolted up rear panels
+

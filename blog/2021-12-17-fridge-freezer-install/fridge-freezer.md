@@ -8,3 +8,6 @@ Moved fridge and freezer into van
 2021-12-18
 Took down 8020 structure, found an interference on 8020 above freezer, removed and will cut back about 1/8.
 Moved f/f into place and got refrigerent lines sitting ok, no obvious kinks (fingers crossed).
+
+2021-12-19
+Electrically test both fridge and freezer, SAT

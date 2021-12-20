@@ -11,4 +11,8 @@ Through-bolted structure to floor
 Loctited and torqued structure to wall 8020
 Soph finalized wall panel tweaks and installed
 
-
+2021-12-19
+Drilled 1/5 inch holes for sink drain and Gas line
+Moved Passenger side into van
+Initial fit and snug to wall
+Plan to install foreward-most upper and low cross beams prior to locking down passenger side.
