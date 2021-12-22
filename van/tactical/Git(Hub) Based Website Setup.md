@@ -335,6 +335,16 @@ the yes | was an attempt to get it to bypass the prompt for key entry after firs
 Because this plugin performs a shallow clone (hardcoded) no git information on a file basis is preserved.  If it instead performed a blobless clone, that data would be there to allow use of git information to inform a "last updated" field automatically in posts using something like this: [https://pragmaticpineapple.com/add-updated-at-to-your-gatsby-blog/](https://pragmaticpineapple.com/add-updated-at-to-your-gatsby-blog/).
 
 
+## Notes on embedding instagram content
+Upon support of gatsby 4, consider installing https://github.com/MichaelDeBoey/gatsby-remark-embedder.
+
+For the time being we are only using https://github.com/MichaelDeBoey/gatsby-plugin-instagram-embed.
+
+To avoid build errors, within the pasted embed code, you need to change `xmlns:xlink` TO `xmlnsXlink`, otherwise you will get [this](https://stackoverflow.com/questions/59820954/syntaxerror-unknown-namespace-tags-are-not-supported-by-default).
+
+To ensure the embed is proper width, you need to change the blockquote style attribute max-width parameter to 800px: `max-width:800px`
+
+
 
 ## Notes on internal links to other MD(X) Files
 
