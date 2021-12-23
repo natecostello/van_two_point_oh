@@ -7,8 +7,7 @@ Removed headliner following maui guide
 2021-10-8
 Dynamat in headliner area
 
-2021-10-X
-Installed plusnuts in forward-most rib, no issues with irwin step bit on boron steel
+2021-10-16
 Thinsualated and neoprened headliner area
 
 2021-10-22
