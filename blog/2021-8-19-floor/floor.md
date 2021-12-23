@@ -66,10 +66,9 @@ We dryfit the plywood pieces once the minicell was in place.  We found that with
 The installation of the plywood subfloor was a war of attrition between us and the natural tendency of plywood to warp.  Even if you use the best (baltic birch).  Even if you seal all sides and edges to avoid asymmetric moisture uptake.  This section can be organized into what we planned to do, what we tried to do, and what we ended up doing after we started over and did it again.
 
 ### What we planned to do
-Our first idea was to join the four pieces of plywood using biscuits.  This should keep the plywood edges aligned (in plane) at the seems.  However to do this would require joining the pieces outside the van and moving in as a monolith.  The pieces couldn't be fit up in place because the wheel wells and other protrusions require the floor peices to come in from above and drop straight down, preventing the insertion of the biscuits into the mating slots.
+Our first idea was to join the four pieces of plywood using biscuits.  This should keep the plywood edges aligned (in plane) at the seems.  However to do this would require joining the pieces outside the van and moving in as a monolith.  The pieces couldn't be fit up in place because the wheel wells and other protrusions require the floor pieces to come in from above and drop straight down, preventing the insertion of the biscuits into the mating slots.
 
-
-
+This is do-able, and we purchased some long 16ft 2x4s to help strong back the monolith for movement into the van.  However, as we got closer to this part of the build we got nervous about this approach.  By joining the structure ahead of time, we would eliminate the ability to shift the pieces independantly.  If, for example, when we joined the pieces outside, one was slighly out of position, we could end up with contact between the subfloor and van wall and thus a squeak.  At that point we would have no real ability to fix it.
 
 ### What we tried to do
 ### what we ended up doing after we did it again
