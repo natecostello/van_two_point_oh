@@ -29,7 +29,7 @@ You will find many many many approaches and strong opinions on how to do a van f
 
 ## Objectives
 
-1. Minimize area of strong thermal bridging with metal fasteners (ie bolting down the floor).
+1. Minimize area of strong thermal bridging with metal fasteners (i.e. bolting down the floor).
 2. Minimize area of weak thermal bridging with wood or wood like supports between base metal floor and plywood subfloor.
 3. One contiguous, seamless, waterproof top surface, fully sealed at all edges.
 4. Silent
@@ -38,8 +38,8 @@ You will find many many many approaches and strong opinions on how to do a van f
 ## Design
 
 To accomplish these goals, our design consists of:
-* 0.4 inch minicell foam cut to fill the factory corrogations
-* 0.5 inch minicell foam over the first minicell layer and corrogations
+* 0.4 inch minicell foam cut to fill the factory corrugations
+* 0.5 inch minicell foam over the first minicell layer and corrugations
 * 1/2 baltic birch plywood, primed and sealed, on top of the minicell
 * Lonseal marine flooring on top of the minicell
 * Foam or caulk or something to fill the edges around the plywood
@@ -55,7 +55,7 @@ Simple, right?  Well, the devil is in the details.
 
 ## Implementation
 
-We measured 3 times, and cut a test width of plywood to make sure it fit well at all locations along the van.  Once we were confident in that dimension we cut four sheets of plywood to the length.  We determined the optimal positions for the athwart seams and cut the four pieces to reflect that measurement.  We used ram-board to create a tempalate for the driver side to cut around the wheel well and other protrusions in the van.  We then cut the final shape of the plywood pieces according to the template and did a round of iterative fit-checks and trims.  See related lesson below.  We then primed and painted the plywood to limit moisture absorption.
+We measured 3 times, and cut a test width of plywood to make sure it fit well at all locations along the van.  Once we were confident in that dimension we cut four sheets of plywood to the length.  We determined the optimal positions for the athwart seams and cut the four pieces to reflect that measurement.  We used ram-board to create a template for the driver side to cut around the wheel well and other protrusions in the van.  We then cut the final shape of the plywood pieces according to the template and did a round of iterative fit-checks and trims.  See related lesson below.  We then primed and painted the plywood to limit moisture absorption.
 
 We measured and cut the first layer of minicell using a box cutter and straight edge.  Easy.  We did try a leather strip cutter based on a facebook recommendation but it didn't work our for us.
 
@@ -96,7 +96,7 @@ We cut the strips into 1.5 inch by 2.5 inch blocks.
 
 We sealed the blocks on all but the bottom with two coats of Kilz primer.
 
-While I fabb'd the blocks, Sophia cut the bottom layer of minicell foam and cleaned off the contact cement in the areas we planned to mount the blocks.
+While I fabricated the blocks, Sophia cut the bottom layer of minicell foam and cleaned off the contact cement in the areas we planned to mount the blocks.
 
 Finally, we scuffed the factory paint in the mount locations and used J-B Weld 8276 KwikWeld to epoxy the blocks to the floor.  It advertises a strength of 3127 psi, an oddly specific number, but even a quarter of that would be more than enough.
 
