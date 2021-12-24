@@ -57,14 +57,27 @@ More detail on how we ended up at this design can be found in our [article on fl
 
 ## Insulation Install and Subfloor Prep
 
-We measured 3 times, and cut a test width of plywood to make sure it fit well at all locations along the van.  Once we were confident in that dimension we cut four sheets of plywood to the length.  We determined the optimal positions for the athwart seams and cut the four pieces to reflect that measurement.  We used ram-board to create a template for the driver side to cut around the wheel well and other protrusions in the van.  We then cut the final shape of the plywood pieces according to the template and did a round of iterative fit-checks and trims.  See related lesson below.  We then primed and painted the plywood to limit moisture absorption.
+We measured 3 times, and cut a test width of plywood to make sure it fit well at all locations along the van.  Once we were confident in that dimension we cut four sheets of plywood to the length.  
 
 ![width test](width-test.jpeg)
 _68 7/8 inches_
 
+We determined the optimal positions for the athwart seams and cut the four pieces to reflect that measurement.  We used ram-board to create a template for the driver side to cut around the wheel well and other protrusions in the van.  
+
+![trace](trace.jpeg)
+_Check template against both sides!_
+
+We then cut the final shape of the plywood pieces according to the template and did a round of iterative fit-checks and trims.  See related lesson below.  We then primed and painted the plywood to limit moisture absorption.
+
+![plywood trimming](plywood-trim.jpeg)
+_Gettin jiggy with it_
+
 We measured and cut the first layer of minicell using a box cutter and straight edge.  Easy.  We did try a leather strip cutter based on a facebook recommendation but it didn't work our for us.
 
 We used weldwood landue to adhere the first layer of minicell strips to the van sheet metal.  This is somewhat necessary just to keep the pieces from flopping around during subsequent steps.  Easy.  We then laid in the top layer of mini-cell.  We didn't feel this layer required adhesive to stay in place.
+
+![minicell](minicell-layer1.jpeg)
+_Filling corrugations, a contentious floor topic._
 
 We dryfit the plywood pieces once the minicell was in place.  We found that with the plywood had some squeaks due to slight movement of the plywood when weighted near the edges, due to the minicell compression, in locations where it contacted the van wall.  Based on that discovery, we did another round of small cuts to ensure the plywood had a small clearance to the walls at the entire perimeter.  And of course we did another round of priming and painting on those fresh edges.
 
@@ -77,6 +90,7 @@ Our first idea was to join the four pieces of plywood using biscuits.  This shou
 This is do-able, and we purchased some long 16ft 2x4s to help strong back the monolith for movement into the van.  However, as we got closer to this part of the build we got nervous about this approach.  We found that some pieces of plywood were cupped, or warped such that the edges were popping up.  We didn't think the biscuits would solve this problem completely.  Two, each piece of plywood has an optimal location that ensures clearance to the van walls.  If this clearance doesn't exist, the floor will squeak as it is loaded and unloaded.  Ensuring each piece will end up in its optimal locations when joining outside the van seemed challenging, if not impossible.
 
 ### What we tried to do
+
 So we woke up with a new plan on subfloor install day:  
 1. Fix small wooden blocks to the floor that cross the seams of the plywood pieces.  
 2. Install the plywood and get each piece to its optimal position.  
@@ -104,6 +118,9 @@ _All blocks epoxied in place._
 Assateague delivered some wind the next day, so the epoxy had plenty of time to fully cure before we began installing the plywood.  We were only a few screws in when we heard a distinctive "Pop Pop", Magnitude style.  It was clear that the epoxy joint on some blocks had failed.  The blocks still functioned to hold seams in the plywood pieces in plane, so we decided to press on.  The step-delete epoxy also failed shortly after.  
 
 Sophia filled the gaps between the plywood and the van wall with "Great Stuff Gaps and Cracks" as recommended by Far-Out-Ride and many other forum members.  The following day, we noticed squeaks where there were NO squeaks before.
+
+![spray foam](sprayfoam.jpeg)
+_A grave mistake._
 
 Best we can tell, the reason we had squeaks and others did not (e.g. Far-Out-Ride) is that the mini-cell is more compliant than materials like XPS foam.  This allows the wood subfloor too move/flex more when loaded.  The sprayfoam moves with the plywood and rubs against the van metal causing the squeaks.
 
@@ -157,7 +174,7 @@ There are a three lonseal adhesive options.  In our opinion the two-part epoxy i
 
 We did multiple dry-runs to make sure we could execute cleanly under the time constraints, set a visible stopwatch, and went for it.
 
-`https://vimeo.com/manage/videos/644784122`
+`vimeo: https://vimeo.com/644784122`
 
 We did have one curveball:  Our van was parked on a very slight decline during the lonseal install.  With the lubrication of the epoxy, the flooring shifted about 1/8-1/4 inch between the start and when the epoxy setup enough to hold.  This required some tactical trimming around a few protuberances in the middle of the install.  
 
@@ -200,7 +217,7 @@ We would purchase two batches of the smaller unit of lonseal epoxy and do the fl
 
 We would do a separate template for the passenger and driver side for the initial subfloor cuts.  Our passenger side wheel well is shifted about 3/16 aft compared to the driver side.  This led to some small interferences and re-cutting of the plywood since we made a single template based on the driver side and used it to cut both sides of the plywood.
 
-We would consider Okoume plywood instead of baltic birch.  This is another marine grade plywood.  It would save about 30 lbs on the build.
+We would consider okoume plywood instead of baltic birch.  This is another marine grade plywood.  It would save about 30 lbs on the build.
 
 
 # Random Notes, Tools, and References
