@@ -57,6 +57,9 @@ Simple, right?  Well, the devil is in the details.
 
 We measured 3 times, and cut a test width of plywood to make sure it fit well at all locations along the van.  Once we were confident in that dimension we cut four sheets of plywood to the length.  We determined the optimal positions for the athwart seams and cut the four pieces to reflect that measurement.  We used ram-board to create a template for the driver side to cut around the wheel well and other protrusions in the van.  We then cut the final shape of the plywood pieces according to the template and did a round of iterative fit-checks and trims.  See related lesson below.  We then primed and painted the plywood to limit moisture absorption.
 
+![width test](width-test.jpeg)
+_68 7/8 inches_
+
 We measured and cut the first layer of minicell using a box cutter and straight edge.  Easy.  We did try a leather strip cutter based on a facebook recommendation but it didn't work our for us.
 
 We used weldwood landue to adhere the first layer of minicell strips to the van sheet metal.  This is somewhat necessary just to keep the pieces from flopping around during subsequent steps.  Easy.  We then laid in the top layer of mini-cell.  We didn't feel this layer required adhesive to stay in place.
@@ -68,10 +71,37 @@ The installation of the plywood subfloor was a war of attrition between us and t
 ### What we planned to do
 Our first idea was to join the four pieces of plywood using biscuits.  This should keep the plywood edges aligned (in plane) at the seems.  However to do this would require joining the pieces outside the van and moving in as a monolith.  The pieces couldn't be fit up in place because the wheel wells and other protrusions require the floor pieces to come in from above and drop straight down, preventing the insertion of the biscuits into the mating slots.
 
-This is do-able, and we purchased some long 16ft 2x4s to help strong back the monolith for movement into the van.  However, as we got closer to this part of the build we got nervous about this approach.  By joining the structure ahead of time, we would eliminate the ability to shift the pieces independantly.  If, for example, when we joined the pieces outside, one was slighly out of position, we could end up with contact between the subfloor and van wall and thus a squeak.  At that point we would have no real ability to fix it.
+This is do-able, and we purchased some long 16ft 2x4s to help strong back the monolith for movement into the van.  However, as we got closer to this part of the build we got nervous about this approach.  We found that some pieces of plywood were cupped, or warped such that the edges were popping up.  We didn't think the biscuits would solve this problem completely.  Two, each piece of plywood has an optimal location that ensures clearance to the van walls.  If this clearance doesn't exist, the floor will squeak as it is loaded and unloaded.  Ensuring each piece will end up in its optimal locations when joining outside the van seemed challenging, if not impossible.
 
 ### What we tried to do
+
+So we woke up with a new plan on subfloor install day:  
+1. Fix small wooden blocks to the floor that cross the seams of the plywood pieces.  
+2. Install the plywood and get each piece to its optimal position.  
+3. Screw the plywood to these fixed blocks.  
+
+This method should lay flat at the seams, and allow us to get the individual pieces where they needs to be to ensure no contact with the walls/squeaks.
+
+We glued two 1/2 inch strips of baltic birch together.  We used a hand planer to plane the thickness of the glued strip down to about 7/8 inch.  This locates the top of the blocks just below the top layer of foam, which is what we want.
+
+We cut the strips into 1.5 inch by 2.5 inch blocks.
+
+![floor block version 1](block-vi.jpeg)
+
+We sealed the blocks on all but the bottom with two coats of Kilz primer.
+
+While I fabricated the blocks, Sophia cut the bottom layer of minicell foam and cleaned off the contact cement in the areas we planned to mount the blocks.
+
+Finally, we scuffed the factory paint in the mount locations and used J-B Weld 8276 KwikWeld to epoxy the blocks to the floor.  It advertises a strength of 3127 psi, an oddly specific number, but even a quarter of that would be more than enough.
+
+We also took this opportunity to epoxy the step delete into place.  Like the blocks, it will also be used to anchor the plywood layer.
+
+![floor blocks](floor-blocks.JPG)
+
+The we installed 
+
 ### what we ended up doing after we did it again
+
 ### what we would do differently
 
 
