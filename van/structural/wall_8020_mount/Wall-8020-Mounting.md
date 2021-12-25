@@ -5,7 +5,7 @@ categories:
  # one or more categories is permitted
  - structural
 
-title: Wall 8020 Mounting
+title: Wall 8020 Mount Design
 navTitle:
 author: Nate
 date: 2020-01-14
