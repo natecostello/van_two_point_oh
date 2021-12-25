@@ -112,11 +112,11 @@ __Note: The USB PD 3.1 spec allows for power up to 240W via USB-C.  The cable re
 
 ### LED Strip Lights
 
-Four runs of LED strip lighting will run fore-aft in the van along the ceiling and walls.  [This Govee package](/van/functional/lighting/lighting) is the preferred option.  Power for the full length is 60W corresponding to 2.5A.  One switch will be located on the side of the sink cabinet near the entry way.  Another switch will be located on one side of the bed.  The dimmer/control will be located adjacent to the switch by the bed.  Feed and return will run from the 24V electrical panel, forward through the driver wall void, up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column, out and up to the switch on the forward side of the sink cabinet.  From that switch it will run back inside the passenger wall void aft of the c-pillar and up to a switch by the passenger side bed.
+Four runs of LED strip lighting will run fore-aft in the van along the ceiling and walls.  [This Govee package](/van/functional/lighting/lighting) is the preferred option.  Power for the full length is 60W corresponding to 2.5A.  One switch will be located on the side of the sink cabinet near the entry way.  Another switch will be located on one side of the bed.  The dimmer/control will be located adjacent to the switch by the bed.  Feed and return will run from the 24V electrical panel, forward through the driver wall void, up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column, out and up to the switch on the forward side of the sink cabinet.  From that switch it will run back inside the passenger wall void aft of the c-pillar and up to a switch by the passenger side bed.  [Post-install update: For the run between the galley and bed switches, we ran 12x3 triplex since three wires are required.]
 
 Estimated round trip length is 78.3 ft (2*(268+67+67+68)"). Acceptable wire gauge is 12AWG.
 
-We will also want to run two sets of 4 wire to splice in after the controller that runs to the start of the LED strip lighting.  The best location for the start of the LED strip lighting is the forward edge of the ceiling.
+We will also want to run two sets of 4 wire to splice in after the controller that runs to the start of the LED strip lighting.  The best location for the start of the LED strip lighting is the forward edge of the ceiling. [Post-install update: For the run from the lighting controller to the lights we ran two sets of 16x4 ancor trailer wire.]
 
 ### Reading Lights
 
@@ -148,7 +148,7 @@ These loads are all local to the 12V fuse block such that their wiring will not 
 
 ### Heater:
 
-The B4L max load is <= 100W corresponding to ~8A at 12V.  The feed and return will run from the 12V fuse block aft through the driver wall void, to the heater just aft of the driver rear wheel.  Estimated round trip length is 2x52".  Required wire gauge is 12AWG
+The B4L max load is <= 100W corresponding to ~8A at 12V.  The feed and return will run from the 12V fuse block aft through the driver wall void, to the heater ~~just aft of the driver rear wheel~~ just forward of the freezer.   Estimated round trip length is ~~2x52"~~ 2x(68+40).  Required wire gauge is 12AWG.  [Post-install Update: We just used the stock power line from the heater, which should be sized appropriately.]
 
 ### MaxxFan
 
@@ -156,8 +156,7 @@ The MaxxFan load is ~38W corresponding to ~3A at 12V.  The feed and return will 
 
 ### Oven
 
-The oven max load is not listed in the manual but is expected to be minimal (LEDs, sparkers, and relay modification) and bounded by any other 12V components.  The feed and return will run from the 12V fuse block up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the stove cabinet.  Estimated round trip is 50.7 ft (2x(268+36)").  Acceptable wire guage is 12AWG.
-
+The oven max load is not listed in the manual but is expected to be minimal (LEDs, sparkers, and relay modification) and bounded by any other 12V components.  The feed and return will run from the 12V fuse block up and inside the driver C-pillar column, across the C-pillar roof beam, down and inside the passenger C-pillar column and into the stove cabinet.  Estimated round trip is 50.7 ft (2x(268+36)").  Acceptable wire guage is 16AWG.
 
 
 ## Routing Length Notes
@@ -170,4 +169,5 @@ The oven max load is not listed in the manual but is expected to be minimal (LED
 * 24V panel to base of driver D-pillar = 93"
 * Base of driver D-pillar, down to passenger D-pillar = 77"
 * Base of passenger D-pillar to compressor mounting area = 30"
+* Driver C-pillar to forward of freezer estimated to 40"
 
