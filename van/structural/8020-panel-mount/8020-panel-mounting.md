@@ -5,7 +5,7 @@ categories:
  # one or more categories is permitted
  - structural
 
-title: 8020 Panel Design
+title: 8020 Panel Mount Design
 navTitle:
 author: Nate
 date: 2021-12-28
