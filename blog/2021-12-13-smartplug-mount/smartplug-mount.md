@@ -44,10 +44,10 @@ Once we were satisfied that everything fit, I finished the design in Fusion 360.
 ![shorepower](smartplug-plate-dims.png)
 _The smartplug/aux solar dxf is [here](smartplug-plate-order.dxf)._
 
-While I was at it, I when ahead and designed a second plate for the adjacent rectangular port that will house an [exterior plug](https://www.amazon.com/gp/product/B07SLM8LT5/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1), now that I knew it wouldn't be needed for the aux solar connection.  This was much more straight forward.  Update:  Oops, didn't take the time to do a physical sanity check, and there is an interference with the tow hitch stucture...so there will be another design iteration.  Repeat after me: All models are wrong.  Don't confuse the map for the territory.
+While I was at it, I when ahead and designed a second plate for the adjacent rectangular port that will house an [exterior plug](https://www.amazon.com/gp/product/B07SLM8LT5/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1), now that I knew it wouldn't be needed for the aux solar connection.  This was much more straight forward.  ~~Update:  Oops, didn't take the time to do a physical sanity check, and there is an interference with the tow hitch stucture...so there will be another design iteration.  Repeat after me: All models are wrong.  Don't confuse the map for the territory.~~ Update: Redesigned to avoid tow hitch interference and reduce number of fastening points.
 
 ![outlet](plug-mount-dims.png)
-_The outlet plate dxf is [here](outlet-plate-order.dxf). This is wrong!_
+_The outlet plate dxf is [here](outlet-plate-order.dxf)._
 
 We sent the designs off to sendcutsend.  We ordered them in 1/8 aluminum which should be plenty stout and corrosion resistant.  The total for both plates was $19 even.  Not bad.
 
@@ -65,7 +65,7 @@ _Back view with components._
 ![fitcheck](fitcheck.jpeg)
 _Fitup in place._
 
-Next up is to trim some adhesive foam backing, install plusnuts, wire and bolt into place.
+We ordered some [adhesive neoprene sheet](https://www.amazon.com/dp/B0773CLB3R) from amazon and added that to the backside to act as a waterproof gasket.
 
 
 ## Other Useful Things
@@ -82,3 +82,4 @@ Note, this doesn't reflect full time effort. It's mostly evenings and partial da
 * Templated/designed (Mon 12-13-2021)
 * Made drawings and placed order (Tue 12-14-2021)
 * Received plates and fit check (Sat 12-17-2021)
+* Added adhesive foam to shorepower plate (Tue 12-28-2021)
