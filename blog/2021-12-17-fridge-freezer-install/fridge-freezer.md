@@ -11,3 +11,9 @@ Moved f/f into place and got refrigerent lines sitting ok, no obvious kinks (fin
 
 2021-12-19
 Electrically test both fridge and freezer, SAT
+
+2021-12-28
+VBH'd the freezer blocks in place
+added a clearence to the foam
+filled clearence with neoprene
+decided to not do that to the refrigerator (will see if it squeaks - rocking it did not)

@@ -24,3 +24,10 @@ Marked and drilled passenger through bolt holes (all holes except lower cross me
 Painted/Primed passenger holes
 
 
+2021-12-27
+Fabbed floor brackets for passenger side
+
+2021-12-28
+Fabbed one more bracket, bolted down passenger side
+loctited/torqued passenger side to wall
+Loctited forward cross members
