@@ -54,12 +54,12 @@ _This is the bracket design.  DXF file is [here](propane-mount.dxf).  Caveat Emp
 The total for two brackets from sendcutsend is $50.80, with free shipping and deburring.
 
 ## Fasteners
-For the frame we need at least 22mm: 19mm (frame to end of threads) + 2.7mm (washer).
+For the frame we need at least 32mm: 9.5mm (bracket thickness) + 19mm (frame face to end of threads) + 2.7mm (washer).
 
-For the tank we need 25mm: 5mm (tank flange thickness) + 5.4mm (two washers) + 14mm (lock-nut).
+For the tank we need 34mm: 9.5mm (bracket thickness) + 5mm (tank flange thickness) + 5.4mm (two washers) + 14mm (lock-nut).
 
 From all this we have the following hardware:
-* [25mm M12-1.75 Class 8.8 Zinc Plate Bolts](https://www.mcmaster.com/91280A714/)
+* [35mm M12-1.75 Class 8.8 Zinc Plate Bolts](https://www.mcmaster.com/91280A718/)
 * [M12-1.75 Class 8.8 Zinc Plated Nyloc Nuts](https://www.mcmaster.com/97131A160/)
 * [M12 Class 8.8 Zinc Plated Washers](https://www.mcmaster.com/91455A150/)
 
