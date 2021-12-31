@@ -20,3 +20,6 @@ Clamped up lagun mount on passenger and driver side and marked with transfer pun
 Drilled passenger and driver side mount
 Soph degreased passenger and driver side mount
 Need to order new hardware
+
+2021-12-31
+Soph primed and painted Lagun mounts
