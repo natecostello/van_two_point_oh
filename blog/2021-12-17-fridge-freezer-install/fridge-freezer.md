@@ -17,3 +17,10 @@ VBH'd the freezer blocks in place
 added a clearence to the foam
 filled clearence with neoprene
 decided to not do that to the refrigerator (will see if it squeaks - rocking it did not)
+
+2021-12-29
+Shimmed freezer
+Reinstalled fridge/freezer 8020
+
+2021-12-30
+Soph insulated under fridge and freezer with thinsulate and added some neo for thermal break.
