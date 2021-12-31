@@ -3,9 +3,9 @@ type: article
 section: van
 categories: 
  # one or more categories is permitted
- - functional
+ - structural
 
-title: Tables
+title: Propane Tank Mount
 navTitle: 
 author: Nate
 date: 2021-12-31
