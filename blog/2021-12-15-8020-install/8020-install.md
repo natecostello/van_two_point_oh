@@ -31,3 +31,6 @@ Fabbed floor brackets for passenger side
 Fabbed one more bracket, bolted down passenger side
 loctited/torqued passenger side to wall
 Loctited forward cross members
+
+
+Threaded holes in D-pillar for cross member are M10-1.5.  At least 1/8 clearence from bolt body to top of 1/8 angle, on top of 8020.
