@@ -7,3 +7,5 @@ Soph drilled the 5 inch espar hole (and large electrical/wakespeed pass through 
 Primed all holes
 Installed plate (with screws and vhb)
 Urethaned bottom of plate
+Soph caulked edges
+We installed heater (nuts we used were 10mm flat-to-flat - so probably M6)
