@@ -27,10 +27,21 @@ cover:
 	# url: url
 ---
 
+We settled on a 21 inch Greystone 3 Burner Oven/Range.  There is some experience with it on the transit forum and the Dometic's availability was sketch.
 
+From the [drawing](greystone-drawing.pdf) and [manual](greystone-instruction-manual.pdf):
 
-**TLDR:** Detail to follow, but we are going with the following oven/stove (mainly based on Far Out Ride's recommendation).
+BTU Per Hour:
+ * Front burner 8000 BTU/hr 
+ * Left burner 6500 BTU/hr
+ * Right burner 6500 BTU/hr
+ * Oven 7100 BTU/hr
+ * Total 28100 BTU/hr
 
-​	[Dometic 3 Burner, Cast Iron Top Oven, 17" depth Oven/Stove](https://www.dometic.com/en-us/food-and-beverage/mobile-cooking/rv-and-boat-stoves/dometic-r31-162074)
+Inlet Pressure: 
+ * 10" WC min
+ * 13.8" WC max
+
+Power usage: less than 2A at 12V.
 
 
