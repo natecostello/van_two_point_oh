@@ -35,34 +35,31 @@ TLDR: We settled on the [Go Westy 50 lb/5.9 gal tank](https://www.gowesty.com/pr
 
 The area occupied by the spare tire appears amenable to storage of a propane tank without any loss of ground clearence.  It also has frame features for easy bracketry work with no drilling.  There might be other locations as well.  The tank I am considering is [this 50 lb/5.9 gal tank](https://www.gowesty.com/product/-/23916/larger-capacity-lp-tank-w-level-indicator-?v=#tabs-add261).  Currently, out of stock, but was told by phone that it will be available again around the end of the month.
 
-FarOutRide states thier 20 lb (4.6 gal) propane tank used for cooking and showers every other day lasts them two months.  The above tank would yield over 10 weeks at the same burn rate.  I would expect more given no showers.  We can also use an adapter to patch in a 20 lb tank if filling up was a problem (say in Mexico).
+FarOutRide states their 20 lb (4.6 gal) propane tank used for cooking and showers every other day lasts them two months.  The above tank would yield over 10 weeks at the same burn rate.  I would expect more given no showers.  We can also use an adapter to patch in a 20 lb tank if filling up was a problem (say in Mexico).
 
 This [thread](https://www.fordtransitusaforum.com/threads/where-to-get-an-external-propane-tank-installed.77664/) has some good information on locations to install tank.
 
 If [these tanks](lpg-asme-toroidal-v8.pdf) are purchasable, it would work very well in the factory spare location.
 
-# Pressure Gauge
+## Pressure Gauge
 We will use this [guage](https://www.amazon.com/dp/B01HIM6PCO?psc=1&smid=A317TR1CT4N6E9) to satisfy ABYC requirements and allow for regular system leak checks.
 
 ## Solenoid Cutoff Valve
 TLDR: We settled on this [24V high pressure solenoid valve](https://centuryfuelproducts.com/afc-123-24v).  Due to its high pressure this valve can be mounted upstream of the regulator, similar to Far Out Ride's approach.  This the only 24V high pressure capable valve we could find.  Most 24V valves are only rated for low pressure.
 
 ## Regulator
-Our regulator came with the tank.  It appears to be [this](https://www.gowesty.com/product/made-in-usa/2448/lpg-gas-regulator-2-stage).  The inlet side is 1/4 FNPT, by inspection.  The outlet side appears to be 3/8 FNPT based on looking at [other](https://www.amazon.com/gp/product/B00KTS0QDY/) 2 stage regulators.  Since our regulator will connect to our hose, we will need a [3/8 MNPT to 3/8 flare adapter](https://www.homedepot.com/p/Everbilt-3-8-in-Flare-x-3-8-in-MIP-Brass-Adapter-Fitting-801439/207176676).
+Our regulator came with the tank.  It appears to be [this](https://www.gowesty.com/product/made-in-usa/2448/lpg-gas-regulator-2-stage).  The inlet side is 1/4 FNPT, by inspection.  The outlet side is 3/8 FNPT.  Since our regulator will connect to our hose, we will need a [3/8 MNPT to 3/8 flare adapter](https://www.homedepot.com/p/Everbilt-3-8-in-Flare-x-3-8-in-MIP-Brass-Adapter-Fitting-801439/207176676).
 
 
 ## Piping/Hose
-
 We will use this [flexible hose](https://www.amazon.com/Trident-Marine-1014-3838-180-Supply-Fittings/dp/B000FQ1HEM/).  For a van application subject to vibration, we are more comfortable with something that won't work harden or fracture.  It is also in accordance with ABYC standards (UL listed)
 
 
 ## Remote Fill
-
 A [remote fill kit](https://www.fordtransitusaforum.com/threads/nashfuel-remote-propane-fill-kit.71888/#post-955602) will probably make fill attendents a little less grumpy. We'll consider in the future.
 
 
 # System Capacity
-
 Our only system load is the oven which consumes 28100 BTU/hr full out (all burners and oven).  For our system demand, 1/4 ID pipes, hose, and valves should be sufficient for a system length up to 20ft (pressure of 11.0 inch w.c. with drop of 0.5 inch w.c.) according to NFPA Table 1315.2(29) (31KBTU/hr) and [this chart](line-sizing-charts-lp-gas-equipment.pdf) and [Far Out Ride's Table](https://faroutride.com/propane-system/#elementor-toc__heading-anchor-16) (34KBTU/hr).
 
 This also suggests we should not need to double up on a 1/4 inch orifice solenoid as suggested by Caldor below.
