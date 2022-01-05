@@ -12,7 +12,7 @@ date: 2022-01-04
 tags:
  - van
  - structural
-- design
+ - design
 metatags:
 	# no metatags
 cover: 
