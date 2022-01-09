@@ -117,6 +117,12 @@ Estimated round trip length is 78.3 ft (2*(268+67+67+68)"). Acceptable wire gaug
 
 We will also want to run two sets of 4 wire to splice in after the controller that runs to the start of the LED strip lighting.  The best location for the start of the LED strip lighting is the forward edge of the ceiling. [Post-install update: For the run from the lighting controller to the lights we ran two sets of 16x4 ancor trailer wire.]
 
+**Update:**
+
+We are pivoting to [these](https://www.ledsupply.com/led-strips/tunable-white-cob-led-strip-lights) lights instead and wireless controls.  We are also moving theh lower light strips down to the surface of the bed side tables and counter top.  We are ending the ceiling lights at the curved transition of the roof.  This means four run that are > 12ft.  This corresponds to a total load of 205W or 8.5A up to the driver.  From the driver on to the LED strips it is 2.2A.  Driver will be located above ceiling panel on driver side at rear.  Estimated round trip length to driver is 32.2 ft (2*(93+80+20)) at 8.5A.  From the driver, the limiting run is over to passenger side, down d-pillar, up to aft end of side table (plus margin) for 30 ft 2*(40+80+40+20) at 2.2A.  Based on these numbers, 12AWG duplex from the panel to the driver is acceptable.  14AWG triplex from the driver to lights is acceptable.
+
+Wireless (Battery Powered) Controllers will be located at the passenger door and near foot of bed.
+
 ### Reading Lights
 
 The two reading lights will be located in the rear overhead pillar.  The feed and return will be run from the electrical panel aft through the driver wall void, up and inside the D-pillar and to the overhead rear pillar.  Estimated round trip length is 42.3 ft (2*254"). Acceptable wire gauge is 16AWG.
