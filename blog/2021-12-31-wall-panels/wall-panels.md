@@ -5,5 +5,9 @@ Also confirmed that lower strip of L-track will interfere with any bolt heads us
 1-3-2022
 Designed and placed order for wall panel stiffener brackets.
 
-1-4-2021
+1-4-2022
 Designed and placed order for wall panel 8020 attachment brackets.
+
+1-6-2022
+Cut two wall stiffeners
+Modified one wall stiffener with wood "wedges" to account for angle.

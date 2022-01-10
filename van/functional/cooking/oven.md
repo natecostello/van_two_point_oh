@@ -8,7 +8,7 @@ categories:
 title: Oven and Stove
 navTitle: 
 author: Nate
-date: 2021-03-01
+date: 2022-01-03
 tags:
  - van
  - functional

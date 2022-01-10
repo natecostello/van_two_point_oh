@@ -23,3 +23,9 @@ Need to order new hardware
 
 2021-12-31
 Soph primed and painted Lagun mounts
+
+2022-1-6
+Added coat and clear coat to Lagun mounts
+
+2022-1-7
+Soph installed Lagun mounts

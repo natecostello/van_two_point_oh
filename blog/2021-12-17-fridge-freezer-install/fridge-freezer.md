@@ -24,3 +24,14 @@ Reinstalled fridge/freezer 8020
 
 2021-12-30
 Soph insulated under fridge and freezer with thinsulate and added some neo for thermal break.
+
+2022-1-05
+Started fabricating brackets for fridge/freezer
+
+2022-1-06
+Fabricated fridge/freezer brackets
+Installed two fridge freezer brackets
+
+2022-1-8
+Tweaked brackets
+Installed remaining (but one) fridge freezer brackets
