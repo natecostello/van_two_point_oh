@@ -44,6 +44,13 @@ Based on looking at the reviews and customer images, it appears that directly so
 
 These appear to be the winner.
 
+**On second thought:**
+
+We're concerned about brightness and "spottedness" of the Govee solution.  If we give up on color, there are brighter, better CRI, seamless, 24V options like [this](https://www.ledsupply.com/led-strips/tunable-white-cob-led-strip-lights).  These are also available from superbrightleds.com.  We would probably use [this driver](xhttps://www.superbrightleds.com/moreinfo/rgb-led-controllers/wireless-4-channel-rgb-led-dimmer-receiver/3372/7141/) and [this controller](https://www.superbrightleds.com/moreinfo/color-temp-controller/wireless-variable-color-temperature-led-dimmer-switch-for-ez-dimmer-receiver/3330/7135/).
+
+We can place wireless controllers in the desired locations (door and bed) limiting wire runs and voltage drop.
+
+This is were we are headed now.
 
 ### Reading Lights
 
