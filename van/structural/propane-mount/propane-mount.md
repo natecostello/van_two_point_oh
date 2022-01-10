@@ -27,10 +27,10 @@ cover:
 
 We intend to mount the propane tank between the first two cross members aft of the differential, centered between the frame members.
 
-There are two M12 threaded holes in the frame on each side that we will use with a custom bracket.  I have an M12-1.25 and an M12-1.5 thread checker...neither fit, so we are going to assume they are M12-1.75 by process of elimination.
+There are two M12-1.75 threaded holes in the frame on each side that we will use with a custom bracket.
 
 ![frame threaded holes](frame-holes.jpeg)
-_We'll know soon enough what the thread pitch is._
+_These are the M12-1.75 holes we use._
 
 Based on a quick inspection there aren't any fixed interferences under the van in that location (some trailer wiring and a diff vent line).
 ![vent line](vent-line.jpeg)
@@ -49,7 +49,7 @@ We chose aluminum over steel to limit general corrosion risk.  We might paint it
 Our brackets will bolt to the tank with M12 bolts, washers, and lock-nuts.  They will bolt to the frame with the same M12 bolts and washers.
 
 ![drawing](propane-mount-dims.png)
-_This is the bracket design.  DXF file is [here](propane-mount.dxf).  Caveat Emptor until we complete the install!_
+_This is the bracket design.  DXF file is [here](propane-mount.dxf).  ~~Caveat Emptor until we complete the install~~ UPDATE: All Good!_
 
 The total for two brackets from sendcutsend is $50.80, with free shipping and deburring.
 
@@ -65,7 +65,6 @@ From all this we have the following hardware:
 
 Spec Torque for these is [55 ft-lbs](https://crafter.fastenal.com/static-assets/pdfs/Torque-Tension_Chart_for_Metric_Fasteners.pdf).  We might back off to 21.4 ft-lbs (Grade 4.6) since we don't know what Ford's threaded inserts are made of.  That still gives us 3000 lbf clamping per fastener.
 
-
 # Discrepancies
 
 We hope our tolerancing can accommodate all of these:
@@ -77,4 +76,15 @@ We hope our tolerancing can accommodate all of these:
 * Tape measured frame hole spacing = 35.3125 (measurement one)
 * Tape measured frame hole spacing = 35.375 (measurement two)
 
-If not we'll resort to the dremel.
+~If not we'll resort to the dremel.~  All good, we had plenty of tolerance to spare.  This should work for anyone using this tank.
+
+## UPDATE: Install
+
+Our brackets arrived, and our fit check was SAT!  We're super happy with the way this method worked out.  
+
+![bracket](bracket.jpeg)
+_Sendcutsend ftw!_
+
+![installed tank](installed.jpeg)
+_They are glorious!_
+
