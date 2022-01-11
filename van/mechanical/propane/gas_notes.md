@@ -31,7 +31,7 @@ The van will use propane for cooking.  While the electrical would be sufficient 
 
 ## Tank
 
-TLDR: We settled on the [Go Westy 50 lb/5.9 gal tank](https://www.gowesty.com/product/-/23916/larger-capacity-lp-tank-w-level-indicator-?v=#tabs-add261).  For install and mounting details, see [this article](van/structural/propane-mount/propane-mount).
+TLDR: We settled on the [Go Westy 50 lb/5.9 gal tank](https://www.gowesty.com/product/-/23916/larger-capacity-lp-tank-w-level-indicator-?v=#tabs-add261).  For install and mounting details, see [this article](/van/structural/propane-mount/propane-mount).
 
 The area occupied by the spare tire appears amenable to storage of a propane tank without any loss of ground clearence.  It also has frame features for easy bracketry work with no drilling.  There might be other locations as well.  The tank I am considering is [this 50 lb/5.9 gal tank](https://www.gowesty.com/product/-/23916/larger-capacity-lp-tank-w-level-indicator-?v=#tabs-add261).  Currently, out of stock, but was told by phone that it will be available again around the end of the month.
 
