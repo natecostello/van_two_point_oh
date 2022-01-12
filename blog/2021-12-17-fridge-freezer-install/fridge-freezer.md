@@ -35,3 +35,7 @@ Installed two fridge freezer brackets
 2022-1-8
 Tweaked brackets
 Installed remaining (but one) fridge freezer brackets
+
+2022-1-10
+Soph installed last fridge bracket
+Locktited and torque all the others

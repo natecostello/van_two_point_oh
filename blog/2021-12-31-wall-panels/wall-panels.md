@@ -11,3 +11,7 @@ Designed and placed order for wall panel 8020 attachment brackets.
 1-6-2022
 Cut two wall stiffeners
 Modified one wall stiffener with wood "wedges" to account for angle.
+
+1-11-2022
+Test fit "wedged stiffener, to much wedge, not worth it
+Upholstered sliding door panel as a trial and installed
