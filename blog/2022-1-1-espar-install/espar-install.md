@@ -28,7 +28,15 @@ Intended to cut 2.5 inches off following gregorx, but saw kicked and bend standp
 
 Looking at various install instructions: There seems to be a lot of variability in the kits for fuel line size, color, adapter size, hose clamp size...etc.  But in the end it all worked.
 
+Also, wire colors for pump at least are wrong in most recent wiring diagram (are green on our model)
+
 1-14-2022
 Installed intake, exhaust, fuel line and pump
 Pinned all connectors
 Tested with Riden power supply - SAT
+
+Notes on remote start:
+[aftermarket product here](https://www.fordtransitusaforum.com/threads/heater-with-remote-start.88462/#post-1155829)
+[short yellow to red for water heater models](https://www.fordtransitusaforum.com/threads/esper-heater-can-or-relay-to-turn-on-remotely.88353/post-1154139)
+
+Lots of stuff in the [extras manual](espar-extra-functions.pdf) including a note that suggests yellow would work for the airtronics on page 8.
