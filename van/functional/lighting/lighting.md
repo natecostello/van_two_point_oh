@@ -52,6 +52,10 @@ We can place wireless controllers in the desired locations (door and bed) limiti
 
 This is were we are headed now.
 
+It looks like [this line of tracks](https://www.amazon.com/hunhun-L-Shape-Connector-Aluminum-Channel/dp/B0788CFWTV/ref=pd_bxgy_1/131-1523673-7632063?pd_rd_w=ezEhu&pf_rd_p=c64372fa-c41c-422e-990d-9e034f73989b&pf_rd_r=4015M4HCST5D13H5KF61&pd_rd_r=a3d13917-e57b-40e8-a1a0-a069687cc98d&pd_rd_wg=fMBmY&pd_rd_i=B0788CFWTV&th=1) is compatible for the ceiling and has good mount/extension supports that could accommodate a low profile 100 degree 1/4-20 phillips.  Will need to test.
+
+Were were a little concerned with brightness and coverage.  A comparison of two ceiling runs of the tunable white to our previous van suggests 4 times the lumens and a wider beam pattern (not sure how will be affected by the channel).  Based on this we are going to start with two ceiling runs and see how that goes.
+
 ### Reading Lights
 
 These look perfect:  red and white modes, dimmable, and support 24V:

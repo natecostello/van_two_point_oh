@@ -39,3 +39,7 @@ Installed remaining (but one) fridge freezer brackets
 2022-1-10
 Soph installed last fridge bracket
 Locktited and torque all the others
+
+2022-1-13
+Soph secured compressors (VHB)
+Soph insulated fridge and freezer (just a little left)

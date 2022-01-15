@@ -15,3 +15,11 @@ Modified one wall stiffener with wood "wedges" to account for angle.
 1-11-2022
 Test fit "wedged stiffener, to much wedge, not worth it
 Upholstered sliding door panel as a trial and installed
+
+1-12-2022
+Cut wall panel 8020 brackets
+
+1-13-2022
+Cut wall stiffener brackeets
+Soph installed plus nuts in wall stiffiner brackets
+Soph installed puls nuts in wall panel 8020 brackets

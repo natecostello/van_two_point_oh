@@ -22,3 +22,9 @@ Added holes to pvc sheet
 Fit up and installed all fasteners.
 
 TODO: setback athwart line at blobs by 1/8 inch and trim outside corners
+
+2022-1-11
+Soph Cut fwd ceiling panel per above
+
+2022-1-12
+soph upholstered and installed fwd ceiling panel
