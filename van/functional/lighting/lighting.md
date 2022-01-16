@@ -42,19 +42,17 @@ https://www.amazon.com/Govee-Assistant-Control-Lighting-Changing/dp/B083BG9NZV?t
 
 Based on looking at the reviews and customer images, it appears that directly sourcing 24V power to the strip controller is totally possible.  It also looks like splicing in lines from the controller to the start of the lights is also do-able.
 
-These appear to be the winner.
+These appear to be the winner.  Except they aren't that bright and the led density isn't great, so...
 
 **On second thought:**
 
-We're concerned about brightness and "spottedness" of the Govee solution.  If we give up on color, there are brighter, better CRI, seamless, 24V options like [this](https://www.ledsupply.com/led-strips/tunable-white-cob-led-strip-lights).  These are also available from superbrightleds.com.  We would probably use [this driver](xhttps://www.superbrightleds.com/moreinfo/rgb-led-controllers/wireless-4-channel-rgb-led-dimmer-receiver/3372/7141/) and [this controller](https://www.superbrightleds.com/moreinfo/color-temp-controller/wireless-variable-color-temperature-led-dimmer-switch-for-ez-dimmer-receiver/3330/7135/).
+We're concerned about brightness and "spottedness" of the Govee solution.  If we give up on color, there are brighter, better CRI, seamless, 24V options.  We settled on [these lights](https://www.ledsupply.com/led-strips/tunable-white-cob-led-strip-lights), [this driver](xhttps://www.superbrightleds.com/moreinfo/rgb-led-controllers/wireless-4-channel-rgb-led-dimmer-receiver/3372/7141/), [this controller](https://www.superbrightleds.com/moreinfo/color-temp-controller/wireless-variable-color-temperature-led-dimmer-switch-for-ez-dimmer-receiver/3330/7135/), and [this button](https://www.superbrightleds.com/moreinfo/single-color-dimmer-switches/mini-rf-single-color-led-dimmer-switch-for-ez-dimmer-receiver-w-magnetic-base/3327/7133/) for by the sliding door.
 
-We can place wireless controllers in the desired locations (door and bed) limiting wire runs and voltage drop.
+We will place the dimmer near the bed, and the button near the sliding door.  These are wireless so they will not affect wire runs and voltage drop.
 
-This is were we are headed now.
+It looks like [this line of tracks](https://www.amazon.com/hunhun-L-Shape-Connector-Aluminum-Channel/dp/B0788CFWTV/ref=pd_bxgy_1/131-1523673-7632063?pd_rd_w=ezEhu&pf_rd_p=c64372fa-c41c-422e-990d-9e034f73989b&pf_rd_r=4015M4HCST5D13H5KF61&pd_rd_r=a3d13917-e57b-40e8-a1a0-a069687cc98d&pd_rd_wg=fMBmY&pd_rd_i=B0788CFWTV&th=1) is compatible for the ceiling and has good mount/extension supports that could accommodate a low profile 100 degree 1/4-20 phillips.  Will need to test.  There are a ton of these that look equivalent.  We opted for starlandleds brand track and muzata hardware.  We'll see.
 
-It looks like [this line of tracks](https://www.amazon.com/hunhun-L-Shape-Connector-Aluminum-Channel/dp/B0788CFWTV/ref=pd_bxgy_1/131-1523673-7632063?pd_rd_w=ezEhu&pf_rd_p=c64372fa-c41c-422e-990d-9e034f73989b&pf_rd_r=4015M4HCST5D13H5KF61&pd_rd_r=a3d13917-e57b-40e8-a1a0-a069687cc98d&pd_rd_wg=fMBmY&pd_rd_i=B0788CFWTV&th=1) is compatible for the ceiling and has good mount/extension supports that could accommodate a low profile 100 degree 1/4-20 phillips.  Will need to test.
-
-Were were a little concerned with brightness and coverage.  A comparison of two ceiling runs of the tunable white to our previous van suggests 4 times the lumens and a wider beam pattern (not sure how will be affected by the channel).  Based on this we are going to start with two ceiling runs and see how that goes.
+We were a little concerned with brightness and coverage.  A comparison of two ceiling runs of the tunable white to our previous van suggests 4 times the lumens and a wider beam pattern (not sure how will be affected by the channel).  Based on this we are going to start with two ceiling runs and see how that goes.
 
 ### Reading Lights
 
