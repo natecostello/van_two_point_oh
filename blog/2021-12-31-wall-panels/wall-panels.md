@@ -23,3 +23,9 @@ Cut wall panel 8020 brackets
 Cut wall stiffener brackeets
 Soph installed plus nuts in wall stiffiner brackets
 Soph installed puls nuts in wall panel 8020 brackets
+
+1-14-2022
+Marked, drilled, primed, painted holes for stiffiner bracket plus nuts
+Cut 2 additional stiffiner panels
+Angle drilled 8020 bolting holes to ensure flush/perpendicular bolting
+
