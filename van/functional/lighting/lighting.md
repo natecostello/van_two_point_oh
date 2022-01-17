@@ -54,6 +54,24 @@ It looks like [this line of tracks](https://www.amazon.com/hunhun-L-Shape-Connec
 
 We were a little concerned with brightness and coverage.  A comparison of two ceiling runs of the tunable white to our previous van suggests 4 times the lumens and a wider beam pattern (not sure how will be affected by the channel).  Based on this we are going to start with two ceiling runs and see how that goes.
 
+
+**On third thought:**
+We are pivoting to the V-shaped track for the ceiling.
+
+According to [this](mounting-clip-screw-size.pdf) comment from a mounting clip [amazon listing](https://us.amazon.com/Muzata-Channel-Mounting-Aluminum-LCU1/dp/B06WW2FFR6):
+
+>ISO M3 90° flat head, UTS #4-40 82° flat head, #6-32 100° flat head all recess fully. 82° is the default for inch sized flat head screws. The #6-32 82° head is too tall for the stamped countersink and may contact the extrusion and interfere with retention. 100° can be easier to find than 110° or 120°, but any of those seem to work with the stamped countersink. I don’t have any guaranteed dimensions for the countersink coining and this is based on a small sample from 2017 that may not be representative of product delivered at other times.
+
+This pushes us towards 6-32 100 degree flat heads with 6-32 low profile clip nuts for the ceiling panel brackets.  These screws are available in a 3/4 inch length which should be totally sufficient.
+
+6-32 low profile clip nuts are for a maximum thickness material of 0.062 which limits us to 1/16 material for the ceiling panel brackets.
+
+The widest angle that McMaster sells in 1/16 is 2 1/8 inches.  This gives just over 3/4 inch of over hang.  Too tight.
+McMaster sells 4" wide 1/16 flat aluminum.  This could work (but cutting will require some thought).  Could go with a send cut send approach.
+
+Muzata joining brackets are 3/4 inch wide.  This puts holes centers at 3/8 from edge of joining bracket.  If we assume a 1/4 stand off from edge of L-track, this is a hole stand off of 5/8 from L-track.  This corresponds to a 1/2 stand off from edge of ceiling panel assuming a 1/8 allowance for neoprene.  Pretty tight given these need to be oversided holes.  Will consult with soph.  We will assume 3 joining brackets (6 fasteners) per ceiling panel.
+
+
 ### Reading Lights
 
 These look perfect:  red and white modes, dimmable, and support 24V:

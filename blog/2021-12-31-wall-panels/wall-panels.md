@@ -24,8 +24,29 @@ Cut wall stiffener brackeets
 Soph installed plus nuts in wall stiffiner brackets
 Soph installed puls nuts in wall panel 8020 brackets
 
-1-14-2022
+1-15-2022
 Marked, drilled, primed, painted holes for stiffiner bracket plus nuts
 Cut 2 additional stiffiner panels
 Angle drilled 8020 bolting holes to ensure flush/perpendicular bolting
+
+1-16-2022
+Installed plusnuts for angle stiffener brackets
+Installed stiffener brackets and locktited
+Installed wall panel 8020 brackets and locktited
+Temp installed wall stiffeners for templating
+Ordered fasteners and threaded inserts for fan and light switch mounting
+
+Notes:
+Fan Mount plate thickness for fastener length: 0.5 inches
+Wall panel thickness for fastener length: 0.5 inches
+Stiffener thickness for fastener length: 0.5 inches
+Fan fastener head max diameter: 0.27 inches
+Therefore need 1.25-1.5 inch long fasteners ([these](https://www.mcmaster.com/98164A444/)). 
+(went short to allow mouting up in stiffener bracket region)
+
+Light switch thickness for fastener length: 1.06 inches
+Wall panel thickness for fastener length: 0.5 inches
+Stiffener thickness for fastener length: 0.5 inches
+Therefore need 1.75 to 2 inch long fastener
+
 
