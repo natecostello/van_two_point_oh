@@ -15,3 +15,7 @@ Finished all 1x1 brackets
 1-18-2022
 Re-mocked up 1/2 panel to 8020 with new clip nuts and are happy with result
 
+1-20-2022
+Cut 4 garage vertical 8020 panels
+Cut 1 electrical area vertical panel
+Kimo got fired :(

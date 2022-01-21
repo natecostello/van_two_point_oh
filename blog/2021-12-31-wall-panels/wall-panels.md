@@ -49,4 +49,33 @@ Wall panel thickness for fastener length: 0.5 inches
 Stiffener thickness for fastener length: 0.5 inches
 Therefore need 1.75 to 2 inch long fastener
 
+1-17-2022
+Templated wall stiffener panels for fan, espar, and panel fasteners
+Picked up two more expanded PVC sheets at homedepot
+
+1-18-2022
+Finished templating wall stiffener panels
+Drilled wall panel stiffeners
+Gun didn't work so couldn't urethane
+Cut wall panels to width and length (except fwd panel)
+Fitup wall panels and marked holes with transfer screws and random fasteners
+
+1-19-2022
+Added holes to passenger and driver side mid and aft wall panels.
+Fit checked holes in passenger and driver mid and aft wall panels.
+Sophia Upholstered passenger and driver side mid and aft wall panels.
+
+
+1-20-2022
+4 coats of spar urethane on wall panel stiffeners
+Installed threaded inserts in passenger stiffener
+Sophia added holes to the upholstered panels
+Added disconnects to Passenger Fan
+Added mating disconnects to Passenger Fan wiring (next time offset connectors for easier feed through)
+Modified light switch to come apart easier
+Installed passenger wall panels (holes are tight).  Requires stove bracket loosening and sliding stove forward...keep in mind.
+Installed light switch
+Installed passenger fan
+
+
 
