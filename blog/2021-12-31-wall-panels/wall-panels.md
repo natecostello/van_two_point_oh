@@ -77,5 +77,12 @@ Installed passenger wall panels (holes are tight).  Requires stove bracket loose
 Installed light switch
 Installed passenger fan
 
+1-23-2020
+Sophia installed threaded inserts on panels
+Sophia swapped L-track spacers for 1/2 inch
+
+
+
+
 
 

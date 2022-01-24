@@ -19,3 +19,12 @@ Re-mocked up 1/2 panel to 8020 with new clip nuts and are happy with result
 Cut 4 garage vertical 8020 panels
 Cut 1 electrical area vertical panel
 Kimo got fired :(
+
+1-21-2022
+Drilled and test fit garage vertical
+Drilled and final cut electrical area vertical panel
+
+1-22-2022
+Added final holes to garage vertical
+Cut driver side galley aftmost panels
+4 coats of urethane (need to sand and recoat dropped panel)

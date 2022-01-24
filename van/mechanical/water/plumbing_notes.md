@@ -28,19 +28,22 @@ cover:
 
 ## Faucet
 
-Candidates:
+We ended up with the [Kraus Bolden 18 inch faucet](https://www.kraususa.com/kitchen/kitchen-faucets/commercial-style-faucets/kraus-kpf-1610sfsmb.html).  We opted for this over the Sellette to ensure clearance to the overhead storage.
 
-KRAUS [Sellette™](https://www.kraususa.com/catalogsearch/result/?q=Sellette) Single-Handle Pull-Down Sprayer Kitchen Faucet
+~~KRAUS [Sellette™](https://www.kraususa.com/catalogsearch/result/?q=Sellette) Single-Handle Pull-Down Sprayer Kitchen Faucet.~~
 
-[Sink Drain connection](https://www.amazon.com/Ambassador-Marine-Brushed-Finish-Strainer/dp/B00GD8RY7K/ref=pd_rhf_ee_s_bmx_0_7/132-6172178-6878621?_encoding=UTF8&pd_rd_i=B00GD8RY7K&pd_rd_r=c5ead015-bd52-4676-851c-ed77fa559e6c&pd_rd_w=lIYF5&pd_rd_wg=9EE78&pf_rd_p=ab01b43d-20a4-41f2-b80b-e4dd747d1a01&pf_rd_r=KWM085Z2HEQC6C1JMNZG&psc=1&refRID=KWM085Z2HEQC6C1JMNZG)
 
 ## Storage
 
-The baseline plan is 15 gallons of storage with jerry cans.  In the future, a large tank could be fabricated to allow more water storage.
+We opted for 3 Scepter brand jerry cans.  These are Nato dimensions and pretty standard.
 
 ## Graywater
 
-The sink will drain outside the van to a temporary collection botter where needed (e.g. and empty milk jug).
+The sink will drain outside the van to a temporary collection bottle where needed (e.g. and empty milk jug).  A fitting like [this](https://www.dripdepot.com/item/layflat-oval-hose-insert-by-fpt-adapter-barb-size-1-half-inch-fpt-size-1-half-inch) should allow connection of the sink drain to plastic tubing.  Apparently sink drains are pretty standard with 1.5 inch female NPT thread.
+
+## Sink
+
+We selected the smaller varient of the Ikea Norrsjon sink.
 
 ## Pump
 

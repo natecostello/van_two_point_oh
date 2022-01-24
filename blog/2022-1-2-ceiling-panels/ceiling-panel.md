@@ -28,3 +28,10 @@ Soph Cut fwd ceiling panel per above
 
 2022-1-12
 soph upholstered and installed fwd ceiling panel
+
+2022-1-21
+Sophia filed edges of athwart L-track
+
+2022-1-23
+sophia swapped athwart L-track spacers for 1/2 iinch
+sophia installed remaining athwart L-track

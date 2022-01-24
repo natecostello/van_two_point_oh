@@ -74,11 +74,9 @@ The problem is coordinating the battery fuse with the downstream fuses.  Without
 
 
 
-## Aftermarket Alternator to Positive Bus
+## 24V Alternator to Positive Bus
 
-Maximum charge current is 150A.  Round trip wire length is approximately 44 ft.  By ampacity, minimum wire size is 4 AWG.  By voltage drop, minimum wire size is 0 AWG.
-
-TODO: Update to reflect new alternator option.  
+Maximum charge current is ~180A with the APS option.  Nominal cruise (1800 Engine RPM) is ~ 175A.  Round trip wire length is 50 ft based on our prototyped route with some margin.  Final length is likely 48 ft. By ampacity, minimum wire size is 4 AWG.  By voltage drop, assuming 3% allowable, taking credit for likely final round trip and cruising RPM output, 2/0 is barely sufficient at 26.6V.
 
 ## Multiplus 24/3000 Inverter/Charger to Positive Bus [Alternate]
 
