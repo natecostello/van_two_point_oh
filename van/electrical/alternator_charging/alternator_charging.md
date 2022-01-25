@@ -148,6 +148,8 @@ What is the excitation for the APS model...is it "P-type"? (negative ground).  J
 
 Load disconnect management is critical and must be provided by BMS.  Regarding the use of the Sterling load disconnect protector, Jim is not sure if recommended.  He will talk to his engineers. Followup: Not needed as long as BMS is coordinated.  Maybe needed for other reasons, but not as far as APS alternator is concerned.  
 
+APS discussion on 2022-1-24
+APS option does have a tensioner vice stretch belt.  They provided [these similar installation instructions](vfk130sd508-i4.pdf).
 
 Notes from convo with Niel at wakespeed:
 How does the wakespeed accomodate the Amps vs RPM performance of the alternators being controlled? Some ability to configure. At low RPM, even at full field, alternator wont put out enought voltage.
