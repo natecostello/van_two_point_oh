@@ -42,6 +42,22 @@ Inlet Pressure:
  * 10" WC min
  * 13.8" WC max
 
-Power usage: less than 2A at 12V.
+Power usage: less than 2A at 12V.  We tested with a DC power supply and saw current draw of about 1A at 12V.
+
+The circuit diagram in the manual is not correct.
+
+![incorrect circuit](incorrect-greystone.png)
+_This one is wrong._
+
+![correct circuit](corrected-greystone.png)
+_This on should be about right._
+
+
+We modified the wiring to allow the switch that turns on the LEDs and oven light to also drive a relay to switch the propane solenoid valve on.  This way it is very obvious when propane is on.  This made a lot of sense for us since the oven is our only propane load.
+![modified circuit](modified-greystone.png)
+_Modified wiring._
+
+
+
 
 

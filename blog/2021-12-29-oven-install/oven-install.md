@@ -5,3 +5,5 @@ Fitup/loose install of oven
 Fabricated oven brackets
 Installed (and loctited) oven brackets
 
+1-24-2022
+Hacked stove switch
