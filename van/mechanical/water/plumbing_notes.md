@@ -82,8 +82,21 @@ The 1/2 inch barbed tee connects via two 1/2 ID reinforced PVC hoses to two [bra
 
 Those last two fittings connect to the faucet hot and cold supply lines, which are 3/8 female compression connections.
 
+We'll use [stainless hose clamps](https://www.homedepot.com/p/Everbilt-3-4-1-3-4-in-Stainless-Steel-Hose-Clamp-6720595/202309386).
+
 ### Drain
 
 The sink drain connects to a [1-1/2 inch FIP to FIP 90 degree elbow](hhttps://www.usplastic.com/catalog/item.aspx?itemid=34834) that in turn connects to a [1-1/2 to 1 inch reducing nipple](https://www.usplastic.com/catalog/item.aspx?itemid=135126) that in turn connects to a [1 inch FNPT to 1 inch barb adapter](https://www.usplastic.com/catalog/item.aspx?itemid=135154).
 
 [1 inch ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44396) runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.
+
+### BOM
+
+The BOM for the plumbing materials is in [this google spreadsheet](https://docs.google.com/spreadsheets/d/17HZ0PQemrudDK19Y8YS6FRYkqoR4Je7hPl_VndWTkXY/edit?usp=sharing).
+
+### Tube Sizing
+
+We did some very basic calcs based on the pump's dry prime capability vs water column weight to make sure it could pull the amount of water from the three jerry cans.  That was the basis for selecting 3/8 ID tube for the can bottom to manifold.  Not sure if it would have been a problem, but just in case.  Those are also in the [spreadsheet](https://docs.google.com/spreadsheets/d/17HZ0PQemrudDK19Y8YS6FRYkqoR4Je7hPl_VndWTkXY/edit?usp=sharing).
+
+
+
