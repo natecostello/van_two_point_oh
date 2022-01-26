@@ -61,3 +61,29 @@ We opted for the Shurflo Aqua King II Supreme.  It should have plenty of umph fo
 ## Reverse Osmosis
 
 Eventually, given the amount of time we spend ocean side, it would be advantageous to have an RO desalinator.  DIY is doable.  The cost is the high pressure pump and drive motor, but integration looks doable.
+
+## Tank Level Monitoring
+
+[This product](https://milonetech.com/products/chemical-etape-assembly) looks like the cheapest out there and would be easily integrated with a esp/pi/arduinio.
+
+## Connections
+
+### Supply
+
+Jerry cans will have [3/8 ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44393&catid=993) that runs from the bottom of the can to a [3/8 inch barbed panel mount dripless quick disconnect insert](https://www.usplastic.com/catalog/item.aspx?itemid=40966).  The insert will be installed in a 1-1/4 inch hole cut into the larger jerry can cap (over the pour spout).
+
+The [mating quick disconnect body](https://www.usplastic.com/catalog/item.aspx?itemid=44801) has a 1/2 ID barb and connects with [1/2 ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44394) to a [1/2 inch barb elbow](https://www.usplastic.com/catalog/item.aspx?itemid=31321) and two [1/2 inch barb tees](https://www.usplastic.com/catalog/item.aspx?itemid=30043) that form a manifold that join the lines from the three jerry cans.
+
+The manifold connects to the pump inlet with 1/2 ID reinforced PVC hose.  This connection is barbed on both ends.
+
+The pump outlet connects with 1/2 inch hose to a 1/2 barbed tee.
+
+The 1/2 inch barbed tee connects via two 1/2 ID reinforced PVC hoses to two [brass 1/2 barb to 1/2 inch FIP fittings](https://www.homedepot.com/p/Everbilt-1-2-in-Barb-x-1-2-in-FIP-Brass-Adapter-Fitting-800099/300096250).  These two brass fittings are connected to two [brass 1/2 in MIP to 3/8 in male compression fittings](https://www.homedepot.com/p/Everbilt-3-8-in-Compression-x-1-2-in-MIP-Brass-Adapter-Fitting-804599/304958602).
+
+Those last two fittings connect to the faucet hot and cold supply lines, which are 3/8 female compression connections.
+
+### Drain
+
+The sink drain connects to a [1-1/2 inch FIP to FIP 90 degree elbow](hhttps://www.usplastic.com/catalog/item.aspx?itemid=34834) that in turn connects to a [1-1/2 to 1 inch reducing nipple](https://www.usplastic.com/catalog/item.aspx?itemid=135126) that in turn connects to a [1 inch FNPT to 1 inch barb adapter](https://www.usplastic.com/catalog/item.aspx?itemid=135154).
+
+[1 inch ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44396) runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.
