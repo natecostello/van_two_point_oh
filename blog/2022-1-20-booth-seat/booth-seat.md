@@ -7,3 +7,6 @@ Soph finished all cushions for booth seat.
 
 1-23-2022
 Design review of booth
+
+1-25-2022
+Ordered all booth 8020

@@ -45,3 +45,6 @@ It looks like the CANBus can be tapped off the main harness at the end of the co
 
 
 From the wiring diagrams the CANBus is also fed to the Diagnostic Port off the main harness near the heater itself.  I'm having trouble finding the connector type for this connection.
+
+1-26-2022
+Discovered I had ordered the wrong diagnostic connector.

@@ -26,5 +26,13 @@ Drilled and final cut electrical area vertical panel
 
 1-22-2022
 Added final holes to garage vertical
-Cut driver side galley aftmost panels
+Soph Cut driver side galley aftmost panels
 4 coats of urethane (need to sand and recoat dropped panel)
+
+1-25-2022
+Sanded and final coat on garage verticals, electical vertical, and driver side fwd garage/aft cabinet panels.
+
+1-26-2022
+Recut and redrilled driver side fwd garage/aft cabinet panels (interference with existing 8020 hardware).
+Installed threaded inserts in aft garage vertical panels
+Installed garage vertical panels

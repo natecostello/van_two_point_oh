@@ -81,6 +81,11 @@ Installed passenger fan
 Sophia installed threaded inserts on panels
 Sophia swapped L-track spacers for 1/2 inch
 
+1-26-2022
+Soph added 5/16 plus nut for passenger fwd panel fastening
+Soph added through bolted passenger fwd panel in two more locations on fwd edge
+Soph increased hole size on driver side panel
+Soph installed driver mid panel
 
 
 
