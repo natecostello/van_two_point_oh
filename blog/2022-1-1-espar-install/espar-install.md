@@ -41,8 +41,7 @@ Notes on remote start:
 
 Lots of stuff in the [extras manual](espar-extra-functions.pdf) including a note that suggests yellow would work for the airtronics on page 8.
 
-It looks like the CANBus can be tapped off the main harness at the end of the connection to the Easy Start Pro.  There is a terminator attached during install with a jumper bridging two connections.  I'd be willing to bet that it is the standard 120 Ohm termination resistor.  The connector type at this location is a [DUETSCH DT type](https://www.fordtransitusaforum.com/threads/assistance-w-espar-b4l-m2-wiring-harness.85171/post-1118846). 
+It looks like the CANBus can be tapped off the main harness at the end of the connection to the Easy Start Pro.  There is a terminator attached during install with a jumper bridging two connections.  I'd be willing to bet that it is the standard 120 Ohm termination resistor.  The connector type at this location is a [DUETSCH DT type](https://www.fordtransitusaforum.com/threads/assistance-w-espar-b4l-m2-wiring-harness.85171/post-1118846) ~~DT04-4P DT04-4S~~.  Scratch that, it is a DUETSCH DT type DTM04-4P, DTM044S,  available from [nedirect.com](https://www.northeastdirect.com/products/dtm-4-pin), who also has an ebay store with free shipping.  Amazon options looked counterfeit.  We ordered from the ebay store.
 
-DT04-4P DT04-4S, available from [nedirect.com](https://www.northeastdirect.com/products/4-pin-deutsch-dt04-4s-dt06-4s-waterproof-electrical-connector), who also has an ebay store with free shipping.  Amazon options looked counterfeit.  We ordered from the ebay store.
 
 From the wiring diagrams the CANBus is also fed to the Diagnostic Port off the main harness near the heater itself.  I'm having trouble finding the connector type for this connection.
