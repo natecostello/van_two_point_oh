@@ -13,3 +13,6 @@ Installed, torqued, locktited tank.
 
 2022-1-24
 Routed Propane Line
+
+2022-1-25
+Soph routed solenoid/level sensor wiring
