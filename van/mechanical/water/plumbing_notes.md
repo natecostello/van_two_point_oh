@@ -35,7 +35,7 @@ We ended up with the [Kraus Bolden 18 inch faucet](https://www.kraususa.com/kitc
 
 ## Storage
 
-We opted for 3 Scepter brand jerry cans.  These are Nato dimensions and pretty standard.
+We opted for 3 Scepter brand jerry cans.  These are Nato dimensions and pretty standard.  They will be held fast by these [tie downs](https://www.amazon.com/gp/product/B07V9NKM26/) installed on 8020 and these [cinch straps](https://www.amazon.com/gp/product/B07TS253QC?th=1) attached to the tie downs.
 
 ## Graywater
 
