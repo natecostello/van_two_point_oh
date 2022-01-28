@@ -205,6 +205,7 @@ Much later, we did the final step of applying another bead of 3M Seam Sealer bet
 * Final trim after acclimation and roller rental (Fri 10-1-2021)
 * Epoxied Lonseal (Sat 10-2-2021)
 * Final seal of edges with urethane seam sealer (Tue 12-7-2021)
+* Added edge trim to side door and rear door (Thur 1-27-2022) TODO: Describe and add pictures/link product.
 
 
 # What We Would Change
