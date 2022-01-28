@@ -35,3 +35,7 @@ Sophia filed edges of athwart L-track
 2022-1-23
 sophia swapped athwart L-track spacers for 1/2 iinch
 sophia installed remaining athwart L-track
+
+2022-1-27
+Mocked up LED track and ceiling panel.  
+Finalizedd ceiling bracket design and ordered from send cut send.
