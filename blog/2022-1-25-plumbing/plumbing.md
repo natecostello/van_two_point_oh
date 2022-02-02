@@ -7,3 +7,8 @@ Soph installed threaded inserts and fit up water pump on panel.
 
 1-26-2022
 Completed plumbing system design and ordered all material
+
+1-27-2022
+Downselected pump switch (conturra)
+Added passthrough to water pump panel to account for switch.
+Gave panel four coats of urethane.

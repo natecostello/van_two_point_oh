@@ -84,3 +84,4 @@ Note, this doesn't reflect full time effort. It's mostly evenings and partial da
 * Received plates and fit check (Sat 12-17-2021)
 * Added adhesive foam to shorepower plate (Tue 12-28-2021)
 * Drilled, painted, and primed holes for plusnuts (Thur 1-27-2022)
+* Wired and installed smartplug and exterior outlet (Fri 1-28-2022)

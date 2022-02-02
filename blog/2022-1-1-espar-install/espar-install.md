@@ -48,3 +48,7 @@ From the wiring diagrams the CANBus is also fed to the Diagnostic Port off the m
 
 1-26-2022
 Discovered I had ordered the wrong diagnostic connector.
+
+1-31-2022
+Fabricated diagnostic plug extension (with correct connector)
+Installed easy start pro in wall panel (and retested SAT)

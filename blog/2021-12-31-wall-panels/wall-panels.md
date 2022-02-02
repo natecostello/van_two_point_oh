@@ -87,7 +87,9 @@ Soph added through bolted passenger fwd panel in two more locations on fwd edge
 Soph increased hole size on driver side panel
 Soph installed driver mid panel
 
-
-
+1-31-2022
+Installed driver aft panel
+Installed driver fan
+Tested both fans SAT
 
 
