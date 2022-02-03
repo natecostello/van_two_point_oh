@@ -13,3 +13,7 @@ Ordered counter and footboard fastening hardware
 Cut Driver and Pass counters
 Glued underhang on counters
 Cut footboard
+
+2022-2-2
+Cut features in footboard
+wood filled ends of footboard and counters
