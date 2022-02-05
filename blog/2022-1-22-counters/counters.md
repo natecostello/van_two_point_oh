@@ -21,3 +21,6 @@ wood filled ends of footboard and counters
 2022-2-3
 Sanded edges footboard/couters/backsplash
 Formica's footboard/counters/backsplash
+
+2022-2-4
+Bracket party to fab 18 counter brackets

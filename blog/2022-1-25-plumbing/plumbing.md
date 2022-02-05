@@ -12,3 +12,7 @@ Completed plumbing system design and ordered all material
 Downselected pump switch (conturra)
 Added passthrough to water pump panel to account for switch.
 Gave panel four coats of urethane.
+
+2-4-2022
+Noticed usplastics didn't send the jerry can interior tubing
+Soph modified jerry cans, installed tie downs, and cut and sewed hold down strap.

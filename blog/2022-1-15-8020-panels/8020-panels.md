@@ -36,3 +36,7 @@ Sanded and final coat on garage verticals, electical vertical, and driver side f
 Recut and redrilled driver side fwd garage/aft cabinet panels (interference with existing 8020 hardware).
 Installed threaded inserts in aft garage vertical panels
 Installed garage vertical panels
+
+2-4-2022
+Bracket party for more 1/2 panel brackets
+Mounted driver side electrical area panels
