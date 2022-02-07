@@ -39,3 +39,6 @@ sophia installed remaining athwart L-track
 2022-1-27
 Mocked up LED track and ceiling panel.  
 Finalizedd ceiling bracket design and ordered from send cut send.
+
+2022-2-5
+Cut mid and aft Ceiling Panels

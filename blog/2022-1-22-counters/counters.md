@@ -24,3 +24,16 @@ Formica's footboard/counters/backsplash
 
 2022-2-4
 Bracket party to fab 18 counter brackets
+
+2022-2-5
+Four coats of urethane on counters, footboard, and backsplash
+Fit up and drilled footboard
+Installed footboard
+Installed counter mounting brackets
+
+2022-2-6
+match marked counters to mounting bracket locations
+installed inserts in counters
+cut sink and faucet hole
+urethaned cuts
+neoprened sink
