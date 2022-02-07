@@ -70,9 +70,9 @@ Eventually, given the amount of time we spend ocean side, it would be advantageo
 
 ### Supply
 
-Jerry cans will have [3/8 ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44393&catid=993) that runs from the bottom of the can to a [3/8 inch barbed panel mount dripless quick disconnect insert](https://www.usplastic.com/catalog/item.aspx?itemid=40966).  The insert will be installed in a 1-1/4 inch hole cut into the larger jerry can cap (over the pour spout).
+Jerry cans will have ~~[3/8 ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44393&catid=993)~~ [NSF 51 COMPLIANT 3/8 ID reinforced PVC hose](https://www.mcmaster.com/52375K33/) that runs from the bottom of the can to a [3/8 inch barbed panel mount dripless quick disconnect insert](https://www.usplastic.com/catalog/item.aspx?itemid=40966).  The insert will be installed in a 1-1/4 inch hole cut into the larger jerry can cap (over the pour spout).
 
-The [mating quick disconnect body](https://www.usplastic.com/catalog/item.aspx?itemid=44801) has a 1/2 ID barb and connects with [1/2 ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44394) to a [1/2 inch barb elbow](https://www.usplastic.com/catalog/item.aspx?itemid=31321) and two [1/2 inch barb tees](https://www.usplastic.com/catalog/item.aspx?itemid=30043) that form a manifold that join the lines from the three jerry cans.
+The [mating quick disconnect body](https://www.usplastic.com/catalog/item.aspx?itemid=44801) has a 1/2 ID barb and connects with ~~[1/2 ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44394)~~ [NSF 51 COMPLIANT 1/2 ID reinforced PVC hose](https://www.mcmaster.com/52375K34/) to a [1/2 inch barb elbow](https://www.usplastic.com/catalog/item.aspx?itemid=31321) and two [1/2 inch barb tees](https://www.usplastic.com/catalog/item.aspx?itemid=30043) that form a manifold that join the lines from the three jerry cans.
 
 The manifold connects to the pump inlet with 1/2 ID reinforced PVC hose.  This connection is barbed on both ends.
 
