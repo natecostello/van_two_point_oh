@@ -10,3 +10,6 @@ Includes belt
 
 1-24-2022
 Ordered Alternator
+
+2-7-2022
+Verified wakespeed alternator cables are ~27 ft long.
