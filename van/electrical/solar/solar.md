@@ -130,7 +130,21 @@ This model is substantially more expensive, larger, and heavier.  It has greater
 
 However, this is the lowest power model of the 150/XX line that offers separate VE.Direct communication and remote on/off.  This allows the BMS to provide a low temperature hardware backup shutoff in the event of CANBUS failure or Cerbo failure.  It is not needed for cell overvoltage, cell undervoltage, and cell overtemperature as this is provided by the BMS opening the main contactor.  **For this reason only, low temperature backup protection, this will be the selected MPPT.**
 
+## Wiring and Implementation Details
+To join the panels in a 2S2P arrangement we will use an MC-4 Branch connector.  This [product](https://www.amazon.com/BougeRV-Connectors-Connector-Parallel-Connection/dp/B07DJ5PHSB/) is cheap and had good reviews.
 
 
+To ensure a good cable gland seal, we want a round cable.  AM Solar sells a 10AWG duplex [cable](https://amsolar.com/rv-cables/cable-10ga-2-gry) for precisely this purpose.  We used this approach on Van 1.0.
+
+To route the solar conductors through the roof we will use a single right angle cable gland.  We need to make sure this gland is sized to form a good seal on the round AM Solar cable.  Unfortunately, AM solar doesn't list an OD for the cable.  However, they do list [this](https://amsolar.com/rv-mounting-accessories/strn-1/2ln) straight gland for use with it, which has a recommended cable range of 0.230"-0.546" (5.8mm-13.9mm).  10AWG OD is generally over 5mm so for duplex, we will aim for a gland that covers the high end of the AM Solar gland range.
+This [product](https://www.amazon.com/uxcell-Waterproof-Adjustable-Locknut-9mm-14mm/dp/B07R55VGVV/) is 9mm-14mm so it should work.
+
+To join the round cable to the MC-4 connectors, AM solar sells [kits/pigtails](https://amsolar.com/rv-connections/93c-mc-4pig) to splice this connection (easier and cheaper than a MC-4 termination tool).  We used this approach on Van 1.0.
+
+Inside the van, the round 10AWG duplex will be butt spliced to the solar wiring.  
+
+The interior wiring will terminate into [this](https://www.amazon.com/gp/product/B0746DLP7S/) 2 pole solar breaker.
+
+From the solar breaker it will proceed to the MPPT.
 
 
