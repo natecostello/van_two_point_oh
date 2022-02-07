@@ -131,3 +131,12 @@ NOTE: [This Github Issue related to Victron-Wakespeed integration is relevant to
 ### All Together
 
 TODO: Since we need separate dry contacts or opto-couplers for two components, we will need a "splitter".  A starting place would be [this sparkfun opto-isolator breakout](https://www.sparkfun.com/products/9118).  TODO: Since we need a >8.5v DC 'wet' signal we will also need some conditioning.  Could possibly use the RBSLD inverter.
+
+Regarding Wakespeed-REC-Victron Comms.  [Rick at OGSS](https://www.offgridsoftwaresolutions.com/ws500-user-forum/topic/victron-ve-can-and-canbus-to-ws500/#postid-434https://www.offgridsoftwaresolutions.com/ws500-user-forum/topic/victron-ve-can-and-canbus-to-ws500/#postid-434) says:
+>You should be able to connect your Multi to a VE.bus
+
+>Connect your REC BMS to the VE.CANBus port 1
+
+>Connect your WS500s in series to VE.CANBus port 2, with a terminator plugged into your last WS500
+
+This suggest that REC has a terminator resistor in it.  This also means we need a WS500 Victron Crossover Cable (WS-VE-CABLE), and a REC to victron CAN adapter cable.  We have both of these. 

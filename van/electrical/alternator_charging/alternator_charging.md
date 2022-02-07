@@ -161,6 +161,9 @@ wakespeed is measuring battery current and voltage...when MPPT kicks on, voltage
 
 Measuring shunt: He doesn't see the benefit of putting it on the positive side.  When measuring battery current via negative, wakespeed will account for current sourced from other charging sources when responding to BMS current request.
 
+[This forum thread](https://www.fordtransitusaforum.com/threads/upfitter-switches-third-party-high-power-mode-charger-remote-on-off.86377/) details use of the upfitter switches to control charging.  Awesome.
+
 TODO: Confirm idle RPM
 TODO: Document RPM assumptions: https://www.fordtransitusaforum.com/threads/2020-hr-awd-rpm-at-various-speeds.80451/
 TODO: Confirm Nations 24-150 pulley diameter for Transit.
+
