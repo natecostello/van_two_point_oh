@@ -42,3 +42,11 @@ Finalizedd ceiling bracket design and ordered from send cut send.
 
 2022-2-5
 Cut mid and aft Ceiling Panels
+
+2022-2-7
+Cut ceiling brackets
+installed ceiling brackets
+
+2022-2-8
+Cut features into mid ceiling panel
+Ran into issues on aft panel - need to start over.

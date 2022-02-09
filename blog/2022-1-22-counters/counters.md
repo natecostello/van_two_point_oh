@@ -37,3 +37,8 @@ installed inserts in counters
 cut sink and faucet hole
 urethaned cuts
 neoprened sink
+
+2022-2-7
+installed backsplashes
+installed counters
+
