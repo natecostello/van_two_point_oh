@@ -27,15 +27,34 @@ cover:
 ---
 
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
+
+## Connection Notes
+
+The [Blue Sea 7717 Remote Battery Switch](blue-sea-7717-rbs.pdf) speecifies 16 AWG wire minimum for control connections.  It also specifies 4/0 wire to handle 300A continuous current.
+
 ## Operation
 
 **ON**
 
-[REC Q BMS](http://www.rec-bms.com/datasheet/UserManual_REC_Victron_BMS.pdf) is always attached, Internal relay is normally closed. When Remote Switch (RS) is closed, Vbat is applied through internal relay, through RS, to [REC PRE-CHARGE](http://www.rec-bms.com/datasheet/UserManualPrechargeNew.pdf) (RPC) BMS+ Input. RPC Applies VBat via 66 ohm relay to load side of contactor via System + connection for a preset delay. After the preset delay, RPC energizes the main contactor coil continuously to close the main contactor. After one second, application of power via System+ is removed and all power flows to the system via the main contactor. 
+[REC Q BMS](http://www.rec-bms.com/datasheet/UserManual_REC_Victron_BMS.pdf) is always powered, Internal relay is normally closed*. When Blue Sea 2155 Remote Control Switch (RS) is closed (PIN 2 connected to PIN 3), Vbat is applied through the RS, through the internal relay, to [REC PRE-CHARGE](http://www.rec-bms.com/datasheet/UserManualPrechargeNew.pdf) BMS+ Input. REC PRE-CHARGE Applies VBat via 66 ohm relay to load side of contactor via System + connection for a preset delay. After the preset delay, REC PRE-CHARGE "energizes" the Blue Sea 7717 Remote Battery Switch (RBS) to close the RBS main contactor. After one second, application of power via System+ is removed and all power flows to the system via the RBS main contactor.  
+
+Note, REC PRE-CHARGE manual states:
+>The pre-charge unit closes the power circuit through its internal relay (RELAY ON). The inrush current flows entirely through the pre-charge 66 Ω internal resistor. After 4 seconds the transient current should be approximately zero. The pre-charge energizes the contactor coil through open collector circuit and after 1 second opens the internal relay (RELAY OFF).
+
+It is not 100% clear that the RBS will operate correctly with the REC PRE-CHARGE due to it's use of open collector (i.e., application and removal of GND) operation.  We will have to test.  What is clear is that the Flashing LED functionality associated with manual ON overide will not work since the RBS will not have access to GROUND provided by the REC PRE-CHARGE in that condition.  To regain this, and to mitigate concerns with open-collector control, we may insert and opto-islator.
+
+<details>
+<summary>Opto-Isolated Variant</summary>
+
+![REC Q BMS Wiring Logic Opto](REC_Q_BMS_Wiring_Logic-opto.svg)
+
+</details>  
+  
+  
 
 **OFF**
 
-When the RS is opened, or the REC Q internal relay is opened*, Vbat is removed from the RPC BMS+ input. The RPC will float its Contactor- output continuosly which deenergizes the main contactor coil and opens the main contactor.
+When the RS is opened, or the REC Q internal relay is opened*, Vbat is removed from the REC PRE-CHARGE BMS+ input. The RPC will float its Contactor- output continuosly which deenergizes the main contactor coil and opens the main contactor.
 
 **\*The following events result in the REC Q Internal Relay opening:**
 * Cell Voltage High (cell over voltage switch-off + hysteresis

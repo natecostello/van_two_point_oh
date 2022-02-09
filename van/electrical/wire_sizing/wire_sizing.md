@@ -35,11 +35,12 @@ This [website](http://nepsi.com/resources/calculators/short-time-current-rating-
 # Main DC Distribution Wiring
 
 ## Battery to Positive Bus
+TLDR: Per the main contactor instruction manual, we must use 0000 to obtain adequate continuous ampacity. 
 
-Maximum theoritical/ideal charging current is 292A.  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 00 AWG.
+Maximum theoritical/ideal charging current is 280A as limited by the BMS (322A is full capacity of all sources).  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 00 AWG.
 
 * Battery at minimum 22.4V (BMS cell low cutoff of 2.8V)
-* Max Aftermarket Alternator Charging = 150A
+* Max Aftermarket Alternator Charging = 180A
 * Max Multiplus 24/3000 Charging = 70A
 * 800W Primary Solar Charging (perfect efficiency) = 36A
 * 800W Ground Array Solar Charging (perfect efficiency) = 36A
@@ -71,6 +72,10 @@ The maximum continuous discharge case of 179A is well below the 230A limit for 7
 Assuming the wire size used is 0 AWG, the initial wire temperature is 75C, and the overload current is 316A, the overload calculator predicts 133 seconds to reach a wire temperature of 105C.  This calculation is conservative because it treats the conductor as adiabatic.  In short, by using 105C rated 0 AWG (or higher) wire, the two-minute overload case is not controlling.
 
 The problem is coordinating the battery fuse with the downstream fuses.  Without solid data on class-T long term blow curves, it may not be possible to thread the needle between protecting 0 AWG at less than 285A and ensuring the battery fuse does not clear before the 300A Multiplus fuse (see below).  For this reason we will likely need to upsize to 3/0 or 4/0 wire and employ a 350A or 400A class T fuse for the battery.  
+
+### Main Contactor Limits
+
+The [Blue Sea 7717 Remote Battery Switch](blue-sea-7717-rbs.pdf) specifies 0000 wire to handle 300A continuous current.  Use of 00 would limit continuous ampacity to 225A.
 
 
 
