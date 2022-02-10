@@ -11,3 +11,6 @@ Need to find out what main fasteners are grade wise, to determine final torque.
 
 Still need to install tire carrier adapter shiz.
 
+2022-2-9
+Soph relocated spare and finished install.
+
