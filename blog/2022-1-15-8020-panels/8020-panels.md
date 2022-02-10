@@ -40,3 +40,7 @@ Installed garage vertical panels
 2-4-2022
 Bracket party for more 1/2 panel brackets
 Mounted driver side electrical area panels
+
+2-9-2022
+Fit checked multiplus with panel wall in
+Glued in washers for MPPT
