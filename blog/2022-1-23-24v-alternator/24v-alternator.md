@@ -13,3 +13,8 @@ Ordered Alternator
 
 2-7-2022
 Verified wakespeed alternator cables are ~27 ft long.
+
+2-9-2022
+Alternator and bracket arrived
+Routed and secured alternator power and control wiring
+
