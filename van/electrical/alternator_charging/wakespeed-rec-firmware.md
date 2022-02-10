@@ -23,24 +23,24 @@ $SCA: 0,100,1.00,0.75,0.50,0,0,0,10000,0,0,30,0@
 ```
 Changes ALTERNATOR (and System) parameters.  
 The first parameter, 0, specifies use of the battery temperature sensor for battery temperature vice alternator temperature.
->**BTS2ATS?:** <WHOLE NUMBER (0, or 1)> If BTS2ATS? is set = 1, the Battery Temperature Sensor will be treated as a 2nd Alternator Temperature Sender. The warmer of the two sensors will be used as Alternator Temperature for both reporting and regulation. Useful if two alternators are being driven from one regulator using a common field. Make sure the Battery temperature is being supplied via the CAN. Using the BTS for a 2nd ATS is also useful with the DC-DC converter option; it allows two alternators to be monitored.
+>**BTS2ATS?:** \<WHOLE NUMBER (0, or 1)\> If BTS2ATS? is set = 1, the Battery Temperature Sensor will be treated as a 2nd Alternator Temperature Sender. The warmer of the two sensors will be used as Alternator Temperature for both reporting and regulation. Useful if two alternators are being driven from one regulator using a common field. Make sure the Battery temperature is being supplied via the CAN. Using the BTS for a 2nd ATS is also useful with the DC-DC converter option; it allows two alternators to be monitored.
 >
 >(Default = 0)
 
 The second parameter, 100, specifies target upper alternator temperature in C.
->**Alt Target Temp:** <WHOLE NUMBER (15 -> 150)> Operating temperature the regulator should attempt to keep the Alternator under in degrees C. If the Alternator temperature exceeds this value, the regulator will reduce field current to allow the alternator to return to a safe operating temperature. If the Alternator temperature continues to rise and exceeds this temperature by 10% the regulator will fault out and stop producing power. Alt Target is used by the DC-DC converter to reduce power transfer as alternators reach their target temperature.
+>**Alt Target Temp:** \<WHOLE NUMBER (15 -\> 150)\> Operating temperature the regulator should attempt to keep the Alternator under in degrees C. If the Alternator temperature exceeds this value, the regulator will reduce field current to allow the alternator to return to a safe operating temperature. If the Alternator temperature continues to rise and exceeds this temperature by 10% the regulator will fault out and stop producing power. Alt Target is used by the DC-DC converter to reduce power transfer as alternators reach their target temperature.
 
 The third (1.00), fourth (0.75), and fifth (0.50) parameters specify alternator derates.
 >**Alt Derate(norm),**
 >**Alt Derate(small),**
->**Alt Derate(half):** <FLOATING POINT NUMBER (0.0 -> 1.00) > These derating values are used to limit the alternator’s maximum current output to some % (10% to 100%) of its demonstrated capability (see Alt AmpCap). The three values correspond to the mode the Alternator:
+>**Alt Derate(half):** \<FLOATING POINT NUMBER (0.0 -\> 1.00) \> These derating values are used to limit the alternator’s maximum current output to some % (10% to 100%) of its demonstrated capability (see Alt AmpCap). The three values correspond to the mode the Alternator:
 >* Normal - Condition when either of the other modes are not selected.
 >* Small Alternator Mode – selected via DIP switch 8.
->* Half Power Mode – Selected by shorting the Alternator NTC temperature sensor wires.Half-power mode may also be selected when engine RPMs fall below the threshold set via <Trigger Half-power RPMS> in the $SCT: commend below, or via the Feature-In (See $SCO: command below).
+>* Half Power Mode – Selected by shorting the Alternator NTC temperature sensor wires.Half-power mode may also be selected when engine RPMs fall below the threshold set via \<Trigger Half-power RPMS\> in the $SCT: commend below, or via the Feature-In (See $SCO: command below).
 
 The sixth parameter, 0 specifies the pull-back factor for reducing Field Drive at lower RPMs, in this case disabling it.
 
->**PBF:** < INTEGER (-1 -> 10)> Pull-back factor for reducing Field Drive at lower RPMs. If the WS500 Alternator Regulator is able to determine RPMs (via the Stator wire), the Alternator Field Drive will be reduced when the regulator detects the engine is at Idle. At idle the max PWM will be capped at around 1/4 of full field, which should result in some current bring produced. As RPMs are increased, this ‘Field Drive Capping’ will slowly be removed. PBF determines how quickly this pull-back is scaled off.
+>**PBF:** \< INTEGER (-1 -\> 10)\> Pull-back factor for reducing Field Drive at lower RPMs. If the WS500 Alternator Regulator is able to determine RPMs (via the Stator wire), the Alternator Field Drive will be reduced when the regulator detects the engine is at Idle. At idle the max PWM will be capped at around 1/4 of full field, which should result in some current bring produced. As RPMs are increased, this ‘Field Drive Capping’ will slowly be removed. PBF determines how quickly this pull-back is scaled off.
 >Set = 0 (DEFAULT) to disable this feature.
 >Set = -1 to cause Field Drive to be reduced to a maximum of 70% drive in the case where the WS500 Alternator Regulator is no longer able to measure RPMs via the Stator-in signal. This might be for example where an engine is operating at extremely low RPMs, below the cut-in point for the alternator. Or where the engine is no longer running. The 70% limit will only be enabled if at one time during operation the regulator was able to measure RPMs successfully.
 >
@@ -54,7 +54,7 @@ The sixth parameter, 0 specifies the pull-back factor for reducing Field Drive a
 
 The seventh parameter, 0, disables Alternator Amperage Capacity.
 
->**Alt Amp Cap:** <WHOLE NUMBER ( -1 -> 500 ) > Alternator Amperage Capacity (<Alt Amp Cap>) is an uncommon factor and primarily used when the Current Shunt located at the alternator (vs. the battery). When defined the regulator will limit the Amperage output of the alternator to this value, after applying the ‘Alt Derate xxx’ factors. (Reference Derate factors above) There is no adjustment made to this value based on system voltage or selection of system battery size – the values declared will be used directly. A special feature is enabled by setting this = -1: the regulator will drive the alternator as hard as it can for a short period of time when 1st entering Bulk phase and in this way will auto-sample the alternator size based on its capabilities.
+>**Alt Amp Cap:** \<WHOLE NUMBER ( -1 -\> 500 ) \> Alternator Amperage Capacity (\<Alt Amp Cap\>) is an uncommon factor and primarily used when the Current Shunt located at the alternator (vs. the battery). When defined the regulator will limit the Amperage output of the alternator to this value, after applying the ‘Alt Derate xxx’ factors. (Reference Derate factors above) There is no adjustment made to this value based on system voltage or selection of system battery size – the values declared will be used directly. A special feature is enabled by setting this = -1: the regulator will drive the alternator as hard as it can for a short period of time when 1st entering Bulk phase and in this way will auto-sample the alternator size based on its capabilities.
 >
 >(Default = 0, disabled)
 >
