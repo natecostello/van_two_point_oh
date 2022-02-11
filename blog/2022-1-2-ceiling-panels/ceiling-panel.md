@@ -50,3 +50,9 @@ installed ceiling brackets
 2022-2-8
 Cut features into mid ceiling panel
 Ran into issues on aft panel - need to start over.
+
+2022-2-10
+Remade aft panel (like 10 iterations)
+Soph uphostered mid and aft
+Added holes
+Installed! - a bear to get in the aft panel.  Perhaps should have left more gap between the panels.
