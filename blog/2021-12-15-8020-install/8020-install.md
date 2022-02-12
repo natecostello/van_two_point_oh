@@ -34,3 +34,6 @@ Loctited forward cross members
 
 
 Threaded holes in D-pillar for cross member are M10-1.5.  At least 1/8 clearence from bolt body to top of 1/8 angle, on top of 8020.
+
+2022-2-11
+Primed and painted passenger brackets

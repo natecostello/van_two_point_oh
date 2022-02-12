@@ -16,3 +16,6 @@ Routed Propane Line
 
 2022-1-25
 Soph routed solenoid/level sensor wiring
+
+2022-2-11
+Soph primed/painted tank brackets

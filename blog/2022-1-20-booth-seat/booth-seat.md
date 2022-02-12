@@ -10,3 +10,6 @@ Design review of booth
 
 1-25-2022
 Ordered all booth 8020
+
+2-11-2022
+Soph installed booth 8020

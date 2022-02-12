@@ -18,3 +18,12 @@ Verified wakespeed alternator cables are ~27 ft long.
 Alternator and bracket arrived
 Routed and secured alternator power and control wiring
 
+Questions for APS (Dunlap)
+Alternator wiring harness has two wires for temperature sense, a black and a red.  
+
+The wakespeed cable has a two conductor superseal connector for the alternator temperature.  Is there a specific polarity for the connection between the wakespeed and the red and black alternator wires?
+
+Questions for wakespeed/OGSS: 
+Regarding the Van Wiring harrness:
+What is the stator/field connector type/model?
+What is the alternator temperature sense connector type/model?
