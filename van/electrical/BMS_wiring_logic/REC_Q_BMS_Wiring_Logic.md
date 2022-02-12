@@ -85,7 +85,10 @@ This is accomplished by opening the main contactor by the BMS via its internal r
 
 This is accomplished by disabling each charging source by the BMS via its charger enable opto-coupler.  The REC documentation describes the charger enable as open collector and open emitter, and also as an opto-coupler.  While this could be directly connected to a single component (e.g. MPPT), because it has to control mutliple devices, this signal should drive a relay or relays that will intern signal the component.
 
-[These relay pcbs](https://www.amazon.com/HiLetgo-Channel-Module-Isolation-Support/dp/B00LW2H5GC?ref_=ast_sto_dp) could be used to drive the MPPT and Multiplus from the BMS charge enable opto-coupler.
+[These relay pcbs](https://www.amazon.com/HiLetgo-Channel-Module-Isolation-Support/dp/B00LW2H5GC?ref_=ast_sto_dp) could be used to drive the MPPT and Multiplus from the BMS charge enable opto-coupler.  A pure opto-isolator approach could use [these boards](https://www.amazon.com/dp/B01L1OI1HC/ref=emc_b_5_t?th=1).
+
+![currrent-plan](charge-enable-splitting.svg)
+_This is our current plan for charge-enable._
 
 ### MPPT
 
@@ -109,7 +112,7 @@ One possibility is to use the Charge current control assistant
 
 **Another possibility is to use the Two-signal BMS support assistant.**   Select "The BMS has one contact which which switches only on a high-cell condition".   Then "The battery is full when [Aux_X] is [open/closed]".  Lastly "[Disable Charger] and [do not adapt SOC] when battery full."  Selecting "battery is full when [Temp_Sense] is [**open**]" and connecting [Temp_Sense] to a NO relay that is energized (CLOSED) when the charger enable signal is provided by the BMS will provide low temp backup protection that is also protected from a broken wire.
 
-Note: The Multiplus Compact only has a temperature sense input, no aux inputs.  Low Temp BackUp protection will depend on being able to use this temperature sense input to support a charge enable control via the assistant.  I have [asked the question here](https://community.victronenergy.com/questions/76757/can-the-multiplus-compact-temperature-sense-input.html).  If the response is negative, I will likely shift the 3KVA Multiplus inspite of its additional parasitic load (20W vs 11W) and slightly higher cost.
+Note: The Multiplus Compact only has a temperature sense input, no aux inputs.  Low Temp BackUp protection will depend on being able to use this temperature sense input to support a charge enable control via the assistant.  I have [asked the question here](https://community.victronenergy.com/questions/76757/can-the-multiplus-compact-temperature-sense-input.html).  If the response is negative, I will likely shift the 3KVA Multiplus inspite of its additional parasitic load (20W vs 11W) and slightly higher cost. UPDATE: We ultimately selected the 3KVA Multiplus for flexibility.
 
 ### Alternator/Wakespeed
 
