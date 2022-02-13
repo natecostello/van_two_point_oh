@@ -167,3 +167,4 @@ TODO: Confirm idle RPM
 TODO: Document RPM assumptions: https://www.fordtransitusaforum.com/threads/2020-hr-awd-rpm-at-various-speeds.80451/
 TODO: Confirm Nations 24-150 pulley diameter for Transit.
 
+NOTE:  This may not affect us based on our build date, but just in case we run into future issues with SEIC.  FORD has documented [this problem and fix](sve-bulletin-q-388r1.pdf).
