@@ -86,9 +86,15 @@ We'll use [stainless hose clamps](https://www.homedepot.com/p/Everbilt-3-4-1-3-4
 
 ### Drain
 
-The sink drain connects to a [1-1/2 inch FIP to FIP 90 degree elbow](hhttps://www.usplastic.com/catalog/item.aspx?itemid=34834) that in turn connects to a [1-1/2 to 1 inch reducing nipple](https://www.usplastic.com/catalog/item.aspx?itemid=135126) that in turn connects to a [1 inch FNPT to 1 inch barb adapter](https://www.usplastic.com/catalog/item.aspx?itemid=135154).
+~~The sink drain connects to a [1-1/2 inch FIP to FIP 90 degree elbow](hhttps://www.usplastic.com/catalog/item.aspx?itemid=34834) that in turn connects to a [1-1/2 to 1 inch reducing nipple](https://www.usplastic.com/catalog/item.aspx?itemid=135126) that in turn connects to a [1 inch FNPT to 1 inch barb adapter](https://www.usplastic.com/catalog/item.aspx?itemid=135154).~~
 
-[1 inch ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44396) runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.
+~~[1 inch ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44396) runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.~~
+
+UPDATE:  We didn't like how much volume the 1 inch ID line consumed.  Thus we are shifting towards 1/2 ID material:
+
+The sink drain connects to a [1-1/2 inch FIP to FIP 90 degree elbow](hhttps://www.usplastic.com/catalog/item.aspx?itemid=34834) that in turn connects to a [1-1/2 to 1 inch reducing nipple (MIP)](https://www.usplastic.com/catalog/item.aspx?itemid=135126) that in turn connects to a [1 to 1 inch FIP connector](https://www.mcmaster.com/46885K184/)  that in turn connects to a [1 to 1/2 inch reducing nipple (MIP)](https://www.mcmaster.com/46885K303/) that in turn connects to a [1/2 MIP to 1/2 inch FIP 80 degree elbow](https://www.mcmaster.com/46885K122/) that connects to a [1/2 inch FNPT to 1/2 inch barb adapter](https://www.mcmaster.com/5218K749/https://www.mcmaster.com/5218K749/).
+
+[1/2 ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44394)runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.
 
 ### BOM
 
