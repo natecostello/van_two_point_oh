@@ -19,3 +19,6 @@ Soph modified jerry cans, installed tie downs, and cut and sewed hold down strap
 
 2-7-2022
 Installed pump panel
+
+2-11-2022
+Soph routed drain line, don't like, plan to pivot to 1/2" ID line

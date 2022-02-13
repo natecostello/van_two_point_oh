@@ -44,3 +44,7 @@ Mounted driver side electrical area panels
 2-9-2022
 Fit checked multiplus with panel wall in
 Glued in washers for MPPT
+
+2-12-2022
+Cut booth panels
+botched espar panel, but proved exhaust routing

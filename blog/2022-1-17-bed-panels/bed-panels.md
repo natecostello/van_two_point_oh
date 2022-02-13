@@ -6,3 +6,7 @@ Cut bed panel skins
 
 2022-2-5
 Cut all bed panel ribs
+
+2022-2-12
+Fabbed bed panel jig
+Glued 2 panels

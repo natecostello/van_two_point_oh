@@ -52,3 +52,6 @@ Discovered I had ordered the wrong diagnostic connector.
 1-31-2022
 Fabricated diagnostic plug extension (with correct connector)
 Installed easy start pro in wall panel (and retested SAT)
+
+2-12-2022
+Test fit exhaust into booth panel successfuly
