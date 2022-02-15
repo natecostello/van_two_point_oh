@@ -100,11 +100,10 @@ The Multiplus 24/3000 Manual recommends a 300A fuse and 0 AWG wire.  The 300A fu
 
 For future flexibility, a ground array up to 800W is assumed.  This will use a second MPPT that will be paralleled with the primary roof array of 800W at a terminal, and then routed to the Positive Bus.  Wiring from the point of parallel to the Positive Bus and the branch to the MPPTs will be sized for the same ampacity to allow use of a single fuse in the Positive Bus to cover wire including the branches.
 
-Maximum charge current is 72A assuming minimum battery voltage (22.4V) and perfect MPPT efficiency.  Round trip wire length is approximately 11.5 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 8 AWG.  To simplify wire ordering and termination, 2 AWG will be considered.
-
+Maximum charge current is 72A assuming minimum battery voltage (22.4V) and perfect MPPT efficiency.  Round trip wire length is approximately 11.5 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 8 AWG.  We'll use 8 AWG between the main positive bus and the split to each MPPT.  We'll also use 8 AWG from the split up to the MPPTs which will allow protection from the fuse at the main positive bus.  This is also common with the Main DC Panel wiring below.
 ## Main DC Panel to Positive Bus
 
-Maximum discharge current is 41A based on the maximum load (944W) in the converter sizing study in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing) assuming minimum battery voltage (23.2V).  Round trip wire length is approximately 12 ft.  By ampacity, minimum wire size is 12 AWG.  By voltage drop, minimum wire size is 11 AWG.  However, as this distribution panel functions as the source to downstream loads, voltage drop to the panel should be minimized.  To minimize voltage drop, and simplify wire ordering and termination, 2 AWG will be considered.
+Maximum discharge current is 41A based on the maximum load (944W) in the converter sizing study in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing) assuming minimum battery voltage (23.2V).  Round trip wire length is approximately 12 ft.  By ampacity, minimum wire size is 12 AWG.  By voltage drop, minimum wire size is 11 AWG.  However, as this distribution panel functions as the source to downstream loads, voltage drop to the panel should be minimized.  To balance minimizing voltage drop with using common sizes with other circuits, 8 AWG will be used for this run.
 
 ## Chassis Ground to Positive Bus
 
