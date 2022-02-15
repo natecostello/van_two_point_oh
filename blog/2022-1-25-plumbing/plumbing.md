@@ -22,3 +22,7 @@ Installed pump panel
 
 2-11-2022
 Soph routed drain line, don't like, plan to pivot to 1/2" ID line
+
+2-13-2022
+Redesigned drain to 1/2" ID
+Ordered drain parts
