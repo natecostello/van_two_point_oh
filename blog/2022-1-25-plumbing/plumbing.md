@@ -26,3 +26,6 @@ Soph routed drain line, don't like, plan to pivot to 1/2" ID line
 2-13-2022
 Redesigned drain to 1/2" ID
 Ordered drain parts
+
+2-14-2022
+Soph installed plumbing (we broke one disconnect)

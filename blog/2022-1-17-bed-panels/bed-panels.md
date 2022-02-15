@@ -10,3 +10,10 @@ Cut all bed panel ribs
 2022-2-12
 Fabbed bed panel jig
 Glued 2 panels
+
+2022-2-14
+Fabbed 3 more panels
+found two panels warped, may remake
+Soph installed some cross bars
+Test fit bed panels
+
