@@ -29,3 +29,8 @@ Ordered drain parts
 
 2-14-2022
 Soph installed plumbing (we broke one disconnect)
+
+2-15-2022
+Installed new drain hardare
+Soph wired the switch and pump
+Tested, found leaks, fixed

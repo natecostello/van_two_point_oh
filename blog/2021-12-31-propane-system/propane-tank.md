@@ -19,3 +19,7 @@ Soph routed solenoid/level sensor wiring
 
 2022-2-11
 Soph primed/painted tank brackets
+
+2022-2-15
+Soph wired the stove and solenoid (internal) and relay
+Soph wired the solenoid and level sensor

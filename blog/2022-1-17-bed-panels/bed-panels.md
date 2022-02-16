@@ -17,3 +17,5 @@ found two panels warped, may remake
 Soph installed some cross bars
 Test fit bed panels
 
+2022-2-15
+Cut corners on good panels
