@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Wakespeed Engine Run Logic
 author: Nate
-date: 2022-2-13
+date: 2022-02-13
 tags:
  - 24v
  - design
