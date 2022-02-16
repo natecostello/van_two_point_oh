@@ -96,7 +96,7 @@ REC recommends using silicon wires with a cross section of 0.5 – 1 mm<sup>2</s
 
 # Connections
 * Battery Sense - 18 AWG, 1/4 ring, Ferule
-* Main Contactor to Positive Bus - 4/0, 3/8 ring, 3/8 ring (have fabricated)
+* Main Contactor to Positive Bus - 4/0, 3/8 ring, 3/8 ring (have fabricated) - (can make backup)
 * Main Shunt to Negative Bus - 4/0, 5/16 ring, 3/8 (M10) ring (have fabricated)
 * 24V Alternator Shunt to Positive Bus - 2/0, 5/16 ring, 3/8 (M10) ring (have fabricated)
 * 24V Alternator to Shunt - 2/0, 5/16 (M8) ring, 3/8 (M10) ring
@@ -119,20 +119,31 @@ REC recommends using silicon wires with a cross section of 0.5 – 1 mm<sup>2</s
 
 
 # BOM
-* 18-22 AWG 1/4" ring terminals for BMS battery sense (need many)
-* 14-16 AWG #8 ring terminals for branch circuits (need many)
-* 10-12 AWG #8 ring terminals for branch circuits (need many)
-* 10-12 AWG 1/4" ring terminal for main positive and negative of 12V fuse block (need 2)
-* 8 AWG 1/4" ring terminals for main positive and negative of 24V fuse block (need 2)
-* 8 AWG 5/16" ring terminals for main positive bus (need many if cheap)
-* 8 AWG #10 ring (need 1)
-* 8 AWG Ferules (need many)
-* 2/0 5/16" ring terminals (need 3)
-* 2/0 3/8" ring terminals (need 1)
-* 2/0 Marine Heat Shrink
+* 18-22 AWG 1/4" ring terminals for BMS battery sense (need many) [Del City 151145](https://www.delcity.net/catalogdetails?item=151145)
+
+* 10-12 AWG #8 ring terminals for branch circuits (need many) [Del City 153085](https://www.delcity.net/catalogdetails?item=153085)
+
+* 8 AWG 1/4" ring terminals for main positive and negative of 24V fuse block (need 2) [Del City 254145](https://www.delcity.net/catalogdetails?item=254145)
+* 8 AWG 5/16" ring terminals for main positive bus (need many if cheap) [Del City 254565](https://www.delcity.net/catalogdetails?item=254565)
+* 8 AWG #10 ring (need 1) [Del City 254105](https://www.delcity.net/catalogdetails?item=254105)
+* 8 AWG Ferrules (need many) [Del City 708122](https://www.delcity.net/catalogdetails?item=708122)
+* 2/0 5/16" ring terminals (need 3) [AMZ]
+* 2/0 3/8" ring terminals (need 2) [AMZ]
+* 2/0 Marine Heat Shrink [Del City 980670](https://www.delcity.net/catalogdetails?item=980670), [Del City 980735](https://www.delcity.net/catalogdetails?item=980735), [Del City 980745](https://www.delcity.net/catalogdetails?item=980745)
 * #10 screws of various length
 * #8 screws of various length
 
+Out of Stock Item:
+* 14-16 AWG #8 ring terminals for branch circuits (need many) [Del City 152085](https://www.delcity.net/catalogdetails?item=152085) OOS - Call Notes: End of March 2022
+
+Alternative:
+* 14-16 AWG #8 vinyl ring terminal [Del City 452085](https://www.delcity.net/catalogdetails?item=452085)
+
+Out of Stock Item:
+* 10-12 AWG 1/4" ring terminal for main positive and negative of 12V fuse block (need 2) [Del City 153145](https://www.delcity.net/catalogdetails?item=153145) 00S - Call Notes: Mid March 2022
+
+Alternative:
+* 10-12 AWG 1/4" vinyl ring terminal [Del City 453145](https://www.delcity.net/catalogdetails?item=453145)
 
 # Neg bus connections
 * Battery
