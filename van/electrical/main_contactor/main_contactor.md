@@ -27,7 +27,9 @@ cover:
 
 # Main Contactor
 
-**TLDR:** Under Consideration
+**TLDR:** We selected the [Blue Sea ML-RBS 7717](https://www.bluesea.com/products/7717/ML-RBS_Remote_Battery_Switch_with_Manual_Control_Auto-Release_-_24V).
+
+
 
 ### Latching Contactor
 
@@ -76,3 +78,27 @@ Continuous Rating 400MCM 500A
 Cost $178
 
 Requires separate manual battery disconnect
+
+# Main Contactor Testing
+
+Findings:
+
+* The Blue Sea ML-RBS 7717 requires a battery connection on one of the main terminals to operate correctly.
+* When off the Blue Sea ML-RBS 7717 consumes about 4mA of current.  This is a deal breaker for battery protection.
+
+
+
+RBS Power consumption when off: 4mA
+
+REC Wifi Standby 1.8mA
+REC Wifi STA 30.9
+Rec Wifi goes to standby after one hour
+
+Notes to outside council:
+In my system design I am using a Bluesea 7717 24V Latching Remote Battery Switch as my main contactor/battery switch (controlled by the BMS and/or a remote switch). However, during bench top testing I found that when "off" it consumes about 4ma. I confirmed with Blue Sea that this is normal. My concern is the parasitic draw following a Low Voltage disconnect.
+
+I'm considering switching to a NO contactor (the one the BMS OEM recommends): TYCO EV200AAANA. However, without significant repackaging, I can't fit that contactor AND a manual battery switch (e.g. blue sea). My question is whether it is uncommon or a major issue to rely on the contactor as the main disconnect and not use a separate battery switch.
+
+I know there are theoretical concerns with contacts sticking, but I am planning to use REC's precharge unit and with other design limits, high current disconnects or connects should never happen.
+
+I'm mainly trying to figure out which approach carries more risk: A parasitic main contactor/battery switch, or a non-parasitic contactor but no manual battery switch.
