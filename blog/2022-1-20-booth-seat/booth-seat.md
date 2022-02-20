@@ -13,3 +13,13 @@ Ordered all booth 8020
 
 2-11-2022
 Soph installed booth 8020
+
+2-15-2022
+Cut booth panels
+
+2-18-2022
+Swapped orientation of inboard fore-aft upper 8020 piece to allow espar panel to work
+Formica'd booth panels
+
+2-19-2022
+Flushcut, sanded, masked

@@ -1,6 +1,6 @@
 1-24-2022
 Soph Installed roof brackets
-We galled/cross threaded the bolt on one of the rear towers.  Replacement is an 18-5 all threaded 5/16 x length.
+We galled/cross threaded the bolt on one of the rear towers.  Replacement is an 18-8 all threaded 5/16 x length.
 
 Notes:
 

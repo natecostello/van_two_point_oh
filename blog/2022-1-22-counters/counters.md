@@ -42,3 +42,7 @@ neoprened sink
 installed backsplashes
 installed counters
 
+2022-2-19
+Swapped footboard brackets
+Swapped footboard middle fasteners (1" for 7/8")
+

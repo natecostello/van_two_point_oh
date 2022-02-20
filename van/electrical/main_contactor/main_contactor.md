@@ -102,3 +102,5 @@ I'm considering switching to a NO contactor (the one the BMS OEM recommends): TY
 I know there are theoretical concerns with contacts sticking, but I am planning to use REC's precharge unit and with other design limits, high current disconnects or connects should never happen.
 
 I'm mainly trying to figure out which approach carries more risk: A parasitic main contactor/battery switch, or a non-parasitic contactor but no manual battery switch.
+
+I Found a battery switch that will work: Egis XD 500.  Trying to confirm its not vaporware.

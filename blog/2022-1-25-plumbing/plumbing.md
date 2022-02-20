@@ -34,3 +34,6 @@ Soph installed plumbing (we broke one disconnect)
 Installed new drain hardare
 Soph wired the switch and pump
 Tested, found leaks, fixed
+
+2-16-2022
+Retest plumbing sat

@@ -10,3 +10,20 @@ Rough cut cabinet doors
 2-12-2022
 Soph cut, drilled, and fit end panels
 Soph wood filled edges of end panels
+
+2-17-2022
+Cut all cabinets
+Woodfilled all cabinets
+
+2-18-22
+Sanded all cabinets
+Formica-d all cabinets and booth panls
+
+2-19-22
+flush cut cabinet and booth panels
+Sanded edges
+repaired glue/reset edges
+Masked for urethane
+
+
+

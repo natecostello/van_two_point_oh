@@ -29,3 +29,12 @@ Added coat and clear coat to Lagun mounts
 
 2022-1-7
 Soph installed Lagun mounts
+
+2022-2-17
+Soph cut lagun table tops
+
+2022-2-18
+Formicad lagun table tops
+
+2022-2-19
+Flush cut, sanded and masked

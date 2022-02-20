@@ -19,3 +19,10 @@ Test fit bed panels
 
 2022-2-15
 Cut corners on good panels
+
+2022-2-17
+Urethaned bed panels
+
+2022-2-19
+Installed remaining cross bars and bed brackets
+Layed in bed panels
