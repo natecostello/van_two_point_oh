@@ -26,3 +26,9 @@ Urethaned bed panels
 2022-2-19
 Installed remaining cross bars and bed brackets
 Layed in bed panels
+
+2022-2-20
+Soph aligned bed brackets
+Soph installed super velcro on bed brackets and bed panels
+Installed bed panels
+Loaded in mattress - perfect fit, no cuts
