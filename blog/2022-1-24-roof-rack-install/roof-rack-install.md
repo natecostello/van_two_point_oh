@@ -42,3 +42,9 @@ Measure from forward mounting slot of bracket-to-angle to rear end of roof rack.
 Maeasured, mocked up in garage, and mark angle for drill locations for solar and roof brackets.
 
 Note: for 5/16-18 into 2024-T4 Aluminum, this [site](https://www.torqueproductscanada.ca/torque_specs.html) and[fastenal](https://www.fastenal.com/content/merch_rules/images/fcom/content-library/Torque-Tension%20Reference%20Guide.pdf) guidance is 80 inch-pounds.  Yield on 6061-T6 is about 85% of 2024-T4 so we'll back off to like 65 inch pounds.
+
+2-21-22
+Drilled all holes except aft brackets, and aft cross beams.
+Modifid cross beams.
+Did partial fit check.
+Installed solar gland and wire (not connected internally).
