@@ -23,3 +23,6 @@ Formica'd booth panels
 
 2-19-2022
 Flushcut, sanded, masked
+
+2-22-2022
+urethaned all booth panels

@@ -17,7 +17,7 @@ Woodfilled all cabinets
 
 2-18-22
 Sanded all cabinets
-Formica-d all cabinets and booth panls
+Formica-d all cabinets and end/booth panls
 
 2-19-22
 flush cut cabinet and booth panels
@@ -25,5 +25,7 @@ Sanded edges
 repaired glue/reset edges
 Masked for urethane
 
+2-22-22
+urethaned all cabinets and end panels
 
 
