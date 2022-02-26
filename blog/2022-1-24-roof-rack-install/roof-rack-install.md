@@ -48,3 +48,14 @@ Drilled all holes except aft brackets, and aft cross beams.
 Modifid cross beams.
 Did partial fit check.
 Installed solar gland and wire (not connected internally).
+
+2-23-22
+Full fit check
+Drilled remaining holes
+Soph expiremented with wrapping
+
+2-25-22
+Wrapped one rail
+
+2-26-22
+Finshed wrapping other rail

@@ -26,3 +26,6 @@ Flushcut, sanded, masked
 
 2-22-2022
 urethaned all booth panels
+
+2-25-22
+installed booth panels

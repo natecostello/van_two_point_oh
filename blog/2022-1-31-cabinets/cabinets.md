@@ -28,4 +28,10 @@ Masked for urethane
 2-22-22
 urethaned all cabinets and end panels
 
+2-24-22
+Installed hinges
+
+2-25-22
+Installed slam latches
+Relized sink endpanel formicad backward
 
