@@ -10,3 +10,11 @@ Ordered egis battery switch
 2022-2-21
 Reconfigured battery cells to planned arrangement
 Started fabbing 8AWG jumpers
+
+2-23-22
+Fabbed BMS sense lines
+
+2-24-22
+Completed BMS sense lines
+
+2-25-22
