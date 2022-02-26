@@ -35,7 +35,7 @@ This [website](http://nepsi.com/resources/calculators/short-time-current-rating-
 # Main DC Distribution Wiring
 
 ## Battery to Positive Bus
-TLDR: Per the main contactor instruction manual, we must use 0000 to obtain adequate continuous ampacity. 
+**TLDR: Per limits on the battery switch and (maybe) the main contactor, we must use 4/0 cable or larger busbar to obtain continuous ampacity of 300A, enough to cover our max charging case.  We'll use a 300A Class T fuse which will provide cable and component protection and ride through the 2 minute overload max discharge case.**
 
 Maximum theoritical/ideal charging current is 280A as limited by the BMS (322A is full capacity of all sources).  Round trip wire length is approximately 3 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 00 AWG.
 
@@ -75,15 +75,22 @@ The problem is coordinating the battery fuse with the downstream fuses.  Without
 
 ### Main Contactor Limits
 
-The [Blue Sea 7717 Remote Battery Switch](blue-sea-7717-rbs.pdf) specifies 0000 wire to handle 300A continuous current.  Use of 00 would limit continuous ampacity to 225A.
+~~The [Blue Sea 7717 Remote Battery Switch](blue-sea-7717-rbs.pdf) specifies 4/0 wire to handle 300A continuous current.  Use of 2/0 would limit continuous ampacity to 225A.~~  
 
+The [Egis 8700 manual battery switch](egis-8700-battery-switch.pdf) specifies 300A continuous with 4/0 wire.  However, this isn't really relevant as this switch will be connected via hard busbar. 
+
+The [Kilovac EV200](datasheet-kilovac-ev200.pdf) specifies 500A with MCM400 cables, but doesn't specify for 4/0.  
 
 
 ## 24V Alternator to Positive Bus
 
+**TLDR: 2/0 cable to limit voltage drop.  Fused with a 250A Mega/AMG, lower than needed for cable protection but common with inverter fuse.**
+
 Maximum charge current is ~180A with the APS option.  Nominal cruise (1800 Engine RPM) is ~ 175A.  Round trip wire length is 50 ft based on our prototyped route with some margin.  Final length is likely 48 ft. By ampacity, minimum wire size is 4 AWG.  By voltage drop, assuming 3% allowable, taking credit for likely final round trip and cruising RPM output, 2/0 is barely sufficient at 26.6V.
 
-## Multiplus 24/3000 Inverter/Charger to Positive Bus [Alternate]
+## Multiplus 24/3000 Inverter/Charger to Positive Bus
+
+**TLDR: 1/0 cable or larger per OEM recommendation.  Fused with 250A Mega/AMG based on overload ride through, cable protection, and coordination with upstream fuse.**
 
 Maximum charge current is 70A, and thus not limiting.
 
@@ -93,17 +100,21 @@ Maximum discharge current is 275A assuming minimum battery voltage (23.2V), peak
 
 Note: This is extremely conservative.  The 6000W rating is a [2 minute overload capability](https://community.victronenergy.com/questions/21511/overload-duration-on-multiplus.html).  While this case will be accommodated in the cabling (and fusing), for things like busbar sizing, continuous rates will be used (i.e., 150A busbars will be considered with the Multiplus connection adjacent to the battery connection).
 
-The Multiplus 24/3000 Manual recommends a 300A fuse and 0 AWG wire.  The 300A fuse will give a little headroom for riding through overload conditions.  We will be using a MEGA/AMG fuses for this application.  Based on looking at 300A rated MEGA/AMG fuses from [bussman](bussmann-amg-fuse-spec-sheet.pdf) and [littlefuse](littelfuse-mega-datasheet.pdf), both should limit well below 300A (e.g., littlefuse has a 300A fuse blowing at 242A at ~70 F ambient).  Based on this data we are comfortable with a wire size as small as 0 AWG even though its ampacity (285A) is below the fuse rating.
-
+The Multiplus 24/3000 Manual recommends a 300A fuse and 0 AWG wire.  However, looking at the MEGA/AMG fuses from [bussman](bussmann-amg-fuse-spec-sheet.pdf) and [littlefuse](littelfuse-mega-datasheet.pdf), a 250A fuse will ride through the two minute overload condition (275A) and protect a 1/0 or larger wire.  This will give better coordination with a 300A class T fuse on the main battery connection.
 
 ## Solar MPPT to Positive Bus
+
+**TLDR: 8 AWG cable. Fused with 60A Megabased on commonality with DC branch fuse.**
 
 For future flexibility, a ground array up to 800W is assumed.  This will use a second MPPT that will be paralleled with the primary roof array of 800W at a terminal, and then routed to the Positive Bus.  Wiring from the point of parallel to the Positive Bus and the branch to the MPPTs will be sized for the same ampacity to allow use of a single fuse in the Positive Bus to cover wire including the branches.
 
 Maximum charge current is 72A assuming minimum battery voltage (22.4V) and perfect MPPT efficiency.  Round trip wire length is approximately 11.5 ft.  Wire size is limited by ampacity, not voltage drop.  Minimum wire size is 8 AWG.  We'll use 8 AWG between the main positive bus and the split to each MPPT.  We'll also use 8 AWG from the split up to the MPPTs which will allow protection from the fuse at the main positive bus.  This is also common with the Main DC Panel wiring below.
+
 ## Main DC Panel to Positive Bus
 
-Maximum discharge current is 41A based on the maximum load (944W) in the converter sizing study in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing) assuming minimum battery voltage (23.2V).  Round trip wire length is approximately 12 ft.  By ampacity, minimum wire size is 12 AWG.  By voltage drop, minimum wire size is 11 AWG.  However, as this distribution panel functions as the source to downstream loads, voltage drop to the panel should be minimized.  To balance minimizing voltage drop with using common sizes with other circuits, 8 AWG will be used for this run.
+**TLDR: 8 AWG cable.  Fused with a 60A Mega based on fuse block ampacity.**
+
+Maximum discharge current is 41A based on the maximum load (944W) in the converter sizing study in [this spreadsheet](https://docs.google.com/spreadsheets/d/1X7njD1I48CtzVDgUu9Sp_Ce2chWM4oQiqM1aEl7uJWI/edit?usp=sharing) assuming minimum battery voltage (23.2V).  Round trip wire length is approximately 12 ft.  By ampacity, minimum wire size is 12 AWG.  By voltage drop, minimum wire size is 11 AWG.  However, as this distribution panel functions as the source to downstream loads, voltage drop to the panel should be minimized.  To balance minimizing voltage drop with using common sizes with other circuits, 8 AWG will be used for this run.  The limiting ampacity 75A due to the [Electop fuse blocks](https://www.amazon.com/Electop-Negative-Waterproof-Protection-Automotive/dp/B0838SYDBS).
 
 ## Chassis Ground to Positive Bus
 
