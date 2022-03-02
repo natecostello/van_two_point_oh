@@ -17,4 +17,5 @@ Fabbed BMS sense lines
 2-24-22
 Completed BMS sense lines
 
-2-25-22
+3-1-22
+Completed battery output buswork design and ordered

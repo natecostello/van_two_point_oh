@@ -92,4 +92,10 @@ Installed driver aft panel
 Installed driver fan
 Tested both fans SAT
 
+2-28-22
+Soph cut forward driver panel
+
+3-1-22
+Soph covered and installed forward driver panel
+
 

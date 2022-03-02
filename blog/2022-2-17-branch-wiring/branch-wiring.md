@@ -10,3 +10,6 @@ wired shit backwards...wtf
 2-19-2022
 fixed wiring
 tested espar off the converter, no problems
+
+3-1-22
+Wired all circuits except driver USB Outlet (and future stuff)
