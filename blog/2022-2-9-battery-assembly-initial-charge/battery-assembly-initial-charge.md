@@ -19,3 +19,6 @@ Completed BMS sense lines
 
 3-1-22
 Completed battery output buswork design and ordered
+
+3-5-22
+Assembled battery, connected BMS and monitoring.
