@@ -101,8 +101,8 @@ REC recommends using silicon wires with a cross section of 0.5 – 1 mm<sup>2</s
 * 24V Alternator Shunt to Positive Bus - 2/0, 5/16 ring, 3/8 (M10) ring (have fabricated)
 * 24V Alternator to Shunt - 2/0, 5/16 (M8) ring, 3/8 (M10) ring
 * 24V Alternator to Negative Bus - 2/0, 5/16 ring, 3/8 (M10) ring (NOTE: Alternator installs with M10 fastener, this assumes placing negative ring terminal at alternator installation bolt)
-* Inverter to Positive Bus - 2/0, 5/16 ring, 5/16 ring
-* Inverter to Negative Bus - 2/0, 5/16 ring, 5/16 ring
+* Inverter to Positive Bus - 1/0, 5/16 ring, 5/16 ring
+* Inverter to Negative Bus - 1/0, 5/16 ring, 5/16 ring
 * MPPT-Split Positive to Positive Bus - 8 AWG, 5/16 ring, 5/16 ring
 * MPPT-Split Negative to Negative Bus - 8 AWG, 5/16 ring, 5/16 ring
 * MPPT-Split Positive to MPPT - 8 AWG, 5/16 ring, Ferule
@@ -175,3 +175,5 @@ Alternative:
 * Panel Lights
 * Opto
 * RBS Switch or RBS
+
+

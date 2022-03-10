@@ -13,3 +13,6 @@ tested espar off the converter, no problems
 
 3-1-22
 Wired all circuits except driver USB Outlet (and future stuff)
+
+3-2-22
+Wired driver USB outlet

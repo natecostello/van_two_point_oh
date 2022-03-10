@@ -46,3 +46,13 @@ installed counters
 Swapped footboard brackets
 Swapped footboard middle fasteners (1" for 7/8")
 
+3-6-2022
+Cut Stove counter piece
+
+3-8-2022
+Formica's Stove piece
+Trimmed and Urethaned Stove counter piece
+
+2022-3-9
+Siliconed cabinets
+
