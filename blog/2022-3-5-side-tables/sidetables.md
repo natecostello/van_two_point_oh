@@ -9,3 +9,9 @@ Formica'd one side table top
 Formica's one side table top
 Trimmed formica
 Eurethaned side table panels
+
+3-10-22
+Finished side table design
+Cut end panels
+Added pocket screw holes
+Cut tops

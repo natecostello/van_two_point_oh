@@ -54,5 +54,5 @@ Formica's Stove piece
 Trimmed and Urethaned Stove counter piece
 
 2022-3-9
-Siliconed cabinets
+Siliconed countertops
 

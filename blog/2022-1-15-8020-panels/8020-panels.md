@@ -48,3 +48,21 @@ Glued in washers for MPPT
 2-12-2022
 Cut booth panels
 botched espar panel, but proved exhaust routing
+
+3-5-22
+Picked up panel wood 
+Cut all panels 
+
+3-6-22
+Notched shelves
+
+3-6-22
+Formica's garage panels
+
+3-8-22
+Trimmed formica'd panels
+Urethaned remaining 8020 panels
+
+3-10-22
+Urethaned more stuff
+
