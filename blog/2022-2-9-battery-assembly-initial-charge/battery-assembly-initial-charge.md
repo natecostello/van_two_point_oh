@@ -40,3 +40,6 @@ Shifted to riden, but kept peak level (with noise) below 3.65.  When peak noise 
 Resumed and completed with linear supply.  Used DMM as basis for completion (let it hit 3.651).  Amps were about 1-2 at this point.
 Reconfigured to cells.
 Cut and installed IR LEDs for heating in the base.
+
+3-12-22
+Notched battery end panel for IR LED wires to pass through

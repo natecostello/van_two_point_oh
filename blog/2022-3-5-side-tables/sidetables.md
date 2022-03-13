@@ -15,3 +15,7 @@ Finished side table design
 Cut end panels
 Added pocket screw holes
 Cut tops
+
+3-12-22
+Urethaned all side table pieces
+Assembled one side table
