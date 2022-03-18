@@ -67,3 +67,6 @@ Lock-tited and torqued all fasteners
 
 2-28-22
 Wire management.
+
+3-16-22
+eternabonded the factory plugs

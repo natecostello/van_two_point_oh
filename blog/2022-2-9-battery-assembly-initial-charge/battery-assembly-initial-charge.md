@@ -42,4 +42,19 @@ Reconfigured to cells.
 Cut and installed IR LEDs for heating in the base.
 
 3-12-22
-Notched battery end panel for IR LED wires to pass through
+Notched battery end panel for IR LED wires to pass through - need to notch a little wider
+
+3-16-22
+Cut battery floor insulation
+Fit up bus bar and made some hole modifications
+Installed battery switch
+Installed main contactor
+Installed main shunt
+Electroplated negative bars
+
+3-17-22
+Electroplated remaning bus bars
+Cut wood guards for battery and added channels for wiring
+Installed lower positive bus bars
+
+

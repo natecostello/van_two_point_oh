@@ -38,3 +38,6 @@ Formicad lagun table tops
 
 2022-2-19
 Flush cut, sanded and masked
+
+2022-3-18
+Installed grab handle over lagun mount (using same upper hole)

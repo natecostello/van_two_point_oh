@@ -27,3 +27,16 @@ Questions for wakespeed/OGSS:
 Regarding the Van Wiring harrness:
 What is the stator/field connector type/model?
 What is the alternator temperature sense connector type/model?
+
+3-?-22
+Started install with byron
+Enlarged upper bracket hole to fit over alignment bushing (could not line up both bushings AND still thread bolt)
+Could not install belt - too tight
+Found interference between tensioner and alternator slide bushing
+
+3-15-22
+Found 51 inch belt too long
+
+3-16-22
+50 inch belt ok
+49.5 inch belt could not go on
