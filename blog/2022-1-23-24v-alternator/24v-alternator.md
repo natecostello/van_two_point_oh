@@ -40,3 +40,10 @@ Found 51 inch belt too long
 3-16-22
 50 inch belt ok
 49.5 inch belt could not go on
+
+3-18-22
+Reinstalled interferences
+Restarted and took up to 1500 RPM SAT on belt tracking
+Terminated 2/0 pos and neg and installed
+
+
