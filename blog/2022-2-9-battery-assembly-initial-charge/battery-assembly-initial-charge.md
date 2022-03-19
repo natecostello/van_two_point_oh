@@ -56,5 +56,12 @@ Electroplated negative bars
 Electroplated remaning bus bars
 Cut wood guards for battery and added channels for wiring
 Installed lower positive bus bars
+Installed precharge on battery output panel
+
+3-18-22
+Loaded cells into van
+tensioned cells
+Installed BMS temp sensors
+Began shimming non output panel
 
 
