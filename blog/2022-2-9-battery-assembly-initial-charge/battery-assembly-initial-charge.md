@@ -58,10 +58,46 @@ Cut wood guards for battery and added channels for wiring
 Installed lower positive bus bars
 Installed precharge on battery output panel
 
+Note: Should move this into battery install post
 3-18-22
 Loaded cells into van
 tensioned cells
 Installed BMS temp sensors
 Began shimming non output panel
+
+3-19-22
+Installed and tested heating pads and IR LEDs.
+Moved battery into place.
+Landed battery output cable to battery output buswork and main positive bus
+Installed neg/ground bus
+Installed alt shunt
+Installed control power fuse block
+Installed control ground bus
+
+3-20-22
+Fully bolted in multiplus using these for the bottom two fastening locations: https://www.mcmaster.com/91306A673/
+Installed multiplus chassi grouond
+Landed multiplus, solar, branch, alt cables and grounds.
+Grounded multiplus chassis
+Grounded chassis ground bus to main neg bus
+Installed Solar Charge enable line
+Installed battery protect
+Soph fabricated battery hold down brackets (aft end is like 1/8 "lower" than fwd end...who knows).
+
+
+
+3-21-22
+Installed BMS physically
+Installed BMS wifi
+Temp mounted Cerbo
+Continued control wiring
+Populated control panel
+Installed control panel brackets and velco
+Installed aft battery panel brackets and modified panel for battery hold down brackets
+Cut back battery hold down brackets and installed and torqued
+Installed forward upper cross beam
+Installed forward battery panel and modified panel for battery hold down brackets
+Tested 1" XPS battery insulation - too thick, will use thinsulate
+Wired control panel switches
 
 

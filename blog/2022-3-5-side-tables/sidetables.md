@@ -19,3 +19,11 @@ Cut tops
 3-12-22
 Urethaned all side table pieces
 Assembled one side table
+
+UPDATE:
+Assembled second side table 3-14?
+Installed side tables 3-14?
+Installed outlets?
+
+
+

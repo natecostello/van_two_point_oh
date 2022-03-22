@@ -42,8 +42,11 @@ Found 51 inch belt too long
 49.5 inch belt could not go on
 
 3-18-22
+Sanded bracket alt mounting surface for good electrical contact
+Swapped 90mm bolts in to allow aft terminal connection.
 Reinstalled interferences
 Restarted and took up to 1500 RPM SAT on belt tracking
 Terminated 2/0 pos and neg and installed
 
-
+3-20-22
+Terminated and landed Alt pos and ground on the main pos bus and ground bus.
