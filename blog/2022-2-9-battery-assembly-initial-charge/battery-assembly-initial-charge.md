@@ -90,6 +90,7 @@ Soph fabricated battery hold down brackets (aft end is like 1/8 "lower" than fwd
 Installed BMS physically
 Installed BMS wifi
 Temp mounted Cerbo
+Installed Cerbo to Battery Protect connection
 Continued control wiring
 Populated control panel
 Installed control panel brackets and velco
@@ -99,5 +100,19 @@ Installed forward upper cross beam
 Installed forward battery panel and modified panel for battery hold down brackets
 Tested 1" XPS battery insulation - too thick, will use thinsulate
 Wired control panel switches
+Installed Multi Charge enable line
+Installed Multi Temp sense line
+
+3-22-22
+Din mounted CERBO
+Completed BMS to Panel switch wiring
+Completed Multiplus AC install
+Completed AC Panel Wiring
+Configured Battery Protect for 24V
+Installed wakespeed physically
+Installed BMS to CERBO CAN lin
+
+Reminder - SWAP VBATT Pre and Post contactor fuses for 2A to meet blue sea panel lighting documenation
+
 
 
