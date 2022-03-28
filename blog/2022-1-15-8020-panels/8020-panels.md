@@ -69,3 +69,6 @@ Urethaned more stuff
 3-18-22
 Installed driver lower wheel well panel
 
+3-26-22
+Final cut on battery top panel
+Final cuts on garage vertical panels

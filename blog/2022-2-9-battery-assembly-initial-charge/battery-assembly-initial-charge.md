@@ -114,5 +114,39 @@ Installed BMS to CERBO CAN lin
 
 Reminder - SWAP VBATT Pre and Post contactor fuses for 2A to meet blue sea panel lighting documenation
 
+3-24-22
+Inital power on
 
+3-25-22
+
+I notice about 3.4V on the positive bus wrt batt neg when thee main switch is closed.  After opening, the inverter input caps seem to hold this voltage.  Troubleshooting source:
+
+1. I pulled all pre contactor fuses.
+2. Let voltage disipate down to < 1V
+3. Close switch. - no change in voltage
+4. Insert bms wifi fuse - no change in voltage
+5. Insert multiplus v sense fuse - observed spark and 3.4V on positve bus (so one one source)
+
+6. Removed v sense fuse and let voltage drift back down to < 1v
+7. Insert precharge batt+ fuse - no change
+8. Insert "to switch pre cntr" fuse - no change
+
+Will leave voltage sense disconnected for now
+
+Turn on transients captured in SDS0001.*
+
+
+Updated multplus using victron connect and mk3 interface.  Initial attempt failed immediatly and warned it can not be updated with DMC connected.  Disconnected DMC and was successful.
+
+Changed settings, see file.
+
+Short test with heater running.  No issues.
+
+3-27-22
+Set up communication between BMS and Cerbo - had to use forum tips.
+Wasn't happy with the contactor close transient even with precharge.  Modified circuit and modified timing to make more optimal.  See traces.
+Tested temperature sensors:
+Cell 3 = top center
+Cell 1 = pass aft
+By elimination, Cell 2 = pass fwd
 

@@ -45,3 +45,11 @@ velcro's on drawer temporarily
 
 3-21-22
 Added door shelf too sink cabinet
+
+3-26-22
+Recut, built, and installed drawer
+Urethaned freezer/fridge vent panel
+Urethaned sink back panels
+
+3-27-22
+Installed sink back panels

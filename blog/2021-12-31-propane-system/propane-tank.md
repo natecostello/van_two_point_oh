@@ -23,3 +23,12 @@ Soph primed/painted tank brackets
 2022-2-15
 Soph wired the stove and solenoid (internal) and relay
 Soph wired the solenoid and level sensor
+
+2022-3-26
+Torqued compression fittings
+Tested solenoid electrically
+
+2022-3-27
+Got tank filled
+Leak tested with soap bubble test - SAT
+Tested stove - SAT
