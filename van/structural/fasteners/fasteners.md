@@ -142,10 +142,11 @@ Exterior Plug Mounting Plate:
 
 Reading Light Mount:
 
-* Light to Plate: 1/2" hex head 6-32 []
-* Plate to Van: 6-32 clip nut
-* Plate to Van: 
+* Light to Plate: 1/2" hex head 6-32 [Low-Strength Zinc-Plated Steel Hex Head Screws 6-32 Thread Size, 1/2" Long](https://www.mcmaster.com/93075A148/)
+* Plate to Van: [Black-Phosphate Steel No-Slip Clip-On Nut 6-32 Thread, for 0.062" Maximum Thickness,.468" Hole Center to Edge](https://www.mcmaster.com/94808A107/)
+* Plate to Van: [316 Stainless Steel Button Head Hex Drive Screw Super-Corrosion-Resistant, 6-32 Thread Size, 1-1/4" Long](https://www.mcmaster.com/98164A444/)
 * small plastic spacer
+* small washer
 
 Main Light Mount:
 
@@ -153,3 +154,29 @@ Main Light Mount:
 * [Zinc Yellow-Chromate Plated Steel Hex Head Screw High-Strength, M10 x 1.5 mm Thread, 90 mm Long](https://www.mcmaster.com/95327A647/)
 
 * [Medium-Strength Steel Serrated Flange Locknut Class 8, Zinc Yellow-Chromate Plated, M10 x 1.5 mm Thread Size](https://www.mcmaster.com/96194A150/)
+
+Ceiling Panel Brackets:
+
+* Custom send cut send brackets
+* [Zinc-Plated Steel Phillips Flat Head Screws100 Degree Countersink Angle, 6-32 Thread Size, 3/4" Long](https://www.mcmaster.com/90471A223/)
+* #6 clip nuts [Black-Phosphate Steel No-Slip Clip-On Nut 6-32 Thread, for 0.062" Maximum Thickness,.468" Hole Center to Edge](https://www.mcmaster.com/94808A107/)
+* LED Light Track Joining Brackets
+
+Wall Stiffener:
+* Custom send cut send brackets
+* 1/4-20 plusnuts in van struture
+* 1/4-20 plusnuts nuts in wall stiffener brackets
+* 1/4-20 fasteners to plusnuts - type unknown
+* wall panel threaded inserts in stiffener [Brass Tapping Inserts for Hardwood 1/4"-20 Thread Size](https://www.mcmaster.com/90016A029/)
+* 1/4-20 fasteners through wall to stiffener threaded inserts - type unknown
+* thermostat/switch/fan threaded inserts in stiffener [Brass Tapping Inserts for Hardwood 6-32 Thread Size](https://www.mcmaster.com/90016A007/)
+* thermostat/switch/fan fasteners:
+    * long [316 Stainless Steel Button Head Hex Drive Screw Super-Corrosion-Resistant, 6-32 Thread Size, 1-1/4" Long](https://www.mcmaster.com/98164A444/)
+    * longer [316 Stainless Steel Button Head Hex Drive Screw 6-32 Thread, 2" Long](https://www.mcmaster.com/98164A636/)
+* Stiffener to 8020 [Black-Oxide Alloy Steel Flanged Button Head Screw 5/16"-18 Thread, 1" Long](https://www.mcmaster.com/91355A087/)
+
+Large Garage Panel Mount:
+* Custom send cut send brackets
+* Thick Material clip nuts [Black-Phosphate Steel No-Slip Clip-On Nut 1/4"-20 Thread, for 0.064" to 0.125" Panel Thickness](https://www.mcmaster.com/94808A156/)
+* 1" 1/4-20
+* 1/2" 5/16 and roll in T-nut

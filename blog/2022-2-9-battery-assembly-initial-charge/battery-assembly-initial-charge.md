@@ -150,3 +150,27 @@ Cell 3 = top center
 Cell 1 = pass aft
 By elimination, Cell 2 = pass fwd
 
+3-28-22
+Let system top battery.  When full, current limit read from cerbo was like ~9 and multi was in "absorption".  
+REC manual says it allows making up for DC loads.  Not our desired behavior.  
+If I set "end of charge voltage hysterisis per cell" to a high value like 1.5, it should limit charge voltage after charge completion to 3.28 per cell.  Also noted that SOC hysterisis doesn't appear settable from wifi module.
+
+3-29-22
+Set END of charging voltage hysteresis per cell [V] (CHIS): to 1.5 (from 0.25) which yeilds a VCL of 26.24v or 3.28v per cell
+
+This prevented charging to "make up for DC loads".  However, I was concerned that using voltage would not be as accurate as SOC given theh flat discharge curve.
+
+3-30-22
+Primoz responed via email how to set the SOC parameter via wifi.
+
+Default SOC Hysteresis was 0.05.
+I set SOC Hysterisis (SOCH) to 0.15
+I set END of charging voltage hysteresis per cell (CHIS) to 1.15 which yields a VCL of 26.8v or 3.35v per cell.  This should let the system cycle down to 85% SOC before resuming charging.
+
+After setting these, it looks like CCL is still 9.7A while VCL reflects 26.8.  The victron system is providing some power to the battery so its not clear that SOCH accomplishes what I intended, but its hard to tell for sure because PV is likely limited by an overcast sky so I can't see what it would do if able.
+4-2-22
+It appears that CCL never exceeds 9.7A even when SOC is down to 60% and voltage is down to 26.37V
+
+4-3-22
+Set CHIS back to 0.25.  Will see if charges.
+Checked CERBO - CCL is now back to 279A.
