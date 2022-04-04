@@ -44,7 +44,7 @@ These sources will feed the internal wifi/hardwired network which our devices wi
 
  ### Wifi As Source
 
- TLDR:  For phase 1, we're leaning towards a [Ubiquity Bullet](https://www.ui.com/airmax/bullet-ac/) with a dual-band SISO antenna, using a [direct DC POE injector](https://www.amazon.com/WS-GPOE-1-WM-Gigabit-Passive-Ethernet-Injector/dp/B00ENNUWO4) with a 24V Buck converter (e.g. [this](https://www.amazon.com/Adjustable-Converter-1-5-35v-Efficiency-Regulator/dp/B07QKHR6PY/)) to stablize injection voltage to 24V.
+ TLDR:  For phase 1, we're leaning towards a ~~[Ubiquity Bullet](https://www.ui.com/airmax/bullet-ac/)~~ [MikroTik Groove AC](https://mikrotik.com/product/RBGrooveGA-52HPacn) with a dual-band SISO antenna, using a [direct DC POE injector](https://www.amazon.com/WS-GPOE-1-WM-Gigabit-Passive-Ethernet-Injector/dp/B00ENNUWO4) ~~with a 24V Buck converter (e.g. [this](https://www.amazon.com/Adjustable-Converter-1-5-35v-Efficiency-Regulator/dp/B07QKHR6PY/)) to stablize injection voltage to 24V~~.
 
 This [website](https://seabits.com/) has a lot of information on marine based networking.  He highly recommends the [Mikrotec Groove](https://seabits.com/mikrotik-groove-step-by-step-setup-guide/) to connect to outside wifi and bridge to the internal network.  Another new option is the [Ubiquity Bullet](https://www.ui.com/airmax/bullet-ac/) which is dual band and will likely have open WRT support.  He currently uses a pepwave transit with external antennas set up for wifi-as-wan.  He also [reviewed](https://seabits.com/gl-x1200-amarok-dual-lte-router/) the Amarok discussed later.
 
