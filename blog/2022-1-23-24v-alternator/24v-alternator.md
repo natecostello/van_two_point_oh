@@ -50,3 +50,27 @@ Terminated 2/0 pos and neg and installed
 
 3-20-22
 Terminated and landed Alt pos and ground on the main pos bus and ground bus.
+
+4-23-22
+Notes for phase 1 Alt:
+
+No SEIC
+No Upfitter Control Switch
+
+TODO:
+* Determine Wakespeed config
+* Pin connector for CAN bus to DB9 for monitoring
+* Resolder jumpers in PiCAN to reflect standard DB9
+* Pin alternator connectors
+* Add engine run relay
+* Add ring connectors to wakespeed harness + and -
+* Fab CE Logic (VHB optos to panel)
+* Wire CE Logic
+
+
+Turns out the wakespeed connector for stator and field is actually a DT06-2s despite what wakespeed said in email.
+
+
+
+
+
