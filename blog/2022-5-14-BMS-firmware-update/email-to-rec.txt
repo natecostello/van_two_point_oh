@@ -1,12 +1,43 @@
-Hi,
+REC,
 
 I installed the firmware you provided today and ran a charge to test the result.  Unfortunately, I'm seeing high voltage cutoffs and alarms where before I was not.  I repeated the charge after the first cutoff to gather more data (and increased the REC log sample rate to 5s).
 
-In the following drop box link you will find the BMS log, a csv of from victron's VRM at one minute interval(which shows CCL and CVL as well as high and low cell voltage).  I've also included a copy of my BMS settings.
+In the following dropbox link you will find the BMS log, a csv of victron's VRM at one minute intervals (which shows CCL and CVL as well as high and low cell voltage).  I've also included a copy of my BMS settings and some benchtop test data from last year for comparison.
+https://www.dropbox.com/sh/6ou0h663sc2t8mx/AADMciF5KFZmWNxvpLDWCD0pa?dl=0
 
-In the previous firmware, I generally saw a significant ramp down in CCL once any cell crossed the balance start voltage setpoint. [review test data] What I see now is essentially no reduction in CCL (and thus no reduction in charge current) until the BMS issues a high voltage alarm and cuts off.
+With the previous firmware, my bench top testing confirmed the following behavior:
+CCL begins to ramp down once the max cell exceeds balance start voltage (BMIN).
+CCL is ramped down linearly as a function of high cell voltage (or perhaps pack voltage).
+CCL ramp ends at 1.1A when max cell voltage >= 3.58 which for my testing was the setpoint for both the balance end voltage (BVOL) and cell end of charge voltage (CHAR).
+CVL is reduced and Charge Enable is removed once min cell voltage >~ 3.57V (CHAR - 0.01V).  
 
-With any firmware I would expect that once you are in a balance regime, you would want charge current down around the level where current*balance-resistance ~ balance cell voltage.  Clearly this won't work if charge current is still 50A all the way up to cutoff.
+In general, it seemed to follow the charging algorithm described in this version of the documentation: https://www.rec-bms.com/datasheet/UserManual_REC_Q.pdf
 
-Please help.  Recall, the reason you sent me the updated firmware is to allow charging to stop when full so battery cycles instead of trying to continue to supply DC loads.
+My findings and raw data from this testing are here (rising voltage test):
+https://www.greenstello.com/blog/2021-8-5/bms-testing/
+
+Also, this behavior was generally reflected in operation, though I don't have detailed logs to examine exact values.
+
+With the new firmware, I don't have such detailed data on the system as installed:
+I have minute-to-minute resolution victron data that shows CCL and CVL
+I have REC logs at up to 5s resolution
+
+In the attached chart from VRM data, you can see no reduction in CCL occurs until after the max cell voltage exceeds 3.58 (CHAR).
+
+Additionally in the 5s resolution BMS log data you can see battery charging current (a proxy for CCL) is 47A (near max for the charger) in the last sample before cut off, when cell voltages are approaching and exceeding 3.6V.  Relevant sample:
+{"bms_array":{"master":{"st_naprav":1,"time":"","date":"","mincell":3.555,"maxcell":3.603,"ibat":47.47985,"tmax":29.5,"vbat":28.73915,"soc":0.983879,"soh":0.9979,"erro":{"present":0,"addr":1,"st":0,"con_st":0},"error":""},"slave":{"0":{"address":0,"st_temp":3,"temp_bms":32.37325,"st_celic":8,"temp":{"0":28,"1":28,"2":29.5},"res":{"0":0.000242,"1":0.00042,"2":0.000245,"3":0.000218,"4":0.000389,"5":0.000349,"6":0.000534,"7":0.000336},"nap":{"0":3.585,"1":3.6,"2":3.60286,"3":3.555,"4":3.59372,"5":3.603,"6":3.599581,"7":3.6}}}}},{"bms_array":{"master":{"st_naprav":1,"time":"","date":"","mincell":3.555,"maxcell":3.603,"ibat":47.47985,"tmax":29.5,"vbat":28.73915,"soc":0.983879,"soh":0.9979,"erro":{"present":0,"addr":1,"st":0,"con_st":0},"error":""},"slave":{"0":{"address":0,"st_temp":3,"temp_bms":32.37325,"st_celic":8,"temp":{"0":28,"1":28,"2":29.5},"res":{"0":0.000242,"1":0.00042,"2":0.000245,"3":0.000218,"4":0.000389,"5":0.000349,"6":0.000534,"7":0.000336},"nap":{"0":3.585,"1":3.6,"2":3.60286,"3":3.555,"4":3.59372,"5":3.603,"6":3.599581,"7":3.6}}}}}
+
+This behavior doesn't match either the older documentation linked above.  It also doesn't match the newer documentation: https://www.rec-bms.com/wp-content/uploads/2022/02/UserManual_REC_Victron_BMS.pdf, that says the CCL would be ramped down when max cell voltage >= CHAR - 0.1V or 3.48V in my case.
+
+The end result with the new firmware is that the high charge current results in rapid cell voltage increase which causes a high voltage cutoff and loss of power before any balance or SOC reset occurs.
+
+If the new firmware behaved consistent with the latest documentation, I believe setting BMIN equal to CHAR - 0.1V would mimic the original firmware behavior, which I think would work for me though it does close the range for balancing.  
+
+Also for context, recall the original reason you sent me the updated firmware is to allow charging to stop once the SOC is reset to 100% instead of trying to continue to supply DC loads.  My ultimate goal is to allow SOCH to control when bulk charging begins again to allow the battery to discharge (no float) from 100% to around 80%, before bulk charging begins again.
+
+Thanks for all future and past help!
+
+Best,
+
+Nate Costello
 
