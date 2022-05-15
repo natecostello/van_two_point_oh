@@ -1,0 +1,12 @@
+Hi,
+
+I installed the firmware you provided today and ran a charge to test the result.  Unfortunately, I'm seeing high voltage cutoffs and alarms where before I was not.  I repeated the charge after the first cutoff to gather more data (and increased the REC log sample rate to 5s).
+
+In the following drop box link you will find the BMS log, a csv of from victron's VRM at one minute interval(which shows CCL and CVL as well as high and low cell voltage).  I've also included a copy of my BMS settings.
+
+In the previous firmware, I generally saw a significant ramp down in CCL once any cell crossed the balance start voltage setpoint. [review test data] What I see now is essentially no reduction in CCL (and thus no reduction in charge current) until the BMS issues a high voltage alarm and cuts off.
+
+With any firmware I would expect that once you are in a balance regime, you would want charge current down around the level where current*balance-resistance ~ balance cell voltage.  Clearly this won't work if charge current is still 50A all the way up to cutoff.
+
+Please help.  Recall, the reason you sent me the updated firmware is to allow charging to stop when full so battery cycles instead of trying to continue to supply DC loads.
+
