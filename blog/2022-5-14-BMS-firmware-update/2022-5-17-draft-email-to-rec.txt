@@ -1,0 +1,9 @@
+Tine,
+I made the change to MAXH as suggested, however it doesn't change the behavior.  I've added the logs and settings from the latest test to the dropbox folder I shared with you previously:
+[link]
+
+(Note: I did also modify SOCH back to 0.05 to force a bulk charge in order to run the test.  Not other changes where made except for MAXH and SOCH).
+In short, when charging with a moderate amount of charge current (50-60A on a 560AH battery), I never see CCL drop (either at BMIN or CHAR-0.1v) until it runs right into cutoff.
+Is there a reason why you guys shifted away from ramping CCL once a cell crossed BMIN?  Even if it starts to ramp down at CHAR-0.1V (which it doesn't appear to be do) there isn't a lot of headroom until it hits cutoff.  I expect this problem will get worse when I enable alternator charging (185A).  I'm concerned that I'll be getting cutoffs without sufficient time for the Wakespeed/Alt to zero current and fry a very expensive alternator.
+Please help.
+Nate
