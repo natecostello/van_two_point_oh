@@ -58,19 +58,23 @@ No SEIC
 No Upfitter Control Switch
 
 TODO:
-* Determine Wakespeed config
-* Pin connector for CAN bus to DB9 for monitoring
-* Resolder jumpers in PiCAN to reflect standard DB9
+* Determine Wakespeed config - Mostly done
+* Pin connector for CAN bus to DB9 for monitoring - Done
+* Resolder jumpers in PiCAN to reflect standard DB9 - Done
 * Pin alternator connectors
 * Add engine run relay
-* Add ring connectors to wakespeed harness + and -
-* Fab CE Logic (VHB optos to panel)
-* Wire CE Logic
+* Add ring connectors to wakespeed harness + and - - Done
+* Fab CE Logic (VHB optos to panel) - Done
+* Wire CE Logic - Done
 
 
 Turns out the wakespeed connector for stator and field is actually a DT06-2s despite what wakespeed said in email.
 
 
+
+6-4-22
+Installed and wired optos for charge-enable
+Terminated and landed wakespeed pos, ground, and shunt wiring
 
 
 

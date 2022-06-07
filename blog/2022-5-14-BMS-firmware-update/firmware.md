@@ -17,6 +17,7 @@ Based on emails from Tine, begrudginly set CHAR to 3.5V and MAXH to 0.15 (MAXC-C
 
 5-27-2022
 Terminated logging pi with a DTM connector to interface with wakespeed CAN and ring terminals for 12V power.
+Unsolderd/Soldered logging pi for standard vs OBD2 can.
 
 2022-5-29
 Connected loggingPi to power, and verified accessible over SSH.
