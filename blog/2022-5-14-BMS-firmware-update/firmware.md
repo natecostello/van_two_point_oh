@@ -30,3 +30,7 @@ Verified REC was still communicating with CERBO via the local web interface.
 
 Verified loggingPI can read REC data over CAN using this script: https://github.com/natecostello/REC-BMS_CAN
 
+2022-6-10
+Identified that SOC has dropped below 85% yet charging hasn't started.  Based on a read of the manual for the latest firmware, this is because SOC must be < 100 - SOCH AND Max cell Voltage < CHAR - CHIS.  In our case that is equal to 3.25V.  Based on this we are going to modify CHIS to adjust for our lower CHAR.  Default: CHAR (3.58) - CHIS (0.25) = 3.33. Cell voltage should be below 3.33V at 85% SOC, so we will us CHIS = 3.5-3.33 = 0.17
+
+Based on this change we saw PV charging start and the CCL ramp from zero up to 280A.

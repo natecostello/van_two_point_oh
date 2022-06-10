@@ -11,3 +11,6 @@ Cut and drilled slider angle
 Cut and urethaned slider drawer panels
 Pocket drilled slider panels
 Build slider drawer
+
+?
+uninstalled slider and replaced with bins
