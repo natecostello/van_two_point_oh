@@ -14,3 +14,5 @@ Build slider drawer
 
 5-9-22
 uninstalled slider and replaced with bins
+
+test-delete
