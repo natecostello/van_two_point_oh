@@ -69,9 +69,9 @@ TODO:
 * Install Surge Arrestor - Done
 * Connect Alternator Field/Stator/Temp - Done
 * Install Battery Temp Sensor - Done
-* Program Wakespeed
+* Program Wakespeed - Done
 * Verify Fuse in surge arrestor
-* Install fuses for wakespeed and engine run
+* Install fuses for wakespeed and engine run - Done
 
 
 Turns out the wakespeed connector for stator and field is actually a DT06-2s despite what wakespeed said in email.
