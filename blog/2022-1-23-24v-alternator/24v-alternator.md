@@ -61,11 +61,17 @@ TODO:
 * Determine Wakespeed config - Mostly done
 * Pin connector for CAN bus to DB9 for monitoring - Done
 * Resolder jumpers in PiCAN to reflect standard DB9 - Done
-* Pin alternator connectors
-* Add engine run relay
+* Pin alternator connectors - DONE
+* Add engine run relay - DONE
 * Add ring connectors to wakespeed harness + and - - Done
 * Fab CE Logic (VHB optos to panel) - Done
 * Wire CE Logic - Done
+* Install Surge Arrestor - Done
+* Connect Alternator Field/Stator/Temp - Done
+* Install Battery Temp Sensor - Done
+* Program Wakespeed
+* Verify Fuse in surge arrestor
+* Install fuses for wakespeed and engine run
 
 
 Turns out the wakespeed connector for stator and field is actually a DT06-2s despite what wakespeed said in email.
@@ -78,3 +84,23 @@ Terminated and landed wakespeed pos, ground, and shunt wiring
 
 
 
+6-15-2022
+Removed panels to allow access to engine run pre-wiring
+Removed batter cover to expose access to C33-E 10 way connector
+Noticed that pins 4 and pins 9 were connected together (load shed ground in and load shed ground signal out)
+
+Per BEMM, max sinking through Engine Run - Pin 2 (GND signal) is 250mA.  Coil resistance measured on Bosch relay is 85 ohms.  Driven by Ignition - Pin 6 (12V) this will not exceed 250mA sink capability of Engine Run.
+
+Relay Wiring - External/C33E Wiring
+
+Pin 85 Coil+ (BLACK) - Pin 6 Ignition
+Pin 86 Coil- (WHITE)- Pin 2 Engine Run
+Pin 87 NO contact (BLUE) - 24V from prewire (RED)
+Pin 30 return contact (RED) - signal return from prewire (BLACK)
+
+Wired relay to C33-E harness and pre-wire, labeled everything, installed
+Wired ENG RUN 24V source to prewire
+Wired Wakespeed IGN (BROWN) to ENG RUN signal
+Pinned Connectors on Alternator
+Installed Battery Temp Sensor
+Updated Cerbo Firmware
