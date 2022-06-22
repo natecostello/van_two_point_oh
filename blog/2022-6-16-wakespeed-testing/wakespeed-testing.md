@@ -19,3 +19,6 @@ Based on this data, it appears that field is never taken beyond 45% which is con
 
 Will confirm setting tomorrow and install v1.2 settings which maintains the fix to Engine RPM but reverts field current back to v1.0 (default values).
 
+2022-6-22
+updated wakespeed config to v1.2
+flipped dip switch 8 to off (disable small alt mode)
