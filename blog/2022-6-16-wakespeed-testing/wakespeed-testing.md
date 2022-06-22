@@ -22,3 +22,4 @@ Will confirm setting tomorrow and install v1.2 settings which maintains the fix 
 2022-6-22
 updated wakespeed config to v1.2
 flipped dip switch 8 to off (disable small alt mode)
+retest showed increased current
