@@ -24,3 +24,11 @@ updated wakespeed config to v1.2
 flipped dip switch 8 to off (disable small alt mode)
 retest showed increased current.
 data shows current still not hitting rated values.  bumping up field excitation again in v 1.3
+
+2022-6-23
+updated wakespeed config to v1.3
+test on highway, ambient temp per dash is 88F
+60mph = 1760 engine RPM
+65mph = 1905 engine RPM temp stable at 86C with 89F ambient
+70mph = 1035 engine RPM temp stable at 86C with 91F ambient
+
