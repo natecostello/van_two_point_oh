@@ -26,7 +26,7 @@ cover:
 ---
 
 
-The following evaluation assumes wire with insulation rated to 105C based on [this chart](http://assets.bluesea.com/files/resources/reference/21731.pdf) and voltage drop calculations based on [this calculator](https://www.calculator.net/voltage-drop-calculator.html?material=copper&wiresize=4.132&voltage=24&phase=dc&noofconductor=1&distance=6&distanceunit=feet&amperes=42&x=50&y=23).  [This chart](http://assets.bluesea.com/files/resources/newsletter/images/DC_wire_selection_chartlg.jpg) is also useful for quick reference.
+The following evaluation assumes wire with insulation rated to 105C based on [this chart](http://assets.bluesea.com/files/resources/reference/21731.pdf) and voltage drop calculations based on [this calculator](https://www.calculator.net/voltage-drop-calculator.html?material=copper&wiresize=4.132&voltage=24&phase=dc&noofconductor=1&distance=6&distanceunit=feet&amperes=42&x=50&y=23) and [this spreadsheet](https://docs.google.com/spreadsheets/d/1JnF0Kgj202dYR1sIlWKawStD7OvVsGdwfCOEQsTpghI/edit#gid=0).  [This chart](http://assets.bluesea.com/files/resources/newsletter/images/DC_wire_selection_chartlg.jpg) is also useful for quick reference.
 
 It also assumes the BMS is using CAN to communicate/control discharge.  Based on this, it will provide 0A allowable discharge commands when the BMS cell low voltage protection of 2.9V (pack voltage of 23.2V) is reached.
 
