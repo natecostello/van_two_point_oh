@@ -86,7 +86,7 @@ The [Kilovac EV200](datasheet-kilovac-ev200.pdf) specifies 500A with MCM400 cabl
 
 **TLDR: 2/0 cable to limit voltage drop.  Fused with a 250A Mega/AMG, lower than needed for cable protection but common with inverter fuse.**
 
-Maximum charge current is ~180A with the APS option.  Nominal cruise (1800 Engine RPM) is ~ 175A.  Round trip wire length is 50 ft based on our prototyped route with some margin.  Final length is likely 48 ft. By ampacity, minimum wire size is 4 AWG.  By voltage drop, assuming 3% allowable, taking credit for likely final round trip and cruising RPM output, 2/0 is barely sufficient at 26.6V.
+Maximum charge current is ~180A with the APS option.  70 mph cruise (2054 Engine RPM) is ~ 175A.  Round trip wire length is 50 ft based on our prototyped route with some margin.  By ampacity, minimum wire size is 4 AWG.  By voltage drop, assuming 3% allowable, 2/0 is sufficient across the range of charging voltage.  Note, this voltage drop calculation uses the ABYC/Ancor data and my not hold for all 2/0 cable.
 
 ## Multiplus 24/3000 Inverter/Charger to Positive Bus
 
