@@ -1,3 +1,40 @@
+---
+type: post
+section: blog
+categories: 
+ # one or more categories is permitted
+ - electrical
+navTitle: 
+title: 24V Alternator Install
+author: Nate
+date: 2022-1-23
+tags:
+ - van
+ - build
+ - electrical
+ 
+metatags:
+	# no metatags
+cover: 
+	# image file
+ img: cover.jpeg
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
+---
+
+Reference alternator selection article (and update it).
+Discuss cable selection and length, round trip run
+
+Install
+Interference removal
+Bushing alignment issue - modification
+Belt install difficulty details including interference with slide bushings
+Final belt selection
+
+
+
+
 2022-1-23
 Prototyped routing for wire length and guage determination.
 25 ft even, including about 3ft of margin on the ends (which will likely be shortened)
@@ -28,7 +65,7 @@ Regarding the Van Wiring harrness:
 What is the stator/field connector type/model?
 What is the alternator temperature sense connector type/model?
 
-3-?-22
+3-10-22
 Started install with byron
 Enlarged upper bracket hole to fit over alignment bushing (could not line up both bushings AND still thread bolt)
 Could not install belt - too tight
