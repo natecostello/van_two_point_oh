@@ -50,8 +50,10 @@ The details are in this [google spreadsheet](https://docs.google.com/spreadsheet
 
 While the idle performance of the Nations alternator is superior, substantially higher charge rates are possible with the APC alternator under higher SEIC and cruise conditions.  On that basis, we have selected the APS.  Based on an email with Jim at APS, the APS alternator cuts off below 1905 RPM.  In a followup email he confirmed the cutoff occurs at 1905 alternator-RPM which corresponds to 650 engine-RPM.  This cutoff would predict no alternator charging at idle.  **Update:** Based on testing, this prediction is correct.  The APS option does not provide any charging at normal minimum idle.
 
-#### Regulator
+### Regulator
 
 We plan to use a Wakespeed WS500 for regulation and charge control from the second alternator.  It is proven to integrate well with the REC BMS and Victron ecosystem.
 
+### Snubber
 
+We will use this [Stirling Alternator Protection Device](sterling-alternator-protection-device) to function as a last line of defense to an inadvertent "load shed" that can damage an alternator.  If the alternator is sourcing high current to a load (i.e. battery) and the connection is broken without warning a high voltage is developed at the output of the alternator that can fail the high power rectifier diodes in the output stage of the alternator.  This voltage transient is either due to the alternator suddenly being in a max field, high speed, yet open circuit condition OR due to inductive kick from the alternator's inductance trying to maintain current flow under a step change to high impedance.  Probably the latter, maybe both.  I haven't gone into the details but know from experience the transient is completely credible and likely.  This should never happen.  Before the BMS ever opens the main contactor as a protective measure, it is supposed set its Charge Current Limit to 0 amps via CANBus and set CHARGE-ENABLE to "low" seconds before it opens the relay.  But in case the software protection fails, and the primary hardware backup protections fails, this provides a second hardware backup to physically limit the magnitude of the transient voltage developed by the alternator.

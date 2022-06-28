@@ -13,7 +13,7 @@ BMS Software version is now 2.8 (was 2.6).
 Will run a shorepower charge to observe behavior at end of charge.  Recall SOCH is 0.15 so it should cycle down to 85% SOC prior to resuming a bulk charge.
 
 2022-5-19
-Based on emails from Tine, begrudginly set CHAR to 3.5V and MAXH to 0.15 (MAXC-CHAR).
+Based on emails from Tine, begrudgingly set CHAR to 3.5V and MAXH to 0.15 (MAXC-CHAR).
 
 5-27-2022
 Terminated logging pi with a DTM connector to interface with wakespeed CAN and ring terminals for 12V power.

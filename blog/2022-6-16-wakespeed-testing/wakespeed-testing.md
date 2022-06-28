@@ -1,5 +1,8 @@
 2022-6-16
 Initial wakespeed testing
+Finalized wakespeed settings
+Updated wakespeed firmware and settings
+Installed a 15 Amp fuse per spec to Wakespeed positive allowing it to be energized.
 
 See files
 
