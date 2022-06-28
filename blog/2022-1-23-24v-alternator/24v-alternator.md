@@ -23,9 +23,10 @@ cover:
 	# url: url
 ---
 
-TODO: Link to voltage drop assessment
-TODO: Link to electrical article
+TODO: Link to voltage drop assessment  
+TODO: Link to electrical article  
 TODO: Link to alternator selection article
+
 
 **TLDR:** The alternator install was a bit of a challenge due to the tolerancing of the bracket and the incorrect length of the supplied belt.  If you have the right length belt and some basic power tools (if needed), the physical install should only take about 4 hours for two people.
 
@@ -44,7 +45,7 @@ We ran the 2/0 cables and Wakespeed control cables from the battery compartment 
 ![alternator cables](alt-cable.jpeg)
 _Ancor 2/0_
 
-After carefully reviewing the [installation instruction](24v-alterator-installation-instructions.pdf) I reached out to an auto-mechanically inclined friend to provide help and moral support for the actual install.  I also purchased a temporary subsrciption to Ford's online service manual to get better detail on the interference removal.  There is nothing more scary than disassembling a perfectly running new engine except doing it within a few weeks of liftoff.
+After carefully reviewing the [installation instructions](24v-alterator-installation-instructions.pdf) I reached out to an auto-mechanically inclined friend to provide help and moral support for the actual install.  I also purchased a temporary subsrciption to Ford's online service manual to get better detail on the interference removal.  Worth it.  There is nothing more scary than disassembling a perfectly running new engine except doing it within a few weeks of liftoff.
 
 ![Byron - Legend](byron.jpeg)
 _[@albatrossprintworks](https://www.instagram.com/albatrossprintworks/?hl=en) is a legend.  Couldn't have gotten through this without him._
@@ -86,10 +87,10 @@ Then we hit the road without any alternator charging.
 
 Fast-forward 3 months and about 7000 miles.  During a couple of short breaks from van life, we had some time and availability to "open up the patient".
 
-The Wakespeed harness has a DTM style connector that connects to the same CANBus as its RJ-45 connectors.  We wanted to take advantage of that CANBus access to allow for monitoring and data collection on all things BMS and Wakespeed related.  So we took our old friend the loggingPi from the MHMBMSCTF, terminated connections with the mating Deutsche style connector and mounted the loggingPi in the "network" cabinet.  We then verified we had access to all the same BMS CANBus data as before.
+The Wakespeed harness has a DTM style connector that connects to the same CANBus as its RJ-45 connectors.  We wanted to take advantage of that CANBus access to allow for monitoring and data collection on all things BMS and Wakespeed related.  So we took our old friend the loggingPi from the MHMBMSCTF, terminated connections with the mating Deutsche style connector and mounted the loggingPi in the "network" cabinet.  We then verified we had access to all the same BMS CANBus data as before.  TODO: Add the specific connector type for this guy.
 
 ![wakespeed canbus dtm](canbus-dtm.jpeg)
-_TODO: Add the specific connector type for this guy._
+_When I asked which wire was CAN-High and CAN-Low, Wakespeed responded, "Yellow for the sun high in the sky, Green for grass below"._
 
 We opened up the aft side of the battery compartment.  We used VHB tape to mount three opto-isolators to that aft panel.  The optos will be used to split and buffer the CHARGE-ENABLE signal from the REC BMS.  This is basically a hardware backup that prevents over-charging in the event that CANbus communication among the BMS, Victron, and Wakespeed is down.  We went ahead and wired a 24V source through an opto to drive the Wakespeed Feature-In port.  The logic is "charging is allowed" => CHARGE-ENABLE = HIGH => Feature-In = HIGH.  This logic will disable all Wakespeed charging in the event of a broken wire.  TODO: Insert link to BMS Wiring Logic Article.
 
@@ -106,7 +107,7 @@ The Wakespeed needs to know if the engine is actually running before it applies 
 * Relay Pin 85 Coil+ (BLACK) TO C33-E Pin 6 Ignition
 * Relay Pin 86 Coil- (WHITE) TO C33-E Pin 2 Engine Run
 * Relay Pin 87 Normally Open contact (BLUE) TO 24V source duplex prewire (RED)
-* Relay Pin 30 Return contact (RED) TO "ENG RUN" signal return duplux prewire (BLACK)
+* Relay Pin 30 Return contact (RED) TO "ENG RUN" signal return duplex prewire (BLACK)
 
 We noticed that pins 4 and pins 9 were connected together (load shed ground in and load shed ground signal out) in the dummy C33-E connector that we removed, so we connected those to wires on the pigtailed connector just in case that important.  It has no bearing on what were doing for the wakespeed.
 
