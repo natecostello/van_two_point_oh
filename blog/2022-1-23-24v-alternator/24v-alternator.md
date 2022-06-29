@@ -127,9 +127,9 @@ With that, the electrical and mechanical install was complete.  This post docume
 
 ## Future Work
 
-We plan will implement Ford's SEIC capability to allow high idle charging.
+We plan to implement Ford's SEIC capability to allow high idle charging.
 
-We plan to wire one of the dash upfitter switches to allow turning on and off alternator charging.  Its currently controlled completely by the BMS or pulling a fuse if we want disabled.
+We plan to wire one of the dash upfitter switches to allow turning on and off alternator charging.  It's currently controlled completely by the BMS or pulling a fuse if we want disabled.
 
 
 ## Timeline
@@ -137,14 +137,14 @@ We plan to wire one of the dash upfitter switches to allow turning on and off al
 Note: This doesn't reflect full time effort.  Its sporadic and limited by work, other projects, supply chain, and van availability.
 
 * Prototyped power cable runs to obtain lengths, determined gauge based on lengths (Sun 1-23-2022)
-* Ordered Alternator and Bracket (Mon 1-24-2022)
+* Ordered the alternator and bracket (Mon 1-24-2022)
 * Routed and secured power and control cable runs, alternator and bracket delivered (Wed 2-9-2022)
 * Started install but hung up with belt length issue (Fri 3-11-2022)
 * Confirmed 51" belt too long (Tue 3-15-2022)
 * Confirmed 49.5" belt too short, 50" belt feels ok (Wed 3-16-2022)
-* Sanded bracket for landing terminals, swapped in 90mm bolts, reinstalled engine interferences, restarted engine and idled through normal range - all good, terminated alternator side of power cables and landed. (Fri 3-18-2022)
+* Sanded the bracket for landing terminals, swapped in 90mm bolts, reinstalled engine interferences, restarted engine and idled through normal range - all good, terminated alternator side of power cables and landed. (Fri 3-18-2022)
 * Terminated and landed battery side of power cables and landed (Sun 3-20-2022)
-* Terminated loggingPi with a DTM connector to interface with BMS/Victron/Wakespeed CANBus, added ring terminals for 12V power (Fri 5-27-2022)
-* Connected loggingPi to power, and verified CANBus access and that BMS-Cerbo comms were still functioning (Sun 5-29-2022)
+* Terminated the loggingPi with a DTM connector to interface with BMS/Victron/Wakespeed CANBus, added ring terminals for 12V power (Fri 5-27-2022)
+* Connected the loggingPi to power, and verified CANBus access and that BMS-Cerbo comms were still functioning (Sun 5-29-2022)
 * Installed and wired optos for CHARGE-ENABLE, connected CHARGE-ENABLE to Wakespeed feature-in, terminated and landed Wakespeed positive, ground, and shunt wiring (Sat 6-4-2022)
-* Installed "engine run" relay and C33-E connector, connected to prewire, wired to Wakespeed ignition, pinned connectors on alternator connector, installed battery temperature sensor, mounted and wired Stirling alternator protection device (Wed 6-15-2022)
+* Installed the "engine run" relay and C33-E connector, connected to prewire, wired to Wakespeed ignition, pinned connectors on alternator connector, installed battery temperature sensor, mounted and wired Stirling alternator protection device (Wed 6-15-2022)
