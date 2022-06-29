@@ -23,20 +23,15 @@ cover:
 	# url: url
 ---
 
-TODO: Link to voltage drop assessment  
-TODO: Link to electrical article  
-TODO: Link to alternator selection article
-
-
 **TLDR:** The alternator install was a bit of a challenge due to the tolerancing of the bracket and the incorrect length of the supplied belt.  If you have the right length belt and some basic power tools (if needed), the physical install should only take about 4 hours for two people.
 
-For the reasons identified elsewhere, we opted to install a dedicated 24V alternator.  As documented here, we selected a 185A alternator kit for the transit sold by American Power Systems.
+For the reasons identified [here](/van/electrical/electrical_overview/electrical), we opted to install a dedicated 24V alternator.  As documented [here](/van/electrical/alternator_charging/alternator_charging), we selected a 185A alternator kit for the transit sold by American Power Systems.
 
 ## Physical Install
 
-Before the alternator arrived, we used an extension cord to map out the high power cable run between the battery and the alternator install location.  For our layout, we found 25 feet was sufficient with a little extra on each end for termination and margin.  We planned, and did, run a return cable to the alternator rather than rely on the chassis.  It's not clear this is necessary, but is strongly advised by both Nations, and APS.  Alternatively one could reinforce the engine to chassis ground strap/cable to ensure it has sufficient ampacity.  One other benefit of running a return cable adjacent to the source cable is minimization of the loop area which reduces risk of any electromagnetic interference.  
+Before the alternator arrived, we used an extension cord to map out the high power cable run between the battery and the alternator install location.  For our layout, we found 25 feet was sufficient with a little extra on each end for termination and margin.  We planned, and did, run a return cable to the alternator rather than rely on the chassis.  It's not clear this is necessary, but is strongly advised by both Nations, and APS.  Alternatively one could reinforce the engine to chassis ground strap/cable to ensure it has sufficient ampacity.  One other benefit of running a return cable adjacent to the source cable is minimization of the loop area which reduces the risk of any electromagnetic interference.  
 
-With a 50 ft round trip conductor path, we could then determine the required cable size.  More detail is here, but the summary is 2/0 Ancor cable keeps the voltage drop below 3%. 
+With a 50 ft round trip conductor path, we could then determine the required cable size.  More detail is [here](/van/electrical/wire_sizing/wire_sizing), but in short, 2/0 Ancor cable keeps the voltage drop below 3% and ampacity is not the limiting factor. 
 
 Because we will run the Wakespeed control cables along the same route, this effort also verified that the van-specific wiring harness has sufficient length on the alternator connections.  These wires are 27 ft on our harness.
 
