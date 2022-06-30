@@ -36,3 +36,6 @@ Identified that SOC has dropped below 85% yet charging hasn't started.  Based on
 Based on this change we saw PV charging start and the CCL ramp from zero up to 280A.
 
 Also modified BMS auto testing code to log charging events (or any event).  Charging off shore at near multiplus limit and logging response (to finally get some detailed data).
+
+2022-6-29
+Changed SOCH to 0.6 to allow to cycle down to 40% SOC.  With Alternator charging its been cycling 80-100 daily.  Will reconsider once a switch for alternator charging is implemented.
