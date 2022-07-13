@@ -58,6 +58,5 @@ We modified the wiring to allow the switch that turns on the LEDs and oven light
 _Modified wiring._
 
 
-
-
+We are considering a pivot to all electric cooking.  The [Ninja Foodi 10-in-1 XL Pro](https://www.ninjakitchen.com/exclusive-offer/DT201B3/ninja-foodi-10-in-1-xl-pro-air-fry-oven-large-countertop-convection-oven/) is one alternative we are considering.
 
