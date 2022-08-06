@@ -70,3 +70,6 @@ Wire management.
 
 3-16-22
 eternabonded the factory plugs
+
+NOTE: Roof rack is 137" end to end.
+Hooks/Studs in 8020 cross members would be 137 - 2*0.75 = 135.5 = 11' 3.5" center to center

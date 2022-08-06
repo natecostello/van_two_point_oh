@@ -11,7 +11,7 @@ Storage Components:
 * [Husky 12 Gal container]()
 
 Deployed:
-Dishy will sit atop a [Harbor Freight 20ft telescoping flag pole]() using an [adapter bushing]() sold by a user on etsy.  The lowest element of the flag pole will be mounted using this [pole-to-pole mount]() to the vertical element of the aluminess passenger door carrier.  The pole-to-pole mount was selected based on the diameter of the lowest flag pole element (just over 2") and the aluminess tubing (1.625").
+Dishy will sit atop a [Flag Pole Buddy]() using an [adapter bushing]().  The lowest element of the flag pole will be mounted using this [pole-to-pole mount]() to the vertical element of the aluminess passenger door carrier.  The pole-to-pole mount was selected based on the diameter of the lowest flag pole element (just over 2") and the aluminess tubing (1.625").  We considered the Harbor Freight telescoping flag pole but have decided against it based on reported failures of the telescoping mechanism.
 
 Dishy's cable, left long enough to fully extend the flagpole, will be reterminated with a shielded RJ45 connector.  This will plug into a waterproof RJ45 shielded coupler installed in the roof pass through box.  A shielded cat6 cable will run from the inside of the roof pass through box to the POE box located in the "network closet".
 
@@ -24,7 +24,7 @@ Deployed Components:
 
 
 POE Box:
-The POE box will receive 24V power via a barrel connector.  It will contain a 24-48V boost converter.  It will have a rocker switch to cut power to the boost converter and all downstream components.  The boost converter will provide 48V to a POE injector.  The POE box will contain two RJ45 sockets, one for the router, and one for data + POE to dishy.  Two internal CAT5E Jumpers will connect the POE injector and the two RJ45 sockets and perform wire swaps needed for dishy power.
+The POE box will receive 24V power via a barrel connector.  It will contain a 24-48V (or 24-56V) boost converter.  It will have a rocker switch to cut power to the boost converter and all downstream components.  The boost converter will provide 48V (or 56V) to a [DishyPowa POE injector](https://dishypowa.com/).  The POE box will contain two RJ45 sockets, one for the router, and one for data + POE to dishy.  The DishyPowa injector will perform wire swaps needed for dishy power.
 
 POE Box Components:
 * [Project box](https://www.amazon.com/LeMotech-Plastic-Electrical-Project-Junction/dp/B07D23BF7Y/).  This box is large enough to contain all components (with converter mounted on top).
@@ -41,3 +41,6 @@ POE Box Components:
 
 XX-XX-2022
 setup and used starlink for the first time
+
+8-6-2022
+Notified of availability and ordered DishyPowa POE injector.
