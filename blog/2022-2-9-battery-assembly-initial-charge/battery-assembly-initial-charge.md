@@ -174,3 +174,6 @@ It appears that CCL never exceeds 9.7A even when SOC is down to 60% and voltage 
 4-3-22
 Set CHIS back to 0.25.  Will see if charges.
 Checked CERBO - CCL is now back to 279A.
+
+8-24-2022
+Removed insulation from ends and top of battery to lower temperatures.
