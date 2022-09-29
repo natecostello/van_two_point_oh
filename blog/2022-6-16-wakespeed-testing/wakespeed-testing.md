@@ -84,9 +84,21 @@ Testing with the "normal derate" parameter (field drive) set to 0.84 demonstrate
 
 The modified configuration file is [here](ALTREG-2022-6-22-v-1.3.txt) with annotations [here](ALTREG-2022-6-22-v-1.3-annotated.txt).  Raw test data is [here](2022-6-23-wakespeed-min-dc-load-v1.3-charge.csv).
 
+## Later Findings Regarding High Voltage Cutoff Events
+
+On 2022-7-10 we observed a high voltage cutoff event upon starting the van.  The system then restarted without resetting SOC to 100% and charging resumed occured via solar limited by max voltage of 28.1.  Some cell balance occured prior to the SOC reset to 100%.  The next charging event occured on the 12th, once SOC dropped to > 40% where we have SOCH set.  No alternator charge occured.  Upon inspecting the unit it was flashing an error code corresponding to BMS notifying of cutoff.  Had to power cycle BMS to resume operation as the high voltage cutoff disable alternator charging until reset (with  present settings).
+
+Over time, cells have drifted based on limited ability to balance with the new BMS firmware.  This resulted in another high voltage cutoff event on 2022-9-28 (with no SOC reset) while driving with alternator charging.  Essentially, a single cell is hitting the high voltage threshold prior to charge being limited by the charge voltage limit (28.1V presently).
+
+To solve this problem, we've made use of the CERBO generator start/stop function of relay one.  The CERBO gates the engine run signal to the Wakespeed 500 based on battery SOC.  We've tested it successfully.  It is currently set to enable alternator charging when SOC is between 80% and 97%.  This should:
+
+* Eliminate high voltage cutoff events due to high alternator charge rates
+* Allow more balancing to occur as solar tops off the battery at lower charge rates
+
+
 ## Future Testing
 
-Idle thermal performance is still undetermined and will be tested in the future.  We also need to decode field drive over CANBus so we can monitor that parameter without relying on serial data.
+Idle thermal performance is still undetermined and will be tested in the future.  Inital testing suggest we can sustain about 4KW charge rates steady state while idling.
 
 ## Timeline
 
