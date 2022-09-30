@@ -90,7 +90,7 @@ On 2022-7-10 we observed a high voltage cutoff event upon starting the van.  The
 
 Over time, cells have drifted based on limited ability to balance with the new BMS firmware.  This resulted in another high voltage cutoff event on 2022-9-28 (with no SOC reset) while driving with alternator charging.  Essentially, a single cell is hitting the high voltage threshold prior to charge being limited by the charge voltage limit (28.1V presently).
 
-To solve this problem, we've made use of the CERBO generator start/stop function of relay one.  The CERBO gates the engine run signal to the Wakespeed 500 based on battery SOC.  We've tested it successfully.  It is currently set to enable alternator charging when SOC drops below 80% and disble when SOC reaches 97%. It also disables alternator charging if it loses communication with the BMS. This should:
+To solve this problem, we've made use of the CERBO generator start/stop function of relay one.  The CERBO gates the engine run signal to the Wakespeed 500 based on battery SOC.  We've tested it successfully.  It is currently set to enable alternator charging when SOC drops below 80% and disble when SOC reaches 95%. It also disables alternator charging if it loses communication with the BMS. This should:
 
 * Eliminate high voltage cutoff events due to high alternator charge rates
 * Allow more balancing to occur as solar tops off the battery at lower charge rates
