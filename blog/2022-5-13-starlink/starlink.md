@@ -42,7 +42,10 @@ Roof Gland Box:
 * [Shielded RJ45 couplers](https://www.amazon.com/gp/product/B09XM37H79/)
 
 
+Starlink Mounting:
+The stem can tuck under/behind the rear crossbeam to minimize the height of the antenna.  With this arrangement, the surface of the unit need only rise 2" above the top of the rack sides and crossbeams.  This can be accomplished by building a rectangle with aluminum angle with dimensions that match the outline of the antenna (12" by 20.25")
 
+6063 angle is available from metals supermarket in 2x1x0.125" (long) and 1.75x1.75x0.125" (cross).  The cross pieces would bolt to the long with 1/8" spacers to flush the top edges.
 
 XX-XX-2022
 setup and used starlink for the first time
