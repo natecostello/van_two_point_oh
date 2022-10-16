@@ -45,7 +45,7 @@ Roof Gland Box:
 Starlink Mounting:
 The stem can tuck under/behind the rear crossbeam to minimize the height of the antenna.  With this arrangement, the surface of the unit need only rise 2" above the top of the rack sides and crossbeams.  This can be accomplished by building a rectangle with aluminum angle with dimensions that match the outline of the antenna (12" by 20.25")
 
-6063 angle is available from metals supermarket in 2x1x0.125" (long) and 1.75x1.75x0.125" (cross).  The cross pieces would bolt to the long with 1/8" spacers to flush the top edges.  Estimated weight using 1/8" is 3 ~lbs (7.3' x 0.42).  See sketchup model.
+6063 angle is available from metals supermarket in 2x1x0.125" (long) and 1.75x1.75x0.125" (cross).  The cross pieces would bolt to the long with 1/8" spacers to flush the top edges.  Estimated weight using 1/8" is 3 ~lbs (7.3' x 0.42).  See sketchup model.  Plan to use velco straps to fasten.  Anchor velcro webbing with [these](https://www.mcmaster.com/8030T11/).
 
 XX-XX-2022
 setup and used starlink for the first time
