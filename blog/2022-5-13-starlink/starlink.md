@@ -11,7 +11,7 @@ Storage Components:
 * [Husky 12 Gal container]()
 
 Deployed:
-Dishy will sit atop a [Flag Pole Buddy](https://flagpolebuddy.com/ols/products/httpsflagpolebuddycomolsproductshttpsflagpolebuddycomolsproductsstarlink-kit-2nd-generation).  The lowest element of the flag pole will be mounted to the vertical element of the aluminess passenger door carrier.  Flag Pole Buddy doesn't have an off-the-shelf adapter to mount to a the aluminess tubing (1.625").  Based on a call they asked that I email the dimensions (sasia@flagpolebuddy.com) and they'd pass them to thier designer and get back to me. Flag Pole Buddy reached out on 10-14-2022 and stated that the designer made custom "caps" suitable for the Aluminess tube dimensions.  Place order, in the "special instructions" section add: "Need aluminess ladder modification caps".
+Dishy will sit atop a [Flag Pole Buddy](https://flagpolebuddy.com/ols/products/httpsflagpolebuddycomolsproductshttpsflagpolebuddycomolsproductsstarlink-kit-2nd-generation).  The lowest element of the flag pole will be mounted to the vertical element of the aluminess passenger door carrier.  Flag Pole Buddy doesn't have an off-the-shelf adapter to mount to a the aluminess tubing (1.625").  Based on a call they asked that I email the dimensions (sasia@flagpolebuddy.com) and they'd pass them to thier designer and get back to me. Flag Pole Buddy reached out on 10-14-2022 and stated that the designer made custom "caps" suitable for the Aluminess tube dimensions.  Place order, in the "special instructions" section add: "Need aluminess ladder modification caps". (Ordered)
 
 We considered the Harbor Freight telescoping flag pole but have decided against it based on reported failures of the telescoping mechanism.
 
@@ -29,7 +29,7 @@ The POE box will receive 24V power via a #8 terminal block.  It will contain a 2
 I was unable to find a 24V-56V converter with decent efficiency (>90%).  There are several 24-48V options available.  We'll try that and see if we have any problems.
 
 POE Box to Roof Gland:
-* [23AWG shielded ethernet cable 25ft](https://www.amazon.com/GearIT-Cat6-Outdoor-Ethernet-Cable/dp/B0874799NB?th=1).
+* [23AWG shielded ethernet cable 25ft](https://www.amazon.com/GearIT-Cat6-Outdoor-Ethernet-Cable/dp/B0874799NB?th=1). Ordering alternative from above.
 
 POE Box Components:
 * [Project box](https://www.amazon.com/LeMotech-Stainless-Waterproof-Electrical-Electronics/dp/B09T6NFRXH/?th=1).  This box is large enough to contain all components (with converter and switch mounted on lid).  68mmx99mm Internal.
@@ -40,15 +40,31 @@ POE Box Components:
 
 Roof Gland Box:
 * [Shielded RJ45 couplers](https://www.amazon.com/gp/product/B09XM37H79/)
+* [Alternate RJ45 couplers](https://www.amazon.com/gp/product/B08CDD2BRF) ordered due to long delay on first choice.  Some comments report not waterproof and some report not shielded.  We'll see.
 
 
 Starlink Mounting:
-The stem can tuck under/behind the rear crossbeam to minimize the height of the antenna.  With this arrangement, the surface of the unit need only rise 2" above the top of the rack sides and crossbeams.  This can be accomplished by building a rectangle with aluminum angle with dimensions that match the outline of the antenna (12" by 20.25")
+The stem can tuck under/behind the rear crossbeam to minimize the height of the antenna.  With this arrangement, the surface of the unit need only rise 2" above the top of the rack sides and crossbeams.  This can be accomplished by building a rectangle with aluminum angle with dimensions that match the outline of the antenna (12" by 20.25").  6063 angle is available from metals supermarket in 2x1x0.125" (30.75" long) and 1.75x1.75x0.125" (11.75" across).  The cross pieces would bolt to the long with 1/8" spacers to flush the top edges.  Estimated weight using 1/8" is 3 ~lbs (7.3' x 0.42).  See sketchup model.  (Material ordered cut to length from Metals Supermarket at 4901 W. Rio Vista Ave. Suite A, Tampa, 33634)
 
-6063 angle is available from metals supermarket in 2x1x0.125" (long) and 1.75x1.75x0.125" (cross).  The cross pieces would bolt to the long with 1/8" spacers to flush the top edges.  Estimated weight using 1/8" is 3 ~lbs (7.3' x 0.42).  See sketchup model.  Plan to use velco straps to fasten.  Anchor velcro webbing with [these](https://www.mcmaster.com/8030T11/).
+We'll cover with the same vinyl wrap as roof rack. (Ordered from Amazon)
+
+Plan to use velco straps to fasten.  Anchor velcro webbing with [these](https://www.mcmaster.com/8030T11/).
+
+Starlink Hack:
+We'll drill the hole, pull the motor power plug, and splice in a water proof switch.
+* [This waterproof switch]() was recommended in the facebook group.
+* [These pigtailes]() fit the switch terminals and will add extensions to make the connections.
 
 XX-XX-2022
 setup and used starlink for the first time
 
 8-6-2022
 Notified of availability and ordered DishyPowa POE injector.
+
+10-17-2022
+Ordered Angle, FlagPoleBuddy, Roof Gland Box, POE Box, Rocker Switch, Alternate Shielded Couplers, Terminal Block, Cat6 Cable, and 24-48V converter.
+
+10-19-2022
+Test fit with angle, concept works.  See photos from this date.
+Ordered waterproof switch and pigtails.
+Ordered webbing anchors.

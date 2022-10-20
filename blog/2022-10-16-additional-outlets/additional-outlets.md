@@ -20,8 +20,11 @@ We will use the same [outlet box](https://www.amazon.com/Carlon-Lamson-Sessons-B
 
 Because this is a standalone circuit, the outlet should be GFCI since it doesn't have an upstream GFCI already.  We will use the same [GFCI outlet](https://www.amazon.com/gp/product/B013OVCIPG/) as the garage outlet on the other circuit.
 
-We will repurpose the vestigial wireing that powered the propane solenoid.
+We will repurpose the vestigial wiring that powered the propane solenoid/oven.
 
 Materials:
 Outlet box x1
 GFCI outlet x1
+
+10-20-2022
+Ordered All Outlet Materials
