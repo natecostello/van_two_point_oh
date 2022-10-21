@@ -19,7 +19,8 @@ Dishy's cable, left long enough to fully extend the flagpole and use the origina
 
 Deployed Components:
 * [Flag Pole Buddy Starlink Kit](https://flagpolebuddy.com/ols/products/httpsflagpolebuddycomolsproductshttpsflagpolebuddycomolsproductsstarlink-kit-2nd-generation).
-* [roof-pass-through box](https://www.amazon.com/gp/product/B089LLX8RK/)
+* [~~roof-pass-through box~~](https://www.amazon.com/gp/product/B089LLX8RK/) - Gland holes too large for ethernet couplers.
+* [roof-pass-through box](https://www.amazon.com/gp/product/B08K79YJNJ/)
 * [Shielded 25ft 23AWG CAT6 run from POE Box to roof pass-through x3](https://www.amazon.com/Ethernet-IMONTA-Resistant-Waterproof-Buried-able/dp/B0714FJBTW/).  The extra two runs will be used for other applications (e.g., wifi-as-wan, external wifi AP).
 
 
@@ -40,7 +41,7 @@ POE Box Components:
 
 Roof Gland Box:
 * [Shielded RJ45 couplers](https://www.amazon.com/gp/product/B09XM37H79/)
-* [Alternate RJ45 couplers](https://www.amazon.com/gp/product/B08CDD2BRF) ordered due to long delay on first choice.  Some comments report not waterproof and some report not shielded.  We'll see.
+* [~~Alternate RJ45 couplers~~](https://www.amazon.com/gp/product/B08CDD2BRF) - Ordered due to long delay on first choice.  Some comments report not waterproof and some report not shielded.  We'll see.  NOT SHIELDED based on DMM measurement.
 
 
 Starlink Mounting:
@@ -52,8 +53,9 @@ Plan to use velco straps to fasten.  Anchor velcro webbing with [these](https://
 
 Starlink Hack:
 We'll drill the hole, pull the motor power plug, and splice in a water proof switch.
-* [This waterproof switch]() was recommended in the facebook group.
-* [These pigtailes]() fit the switch terminals and will add extensions to make the connections.
+* [This waterproof switch](https://www.amazon.com/dp/B008DG86SQ) was recommended in the facebook group.
+* [These pigtailes](https://www.amazon.com/dp/B08F784R9W) fit the switch terminals and will add extensions to make the connections.
+* [These RJ45 connectors](https://www.amazon.com/gp/product/B07K6DDVV1/) should work with the starlink cable (24AWG CAT5E).
 
 XX-XX-2022
 setup and used starlink for the first time
@@ -68,3 +70,10 @@ Ordered Angle, FlagPoleBuddy, Roof Gland Box, POE Box, Rocker Switch, Alternate 
 Test fit with angle, concept works.  See photos from this date.
 Ordered waterproof switch and pigtails.
 Ordered webbing anchors.
+
+10-20-2022
+Test fit structure on van, works.  Just need to trim angle to lower the width by 1/8" and angle the ends to prevent shadowing solar panels.
+
+10-21-2022
+Retured Alternate Shielded Couplers, Ordered other shielded couplers.  Verified couplers will not work with rooftop box.  Ordered new box with fewer glands and will drill new holes for ethernet ports.
+Ordered shielded RJ45.
