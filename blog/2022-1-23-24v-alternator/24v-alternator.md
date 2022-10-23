@@ -148,4 +148,4 @@ Note: This doesn't reflect full time effort.  Its sporadic and limited by work, 
 * Connected the loggingPi to power, and verified CANBus access and that BMS-Cerbo comms were still functioning (Sun 5-29-2022)
 * Installed and wired optos for CHARGE-ENABLE, connected CHARGE-ENABLE to Wakespeed feature-in, terminated and landed Wakespeed positive, ground, and shunt wiring (Sat 6-4-2022)
 * Installed the "engine run" relay and C33-E connector, connected to prewire, wired to Wakespeed ignition, pinned connectors on alternator connector, installed battery temperature sensor, mounted and wired Stirling alternator protection device (Wed 6-15-2022)
-* Ordered [these spacers](https://www.panduit.com/en/products/wire-routing-management-protection/cable-wire-ties-mounts-straps/cable-tie-accessories/cseh15a30-c0.html) to improve cable thermal performance. (Sun 10-23-2022)
+* Ordered [these spacers](https://www.panduit.com/en/products/wire-routing-management-protection/cable-wire-ties-mounts-straps/cable-tie-accessories/cseh15a30-c0.html) to improve cable thermal performance and high temp zip ties. (Sun 10-23-2022)
