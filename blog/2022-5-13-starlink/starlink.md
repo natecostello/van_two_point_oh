@@ -1,5 +1,13 @@
 Notes:
 
+Initial Thoughts/Experience
+
+We hooked up our Starlink for the first time on Hatteras Island in mid April of 2022.  We changed our service address to Hatteras (a generic address) and it connected immediately.  Starlink had just started rolling out roaming capability recently and after that first change in service address we never had to change it again (over two trips accross the country).
+
+For us service has been pretty amazing from the beginning.  The only time we've had trouble connecting is in heavy tree cover in the Pacific Northwest, and unless its very heavy there is often still enough connectivity to stream.  However, for VOIP, Zoom, or anything realtime, you do need a fully unobstructed view of the Northish sky.
+
+
+
 
 Notes on Mounting/Install:
 
@@ -57,6 +65,29 @@ We'll drill the hole, pull the motor power plug, and splice in a water proof swi
 * [These pigtailes](https://www.amazon.com/dp/B08F784R9W) fit the switch terminals and will add extensions to make the connections.
 * [These RJ45 connectors](https://www.amazon.com/gp/product/B07K6DDVV1/) should work with the starlink cable (24AWG CAT5E).
 
+Starlink Motor Mod:
+[This page has good info](https://www.facebook.com/groups/starlinktogo/permalink/409284207818149).  The author suggests 5" x 5" for hole location for a 3/4" hole.  He also suggests using red and black wires to wire in the switch.
+
+[This video](https://youtu.be/kCOgG6daDVE?t=187) goes with 5" x 5" along contour from edges with 1" hole.
+
+[This comment](https://www.facebook.com/photo.php?fbid=10158932786661334&set=p.10158932786661334&type=3) suggests connector is located 4" from bottom and 4.75" from edge.
+
+Troubleshooting:
+
+After initial wiring, we found that the dish would move to the horizontal position but would issue a stuck motor fault prior to moving into the final position.  Afterwhich it wouldn't respond to a stow command.
+
+Dish moves out of stowed position (can move at angle) and rotates (can rotate).  Upon reaching full extent of angle motion, it gives motor stuck warning.  Will not respond to stow commands once warning is given.  After placing face down and cycling power, it moves into stowed position and gives mast not vertical warning.  Upon restoring to proper orientation it moves back into "flat" position - actually just past flat at extent of travel allowed by body, and gives stuck motor warning.
+
+The first power up after mod, it seemed to "wiggle" anglewise when it tried to move into final position before it gave motor stuck warning.  Have not seen that since.
+
+Inserted ammeter on black line and never saw any current during startup or stow.
+
+No change in behavior with black wire disconnected completely.  Also clearly driving hard into limit of travel by body.  Makes me wonder if black wire is encoder or limit switch signal.
+
+Based on this we guessed that the black wire must have been severed during the crimping process.  We cut one connection, and found continuity through the other.  Based on this we decided to go with a western union splice, soldered, and heat shrunk.  This solved the problem.
+
+
+
 XX-XX-2022
 setup and used starlink for the first time
 
@@ -77,3 +108,36 @@ Test fit structure on van, works.  Just need to trim angle to lower the width by
 10-21-2022
 Retured Alternate Shielded Couplers, Ordered other shielded couplers.  Verified couplers will not work with rooftop box.  Ordered new box with fewer glands and will drill new holes for ethernet ports.
 Ordered shielded RJ45.
+
+10-24-2022
+Wrapped structure
+
+10-25-3022
+Built POE box
+Broke starlink (incorrect wiring)
+Ordered new dishypowa
+Spliced ethernet onto dishside
+
+10-26-2022
+Ordered new starlink
+Spliced ethernet onto routerside
+
+10-30-2022
+Confirmed with new cable that old dish is dead
+Confirmed with new dish that ethernet splices are SAT
+Routed ethernet from roof pen to network closet
+Tested roof pen ethernet connections and runs with dish and router, all SAT
+
+10-31-2022
+Drilled and wired in switch, incorrect behavior (see above).  Ultimately determined bad connection on black wire.
+
+11-1-2022
+Soldered black wire and heat shrank, all tests sat.
+Sealed waterproof switch with 5200.
+Replaced dishypowa
+Installed on van and tested SAT
+
+
+
+
+
