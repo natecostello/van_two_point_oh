@@ -12,3 +12,6 @@ Can mount to 80/20 using https://www.tnutz.com/product/qt-015/ #8-32 tnuts and s
 10-19-2022
 Ordered low profile 8-32 1/2" screws.
 Ordered sliders.
+
+10-29-2022
+Installed sliders
