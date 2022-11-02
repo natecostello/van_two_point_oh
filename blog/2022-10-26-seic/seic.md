@@ -30,5 +30,7 @@ I can't seem to find anywhere to order these from.  Might check with ford.  Othe
 
 If I search for that kit on on a ford site, it looks like I can order it:
 https://parts.ford.com/shop/en/us/electrical/wire-looms-and-connectors/wiring-assy-6503155-1#/partMatched?pdp=y
+It shows up as part number: 9C2Z13A576A associated with E series.
 
-However it does looke like it is an E-series part.  Probably fine.
+2022-10-28
+Ordered kit 9c25-14a351-AB from parts.ford.com

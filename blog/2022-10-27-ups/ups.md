@@ -1,0 +1,1 @@
+Can use an arduino micro connected and powered via USB a device running a NUTS server to power down all comms equipment.  Micro will use [this code](https://github.com/abratchik/HIDPowerDevice).
