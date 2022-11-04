@@ -72,7 +72,7 @@ The GL iNet [Amarok](https://www.gl-inet.com/products/gl-x1200/) which can house
 
 The Ubiquity [EdgeMax](https://www.ui.com/edgemax/comparison/) series supports multi-wan with balancing and failover.  Prices are pretty reasonable.
 
-Could also just use any device with good open-wrt support and run it using multwan.  This might be the most customizable.  Many cheap GL.inet devices could work.  The Amarok could also do it.  Looking at other GL.inet devices, no others seem to have dedicated external antennas inputs (two for MIMO, one for internal WiFi) and at least three ports (one for the wifi source, one for starlink, and one LAN to connect to switch).
+Could also just use any device with good open-wrt support and run it using multwan.  This might be the most customizable.  Many cheap GL.inet devices could work.  The Amarok could also do it.  Looking at other GL.inet devices, no others seem to have dedicated external antennas inputs (two for MIMO, one for internal WiFi) and at least three ports (one for the wifi source, one for Starlink, and one LAN to connect to switch).
 
 ### Cables and Accessories
 
