@@ -1,6 +1,6 @@
 Notes:
 
-## Initial Thoughts/Experience
+## General Thoughts and Experience
 
 We hooked up our Starlink for the first time on Hatteras Island in mid April of 2022.  We changed our service address to Hatteras (a generic address) and it connected immediately.  Starlink had just started rolling out roaming capability recently and after that first change in service address we never had to change it again (including two trips accross the country).
 
@@ -12,7 +12,7 @@ Power usage isn't too bad but does add up: Running a multiplus just for Starlink
 
 We were on Hatteras during a gnarly Nor'easter in early May that swept two houses out to sea and cut off access to the island for 5 days or so when the dunes on Hwy 12 collapsed.  At some point during reconstruction, the "hardline" to the island got cut.  This takes out everything: cell, internet, and land lines (including 911).  The local radio station was telling people to head to the local fire department in case of emergency.  Meanwhile, we're streaming Netflix and making wifi calls off island.  Game changer.
 
-## Initial Use
+## Phase 1 Use
 
 For the first 7 months, we used starlink "on label".  When camping throw dishy on the stand it came with and either throw it up on the roof (on a towel) or somewhere in a clear area within the 75ft limitation of the included cable.  We'd usually place the router in our garage area and fish the wire from the dish through the square hole under the passenger rear corner.  
 
@@ -24,7 +24,7 @@ A few notes related to this approach:
 
 * Our internal network would auto connect to the starlink router's wifi and use that as its internet source.  If this sounds interesting to you look into openwrt and a package called travelrouter.  If you aren't afraid of a linux command line its pretty straight forward.
 
-## Initial Storage
+## Phase 1 Storage
 
 Since we stowed our system while mobile (except one unfortunate time) we needed a storage solution.  Based on some useful facebook groups and subreddits we settled on this [Husky 12 Gal container](https://www.homedepot.com/p/Husky-12-Gal-Professional-Duty-Waterproof-Storage-Container-with-Hinged-Lid-in-Red-248921/313861297) which happens to fit a dish, stand, router, and cable quite well with 1/2" leftover minicell on the interior bottom and sides to give its innards a soft ride.
 
@@ -32,51 +32,64 @@ That container also functions well as a step for about a week if you are under 1
 
 We highly recommend this box for storage.  There are some pelican cases that allegedly fit well, but there's probably more interesting things to spend that kind of money on.
 
-## Phase 2 Use and Storage
+# Phase 2 Use and Storage
 
 After six months of watching the hacking groups figure out the best ways to mount, disable motors, delete the router, and power from DC, we elected to do those all those things.
 
-### Requirements
+## Requirements
 
 1. We wanted to eliminate the work to deploy and undeploy the system for 90% of our campsites.  Flat mounting on the roof accomplishes this.  However, we did want to preserve the motor functions to orient the dish when mounted normally on a raised pole, or away from the van for the remaining 10% of our campsites.
 
 2. We wanted to eliminate the router.  The first reason was to have starlink hardwired into our network to eliminate unnecessary power and bandwidth loss associated with an unwanted extra wireless network.   The second, and more import reason was eliminate the the need for constant AC power and associated losses.
 
-### Implementation
+## Implementation
 
-
-## Mounting
+### Mounting
 
 For our roof design, the dish had to go at the rear of the van.  This presented an opportunity with a lower profile while leaving the stem of dishy intact to satisfy our first requirement.  We found that we could take advantage of the roll off of the van roof to accomadate the angled stem.  This was somewhat dependent on our roof rack design and dimensions, but allows us to flat mount a "stowed" starlink dish only 2 inches above the surface of our roof rack which is already pretty low.  It also meant we could use easily procured standard aluminum angle to build the mount (cradle) out of the limited tools we have at our disposal these days (drill, hacksaw, and a clamp).
 
 
-The cradle consists of two pieces of 30.75" long 2x1x0.125" angle running fore-aft and two pieces of 11.75" long 1.75"x1.75"x0.125" angle running athart.  The parts are bolted together to form a rectangle with an outer dimension that perfectly matches the edge of the dish.  There are 1/8" FR4 spacers (left over from the build) under the athwart angle to so that all edges of the rectangle are in plane.  Note, the 30.75" dimension was based on hitting a roof rack crossmember while allowing enough cradle overhang so the dish stem drops below roof level as the roof rolls off.  All metal was purchased cut from metal's supermarket, a fantastic source if you have a location near you (inquire about their cut tolerance though).  We also cut a 22.5 degree angle on the structure's edge that mounts near our solar panels to minimize any shading while the sun is a decent power producing angle.
+The cradle consists of two pieces of 30.75" long 2x1x0.125" angle running fore-aft and two pieces of 11.75" long 1.75"x1.75"x0.125" angle running athart.  The parts are bolted together to form a rectangle with an outer dimension that perfectly matches the edge of the dish.  There are 1/8" FR4 spacers (left over from the build) under the athwart angle to so that all edges of the rectangle are in plane.  Note, the 30.75" dimension was based on hitting a roof rack crossmember while allowing enough cradle overhang so the dish stem drops below roof level as the roof rolls off.  All metal was purchased cut from metal's supermarket, a fantastic source if you have a location near you (inquire about their cut tolerance though).  We also cut a 22.5 degree angle on the structure's edge that mounts near our solar panels to minimize any shading while the sun is a decent power producing angle.  If its helpful, [here is a basic sketchup model](starlink-mount.skp).
 
+![](fitcheck.jpeg)  
+_To verify our design worked we put it together with small amounts of VHB._
 
+![](fitcheck-dish.jpeg)
+_We also put this prototype up on the van rack, but neglected to take pictures._
 
 To match our rack and not have to deal with paint or powder coat, we [vinyl wrapped](https://www.amazon.com/gp/product/B07R53LJLL/) the cradle the same way we did our roof rack angle (which has held up fantastically). 
 
-To secure the dish in the cradle we installed two [webbing guides](https://www.mcmaster.com/8030T11/) on each long side of the cradle and sewed some long 1" wide webbing/velcro straps with one side anchored to a webbing guide.
-
-
+To secure the dish in the cradle we installed two [webbing guides](https://www.mcmaster.com/8030T11/) on each long side of the cradle and sewed some 2 ft long 1" wide webbing/velcro straps with one side anchored to a webbing guide and doubled back over the dish.  As far as we can tell velcro is transparent to dish waves, unlike old growth forest canopy.
 
 To give the dish a softer ride we added some 1/4" thick adhesive foam strip to the dish's underside where it rests on the cradle.
 
+![dish mounted and installed](installed-mounted.jpeg)
+_Cradle mounted with dish installed._
+
+### Router Delete
+
+To replace the router, we needed to deal with the non-standard Power of Ethernet used by the starlink dish.  If you go the full DIY route this means crossing some ethernet strands, passing them through a POE injector powered at 48V, and the crossing them back.  This [guide](starlink-12-or-120-volt-and-wifi-router-delete-ver2) by Jim Taylor of the [Starlink for RVers and other mobile users facebook group](https://www.facebook.com/groups/starlinkrv/) goes into good detail on that approach. 
+
+Instead, we elected to make use of a board that does both of these things called the [dishypowa](https://dishypowa.com/) made by a small business in Australia.  We highly recommend going that route as it keeps the RJ-45 terminations standard.  They also sent candy treats and nice adhesive mounts that the board screws to.
+
+We took the dishypowa board, [this 24-48V converter](https://www.amazon.com/dp/B089M7FVLJ), [this blue sea terminal board](https://www.amazon.com/dp/B0000AZ6TZ), and [this rocker switch](https://www.amazon.com/dp/B08R5PLDBP), and packaged them into [this project box](https://www.amazon.com/dp/B09T6NFRXH).  We did some fairly crude modifications and strain relief, used a little VHB here and there, and arrived at a completed POE Box.
+
+![POE box internals](poe-box-internal.jpeg)
+_POE box internals._
+
+![POE box closed](poe-box.jpeg)
+_POE box exterior view._
+
+
+To delete the router, first we replaced our previous rooftop penetration box with a larger box fitted with shielded ethernet couplers.  
+
+
+According to the hacking groups, maintaining a connected shield over the entire wire run is important.  Our approach involved cutting of the proprietary connector on the starlink router-side and reterminating with a shielded RJ-45 per T568B.  
+
+We used [these shielded RJ-45 terminations] because we already had a normal RJ-45 crimper.  It was fussy, and difficult to verify the individual wiers  
 
 
 
-
-
-
-
-Notes on Mounting/Install:
-
-Our current plan is to stow starlink during travel and setup when at a campsite for an extended period of time.
-
-Storage: Initially, we'll use the husky 12 gallon container that has been used by other successfully (much cheaper than the pelican 610 option).
-
-Storage Components:
-* [Husky 12 Gal container]()
 
 Deployed:
 Dishy will sit atop a [Flag Pole Buddy](https://flagpolebuddy.com/ols/products/httpsflagpolebuddycomolsproductshttpsflagpolebuddycomolsproductsstarlink-kit-2nd-generation).  The lowest element of the flag pole will be mounted to the vertical element of the aluminess passenger door carrier.  Flag Pole Buddy doesn't have an off-the-shelf adapter to mount to a the aluminess tubing (1.625").  Based on a call they asked that I email the dimensions (sasia@flagpolebuddy.com) and they'd pass them to thier designer and get back to me. Flag Pole Buddy reached out on 10-14-2022 and stated that the designer made custom "caps" suitable for the Aluminess tube dimensions.  Place order, in the "special instructions" section add: "Need aluminess ladder modification caps". (Ordered)
