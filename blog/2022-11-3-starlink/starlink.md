@@ -1,15 +1,38 @@
-Notes:
+---
+type: post
+section: blog
+categories: 
+ # one or more categories is permitted
+ - functional
+navTitle: 
+title: Starlink
+author: Nate
+date: 2022-11-03
+tags:
+ - van
+ - build
+ - comms
+ 
+metatags:
+	# no metatags
+cover: 
+	# image file
+ img: cover.jpeg
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
+---
 
 **TLDR: Starlink is a game changer for RVs.  It's stock power consumption is not insignificant if used continuously.  For the daring, power consumption can be improved dramatically and mounting can be accomplished in an "always deployed" configuration.**
 
 
-## General Thoughts and Experience
+## Impressions and Experience
 
 We hooked up our Starlink for the first time on Hatteras Island in mid April of 2022.  We changed our service address to Hatteras (a generic address) and it connected immediately.  Starlink had just started rolling out roaming capability recently and after that first change in service address we never had to change it again (including two trips across the country).
 
 For us service has been pretty amazing from the beginning.  The only time we've had trouble connecting is in heavy tree cover in the Pacific Northwest, and unless its very heavy there is often still enough connectivity to stream.  However, for VOIP, Zoom, or anything realtime, you do need a fully unobstructed view of the Northish sky.
 
-Power usage isn't too bad but does add up: Running a Multiplus just for Starlink (our only semi-continuous AC load) costs you ~20 watts at zero load. Add in the Starlink and you're probably burning 80-100 watts total, 24/7.  I never bothered to suss it out exactly but it was not negligible in our daily energy balance (and we have a big system).  This can be improved, as discussed below.
+Power usage isn't too bad but does add up: Running a Multiplus just for Starlink (our only semi-continuous AC load) costs you ~20 watts at zero load. Add in the Starlink and you're probably burning 80-100 watts total, 24/7.  It was not negligible in our daily energy balance (and we have a big system).  This can be improved, as discussed below.
 
 ### Story Time: 
 
@@ -17,7 +40,7 @@ We were on Hatteras during a gnarly Nor'easter in early May that swept two house
 
 ## Phase 1 Use
 
-For the first 7 months, we used Starlink "on label".  When camping throw dishy on the stand it came with and either throw it up on the roof (on a towel) or somewhere in a clear area within the 75ft limitation of the included cable.  We'd usually place the router in our garage area and fish the wire from the dish through the square hole under the passenger rear corner.  
+For the first 7 months, we used Starlink "on label".  When camping we'd put dishy on the stand it came with and either throw it up on the roof (on a towel) or somewhere in a clear area within the 75ft limitation of the included cable.  We'd usually place the router in our garage area (under bed) and fish the wire from the dish through the square hole under the passenger rear corner.  
 
 After a few months of this, we got tired of fishing the cable into the van.  We'd just place the router outside of the rear windows and plug it into the outlet we have under the rear of the van (highly recommend - our favorite outlet).  Plenty of Starlink router signal would penetrate the doors/windows to give a very solid internet connection to our internal network.
 
@@ -29,11 +52,11 @@ A few notes related to this approach:
 
 ### Story Time:
 
-This method works pretty well until you accidentally drive off with a dish connected.  We did so in Oregon, the dish got pulled 20 ft up a rocky embankment along the Hood River at which point it anchored itself in some roots.  The cable let go from the dish and the router and cable trailed the van dragging on a gravel road for another 200 yards.  The cable was toast, but surprisingly, the dish and router worked fine with a new cable that we happened to have on hand.  A testament to luck and the product's construction.
+This method works pretty well until you accidentally drive off with a dish connected.  Which we did in Oregon. The dish got pulled 20 ft up a rocky embankment along the Hood River at which point it anchored itself in some roots.  The cable let go from the dish and the router and cable trailed the van dragging down a gravel road for another 200 yards.  The cable was toast, but surprisingly the dish and router worked fine with a new cable that we had on hand.  A testament to luck and the product construction.
 
 ## Phase 1 Storage
 
-Since we stowed our system while mobile (except one unfortunate time) we needed a storage solution.  Based on some useful facebook groups and subreddits we settled on this [Husky 12 Gal container](https://www.homedepot.com/p/Husky-12-Gal-Professional-Duty-Waterproof-Storage-Container-with-Hinged-Lid-in-Red-248921/313861297) which happens to fit a dish, stand, router, and cable quite well with 1/2" leftover minicell on the interior bottom and sides to give its innards a soft ride.
+Since we stowed our system while mobile (except that one time) we needed a storage solution.  Based on some useful facebook groups and subreddits we settled on this [Husky 12 Gal container](https://www.homedepot.com/p/Husky-12-Gal-Professional-Duty-Waterproof-Storage-Container-with-Hinged-Lid-in-Red-248921/313861297) which happens to fit a dish, stand, router, and cable quite well with 1/2" leftover minicell on the interior bottom and sides to give its innards a soft ride.
 
 That container also functions well as a step for about a week if you are under 175 lbs.  After that it will no longer function as a step, but will will store a Starlink system fine, but with a cracked lid.  
 
@@ -68,10 +91,12 @@ To match our rack and not have to deal with paint or powder coat, we [vinyl wrap
 
 To secure the dish in the cradle we installed two [webbing guides](https://www.mcmaster.com/8030T11/) on each long side of the cradle and sewed some 2 ft long 1" wide webbing/velcro straps with one side anchored to a webbing guide and doubled back over the dish.  As far as we can tell velcro is transparent to dish waves, unlike old growth forest canopy.
 
-To give the dish a softer ride we added some 1/4" thick adhesive foam strip to the dish's underside where it rests on the cradle.
+To give the dish a softer ride we added some 1/4" thick adhesive foam strips to the dish's underside where it rests on the cradle.
 
 ![dish mounted and installed](installed-mounted.jpeg)
 _Cradle mounted with dish installed._
+
+![dish mounted and installed from above](installed-mounted-top.jpeg)
 
 ## Alternate Mounting
 
@@ -103,18 +128,18 @@ Reconnecting the motor plug was quite difficult.  We'd say curved stout tweezers
 
 We connected pig tails to the switch and tested.  Do not seat the switch into the hole until you have fully tested!
 
-As I mentioned, we had severed the black wire without knowing.  That resulted in what looked like normal behavior at first but a stuck motor warning after a few minutes during final positioning.  No idea why that is, but our repeated testing/troubleshooting showed clearly the black wire is not involved in initial dish angle and rotation movement, but is critical later.  After the stuck warning, the dish is able to automatically return to the stowed position with the black wire disconnected upon reboot.  Maybe its a sensor feedback wire...not sure.  The dish will not move at all if the red wire is disconnected.  Hopefully if you attempt this modification none of this information will matter.
+As I mentioned, we had severed the black wire without knowing.  That resulted in what looked like normal behavior at first but a stuck motor warning after a few minutes during final positioning.  No idea why that is, but our repeated testing/troubleshooting showed clearly the black wire is not involved in initial dish angle and rotation movement, but is critical later.  After the stuck warning, the dish is able to automatically return to the stowed position with the black wire disconnected upon reboot.  Maybe its a sensor feedback wire...not sure.  The dish will not move at all if the red wire is disconnected.  If you attempt this modification, hopefully none of this information will matter.
 
-After we got that all sorted, we opted to use some 3M 5200 we had on hand to properly seal the switches boot to the back of the dish.  Without doing this water could easily ingress into the hole.
+After we got that all sorted, we used some 3M 5200 we had on hand to properly seal the switches boot to the back of the dish.  Without doing this water could easily ingress into the hole.
 
-If we did it again, we would consider going with a larger hole, using a rubber grommet/disk to fill the larger hole, and installing the switch into the grommet/dish.  That might make things easier.
+If we did it again, we would consider going with a larger hole, using a rubber grommet/disk to fill the larger hole, and install the switch into the grommet/dish.  That might make things less fucky.
 
 ![switch](switch.jpeg)
 _We're past pretty at this point._
 
 ## Router Delete
 
-To delete the Starlink router, we needed to deal with the non-standard Power of Ethernet used by the Starlink dish.  If you go the full DIY route this means crossing some ethernet strands, passing them through a POE injector powered at 48V, and the crossing them back.  This [guide](Starlink-12-or-120-volt-and-wifi-router-delete-ver2) by Jim Taylor of the [Starlink for RVers and other mobile users facebook group](https://www.facebook.com/groups/Starlinkrv/) goes into good detail on that approach. 
+To delete the Starlink router, we needed to deal with the non-standard Power Over Ethernet (POE) used by the Starlink dish.  If you go the full DIY route this means crossing some ethernet strands, passing them through a POE injector powered at 48V, and then crossing them back.  This [guide](Starlink-12-or-120-volt-and-wifi-router-delete-ver2) by Jim Taylor of the [Starlink for RVers and other mobile users facebook group](https://www.facebook.com/groups/Starlinkrv/) goes into good detail on that approach. 
 
 Instead, we elected to make use of a board that does both of these things called the [DishyPowa](https://DishyPowa.com/) made by a small business in Australia.  We highly recommend going that route as it keeps the RJ-45 terminations standard.  They also sent candy treats and nice adhesive mounts that the board screws to.
 
@@ -126,11 +151,11 @@ _POE box internals._
 ![POE box closed](poe-box.jpeg)
 _POE box exterior view._
 
-For our chosen router delete method using the DishyPowa board, we need to cut off the proprietary connector and re-terminate to RJ-45 per T568B. The supplied Starlink cable is actually CAT5E dressed up with special waterproof connections.
+For our chosen router delete method using the DishyPowa board, we need to cut off the proprietary connector and re-terminate the Starlink cable to RJ-45 per T568B. The supplied Starlink cable is actually CAT5E dressed up these special proprietary waterproof connections.
 
 We used [these shielded RJ-45 terminations](https://www.amazon.com/dp/B07K6DDVV1) because they are shielded, support 25-26AWG CAT5E cable, and we already had a standard RJ-45 crimper on hand.  It was fussy and difficult to verify the correct locations of the individual wires.  If we had to do it again we'd pickup a pass-through connector crimper and pass-through connectors.  We'd also have an independent triple check on that the terminated wire locations were correct.  If you get this wrong you can smoke both your DishyPowa board AND your Starlink dish, don't ask how we know.  I'd also recommend you go ahead and terminate the left-over end that connects to the Starlink router.  This lets you use one of [these shielded couplers](https://www.amazon.com/dp/B071NVVB6M) to test that everything still works properly and that the terminations are good.
 
-We used [these shielded waterproof RJ-45 panel mount couplers](https://www.amazon.com/dp/B09XM37H79) for our new roof pass through box.  These are actually shielded.  Choose wisely and test: [These couplers](https://www.amazon.com/gp/product/B08CDD2BRF) claim to be shielded but were not based on a DMM check.  We used [this box](https://www.amazon.com/dp/B08K79YJNJ).  The key characteristic was the side with no preexisting cable glands.  That gave us space to install three of the ethernet couplers.  We used [this hole saw](https://www.amazon.com/dp/B0B467X2B2) to make the holes for the couplers.  The extra two couplers are for future flexibility (e.g. and outdoor wifi AP).  We'll document the other details of this pass through elsewhere but in short it uses a 1" bulkhead fitting and closed cell foam to create the seal.  That approach has worked leak-free for 7 months on the road though all kinds of driven rain.
+We used [these shielded waterproof RJ-45 panel mount couplers](https://www.amazon.com/dp/B09XM37H79) for our new roof pass through box.  These are actually shielded.  Choose wisely and test: [These couplers](https://www.amazon.com/gp/product/B08CDD2BRF) claim to be shielded but were not based on a DMM check.  We used [this box](https://www.amazon.com/dp/B08K79YJNJ).  The key characteristic was the side with no preexisting cable glands.  That gave us space to install three of the ethernet couplers.  We used [this hole saw](https://www.amazon.com/dp/B0B467X2B2) to make the holes for the couplers.  The extra two couplers are for future flexibility (e.g. an outdoor wifi AP).  We'll document the other details of this pass through elsewhere but in short it uses a 1" bulkhead fitting and closed cell foam to create the seal.  That approach has worked leak-free for 7 months on the road though all kinds of driven rain.
 
 ![Roof Pass Though](roof-passthrough.jpeg)
 _We can't imagine needing to bring more wire/cable to the roof than this thing will allow._
@@ -139,7 +164,9 @@ Lastly, we ran 3 of [these 25ft shielded ethernet cables](https://www.amazon.com
 
 ## Fin
 
-Thats it.  We flipped off the dish motors, mounted the dish in its cradle,  plugged it into a rooftop coupler, plugged the corresponding interior cable into the POE box, plugged a data cable from our own router to the POE box, and fired everything up.  Everything worked (the second time - after we fried our first dish and DishyPowa board).  All phase two requirements satisfied.  Lastly, to use the Starlink App after the router delete, you may need to setup some static routes on your router, refer to google.
+Thats it.  We flipped off the dish motors, mounted the dish in its cradle,  plugged it into a rooftop coupler, plugged the corresponding interior cable into the POE box, plugged a data cable from our own router to the POE box, and fired everything up.  Everything worked (the second time - after we fried our first dish and DishyPowa board).  All phase two requirements satisfied.  Lastly, to use the Starlink App after the router delete, you may need to setup some static routes on your router. Refer to google.
+
+![Complete](installed-mounted-wide.jpeg)
 
 ## Misc
 
@@ -148,7 +175,7 @@ Thats it.  We flipped off the dish motors, mounted the dish in its cradle,  plug
 Starlink Motor Mod:
 [This page has good info](https://www.facebook.com/groups/Starlinktogo/permalink/409284207818149).  The author suggests 5" x 5" for hole location for a 3/4" hole.  He also suggests using red and black wires to wire in the switch.
 
-[This video](https://youtu.be/kCOgG6daDVE?t=187) goes with  hole located 5" x 5" along contour from edges with 1" hole.
+[This video](https://youtu.be/kCOgG6daDVE?t=187) goes with a hole located 5" x 5" along contour from edges with 1" hole.
 
 [This comment](https://www.facebook.com/photo.php?fbid=10158932786661334&set=p.10158932786661334&type=3) suggests connector is located 4" from bottom and 4.75" from edge.
 
