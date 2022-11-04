@@ -1,10 +1,70 @@
 Notes:
 
-Initial Thoughts/Experience
+## Initial Thoughts/Experience
 
-We hooked up our Starlink for the first time on Hatteras Island in mid April of 2022.  We changed our service address to Hatteras (a generic address) and it connected immediately.  Starlink had just started rolling out roaming capability recently and after that first change in service address we never had to change it again (over two trips accross the country).
+We hooked up our Starlink for the first time on Hatteras Island in mid April of 2022.  We changed our service address to Hatteras (a generic address) and it connected immediately.  Starlink had just started rolling out roaming capability recently and after that first change in service address we never had to change it again (including two trips accross the country).
 
 For us service has been pretty amazing from the beginning.  The only time we've had trouble connecting is in heavy tree cover in the Pacific Northwest, and unless its very heavy there is often still enough connectivity to stream.  However, for VOIP, Zoom, or anything realtime, you do need a fully unobstructed view of the Northish sky.
+
+Power usage isn't too bad but does add up: Running a multiplus just for Starlink (our only semi-continuous AC load) costs you ~20 watts at zero load. Add in the starlink and you're probably burning 80-100 watts total, 24/7.  I never bothered to suss it out exactly but it was not negligable in our daily energy balance (and we have a big system).  This can be improved, as discussed below.
+
+### Story Time: 
+
+We were on Hatteras during a gnarly Nor'easter in early May that swept two houses out to sea and cut off access to the island for 5 days or so when the dunes on Hwy 12 collapsed.  At some point during reconstruction, the "hardline" to the island got cut.  This takes out everything: cell, internet, and land lines (including 911).  The local radio station was telling people to head to the local fire department in case of emergency.  Meanwhile, we're streaming Netflix and making wifi calls off island.  Game changer.
+
+## Initial Use
+
+For the first 7 months, we used starlink "on label".  When camping throw dishy on the stand it came with and either throw it up on the roof (on a towel) or somewhere in a clear area within the 75ft limitation of the included cable.  We'd usually place the router in our garage area and fish the wire from the dish through the square hole under the passenger rear corner.  
+
+After a few months of this, we got tired of fishing the cable into the van.  We'd just place the router outside of the rear windows and plug it into the outlet we have under the rear of the van (highly recommend - our favorite outlet).  Plenty of starlink router signal would penetrate the doors/windows to give a very solid internet connection to our internal network.  
+
+A few notes related to this approach:  
+
+* The router, dish, and cabling are designed for outdoor use.  Anything short of submersion or water jets is fine I'd bet.
+
+* Our internal network would auto connect to the starlink router's wifi and use that as its internet source.  If this sounds interesting to you look into openwrt and a package called travelrouter.  If you aren't afraid of a linux command line its pretty straight forward.
+
+## Initial Storage
+
+Since we stowed our system while mobile (except one unfortunate time) we needed a storage solution.  Based on some useful facebook groups and subreddits we settled on this [Husky 12 Gal container](https://www.homedepot.com/p/Husky-12-Gal-Professional-Duty-Waterproof-Storage-Container-with-Hinged-Lid-in-Red-248921/313861297) which happens to fit a dish, stand, router, and cable quite well with 1/2" leftover minicell on the interior bottom and sides to give its innards a soft ride.
+
+That container also functions well as a step for about a week if you are under 175 lbs.  After that it will no longer function as a step, but will will store a starlink system fine, but with a cracked lid.  
+
+We highly recommend this box for storage.  There are some pelican cases that allegedly fit well, but there's probably more interesting things to spend that kind of money on.
+
+## Phase 2 Use and Storage
+
+After six months of watching the hacking groups figure out the best ways to mount, disable motors, delete the router, and power from DC, we elected to do those all those things.
+
+### Requirements
+
+1. We wanted to eliminate the work to deploy and undeploy the system for 90% of our campsites.  Flat mounting on the roof accomplishes this.  However, we did want to preserve the motor functions to orient the dish when mounted normally on a raised pole, or away from the van for the remaining 10% of our campsites.
+
+2. We wanted to eliminate the router.  The first reason was to have starlink hardwired into our network to eliminate unnecessary power and bandwidth loss associated with an unwanted extra wireless network.   The second, and more import reason was eliminate the the need for constant AC power and associated losses.
+
+### Implementation
+
+
+## Mounting
+
+For our roof design, the dish had to go at the rear of the van.  This presented an opportunity with a lower profile while leaving the stem of dishy intact to satisfy our first requirement.  We found that we could take advantage of the roll off of the van roof to accomadate the angled stem.  This was somewhat dependent on our roof rack design and dimensions, but allows us to flat mount a "stowed" starlink dish only 2 inches above the surface of our roof rack which is already pretty low.  It also meant we could use easily procured standard aluminum angle to build the mount (cradle) out of the limited tools we have at our disposal these days (drill, hacksaw, and a clamp).
+
+
+The cradle consists of two pieces of 30.75" long 2x1x0.125" angle running fore-aft and two pieces of 11.75" long 1.75"x1.75"x0.125" angle running athart.  The parts are bolted together to form a rectangle with an outer dimension that perfectly matches the edge of the dish.  There are 1/8" FR4 spacers (left over from the build) under the athwart angle to so that all edges of the rectangle are in plane.  Note, the 30.75" dimension was based on hitting a roof rack crossmember while allowing enough cradle overhang so the dish stem drops below roof level as the roof rolls off.  All metal was purchased cut from metal's supermarket, a fantastic source if you have a location near you (inquire about their cut tolerance though).  We also cut a 22.5 degree angle on the structure's edge that mounts near our solar panels to minimize any shading while the sun is a decent power producing angle.
+
+
+
+To match our rack and not have to deal with paint or powder coat, we [vinyl wrapped](https://www.amazon.com/gp/product/B07R53LJLL/) the cradle the same way we did our roof rack angle (which has held up fantastically). 
+
+To secure the dish in the cradle we installed two [webbing guides](https://www.mcmaster.com/8030T11/) on each long side of the cradle and sewed some long 1" wide webbing/velcro straps with one side anchored to a webbing guide.
+
+
+
+To give the dish a softer ride we added some 1/4" thick adhesive foam strip to the dish's underside where it rests on the cradle.
+
+
+
+
 
 
 
