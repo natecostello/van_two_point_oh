@@ -23,18 +23,17 @@ Hello! Welcome to another Greenstello production.  This website documents our de
 
 ## Requirements
 
-Accommodate two working and kiteboarding adults and two cats for full time living primarily off-grid and off-service in climates that range from hot and humid to sub-freezing.
+**Accommodate two working and kiteboarding adults and two cats for full time living primarily off-grid and off-service in climates that range from hot and humid to sub-freezing.**
 
 From this central requirement we can derive many others (these are implicitly "off-grid/service"):
 
-* Air Conditioning
-* Heat
-* Water
-* Cooking
-* Refrigeration (and freezing)
-* Internet Connectivity
-* Storage
-* Beach/Sand Driving Capable
+* Climate control
+* Potable water storage and dispensing
+* Range and oven cooking
+* Refrigeration and freezing
+* Internet connected
+* Storage of kiteboarding equipment, tools, food...
+* Capable of beach/sand driving
 
 
 
