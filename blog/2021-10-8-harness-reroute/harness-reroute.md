@@ -1,3 +1,5 @@
+
+
 2021-10-8
 Passenger side basically done
 Removed everything but grounds on driver side harness that connects to passenger side
