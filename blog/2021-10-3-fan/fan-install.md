@@ -23,7 +23,7 @@ cover:
 	# url: url
 ---
 
-**TLDR: We installed a single MaxxFan in the rearmost possible location.**
+**TLDR: We installed a single MaxxFan in the rear-most possible location.**
 
 We're not breaking any new ground installing a MaxxFan. It's a pretty obvious choice if you want decent ventilation.  They are reliable, can operate during rain, and have enough speeds to find the right balance between quiet and low power vs air flow for any given situation.
 
@@ -41,8 +41,10 @@ On Van 1.0 we used a dicor/sikaflex type product to seal the install.  For Van 2
 One area where we tried to innovate was using a vinyl wrap to try to opaque the shroud.  One of us is pretty sensitive to light waking us up so this was part of our attempt to black out the interior as much as possible.  This was only moderately successful.  The vinyl we chose isn't fully opaque.  Even it was, the inside of the shroud is pretty reflective so light from outside gets reflected into the van.  To do this properly, I think the best route would be to remove the shroud entirely, paint the inside with a matte black, and paint the outside with something opaque.  The vinyl wrap on the fan hasn't help up terrible well (unlike the wrap on the roof rack).  It still looks great from the ground, and matches the van color well, so its got that going for it.
 
 ![vinyl wrapped fan](wrapped.jpeg)
+_We paid a local automotive tint/wrap shop to wrap our fan.  It looks good here but didn't hold up super well, and isn't as opaque as we would have liked._
 
-Here's an obligatory timelapse of the majority of our install:
+Finally, here's the obligatory timelapse of our install:
+
 `vimeo: https://vimeo.com/644785111`
 
 ## Install Tips
