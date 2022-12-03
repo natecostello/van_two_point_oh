@@ -24,9 +24,7 @@ cover:
 	# url: url
 ---
 
-Based on testing performed by a member of the [diymobileaudio forum](https://www.diymobileaudio.com/) and owner of a related [facebook group](https://www.facebook.com/groups/651457188787366/), Dynamat extreme and Resonix appear to be the best.  Searching around I found some reports of noico having a smell.  Hein sells a 3M product that is considered best by weight, but it is spendy.  
+Based on testing performed by a member of the [diymobileaudio forum](https://www.diymobileaudio.com/) and owner of a related [facebook group](https://www.facebook.com/groups/651457188787366/), Dynamat extreme is the [most effective by weight](https://www.diymobileaudio.com/threads/sound-deadening-cld-testing.146403/post-3522858).  Searching around I found some reports of noico having a smell.  Hein sells a 3M product that is considered best by weight, but it is spendy.  
 
-Right now we are leaning towards dynamat based on cost and easy availability.
-
-[Link to testing from 2013](https://www.diymobileaudio.com/threads/sound-deadening-cld-testing.146403/post-3522858)
+We selected Dynamat extreme based on the above assessment, cost, and easy availability.
 
