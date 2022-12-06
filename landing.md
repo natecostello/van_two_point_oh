@@ -3,7 +3,7 @@ type: landingpage
 section: 
 categories: 
 	# not applicable
-title: A Greenstello Van 2.0
+title: Rusalka
 navTitle: GS
 author: Nate
 date: 2021-06-04
@@ -19,25 +19,54 @@ cover:
 	# url: url
 ---
 
-Hello! Welcome to another Greenstello production.  This website documents our design and build of Van 2.0 aka Rusalka.
+Hello! Welcome to another Greenstello production.  This website documents our design and build of Van 2.0 which we have subsequently named [Rusalka](https://en.wikipedia.org/wiki/Rusalka).
 
-## Requirements
+## Some History
 
-**Accommodate two working and kiteboarding adults and two cats for full time living primarily off-grid and off-service in climates that range from hot and humid to sub-freezing.**
+Rusalka started as a dream sometime around 2015.  We  started looking at vehicle types that would allow us to spend more time, cheaply, at places that supported the activities we loved.  At the time, those activities were kiteboarding, skiing, and hiking, in that order.  Potential vehicles were teardrops, scamps, casitas, and vans.
 
-From this central requirement we can derive many others (these are implicitly "off-grid/service"):
+Over time, we gravitated towards a van as our ideal escape pod.  In 2017 we gave the idea a trial run.  We rented a Sportsmobile Sprinter conversion in Seattle and spent a week chasing wind around the Columbia River.  That experience convinced us that a van-based existence was right for us.  It also convinced us that we could probably do our own build.
 
-* Climate control
-* Potable water storage and dispensing
-* Range and oven cooking
-* Refrigeration and freezing
-* Internet connected
-* Storage of kiteboarding equipment, tools, food...
-* Capable of beach/sand driving
+We purchased a beater 2006 T1N the fall of 2017.  We spent about a year remediating rust and building it out.  We spent a few months after that bulletproofing the engine.  This was Van 1.0.  We spent the next few years as weekend warriors using the van at every opportunity.  Van 1.0 allowed us to develop the skills to convert a van and gave us a great sense of what sort of build works for us.  Unfortunately, Van 1.0's reliability (the engine - not the build) always left us anxious and limited our enjoyment.  It would never be the van that we could depend on for extended full-time living.
+
+The design of Rusalka began as a Covid lockdown project in the Spring of 2020.  The van was ordered on 20 Janurary 2021 and delivered on 14 August 2021.  The primary build ran from delivery to the end of March 2022. We hit the road full time on 1 April 2022.
+
+## Design Goals And Resulting Features
+
+Rusalka needed to comfortably accommodate two adults and two cats full time in primarily moderate climates punctuated by four season extremes.  This implies the need for insulation, heat, forced and natural ventilation, and <sup>\*</sup>air conditioning.  It also implies the need for range and <sup>\*</sup>oven cooking, refrigeration, a <sup>\*</sup>freezer, and water storage and dispensing.
+
+It needed adequate internet and communications capability to allow two adults to work remotely.  This was satisfied by a wifi-as-wan source, vehicle hotspot, and starlink.
+
+It needed to support all of the above goals primarily off-grid.  We satisfied this goal with a 24V 560AH LFP electrical system with 800W of roof solar and a dedicated 24V alternator for rapid charge capability.
+
+It needed to carry kiteboarding gear for two people and ski gear on occasion.  Later we added inflatable whitewater kayaks and associated equipment ot this list.  Substantial gear storage led us to a fixed raised rear bed as the optimal configuration.
+
+It needed to be capable of sand/beach and snow driving.  This means AWD. This also led to a lift and larger tires for both the large contact patches and ground clearance.  It also means carrying an air compressor and recovery boards.
+
+It needed to be resistant to oceanside environments.  This led to urethane coatings on all wood, corrosion resistant fasteners, and marine-rated active electrical components and tin or nickel plated passive electrical components.
+
+It needed to be capable of transporting a "dinghy" vehicle (like an e-bike or light motorcycle).  Our solution for this is an Aluminess rear door carrier plus a 1-up bike rack to carry a Sur Ron X e-bike. 
+
+It did not need an internal shower.  We positioned the sink faucet adjacent to the sliding door to allow outdoor showering.  Otherwise paid/campground showers would be used.
+
+It did not need a dedicated toilet.  We use portable urinals, campground facilities, and cat holes when in the backcountry.  An emergency toilet is carried for emergencies.
+
+<sup>\*</sup> *Need* is a very subjective term.  We get that many arguments could be made the need for AC, an oven, freezer, AWD, etc.  We arrived at our requirements based on lots of time spend living in a van for weeks at a time prior to starting this one.  We know what we *need*.
 
 
+## About This Site
 
-The content on this site is pretty delayed, for more up-to-date progress, checkout our instagram feed:
+The "Blog" section of this site is primarily concerned with the actual build process and implementation of our design.  
+
+All other categories/sections are generally focused on design.  
+
+That "other" content began as design musings captured in markdown format, sketchup, and drawio schematics contained in a github repo starting in the spring of 2020.  Much later we worked to finesse that information into a website form.  As a result pockets of information no longer accurate or badly organized, a problem we're working to correct over time.  If you see something confusing, inconsistent or incorrect, let us know and we'll prioritize fixing it.
+
+There is also information not captured in the site at all.  We'd encourage you to looked at the github repo itself if you want to see it all.
+
+We never intend to use affiliate links to avoid any conflict on recommending or sourcing products.  If you see what looks like one, it was accidentally copied from another source.  Point it out and we'll fix it.
+
+Lastly, blog/build content on this site is pretty behind, for more up-to-date progress, checkout our instagram feed:
 
 <blockquote
   class="instagram-media"
