@@ -33,7 +33,7 @@ The design of Rusalka began as a Covid lockdown project in the Spring of 2020.  
 
 ## Design Goals And Resulting Features
 
-Rusalka needed to comfortably accommodate two adults and two cats full time in primarily moderate climates punctuated by four season extremes.  This implies the need for insulation, heat, forced and natural ventilation, and <sup>\*</sup>air conditioning.  It also implies the need for range and <sup>\*</sup>oven cooking, refrigeration, a <sup>\*</sup>freezer, and water storage and dispensing.
+Rusalka needed to comfortably accommodate two adults and two cats full time in primarily moderate climates punctuated by four season extremes.  This implies the need for insulation, heat, forced and natural ventilation, and air conditioning.  It also implies the need for range and oven cooking, refrigeration, a freezer, and water storage and dispensing.
 
 It needed adequate internet and communications capability to allow two adults to work remotely.  This was satisfied by a wifi-as-wan source, vehicle hotspot, and starlink.
 
@@ -51,10 +51,10 @@ It did not need an internal shower.  We positioned the sink faucet adjacent to t
 
 It did not need a dedicated toilet.  We use portable urinals, campground facilities, and cat holes when in the backcountry.  An emergency toilet is carried for emergencies.  
 
+*Need* is a very subjective term.  We get that many arguments could be made the need for AC, an oven, freezer, AWD, etc.  We arrived at our requirements based on lots of time spend living in a van for weeks at a time prior to starting this one.  We know what we *need*.
+
 ![interior](interior.jpeg)
 _This is a mostly completed shot of Rusalka's interior.  Someday we'll replace this with a proper shot or tour video._
-
-<sup>\*</sup> *Need* is a very subjective term.  We get that many arguments could be made the need for AC, an oven, freezer, AWD, etc.  We arrived at our requirements based on lots of time spend living in a van for weeks at a time prior to starting this one.  We know what we *need*.
 
 ## About This Site
 
