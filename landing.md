@@ -49,10 +49,12 @@ It needed to be capable of transporting a "dinghy" vehicle (like an e-bike or li
 
 It did not need an internal shower.  We positioned the sink faucet adjacent to the sliding door to allow outdoor showering.  Otherwise paid/campground showers would be used.
 
-It did not need a dedicated toilet.  We use portable urinals, campground facilities, and cat holes when in the backcountry.  An emergency toilet is carried for emergencies.
+It did not need a dedicated toilet.  We use portable urinals, campground facilities, and cat holes when in the backcountry.  An emergency toilet is carried for emergencies.  
+
+![interior](interior.jpeg)
+_This is a mostly completed shot of Rusalka's interior.  Someday we'll replace this with a proper shot or tour video._
 
 <sup>\*</sup> *Need* is a very subjective term.  We get that many arguments could be made the need for AC, an oven, freezer, AWD, etc.  We arrived at our requirements based on lots of time spend living in a van for weeks at a time prior to starting this one.  We know what we *need*.
-
 
 ## About This Site
 
