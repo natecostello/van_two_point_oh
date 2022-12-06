@@ -3,7 +3,7 @@ type: landingpage
 section: 
 categories: 
 	# not applicable
-title: Rusalka
+title: Van 2.0
 navTitle: GS
 author: Nate
 date: 2021-06-04
