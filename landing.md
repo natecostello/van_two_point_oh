@@ -33,25 +33,46 @@ The design of Rusalka began as a Covid lockdown project in the Spring of 2020.  
 
 ## Design Goals And Resulting Features
 
-Rusalka needed to comfortably accommodate two adults and two cats full time in primarily moderate climates punctuated by four season extremes.  This implies the need for insulation, heat, forced and natural ventilation, and air conditioning.  It also implies the need for range and oven cooking, refrigeration, a freezer, and water storage and dispensing.
+**Rusalka needs to comfortably accommodate two adults and two cats full time in primarily moderate climates punctuated by four season extremes.**  
 
-It needed adequate internet and communications capability to allow two adults to work remotely.  This was satisfied by a wifi-as-wan source, vehicle hotspot, and starlink.
+Several requirements derive from this high level requirement:
+
+* Insulation - we employ thinsulate, minicell, and neoprene
+
+* Heat - we use an Espar B4L
+
+* Forced ventilation - we installed a MaxxAir fan and two Sirocco internal fans
+
+* Natural ventilation - we have rear and slider Bug Wall screens and use [van upgrades window vents](https://vanupgrades.com/products/transit-van-cab-window-air-vent-inserts).
+
+* Air conditioning - we plan to install the Undermount AC system.
+
+* Range and Oven cooking - we had a gas oven/range and then replaced it with an induction cooktop and Ninja Foodie XL.
+
+* Refrigeration and Freezer - we installed a Vitrifrigo refrigerator and freezer.
+
+* Water Storage and Dispensing - we currently use two 5 gallon jerry cans and a 24V water pump.
 
 It needed to support all of the above goals primarily off-grid.  We satisfied this goal with a 24V 560AH LFP electrical system with 800W of roof solar and a dedicated 24V alternator for rapid charge capability.
 
-It needed to carry kiteboarding gear for two people and ski gear on occasion.  Later we added inflatable whitewater kayaks and associated equipment ot this list.  Substantial gear storage led us to a fixed raised rear bed as the optimal configuration.
+Additional requirements include:
 
-It needed to be capable of sand/beach and snow driving.  This means AWD. This also led to a lift and larger tires for both the large contact patches and ground clearance.  It also means carrying an air compressor and recovery boards.
+* Adequate internet and communications capability to allow two adults to work remotely.  This was satisfied by a wifi-as-wan source, vehicle hotspot, and starlink.
 
-It needed to be resistant to oceanside environments.  This led to urethane coatings on all wood, corrosion resistant fasteners, and marine-rated active electrical components and tin or nickel plated passive electrical components.
+* Ability to carry kiteboarding gear for two people and ski gear on occasion.  Later we added inflatable whitewater kayaks and associated equipment to this list.  Substantial gear storage led us to a fixed raised rear bed as the optimal configuration.
 
-It needed to be capable of transporting a "dinghy" vehicle (like an e-bike or light motorcycle).  Our solution for this is an Aluminess rear door carrier plus a 1-up bike rack to carry a Sur Ron X e-bike. 
+* Capable of sand/beach and snow driving.  This means AWD. This also led to a lift and larger tires for both the large contact patches and ground clearance.  It also means carrying an air compressor and recovery boards.
 
-It did not need an internal shower.  We positioned the sink faucet adjacent to the sliding door to allow outdoor showering.  Otherwise paid/campground showers would be used.
+* Resistant to oceanside environments.  This led to urethane coatings on all wood, corrosion resistant fasteners, and marine-rated active electrical components and tin or nickel plated passive electrical components.
 
-It did not need a dedicated toilet.  We use portable urinals, campground facilities, and cat holes when in the backcountry.  An emergency toilet is carried for emergencies.  
+* Capable of transporting a "dinghy" vehicle (like an e-bike or light motorcycle).  Our solution for this is an Aluminess rear door carrier plus a 1-up bike rack to carry a Sur Ron X e-bike. 
 
-*Need* is a very subjective term.  We get that many arguments could be made the need for AC, an oven, freezer, AWD, etc.  We arrived at our requirements based on lots of time spend living in a van for weeks at a time prior to starting this one.  We know what we *need*.
+Lastly, some things that we don't need:
+
+* An internal shower.  We positioned the sink faucet adjacent to the sliding door to allow outdoor showering.  Otherwise paid/campground showers would be used.
+
+* A dedicated toilet.  We use portable urinals, campground facilities, and cat holes when in the backcountry.  An emergency toilet is carried for emergencies.  
+
 
 ![interior](interior.jpeg)
 _This is a mostly completed shot of Rusalka's interior.  Someday we'll replace this with a proper shot or tour video._
