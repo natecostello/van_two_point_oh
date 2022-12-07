@@ -31,27 +31,27 @@ We purchased a beater 2006 T1N the fall of 2017.  We spent about a year remediat
 
 The design of Rusalka began as a Covid lockdown project in the Spring of 2020.  The van was ordered on 20 Janurary 2021 and delivered on 14 August 2021.  The primary build ran from delivery to the end of March 2022. We hit the road full time on 1 April 2022.
 
-## Design Goals And Resulting Features
+## Design Requirements
 
 **Rusalka needs to comfortably accommodate two adults and two cats full time in primarily moderate climates punctuated by four season extremes.**  
 
 Several requirements derive from this high level requirement:
 
-* Insulation - we employ thinsulate, minicell, and neoprene
+* Insulation.  We employ thinsulate, minicell, and neoprene
 
-* Heat - we use an Espar B4L
+* Heat.  We use an Espar B4L
 
-* Forced ventilation - we installed a MaxxAir fan and two Sirocco internal fans
+* Forced ventilation.  We installed a MaxxAir fan and two Sirocco internal fans
 
-* Natural ventilation - we have rear and slider Bug Wall screens and use [van upgrades window vents](https://vanupgrades.com/products/transit-van-cab-window-air-vent-inserts).
+* Natural ventilation.  We have rear and slider Bug Wall screens and use [van upgrades window vents](https://vanupgrades.com/products/transit-van-cab-window-air-vent-inserts).
 
-* Air conditioning - we plan to install the Undermount AC system.
+* Air conditioning.  We plan to install the Undermount AC system.
 
-* Range and Oven cooking - we had a gas oven/range and then replaced it with an induction cooktop and Ninja Foodie XL.
+* Range and oven cooking.  We had a gas oven/range and then replaced it with an induction cooktop and Ninja Foodie XL.
 
-* Refrigeration and Freezer - we installed a Vitrifrigo refrigerator and freezer.
+* Refrigerator and freezer.  We installed a Vitrifrigo refrigerator and freezer.
 
-* Water Storage and Dispensing - we currently use two 5 gallon jerry cans and a 24V water pump.
+* Water storage and dispensing.  We currently use two 5 gallon jerry cans and a 24V water pump.
 
 It needed to support all of the above goals primarily off-grid.  We satisfied this goal with a 24V 560AH LFP electrical system with 800W of roof solar and a dedicated 24V alternator for rapid charge capability.
 
