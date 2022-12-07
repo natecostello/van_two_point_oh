@@ -19,7 +19,7 @@ cover:
 	# url: url
 ---
 
-Hello! Welcome to another Greenstello production.  This website documents our design and build of Van 2.0 which we have subsequently named [Rusalka](https://en.wikipedia.org/wiki/Rusalka).
+Welcome to another Greenstello production.  This website documents our design and build of Van 2.0 a.k.a. [Rusalka](https://en.wikipedia.org/wiki/Rusalka).
 
 ## Some History
 
@@ -38,19 +38,12 @@ The design of Rusalka began as a Covid lockdown project in the Spring of 2020.  
 Several requirements derive from this high level requirement:
 
 * Insulation.  We employ thinsulate, minicell, and neoprene
-
 * Heat.  We use an Espar B4L
-
 * Forced ventilation.  We installed a MaxxAir fan and two Sirocco internal fans
-
 * Natural ventilation.  We have rear and slider Bug Wall screens and use [van upgrades window vents](https://vanupgrades.com/products/transit-van-cab-window-air-vent-inserts).
-
 * Air conditioning.  We plan to install the Undermount AC system.
-
 * Range and oven cooking.  We had a gas oven/range and then replaced it with an induction cooktop and Ninja Foodie XL.
-
 * Refrigerator and freezer.  We installed a Vitrifrigo refrigerator and freezer.
-
 * Water storage and dispensing.  We currently use two 5 gallon jerry cans and a 24V water pump.
 
 It needed to support all of the above goals primarily off-grid.  We satisfied this goal with a 24V 560AH LFP electrical system with 800W of roof solar and a dedicated 24V alternator for rapid charge capability.
@@ -58,21 +51,15 @@ It needed to support all of the above goals primarily off-grid.  We satisfied th
 Additional requirements include:
 
 * Adequate internet and communications capability to allow two adults to work remotely.  This was satisfied by a wifi-as-wan source, vehicle hotspot, and starlink.
-
 * Ability to carry kiteboarding gear for two people and ski gear on occasion.  Later we added inflatable whitewater kayaks and associated equipment to this list.  Substantial gear storage led us to a fixed raised rear bed as the optimal configuration.
-
 * Capable of sand/beach and snow driving.  This means AWD. This also led to a lift and larger tires for both the large contact patches and ground clearance.  It also means carrying an air compressor and recovery boards.
-
 * Resistant to oceanside environments.  This led to urethane coatings on all wood, corrosion resistant fasteners, and marine-rated active electrical components and tin or nickel plated passive electrical components.
-
 * Capable of transporting a "dinghy" vehicle (like an e-bike or light motorcycle).  Our solution for this is an Aluminess rear door carrier plus a 1-up bike rack to carry a Sur Ron X e-bike. 
 
 Lastly, some things that we don't need:
 
 * An internal shower.  We positioned the sink faucet adjacent to the sliding door to allow outdoor showering.  Otherwise paid/campground showers would be used.
-
 * A dedicated toilet.  We use portable urinals, campground facilities, and cat holes when in the backcountry.  An emergency toilet is carried for emergencies.  
-
 
 ![interior](interior.jpeg)
 _This is a mostly completed shot of Rusalka's interior.  Someday we'll replace this with a proper shot or tour video._
