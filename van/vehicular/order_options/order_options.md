@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: Van 2.0 Order
 author: Nate
-date: 2020-11-13
+date: 2020-12-15
 tags:
  - cargo
  - vehicular
@@ -18,13 +18,13 @@ metatags:
 	# no metatags
 cover: 
 	# image file
-	# img: img
+ img: cover.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
 ---
 
-We went into the vehicle ordering process with a few years of using a large camper van and awareness of some of the high-level ordering options.  Based on this, we had a few hard requirements:
+We went into the vehicle ordering process after a few years of driving a large camper van and with some awareness of the available Transit options.  Based on this, we had a few hard requirements:
 
 * All Wheel Drive: This vehicle would spend a lot of time at the beach and needed some snow capability.  We've owned a wrangler and aren't kidding ourselves that this thing is going to be a rock crawler, but limited off road capability was a must.
 * Extended Length: For two adults doing a week or two at a time we could make a regular length work.  For two adults, two cats, full time, an extended was a must for us.
@@ -37,6 +37,7 @@ We had a few softer requirements:
 * Ecoboost: Based on our forum research and owning low-pickup vehicles, the Ecoboost was a strong preference for us.
 * Slider and Rear Windows: This is soft requirement because you can add windows after order.  But we knew we wanted a slider window for driving visibility.  We cared more about having that from the get-go than installing an aftermarket window with vents down the road.
 * Mudflaps: Turns out these are not options but can be purchased from the dealer separately.  We ended up going with an after market product for the rear.  We still haven't settled on an option for the front (the factory well liners and our lift and tire related mods make this non-trivial).
+* Powered Sliding Door: We had mixed feelings on this due to concerns with long term reliability.  We ultimately went with it and its been great for over a year.  If it ever breaks, its going to be a real challenge to fix and may just become a normal sliding door.
 
 Some items we initially considered but ruled out:
 * Dual Alternators: It sounds great and is probably and OK option if you go with a 12V house system.  Based on the unclear controls Ford employs for its use, a better option is a dedicated aftermarket 2nd alternator.  This allows use of more sophisticated controls like the wakespeed 500 that allow tailoring the alternator charge for LFP systems.  For a 24V system like ours, the second factory alternator is a net-negative since it inhibits our ability to install a usable 2nd alternator for direct charging.  We will note that the standard factory alternator is 250A, which is very capable on paper.
