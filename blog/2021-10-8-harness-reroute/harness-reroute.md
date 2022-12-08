@@ -58,7 +58,7 @@ _Here you can see a few broken clips._
 
 ## Timeline
 
-Note, this doesn't reflect full time effort.  It's mostly evenings and partial days, limited by other work, etc.
+Note, this doesn't reflect full time effort.  It's mostly evenings and partial days, limited by other work, clip delivery, etc.
 
 * Completed passenger side harness reroute, finished all disconnections on driver/rear side harness except grounds, broke clips removing passenger rear trim (10-8-2021)
 * Completed driver/rear harness disconnects (10-9-2021)
