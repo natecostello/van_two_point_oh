@@ -5,7 +5,7 @@ categories:
  # one or more categories is permitted
  - parietal
 navTitle: 
-title: Thinsulate, Neoprene, and Felt
+title: Wall and Ceiling Treatments
 author: Nate
 date: 2021-10-09
 tags:
@@ -24,6 +24,14 @@ cover:
 ---
 
 **TLDR: We used Dynamat Extreme for sound dampening.  We used automotive felt, neoprene, and thinsulate for thermal (and some acoustic) insulation of the walls and ceiling.**
+
+Insulation is the great divider of our time.  We put our faith in physics, and in this house we believe:
+
+* reflectix is worthless without an air gap.
+* lizard skin will not outperform the same thickness of neoprene.
+* insulation inside hollow structure is less important than insulation over it, but still worth doing. 
+
+Our choice in materials and approach was guided by some analysis we did documented [here](/van/parietal/insulation/insulation). 
 
 ## Sound Dampening
 
