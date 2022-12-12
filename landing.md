@@ -54,7 +54,7 @@ Additional requirements include:
 * Ability to carry kiteboarding gear for two people and ski gear on occasion.  Later we added inflatable whitewater kayaks and associated equipment to this list.  Substantial gear storage led us to a fixed raised rear bed as the optimal configuration.
 * Capable of sand/beach and snow driving.  This means AWD. This also led to a lift and larger tires for both the large contact patches and ground clearance.  It also means carrying an air compressor and recovery boards.
 * Resistant to oceanside environments.  This led to urethane coatings on all wood, corrosion resistant fasteners, and marine-rated active electrical components and tin or nickel plated passive electrical components.
-* Capable of transporting a "dinghy" vehicle (like an e-bike or light motorcycle).  Our solution for this is an Aluminess rear door carrier plus a 1-up bike rack to carry a Sur Ron X e-bike. 
+* Capable of transporting a "dinghy" vehicle (like an e-bike or light motorcycle).  Our solution for this is an Aluminess rear door carrier plus a 1-up bike rack to carry a Surron X e-bike. 
 
 Lastly, some things that we don't need:
 
