@@ -90,7 +90,7 @@ One final constraint/requirement:
 
 10. To the maximum extent practical, heavy fixed components/appliances would be arranged such that the port and starboard weights are equal.
 
-So far we had similar structural weight on each side of the van.  On the passenger side we had about 170 lbs between the water and stove/oven.  On the driver side we had 120 lbs for the fridge and freezer.  Remaining heavy items were the battery (218 lbs), a full propane tank (70 lbs), and the inverter/charger and MPPT (50 lbs).  We centered-ish the battery between the wheel wells (aside from balance, over the rear axle is a really good location for something this heavy).  We also centered the propane tank under the van.  By installing the inverter/charger and MPPT on the driver side we balanced things about as good as one can, satisfying "10".
+So far we had similar structural weight on each side of the van.  On the passenger side we had about 170 lbs between the water and stove/oven.  On the driver side we had 120 lbs for the fridge and freezer.  Remaining heavy items were the battery (218 lbs), a full propane tank (70 lbs), and the inverter/charger and MPPT (50 lbs).  We centered-ish the battery between the wheel wells (aside from balance, over the rear axle is a really good location for something this heavy).  We also centered the propane tank under the van.  By installing the inverter/charger and MPPT on the driver side we balanced things about as good as one can, satisfying "10".  It was the inverter/charger (Multiplus 3000) that set the depth of the shelf/structure on the driver side of the garage area.  We carried that dimension to the passenger side so the 8020 structure was identical.
 
 ## Structural Optimization
 
