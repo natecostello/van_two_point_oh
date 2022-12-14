@@ -26,7 +26,7 @@ cover:
 ---
 
 
-The battery will be constructed of 16 280AH cells in a 2P8S 560AH 24V configuration.  It will be installed behind the driver side rear wheel.  The selected design concept is illustrated below.
+The battery will be constructed of 16 280AH cells in a 2P8S 560AH 24V configuration.  ~~It will be installed behind the driver side rear wheel.~~ It will be installed between the wheelwells. The selected design concept is illustrated below.
 
 ![](battery_configuration_concept_D_all_components.jpg)
 _Theory_
@@ -46,19 +46,18 @@ According to the Will Prowes' forum, the aluminum cased cells have positive term
 
 ## Cell Compression
 
-**TLDR: The select design should provide adequate compression and is the most compact and simple design evaluated.**
-
-EVE engineers recommend approximately 12 PSI, with no more than 17 PSI, to be maintained on the cells.  Allegedly this increases rated cycles from 2500 to 3500.  They also identify approximately 1 mm expansion between 0 and 100% SOC.   Use of springs and belleville washers were evaluated to provide compression.  In the selected design, the flex of the side plates themselves function as two springs in series with any other springs in the system.  By designing the plates appropriately, they can be relied on exclusively for compression at high SOC and to accomodate the expected growth.  To apply some compression at low SOC, single bellville washers, fully flattened, will be used.  While this method will not be as calibrated as the others, it can ensure some compression above 0 and less than 12 PSI at full SOC and is more compact, simpler, and cheaper.   This [belleville washer](https://www.mcmaster.com/9712K61/) fully flattened will give about 2.5 PSI at 0% SOC for this design.
+EVE engineers recommend approximately 12 PSI, with no more than 17 PSI, to be maintained on the cells.  Allegedly this increases rated cycles from 2500 to 3500.  They also identify approximately 1 mm expansion between 0 and 100% SOC.   Use of springs and belleville washers were evaluated to provide compression.  In the selected design, the flex of the side plates themselves function as two springs in series with any other springs in the system.  By designing the plates appropriately, they can be relied on exclusively for compression at high SOC and to accommodate the expected growth.  ~~To apply some compression at low SOC, single bellville washers, fully flattened, will be used.  While this method will not be as calibrated as the others, it can ensure some compression above 0 and less than 12 PSI at full SOC and is more compact, simpler, and cheaper.   This [belleville washer](https://www.mcmaster.com/9712K61/) fully flattened will give about 2.5 PSI at 0% SOC for this design.~~ To apply some compression at low SOC, springs, compressed solid, will be used.  This method will ensure some compression above 0 and less than 12 PSI at full SOC.  The [LHL 625B 01](https://www.leespring.com/compression-springs-hefty?search=LHL625B01) from Lee Spring 3.8 psi when compressed solid.
 
 For top balance, the stack of all 16 cells will be compressed by two 3/4 inch plywood panels with held with 4 rods all 1/4-20 all-thread.  The compression provided by the plywood panels will be provided by 4 springs outboard of the panel on a single side.  The four springs are type LHL 750B 08 from [leespring.com](https://www.leespring.com/compression-springs) which will provide 13.2 to 10.3 PSI with acceptable room for cell expansion.
 
 ## Cell Interconnection
 
-Parallel cell connection will use either CALB-style flexible copper busbars, solid busbars from the supplier, or custom copper busbars.
+~~Parallel cell connection will use either CALB-style flexible copper busbars, solid busbars from the supplier, or custom copper busbars.~~  Parallel cell connections will use custom busbars with a bent arch to accommodate cell swelling without imposing high stress on the cell terminals.
 
-Series cell connection will use solid busbars, either custom or purchased.
+~~Series cell connection will use solid busbars, either custom or purchased.~~ Series cell connections will use custom flat busbars.  Significant growth is not anticipted in this dimension.  The bars will slightly slotted.  This will not affect current flow area since they will stack on top of the parallel connections.
 
-Nickel plating will be considered.
+All busbars were cut by [sendcutsend.com](sendcutsend.com).
+~~Nickel plating will be considered.~~ Bus bars will be nickel plated.
 
 ## Bill of Materials
 
