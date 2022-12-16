@@ -27,7 +27,9 @@ cover:
 
 # Main Contactor
 
-**TLDR:** We selected the [Blue Sea ML-RBS 7717](https://www.bluesea.com/products/7717/ML-RBS_Remote_Battery_Switch_with_Manual_Control_Auto-Release_-_24V).
+**TLDR: We selected the [TYCO EV200HAANA](datasheet-kilovac-ev200.pdf) for our main contactor.  Our original choice, the [Blue Sea ML-RBS 7717](https://www.bluesea.com/products/7717/ML-RBS_Remote_Battery_Switch_with_Manual_Control_Auto-Release_-_24V) had a parasitic draw when open, which was unnacceptable for our application.  The contactor main is paired with the [Egis XD 500](8700-xd-series-mechanical-disconnect-switch.pdf) that functions as a manual disconnect.**
+
+**~~TLDR: We selected the [Blue Sea ML-RBS 7717](https://www.bluesea.com/products/7717/ML-RBS_Remote_Battery_Switch_with_Manual_Control_Auto-Release_-_24V).~~**
 
 
 
@@ -39,7 +41,7 @@ Power usage is 0.013A * 24V = 0.312W
 
 Max Voltage = 32
 
-10,000 at 24V and 150A*
+10,000 cycles at 24V and 150A*
 
 Continuous Rating 2/0 225A
 
@@ -87,14 +89,14 @@ Findings:
 * When off the Blue Sea ML-RBS 7717 consumes about 4mA of current.  This is a deal breaker for battery protection.
 
 
-
 RBS Power consumption when off: 4mA
 
 REC Wifi Standby 1.8mA
 REC Wifi STA 30.9
 Rec Wifi goes to standby after one hour
 
-Notes to outside council:
+Notes to outside council:  
+
 In my system design I am using a Bluesea 7717 24V Latching Remote Battery Switch as my main contactor/battery switch (controlled by the BMS and/or a remote switch). However, during bench top testing I found that when "off" it consumes about 4ma. I confirmed with Blue Sea that this is normal. My concern is the parasitic draw following a Low Voltage disconnect.
 
 I'm considering switching to a NO contactor (the one the BMS OEM recommends): TYCO EV200AAANA. However, without significant repackaging, I can't fit that contactor AND a manual battery switch (e.g. blue sea). My question is whether it is uncommon or a major issue to rely on the contactor as the main disconnect and not use a separate battery switch.
