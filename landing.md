@@ -31,11 +31,19 @@ We purchased a beater 2006 T1N the fall of 2017.  We spent about a year remediat
 
 The design of Rusalka began as a Covid lockdown project in the Spring of 2020.  The van was ordered on 20 Janurary 2021 and delivered on 14 August 2021.  The primary build ran from delivery to the end of March 2022. We hit the road full time on 1 April 2022.
 
+
+## Vehicle
+
+* 2021 Ford Transit 148" EB HR 350 Cargo AWD (Body Code W3U)
+* 3.5L EcoBoost Engine
+
+This corresponds to the longest, tallest Transit available.  The 350 means the highest load capacity Transit that with single rear wheels.
+
 ## Design Requirements
 
 **Rusalka needs to comfortably accommodate two adults and two cats full time in primarily moderate climates punctuated by four season extremes.**  
 
-Several requirements derive from this high level requirement:
+Several requirements derive from this high level objective:
 
 * Insulation.  We employ thinsulate, minicell, and neoprene
 * Heat.  We use an Espar B4L
