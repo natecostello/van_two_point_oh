@@ -42,7 +42,10 @@ How to integrate this with a latching relay like the BlueSea Remote Battery Swit
 How is the BMS powered?  I think it needs to be directly (switch/fused) off the battery.  It would remain powered after the main relay opens.  I think this is ok as long as the BMS has low power consumption.  Also could implement redundant relay (in series approach).
 
 
+### Updates
 
+See this thread for initial findings and modifications I made:
+https://www.fordtransitusaforum.com/threads/precharge-why-you-might-want-to-consider-it.89467/#post-1171149
 
 
 ### Integration:
