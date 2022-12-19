@@ -28,7 +28,7 @@ A very productive day.  Our final battery interconnect materials delivered from 
 _Six days from drawing submittal to delivered product!_
 
 
-In the meantime, we made some improvements to our battery interconnect fabrication tooling based on our previous trials.  The dimensions of the tooling needed to change based on the [modifications](/blog/2021-7-5/bettery-interconnect-design-v2) we made to the interconnect design after the initial [fabrication trials](/blog/2021-7-4/battery-interconnect-fab-trials).
+In the meantime, we made some improvements to our battery interconnect fabrication tooling based on our previous trials.  The dimensions of the tooling needed to change based on the [modifications](/blog/2021-7-5-battery-interconnect-redesign/battery-interconnect-design-v2) we made to the interconnect design after the initial [fabrication trials](/blog/2021-7-4-battery-interconnect-fab-trial/battery-interconnect-fab-trials).
 
 ![bend tooling](bend-tooling-imperial.jpg)
 _The bend tooling dimensions based on the final interconnect design._

@@ -23,7 +23,7 @@ cover:
 	# url: url
 ---
 
-We implemented several lessons learned based on the [first trial](/blog/2021-7-26/electroplating-trials).  These included:
+We implemented several lessons learned based on the [first trial](/blog/2021-7-26-electroplating-part-i/electroplating-trials).  These included:
 
 * A glass 4x8x8 inch glass vase from amazon to hold our plating bath and increase spacing between the parts and anodes.  
 * Using shot glasses and a chopped up UHMW cutting board as ballast so we didn't have to use quite as much electrolyte to get the fluid level deep enough in the bath.   

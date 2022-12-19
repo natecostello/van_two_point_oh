@@ -23,7 +23,7 @@ cover:
 	# url: url
 ---
 
-We laid out our plans and design for our battery interconnects in a [previous post](/blog/2021-6-26/bettery-interconnect-design).  Start there if you want some context.  This is post is about the difference between theory and practice.  Hah.  
+We laid out our plans and design for our battery interconnects in a [previous post](/blog/2021-6-26-battery-interconnect-design/battery-interconnect-design).  Start there if you want some context.  This is post is about the difference between theory and practice.  Hah.  
 
 ## The Process
 

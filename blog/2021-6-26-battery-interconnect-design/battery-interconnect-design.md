@@ -27,7 +27,7 @@ To make our cells function as a battery we have to connect them together in a sp
 
 The series interconnects carry the full current that flows into and out of the battery.  The parallel interconnects only carry half, so less copper is needed. 
 
-**Update: The information below is superseded by [this post](/blog/2021-7-5/bettery-interconnect-design-v2) that documents the v2 battery interconnect design based on the [fabrication trials](/blog/2021-7-4/battery-interconnect-fab-trials).**
+**Update: The information below is superseded by [this post](/blog/2021-7-5-battery-interconnect-redesign/battery-interconnect-design-v2) that documents the v2 battery interconnect design based on the [fabrication trials](/blog/2021-7-4-battery-interconnect-fab-trial/battery-interconnect-fab-trials).**
 
 Each parallel interconnect is composed of 1 mm thick, 25.4 mm wide, copper bus bars stacked two high.  The interconnect will have a strain-relief arch of radius ~9.525 mm to minimize the force on cell terminals due to growth and movement.  In the final formed configuration they have a center-to-center distance of ~71 mm and a total length of ~103 mm.  In the ordered (flat) condition they have a center-to-center distance of ~80 mm and a total length of ~112 mm.  The two holes are 6 mm in diameter.
 
