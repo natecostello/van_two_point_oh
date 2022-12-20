@@ -24,6 +24,7 @@ cover:
 	# url: url
 ---
 
+**TLDR: Our floor is an seamless, water proof, edge sealed layer composed of lonseal, 1/2" baltic birch, and minicell foam.**
 
 You will find many many many approaches and strong opinions on how to do a van floor.  There is no real consensus on the forums.  We opted to heavily leverage the far-out-ride approach.
 
