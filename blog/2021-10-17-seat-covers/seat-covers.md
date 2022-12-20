@@ -37,6 +37,11 @@ Of course, with such fancy covers, we need to protect those as well.  We use [th
 
 Lastly, because neither of the above cover layers are breathable, we've been experimenting with [these beaded covers](https://www.amazon.com/gp/product/B01GYF72OQ) for added comfort.  So far we're pretty happy with everything but the weight.
 
+![beaded cover](full-stack.jpeg)
+_Here's the full stack._
+
 Timeline:
 
 * Installed seat covers (10-17-2022)
+* Added seat cover covers (4-12-2022)
+* Added seat cover cover beaded cover (10-25-2022)
