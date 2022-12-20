@@ -82,7 +82,7 @@ We found that adding a few "extra" pieces made the structure easier to build.  W
 ## Order
 We factored the two above design changes into the design and placed an order with PennAir, one of 8020's preferred suppliers.  Note:  Highly recommend working with them if you are within a few hours of York, PA.  Fantastic experience.
 
-## What We Would Do Differently
+## What We Would Change
 
 We primarily used the 1515-S ("normal weight smooth") profile in our design, but if we were starting over, we would use the 1515-ULS ("ultra light smooth") profile to save 84 lbs or 25% on the total extrusion weight. According to the 8020 deflection calculator, this would have a negligible impact on strength or deflections.
 
