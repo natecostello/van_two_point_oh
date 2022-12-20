@@ -1,3 +1,7 @@
+2021-11-9:
+Picked up 6 sheets of 1/4 PVC
+Cut wall panel pieces (not sure if we actually used these)
+
 12-31-2021
 Confirmed upper factory holes are M8-1.25 and that thread starts ~ 1/2 below surface of wall/neoprene (so add to any length).
 Also confirmed that lower strip of L-track will interfere with any bolt heads using those holes.
