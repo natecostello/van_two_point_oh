@@ -37,7 +37,7 @@ The design of Rusalka began as a Covid lockdown project in the Spring of 2020.  
 * 2021 Ford Transit 148" EB HR 350 Cargo AWD (Body Code W3U)
 * 3.5L EcoBoost Engine
 
-This corresponds to the longest, tallest Transit available.  The 350 means the highest load capacity Transit that with single rear wheels.
+This corresponds to the longest, tallest, highest load capacity, single rear wheel Transit available.
 
 ## Design Requirements
 
