@@ -70,7 +70,7 @@ Lastly, some things that we don't need:
 * A dedicated toilet.  We use portable urinals, campground facilities, and cat holes when in the backcountry.  An emergency toilet is carried for emergencies.  
 
 ![interior](interior.jpeg)
-_This is a mostly completed shot of Rusalka's interior.  Someday we'll replace this with a proper shot or tour video._
+_This is a completed shot of Rusalka's interior.  Someday we'll replace this with a proper tour video._
 
 ## About This Site
 
