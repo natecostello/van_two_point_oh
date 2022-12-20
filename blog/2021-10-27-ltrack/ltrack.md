@@ -102,12 +102,17 @@ For the ceiling L-track, we used angle to fabricate brackets to support at the r
 
 This job would be almost impossible without: a center scribe, transfer screws, punch, drill press, square, extreme patience, and slow, deliberate actions.
 
-## Surprises, Cautions, Second Thoughts
+## Surprises and Cautions
 In our van, the rear-most ceiling rib holes (Ford's) are shifted toward passenger side by like 1/16 (as buillt - not by design).  Thankfully aluminum is compliant enough to bend.
 
-We had a few spinner plus nuts.  We were able to remove/reinstall in each case.  But in some cases, depending on the location, this would not be recoverable. You would have to deal without.  May the force be with you.
+We had a few spinner plus nuts.  We were able to remove/reinstall in each case.  But in some cases, depending on the location, this would not be recoverable. You would have to deal without.  May the force be with you.  If you check out our [post on plusnuts](/blog/2021-8-29-plusnuts/plusnut-install#what-we-would-change) we discuss some solutions to this problem.
 
-If we were starting from scratch, we might opt for half height 10 or 15 series 8020 over the upper wall and ceiling L-track.  It would serve the purpose of mounting our overhead storage just as well.  We would still include at least one strip of L-track on either side (the lower wall) for adhoc utililty.
+
+## What We Would Change
+
+If we were starting from scratch, we might opt for half height 10 or 15 series 8020 over the upper wall and ceiling L-track.  It would serve the purpose of mounting our overhead storage just as well.  ~~We would still include at least one strip of L-track on either side (the lower wall) for adhoc utililty.~~
+
+Based on several months of full-time use, we would skip the second layer of wall L-track.  We don't use it much.  The upper layer is accessible forward of our overhead storage for hooks and things.  This change would have saved us 13 lbs and much of that match drilling effort.
 
 
 ## Timeline
