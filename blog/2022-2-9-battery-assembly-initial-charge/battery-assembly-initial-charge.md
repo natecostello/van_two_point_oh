@@ -177,3 +177,11 @@ Checked CERBO - CCL is now back to 279A.
 
 8-24-2022
 Removed insulation from ends and top of battery to lower temperatures.
+
+12-23-2022
+Some observations.  Outside temperatures stable at ~10F (Ruvi).  Espar set to infinitiy at 63F.  Inside temps stable at 66F (Ruvi).  
+Battery temperatures:
+1   12.5C   54.5F
+2   12.5C   54.5F
+3   14.5C   58.1F
+BMS 5.67C   42.2F (i'm guessing because mounted on the garage wall).  Suggests that insulation on rear side of battery is pretty important in cold.
