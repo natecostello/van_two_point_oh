@@ -42,9 +42,10 @@ For internet sources, we plan to rely on:
 
 These sources will feed the internal wifi/hardwired network which our devices will connect to.
 
- ### Wifi As Source
 
- TLDR:  For phase 1, we're leaning towards a ~~[Ubiquity Bullet](https://www.ui.com/airmax/bullet-ac/)~~ [MikroTik Groove AC](https://mikrotik.com/product/RBGrooveGA-52HPacn) with a dual-band SISO antenna, using a [direct DC POE injector](https://www.amazon.com/WS-GPOE-1-WM-Gigabit-Passive-Ethernet-Injector/dp/B00ENNUWO4) ~~with a 24V Buck converter (e.g. [this](https://www.amazon.com/Adjustable-Converter-1-5-35v-Efficiency-Regulator/dp/B07QKHR6PY/)) to stablize injection voltage to 24V~~.
+### Wifi As Source
+
+TLDR:  For phase 1, we're leaning towards a ~~[Ubiquity Bullet](https://www.ui.com/airmax/bullet-ac/)~~ [MikroTik Groove AC](https://mikrotik.com/product/RBGrooveGA-52HPacn) with a dual-band SISO antenna, using a [direct DC POE injector](https://www.amazon.com/WS-GPOE-1-WM-Gigabit-Passive-Ethernet-Injector/dp/B00ENNUWO4) ~~with a 24V Buck converter (e.g. [this](https://www.amazon.com/Adjustable-Converter-1-5-35v-Efficiency-Regulator/dp/B07QKHR6PY/)) to stablize injection voltage to 24V~~.
 
 This [website](https://seabits.com/) has a lot of information on marine based networking.  He highly recommends the [Mikrotec Groove](https://seabits.com/mikrotik-groove-step-by-step-setup-guide/) to connect to outside wifi and bridge to the internal network.  Another new option is the [Ubiquity Bullet](https://www.ui.com/airmax/bullet-ac/) which is dual band and will likely have open WRT support.  He currently uses a pepwave transit with external antennas set up for wifi-as-wan.  He also [reviewed](https://seabits.com/gl-x1200-amarok-dual-lte-router/) the Amarok discussed later.
 
@@ -61,6 +62,10 @@ Note on wifi-as-wan implementation.  [This thread](https://forum.peplink.com/t/n
 ### Cellular As Source
 
 One key requirement is to use external antenna(s) for connection to the cellular internet source.  This could be a high-gain omni or uni-directional.  For the cell connection, a pointable, high gain directional might make sense.  For full LTE usage, MIMO is required.  Pyonting makes a few options like [this](https://poynting.tech/antennas-accessories/antennas/farming-agricultural-antennas/xpol-2-5g/?compare=12221,12222,12223,12224) directional (11 dBi).  For MIMO, it looks like the directionals are usually panel shaped.
+
+### Wifi for Networking
+
+With use we've determined that it would be nice to have decent wifi access outside the van.  This will allow working inside and out, and allow use of the van as a hotspot while staying at motels.  To support this we need an outside access point.  Its desireable to employ devices that support seamless roaming.  This will minimize connection drops and degredation when moving from inside to outside.  The TP Link EAP225-outdoor supports this functionality.  The only downside is it consumes about 10 watts per hotspot per the spec sheet.  Actual consumption is unknown.  We would employ one unit inside the van and one outside.  We should survey to see what our existing network looks like outside the van...if it is strong in the immediate vacinity, seamless might not be needed which would allow us to shift to thier lower power lower bandwith unit that draws about 3 watts.
 
 ### Integration
 
