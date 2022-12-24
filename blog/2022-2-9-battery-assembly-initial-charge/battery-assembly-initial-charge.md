@@ -188,3 +188,12 @@ BMS 5.67C   42.2F (i'm guessing because mounted on the garage wall).  Suggests t
 
 ~1130 set espar to 72F, it kicked up to a higher rate.
 
+12-24-2022
+Some Observations ~1018.  Outside temperature stable at ~11F (Ruvi). Espar set to infinity at 72F.  Inside temps stable at 77F (Ruvi).
+Battery temperatures:
+1   8.5C    47.3F
+2   10C     50F
+3   11C     51.8F
+BMS 4.01C   39.2
+VRM Reported Battery Temp is 52F.
+CCL is 83.9A 
