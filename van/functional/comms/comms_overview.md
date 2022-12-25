@@ -65,8 +65,15 @@ One key requirement is to use external antenna(s) for connection to the cellular
 
 ### Wifi for Networking
 
-With use we've determined that it would be nice to have decent wifi access outside the van.  This will allow working inside and out, and allow use of the van as a hotspot while staying at motels.  To support this we need an outside access point.  Its desireable to employ devices that support seamless roaming.  This will minimize connection drops and degredation when moving from inside to outside.  The TP Link EAP225-outdoor supports this functionality.  The only downside is it consumes about 10 watts per hotspot per the spec sheet.  Actual consumption is unknown.  We would employ one unit inside the van and one outside.  We should survey to see what our existing network looks like outside the van...if it is strong in the immediate vacinity, seamless might not be needed which would allow us to shift to thier lower power lower bandwith unit that draws about 3 watts.
+With use we've determined that it would be nice to have decent wifi access outside the van.  This will allow working inside and out, and allow use of the van as a hotspot while staying at motels.  To support this we need an outside access point.  Its desireable to employ devices that support seamless roaming.  This will minimize connection drops and degredation when moving from inside to outside.  The TP Link EAP225-outdoor supports this functionality.  The only downside is it consumes about 10 watts per hotspot per the spec sheet.  Actual consumption is unknown.  We would employ one unit inside the van and one outside.  We should survey to see what our existing network looks like outside the van...if it is strong in the immediate vacinity, seamless might not be needed which would allow us to shift to their lower power lower bandwith unit that draws about 3 watts.
 
+Its unclear whether seamless roaming requires a controller.  There are docker images for controllers that can run on rPis.
+
+Some more data points on the EAP225 power usage:
+
+* [A reddit user comments here](https://www.reddit.com/r/TPLink_Omada/comments/w3t993/comment/ih1rk9h/) says they've never seen power consumption over about 3W for their EAP225.
+
+* [A reddit user comments here](https://www.reddit.com/r/HomeNetworking/comments/p5setb/comment/h9cfqt1/) says their EAP225 idles at about 3 Watts.
 ### Integration
 
 How to Integrate the sources and internal network is an open question.  
