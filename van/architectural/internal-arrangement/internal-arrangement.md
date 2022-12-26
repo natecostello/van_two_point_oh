@@ -10,7 +10,7 @@ title: Internal Arrangement
 author: Nate
 date: 2021-09-03
 tags:
- - 8020
+ - '8020'
  - design
  - concept
  - van

@@ -12,7 +12,7 @@ date: 2020-01-14
 tags:
  - van
  - structural
- - 8020
+ - '8020'
  - concept
  - design
 metatags:

@@ -12,7 +12,7 @@ date: 2021-08-29
 tags:
  - van
  - structural
- - 8020
+ - '8020'
  - design
 metatags:
 	# no metatags
