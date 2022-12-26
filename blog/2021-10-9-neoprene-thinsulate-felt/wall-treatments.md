@@ -12,7 +12,7 @@ tags:
  - van
  - parietal
  - build
- 
+
 metatags:
 	# no metatags
 cover: 

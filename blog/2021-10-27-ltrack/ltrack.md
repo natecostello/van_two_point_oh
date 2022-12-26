@@ -12,7 +12,7 @@ tags:
  - van
  - structural
  - build
- 
+
 metatags:
 	# no metatags
 cover: 
