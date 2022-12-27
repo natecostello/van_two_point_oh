@@ -20,6 +20,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We installed a single MaxxFan in the rear-most possible location.**<!--excerpt-->
 

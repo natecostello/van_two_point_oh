@@ -27,6 +27,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 **DEPRECATED:** This article is deprecated and contains outdated design information and possible errors.

@@ -20,6 +20,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We are using Gatsby, a static site generator, for this website.  It uses a GitHub repository of markdown files for all the content, and turns that into HTML automatically.**<!--excerpt-->
 

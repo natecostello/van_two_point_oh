@@ -27,6 +27,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 The Espar EasyStart Pro controller appears to be an improvement on the EasyStart Timer we used for Van 1.0.  It has integrated diagnostics and an integrated temperature sensor.  It's about $195 at [esparparts.com](https://www.esparparts.com/).  Their Transit kit includes the EasyStart Pro.

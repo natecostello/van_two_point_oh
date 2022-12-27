@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We discovered an anomaly with BMS cell voltage measurements during benchtop testing.  With the help of REC we found it was an issue with our battery simulator, which we resolved.**<!--excerpt-->
 

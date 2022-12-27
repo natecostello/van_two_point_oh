@@ -22,6 +22,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 Based on testing performed by a member of the [diymobileaudio forum](https://www.diymobileaudio.com/) and owner of a related [facebook group](https://www.facebook.com/groups/651457188787366/), Dynamat extreme is the [most effective by weight](https://www.diymobileaudio.com/threads/sound-deadening-cld-testing.146403/post-3522858).  Searching around I found some reports of noico having a smell.  Hein sells a 3M product that is considered best by weight, but it is spendy.  

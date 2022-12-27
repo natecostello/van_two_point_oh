@@ -22,6 +22,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 TLDR: If you want to use thermal breaks in your structural joints, you must use a material of sufficient compressive strength (e.g. FR4).  It's better to have thermal shorts than weak, failure-prone joints.

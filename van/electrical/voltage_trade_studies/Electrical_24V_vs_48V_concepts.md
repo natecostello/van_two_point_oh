@@ -24,6 +24,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 TODO: Extract 24V material into baseline design documentation.

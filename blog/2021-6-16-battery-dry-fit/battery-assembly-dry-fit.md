@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We assembled our LFP cells and other components to ensure everything fit up properly.  We verified our battery design was physically sound.**<!--excerpt-->
 

@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We performed some fabrication trials of our series and parallel interconnects.  We concluded that portions of the design were not able to fabricated.  Based on these lessons we planned another design iteration.**<!--excerpt-->
 

@@ -20,6 +20,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We used automotive felt, neoprene, and thinsulate for thermal (and some acoustic) insulation of the walls and ceiling.**<!--excerpt-->
 

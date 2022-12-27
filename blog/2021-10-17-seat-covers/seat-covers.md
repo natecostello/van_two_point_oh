@@ -20,6 +20,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We installed seat covers because we have cats and commonly drive while wearing wet wetsuits.  Also, they match our interior color scheme.**<!--excerpt-->
 

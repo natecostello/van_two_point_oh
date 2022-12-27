@@ -23,6 +23,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 There does not appear to be a cheap, solid, turn-key solution to mounting inset (half-inch) panels in 8020 framing.

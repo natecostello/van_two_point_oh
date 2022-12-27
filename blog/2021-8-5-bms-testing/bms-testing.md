@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We tested and captured data to prove out and characterize the REC BMS protection and operation.  This was based on our previous work to get an RPi to communicate with our Riden power supply, our digital multimeter, and the BMS.**<!--excerpt-->
 

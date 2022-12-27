@@ -22,6 +22,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 This is going to be way too detailed for the casual reader but we did want to capture our process and logic as it may help others.  If you are designing a van read on, if you aren't, maybe look at the pictures and move on.

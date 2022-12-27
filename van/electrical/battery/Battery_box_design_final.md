@@ -23,6 +23,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 The battery will be constructed of 16 280AH cells in a 2P8S 560AH 24V configuration.  ~~It will be installed behind the driver side rear wheel.~~ It is installed between the wheelwells. The selected design concept is illustrated below.

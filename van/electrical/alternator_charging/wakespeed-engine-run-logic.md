@@ -25,6 +25,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 Per the wakespeed [user manual](http://wakespeed.com/WS500%20Users%20Manual.pdf), the VAN wiring harness includes a brown denoted as "ignition".

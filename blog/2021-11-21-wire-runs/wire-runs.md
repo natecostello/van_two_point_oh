@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **We measured, planned, and ran all of our branch circuit wiring.  We also ran conduit for future expansion.**<!--excerpt-->
 

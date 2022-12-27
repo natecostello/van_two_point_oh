@@ -23,6 +23,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 This article describes the power circuits planned for the van and evaluates required wire gauge for those circuits.  All calculations are contained in [this google spreadsheet](https://docs.google.com/spreadsheets/d/1JnF0Kgj202dYR1sIlWKawStD7OvVsGdwfCOEQsTpghI/edit?usp=sharing).

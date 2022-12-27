@@ -20,6 +20,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: The APS alternator performs pretty close to advertised performance but requires driving or higher than nominal idle to supply power.  If you are looking for serious charge capability we'd recommend this product.**<!--excerpt-->
 

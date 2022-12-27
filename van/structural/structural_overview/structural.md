@@ -20,6 +20,7 @@ cover:
 	# if attribution is needed
  source: Van One Point Oh
 	# url: url
+tldr:
 ---
 
 This page provides a structural overview of the van design.

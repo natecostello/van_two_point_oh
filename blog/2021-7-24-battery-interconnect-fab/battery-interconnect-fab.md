@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We successfully completed the fabrication of our battery interconnects.**<!--excerpt-->
 

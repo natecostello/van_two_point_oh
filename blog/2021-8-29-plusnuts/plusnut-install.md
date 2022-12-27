@@ -20,6 +20,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We used a pneumatic tool to install 1/4-20 plusnuts in about every compatible factory hole.  In hindsight we would have used the star-lock-washer approach to improve spin-out resistance.**<!--excerpt-->
 

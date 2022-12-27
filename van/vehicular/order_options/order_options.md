@@ -22,6 +22,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 We went into the vehicle ordering process after a few years of driving a large camper van and with some awareness of the available Transit options.  Based on this, we had a few hard requirements:

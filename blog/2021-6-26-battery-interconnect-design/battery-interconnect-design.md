@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We designed the parallel and series interconnects that join the individual cells to form our battery.  We ordered material to perform some fabrication trials.**<!--excerpt-->
 

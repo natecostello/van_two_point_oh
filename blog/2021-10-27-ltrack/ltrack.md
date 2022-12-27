@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We installed 6 lengths of L-track.  These runs form part of the structure to support ceiling panels, wall panels lights, over-head storage, and provide general L-track utility.**<!--excerpt-->
 

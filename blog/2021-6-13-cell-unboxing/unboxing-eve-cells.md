@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We unboxed and took physical measurements on our LFP cells that will form our battery.**<!--excerpt-->
 

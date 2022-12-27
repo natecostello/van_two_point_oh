@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We are electroplating our battery interconnects with Nickel to provide corrosion resistance.  We upgraded our rig based on the lessons from our first failure.  We upgraded our protocol based on some advice from a chemically inclined friend.  The latter got us an acceptable result.**<!--excerpt-->
 

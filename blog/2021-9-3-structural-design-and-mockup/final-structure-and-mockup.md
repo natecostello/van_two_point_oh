@@ -20,6 +20,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: Van 2.0 is being built using 15 series 8020 extruded aluminum for its precision, strength, and popularity among DIY van conversion projects. To ensure accuracy, the design process included creating a 3D model in SketchUp and a full-size wooden mockup. If starting over, the we would use the 1515-ULS profile for weight savings.**<!--excerpt-->
 

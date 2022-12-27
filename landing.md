@@ -17,6 +17,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 Welcome to another Greenstello production.  This website documents our design and build of Van 2.0 a.k.a. [Rusalka](https://en.wikipedia.org/wiki/Rusalka).

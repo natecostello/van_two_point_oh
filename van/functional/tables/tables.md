@@ -24,6 +24,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 We had a decent experience with a Lagun table in Van 1.0 and plan to use the same.
 

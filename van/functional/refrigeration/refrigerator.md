@@ -25,6 +25,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 **TLDR: For lots of reasons (arrangement flexibility, efficiency, maintainability, etc) we are going with Vitrifrigo.**

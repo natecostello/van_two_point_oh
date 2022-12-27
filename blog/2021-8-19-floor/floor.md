@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: Our floor is an seamless, water proof, edge sealed layer composed of lonseal, 1/2" baltic birch, and minicell foam.**<!--excerpt-->
 

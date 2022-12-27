@@ -25,6 +25,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 # REC Q BMS Wiring Logic
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic_deprecated.svg)

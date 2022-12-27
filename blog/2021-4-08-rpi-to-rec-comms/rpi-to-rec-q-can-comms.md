@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We setup an RPi to communicate over CAN with our REC Q BMS.  This will allow us to log BMS parameters during electrical system testing.It will also lay the ground work for interfacing our homebrew electrical monitoring and control functions with the BMS.**<!--excerpt-->
 

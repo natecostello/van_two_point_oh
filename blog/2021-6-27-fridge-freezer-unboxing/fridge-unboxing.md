@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: This is **Sophia's** first *post*.  It describes our unboxing... which is very great and interesting.**<!--excerpt-->  
 

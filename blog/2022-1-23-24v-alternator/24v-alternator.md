@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We installed a dedicated 180A 24V alternator to charge our battery.  The alternator install was a bit of a challenge due to the tolerancing of the bracket and the incorrect length of the supplied belt.**<!--excerpt-->
 

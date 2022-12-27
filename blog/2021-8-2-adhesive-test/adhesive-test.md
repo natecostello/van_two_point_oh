@@ -23,6 +23,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: Weldwood Landau Top and Trim contact adhesive can be used to successfully stick neoprene to CoreRigid corrugated ABS panels.  This means we have identified a suitable alternative to plywood for our interior wall panels.**<!--excerpt-->
 

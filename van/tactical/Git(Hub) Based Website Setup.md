@@ -5,6 +5,7 @@ title: "Git(Hub) & Gatsby Based Website Setup"
 author: "Stello"
 data: " 2020-10-16"
 tags: ["web", "meta"]
+tldr:
 ---
 
 # Git(Hub) & Gatsby Based Website Setup

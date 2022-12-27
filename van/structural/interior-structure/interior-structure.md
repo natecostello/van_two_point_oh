@@ -22,6 +22,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 The interior of the van is/will be framed out using [8020](https://8020.net/) fractional 15 series extruded aluminum.  These are 1.5 inch by 1.5 inch lengths of T-slotted anodized 6061 Aluminum.

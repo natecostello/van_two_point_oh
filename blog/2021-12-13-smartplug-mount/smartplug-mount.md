@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We designed, had fabricated, and installed some custom panels for our shore power, aux solar, and exterior outlets.  We highly recommend this approach.**<!--excerpt-->
 

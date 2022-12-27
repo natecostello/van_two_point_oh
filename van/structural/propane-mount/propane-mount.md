@@ -23,6 +23,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 We intend to mount the propane tank between the first two cross members aft of the differential, centered between the frame members.

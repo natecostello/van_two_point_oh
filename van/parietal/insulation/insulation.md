@@ -22,6 +22,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 This article documents some of our work the led to the insulation choices we ended up with.  It allowed us to make some informed decisions on what was and wasn't worth it.  These calculations provide a basis of comparison between difference material choices.  The absolute watts should be taken only as a metric, not an absolute.  We've also included a few links that were helpful.  Lastly, don't bother with reflectix, unless you put it outside the van reflecting away.

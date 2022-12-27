@@ -20,6 +20,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: We setup an RPi to communicate with log from our UNI-T UT61E.  This will allow us to script and automate testing of van electrical components down the road.**<!--excerpt-->
 

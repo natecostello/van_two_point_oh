@@ -19,6 +19,7 @@ cover:
 	# if attribution is needed
  source: Van One Point Oh
 	# url: url
+tldr:
 ---
 
 This section is primarily about vehicle upgrades and factory information.

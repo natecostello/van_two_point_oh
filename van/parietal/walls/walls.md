@@ -22,6 +22,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 In an effort to minimize any organic (read mold nuturing) materials, we are considering plastic as the basis for the walls.  The plan is to use a material similar to the stock wall panels that we had in our Sprinter upon reciept.   [Some discussion in this sprinter-source post](https://sprinter-source.com/forums/index.php?threads/43201/).

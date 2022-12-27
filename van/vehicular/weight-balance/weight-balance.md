@@ -23,6 +23,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 To the extent that it doesn't significantly impact usability and maintainability, we will attempt to locate components in a way to optimize load and balance between axles and sides of the van.

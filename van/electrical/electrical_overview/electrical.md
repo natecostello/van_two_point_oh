@@ -20,6 +20,7 @@ cover:
 	# if attribution is needed
  source: Van One Point Oh
 	# url: url
+tldr:
 ---
 
 The van electrical system consists of DC and AC portions.  The DC portion is primarily 24V with a 24V 560 AH LFP battery and directly supplies 24V loads and uses power conversion to supply 12V loads.  The AC portion is 120V at 60 Hz and supplies all AC loads.  Connecting the AC and DC portions is an inverter/charger that can supply DC power or AC power.  The system is capable of using and storing power from solar panels installed on the roof, a shore power connection, the factory alternator, and a dedicated alternator.  

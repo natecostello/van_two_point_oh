@@ -25,6 +25,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 We settled on a 21 inch Greystone 3 Burner Oven/Range.  There is some experience with it on the transit forum and the Dometic's availability was sketch.

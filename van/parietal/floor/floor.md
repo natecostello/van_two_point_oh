@@ -22,6 +22,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 The floor is constructed of a patchwork of 0.4 inch minicell foam to fill the corrugations, followed by a layer of 0.5 inch minicell for additional insulation, followed 0.5 inch of baltic birch plywood, topped with a continuous sheet of Lonseal vinyl flooring.  This design follows [Far Out Ride's](https://faroutride.com/floor-installation/) recommendations pretty closely.

@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: Based on our fabrication trials, we redesigned the parallel and series interconnects that join the individual cells to form our battery.  The fabrication required for our new design is covered by what we proved in the trials.  We ordered production material.**<!--excerpt-->
 

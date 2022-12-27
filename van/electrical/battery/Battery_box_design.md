@@ -22,6 +22,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 The battery will be constructed of 280AH cells.  It will be installed behind the driver side rear wheel.  Four rough concepts (A, B, C, and D) of the design are illustrated below.

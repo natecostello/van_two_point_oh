@@ -21,6 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 **TLDR: Van 2.0 features a fixed raised bed with substantial garage storage underneath, a split driver and passenger side galley with center aisle, a booth seat to support dining for three, and loads of soft overhead storage.**<!--excerpt-->
 

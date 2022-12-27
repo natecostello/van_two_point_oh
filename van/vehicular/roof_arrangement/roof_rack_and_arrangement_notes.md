@@ -24,6 +24,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
+tldr:
 ---
 
 **TLDR:** We selected a rack design using Hein's roof rack mounting feet and Aluminum angle.  This rack design results in minimum weight, minimum cost, and minimum aerodynamic impact.  It also is extremely flexible.  Unfortunately, it has the least usable roof space after solar is installed.  It also doesn't look the coolest.  The Aluminess touring rack was strongly considered.  The low pro rack is incompatible with our fan location, so that was a dealbreaker.
