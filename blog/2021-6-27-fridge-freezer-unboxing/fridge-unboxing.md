@@ -23,7 +23,7 @@ cover:
 	# url: url
 tldr: 'This is Sophia's first post.  It describes our unboxing... which is very great and interesting.'
 ---
-**TLDR: This is **Sophia's** first *post*.  It describes our unboxing... which is very great and interesting.**  
+**TLDR: This is Sophia's first *post*.  It describes our unboxing... which is very great and interesting.**  
 
 I could go on and on and on and on... but first I would like to offer more details on how to open a box.
 
@@ -31,4 +31,4 @@ I could go on and on and on and on... but first I would like to offer more detai
 
 First you get a box, and then you cut a hole in the box.  Hopefully there is a Vitrifrigo refrigerator in it, otherwise you will get an awful surprise!!!
 
-And then you will want to know... some more things about remiving tape.
+And then you will want to know... some more things about removing tape.
