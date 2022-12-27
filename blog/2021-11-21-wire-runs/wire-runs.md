@@ -9,7 +9,7 @@ title: Wire Runs
 author: Nate
 date: 2021-11-04
 tags:
- - van
+ - wiring
  - electrical
  - build
  
@@ -22,6 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**We measured, planned, and ran all of our branch circuit wiring.  We also ran conduit for future expansion.**<!--excerpt-->
 
 Van 1.0 gave us a pretty good feel for what we needed in terms of electrical circuits.  Many are dictated by major loads (fridge, lights, etc).  Others are dictated by personal choices like number of AC circuits and plug locations, USB charging locations, and switch locations.
 
@@ -101,7 +102,10 @@ For our circuit runs, we are only running sheathed duplex, triplex, and quadplex
 On Van 1.0 we used the plastic adhesive zip-tie anchors to secure wire.  We found the adhesives usually failed after a few hot-cold cycles if not sooner.  For this reason we fabricated some brackets and attached them to the ceiling rib between the C-pillars using factory holes.  These provide solid anchors to zip-tie wire and conduit.  All other wire is held fast inside van structure via ties or insulation.  Later we will use 8020 zip tie anchors, zip-tie anchors screwed to panels for wire running through that structure.
 
 ![brackets](brackets.jpeg)
-_Brackets to anchor wire and conduit running across the cieling between the C-pillars._
+_Brackets to anchor wire and conduit running across the ceiling between the C-pillars._
+
+## What We Would Change
+We later pivoted to a lighting system that eliminated the need for much wiring ran for lighting and switching.  After six months of continuous use, we think the radio controlled lighting is the way to go.  If we were to do it again it would have saved us a fair amount of cost and effort to run that wiring.
 
 ## Timeline
 
