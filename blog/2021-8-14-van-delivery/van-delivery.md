@@ -9,8 +9,8 @@ title: Its Here!
 author: Sophia
 date: 2021-08-14
 tags:
- - van
- - vehiclular
+ - build
+ - vehicular
  
 metatags:
 	# no metatags
@@ -21,5 +21,6 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**We took delivery of our van.**<!--excerpt-->
 
 Its Here!  More to come.

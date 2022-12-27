@@ -9,8 +9,8 @@ title: Web Page Dev Ops
 author: Nate
 date: 2021-06-29
 tags:
- - blog
  - meta
+ - web development
  
 metatags:
 	# no metatags
@@ -21,10 +21,9 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We are using Gatsby, a static site generator, for this website.  It uses a GitHub repository of markdown files for all the content, and turns that into HTML automatically.**<!--excerpt-->
 
-We are using Gatsby, a static site generator, for this website.  It uses a GitHub repository of markdown files for all the content, and turns that into HTML automatically.
-
-A goal was to make it so that when new content is pushed (uploaded) to the GitHub repository, the website is automatically rebuilt with the new content.  This post is about making that work.
+A primary goal was to make it so that when new content is pushed (uploaded) to the GitHub repository, the website is automatically rebuilt with the new content.  This post is about making that work.
 
 Unlike a lot of GitHub/Gatsby based sites we separate our content repo from the website repo, which makes the above goal a bit more complicated to set up.
 

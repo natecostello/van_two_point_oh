@@ -9,7 +9,7 @@ title: Unboxing the Refrigerator and Freezer
 author: Sophia
 date: 2021-06-27
 tags:
- - van
+ - build
  - functional
  - galley
  
@@ -22,7 +22,9 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-This is **Sophia's** first *post*.  It describes our unboxing... which is very great and interesting.  I could go on and on and on and on... but first I would like to offer more details on how to open a box.
+**TLDR: This is **Sophia's** first *post*.  It describes our unboxing... which is very great and interesting.**<!--excerpt-->  
+
+I could go on and on and on and on... but first I would like to offer more details on how to open a box.
 
 ## How to Open a Box
 

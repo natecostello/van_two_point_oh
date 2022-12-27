@@ -9,7 +9,6 @@ title: Harness Reroute
 author: Nate
 date: 2021-10-08
 tags:
- - van
  - parietal
  - build
  
@@ -22,8 +21,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
-**TLDR: For our build, it made sense to reroute the factory harness in the cargo area.  YMMV.**
+**TLDR: We rerouted the factory harness in the cargo area.  For our build, it made sense.  YMMV.**<!--excerpt-->
 
 For our build we planned to have soft overhead storage mounted L-track running down the ceiling and walls.  The L-Track mounts using plusnuts that installed in the square holes used to mount the factory plastic harness guard.  We also planned to install the air handler for our Undermount AC system in the same location.
 

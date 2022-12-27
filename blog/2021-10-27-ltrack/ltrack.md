@@ -9,9 +9,9 @@ title: L-Track Installation
 author: Nate
 date: 2021-10-27
 tags:
- - van
  - structural
  - build
+ - ltrack
 
 metatags:
 	# no metatags
@@ -22,6 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We installed 6 lengths of L-track.  These runs form part of the structure to support ceiling panels, wall panels lights, over-head storage, and provide general L-track utility.**<!--excerpt-->
 
 The utility of L-track was a major take-away of Van 1.0.  For 2.0, we knew we would replicate the use of L-track as the foundation for our diy-mule-bag overhead storage.  We also wanted to run an extra strip of L-track along the wall of each side that would not be covered by the overhead storage.  This meant 6 total runs: passenger and driver "upper-wall" and "ceiling" L-track used for the overhead storage mounts, and passenger and driver "lower-wall" L-track for future random utility.
 

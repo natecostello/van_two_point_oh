@@ -9,7 +9,7 @@ title: LFP Cell Unboxing
 author: Nate
 date: 2021-06-13
 tags:
- - van
+ - build
  - electrical
  - battery
  
@@ -22,8 +22,9 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We unboxed and took physical measurements on our LFP cells that will form our battery.**<!--excerpt-->
 
-We recieved our cells in late May, but haven't had a chance to actually open them.  Today was the day.
+We received our cells in late May, but haven't had a chance to actually open them.  Today was the day.
 
 Physically they all look good.  My calipers needed new batteries, so we'll update this later once we can take detailed measurements.  One area of interest is the flat region around the studs as that will limit current flow area into/out-of the cells.
 

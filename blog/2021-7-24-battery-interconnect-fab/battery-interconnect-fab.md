@@ -9,7 +9,7 @@ title: Battery Interconnect Fabrication
 author: Nate
 date: 2021-07-24
 tags:
- - van
+ - build
  - electrical
  - battery
  
@@ -22,6 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We successfully completed the fabrication of our battery interconnects.**<!--excerpt-->
 
 A very productive day.  Our final battery interconnect materials delivered from sendcutsend on July 12th.
 ![flat bars](flat-bars.jpeg)

@@ -9,7 +9,6 @@ title: Sound Dampening
 author: Nate
 date: 2021-08-28
 tags:
- - van
  - parietal
  - build
  - sound-dampening
@@ -23,8 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
-**TLDR: We used Dynamat Extreme for sound dampening.**
+**TLDR: We used Dynamat Extreme for sound dampening.**<!--excerpt-->
 
 ## Sound Dampening
 

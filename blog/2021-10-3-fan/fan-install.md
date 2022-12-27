@@ -9,7 +9,6 @@ title: MaxxFan Install
 author: Nate
 date: 2021-10-03
 tags:
- - van
  - functional
  - build
  
@@ -22,8 +21,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
-**TLDR: We installed a single MaxxFan in the rear-most possible location.**
+**TLDR: We installed a single MaxxFan in the rear-most possible location.**<!--excerpt-->
 
 We're not breaking any new ground installing a MaxxFan. It's a pretty obvious choice if you want decent ventilation.  They are reliable, can operate during rain, and have enough speeds to find the right balance between quiet and low power vs air flow for any given situation.
 

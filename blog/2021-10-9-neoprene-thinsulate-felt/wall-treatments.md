@@ -9,7 +9,6 @@ title: Wall and Ceiling Insulation
 author: Nate
 date: 2021-10-09
 tags:
- - van
  - parietal
  - build
 
@@ -22,8 +21,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
-**TLDR: We used automotive felt, neoprene, and thinsulate for thermal (and some acoustic) insulation of the walls and ceiling.**
+**TLDR: We used automotive felt, neoprene, and thinsulate for thermal (and some acoustic) insulation of the walls and ceiling.**<!--excerpt-->
 
 Insulation is the great divider of our time.  We put our faith in physics, and in this house we believe:
 

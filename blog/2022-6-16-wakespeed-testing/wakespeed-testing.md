@@ -9,10 +9,9 @@ title: 24V Alternator Testing
 author: Nate
 date: 2022-06-16
 tags:
- - van
  - build
  - electrical
- 
+ - alternator
 metatags:
 	# no metatags
 cover: 
@@ -22,8 +21,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
-**TLDR:** The APS alternator performs pretty close to advertised performance but requires driving or high idle to supply power.  It will not source power under normal idle speed.
+**TLDR: The APS alternator performs pretty close to advertised performance but requires driving or higher than nominal idle to supply power.  If you are looking for serious charge capability we'd recommend this product.**<!--excerpt-->
 
 ## Firmware and Settings
 

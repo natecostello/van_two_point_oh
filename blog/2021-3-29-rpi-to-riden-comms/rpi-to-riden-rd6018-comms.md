@@ -2,14 +2,13 @@
 type: post
 section: blog
 categories: 
- # one or more categories is permittedtypora-root-url
+ # one or more categories is permitted
  - electrical
 navTitle: 
 title: RPi to Riden RD6018 Comms
 author: Nate
 date: 2021-03-29
 tags:
- - van
  - electrical
  - test
  - tools
@@ -22,12 +21,12 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+TLDR: We setup an RPi to communicate with and control to our Riden RD6018.  This will allow us to script and automate testing of van electrical components down the road.<!--excerpt-->
 
 ### Why bother getting an RPi talking to a Riden RD6018
-
 Why? Because you can script and automate testing.  Why an RPi? Because I don't trust hooking up my prized laptop to unknown equipment.  Thats about it.  It required a little poking around and some familiarity with the command line.
-### Getting an RPi talking to a Riden RD6018
 
+### Getting an RPi talking to a Riden RD6018
 After messing around, this is the straight path that got a headless RPi talking to the RD6018:
 
 1. Install a clean Raspian Lite image using [Raspberry Pi Imager](https://www.raspberrypi.org/software/).  CTRL+SHIFT+X to preconfigure the image for SSH and wifi.

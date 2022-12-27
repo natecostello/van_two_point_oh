@@ -9,7 +9,6 @@ title: RPi to UNI-T UT61E Comms
 author: Nate
 date: 2021-03-31
 tags:
- - van
  - electrical
  - test
  - tools
@@ -22,6 +21,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We setup an RPi to communicate with log from our UNI-T UT61E.  This will allow us to script and automate testing of van electrical components down the road.**<!--excerpt-->
 
 ### Getting an RPi talking to a UNI-T UT61E
 

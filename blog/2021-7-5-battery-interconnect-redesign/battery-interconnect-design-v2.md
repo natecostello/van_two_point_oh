@@ -9,7 +9,7 @@ title: Battery Interconnect Design V2
 author: Nate
 date: 2021-07-05
 tags:
- - van
+ - design
  - electrical
  - battery
  
@@ -22,6 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: Based on our fabrication trials, we redesigned the parallel and series interconnects that join the individual cells to form our battery.  The fabrication required for our new design is covered by what we proved in the trials.  We ordered production material.**<!--excerpt-->
 
 To make our cells function as a battery we have to connect them together in a specific pattern.  We take two cells, and connect the positive terminals together and connect the negative terminals together.  We're referring to the things that make these (parallel) connections as the "parallel" interconnects.  Those join two cells in parallel for kind of an uber-cell.  We then connect 8 of those uber-cells together in series, positive to negative and so on.  We're referring to the things that make these (series) connections as the "series" interconnects.  
 

@@ -9,7 +9,6 @@ title: SmartPlug/Aux Solar/Exterior Plug
 author: Nate
 date: 2021-12-13
 tags:
- - van
  - structural
  - build
  - electrical
@@ -23,7 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
+**TLDR: We designed, had fabricated, and installed some custom panels for our shore power, aux solar, and exterior outlets.  We highly recommend this approach.**<!--excerpt-->
 
 On Van 1.0 we installed a standard RV shorepower plug on the driver side of the van.  It worked fine, but it does involve putting a hole in the side of the van.  It also got damaged by an uncontrolled rear door opening while the cover was flipped up.  For Van 2.0, we have an opportunity to improve.
 

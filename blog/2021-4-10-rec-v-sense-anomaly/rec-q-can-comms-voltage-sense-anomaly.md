@@ -9,7 +9,6 @@ title: REC Q CAN Comms Voltage Sense Anomaly
 author: Nate
 date: 2021-04-10
 tags:
- - van
  - electrical
  - test
  - bms
@@ -23,12 +22,11 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We discovered an anomaly with BMS cell voltage measurements during benchtop testing.  With the help of REC we found it was an issue with our battery simulator, which we resolved.**<!--excerpt-->
 
 ### Wringing out the REC Q BMS
 
 I'm operating the BMS without a battery for now, and instead with something simulating a battery which I call a "battery simulator".  The primary reason is that my cells haven't arrived.  The secondary reason is it allows me to verify the protection setpoints and actions prior to hooking it up to cells and relying on those protections.  The tertiary reason is it allows me to work on decoding the CAN and RS-485 comms without it being hooked up to a real battery.
-
-
 
 ### The Battery Simulator
 

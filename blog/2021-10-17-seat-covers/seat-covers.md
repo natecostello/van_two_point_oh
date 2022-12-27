@@ -9,7 +9,6 @@ title: Seat Covers
 author: Nate
 date: 2021-10-17
 tags:
- - van
  - vehicular
  - build
 
@@ -22,8 +21,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
-TLDR: We installed seat covers because we have cats and commonly drive while wearing wet wetsuits.  Also, they match our interior color scheme.
+**TLDR: We installed seat covers because we have cats and commonly drive while wearing wet wetsuits.  Also, they match our interior color scheme.**<!--excerpt-->
 
 Our kiteboarding means driving while wearing wet swimsuits or wet wetsuits is common.  In Van 1.0 we used these layover covers.  For Van 2.0 we wanted something more substantial and that matched our interior.  We had a good experience with neoprene covers on our jeep to serve the same function.  
 

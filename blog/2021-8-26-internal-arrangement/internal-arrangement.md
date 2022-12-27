@@ -10,7 +10,6 @@ title: Internal Arrangement
 author: Nate
 date: 2021-08-26
 tags:
- - van
  - architectural
  - design
  
@@ -23,8 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
-TLDR: Van 2.0 features a fixed raised bed with substantial garage storage underneath, a split driver and passenger side galley with center aisle, a booth seat to support dining for three, and loads of soft overhead storage.
+**TLDR: Van 2.0 features a fixed raised bed with substantial garage storage underneath, a split driver and passenger side galley with center aisle, a booth seat to support dining for three, and loads of soft overhead storage.**<!--excerpt-->
 
 If you want to read all the gritty details on how we ended up with our arrangement, access to useful resources on transit dimensions, and all of the SketchUp models we used, you can find that in [this article](/van/architectural/internal-arrangement/internal-arrangement).  This blog entry is just going to hit the high points.
 

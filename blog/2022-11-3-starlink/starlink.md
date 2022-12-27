@@ -9,7 +9,6 @@ title: Starlink
 author: Nate
 date: 2022-11-03
 tags:
- - van
  - build
  - comms
  
@@ -22,8 +21,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
-**TLDR: Starlink is a game changer for RVs.  It's stock power consumption is not insignificant if used continuously.  For the daring, power consumption can be improved dramatically and mounting can be accomplished in an "always deployed" configuration.**
+**TLDR: After using Starlink "on-label" seven months, we modified it for DC power and flat roof mounting.  For full-timers that work out of a van or RV, Starlink is a game changer.**<!--excerpt-->
 
 
 ## Impressions and Experience

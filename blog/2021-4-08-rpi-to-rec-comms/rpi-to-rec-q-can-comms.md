@@ -9,7 +9,6 @@ title: RPi to REC Q CAN Comms
 author: Nate
 date: 2021-04-08
 tags:
- - van
  - electrical
  - test
  - bms
@@ -23,7 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
+**TLDR: We setup an RPi to communicate over CAN with our REC Q BMS.  This will allow us to log BMS parameters during electrical system testing.It will also lay the ground work for interfacing our homebrew electrical monitoring and control functions with the BMS.**<!--excerpt-->
 
 ###  Getting an RPi talking to the REC Q BMS
 

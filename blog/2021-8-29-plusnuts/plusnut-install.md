@@ -9,7 +9,6 @@ title: Plusnuts
 author: Nate
 date: 2021-08-29
 tags:
- - van
  - structural
  - build
  
@@ -22,6 +21,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We used a pneumatic tool to install 1/4-20 plusnuts in about every compatible factory hole.  In hindsight we would have used the star-lock-washer approach to improve spin-out resistance.**<!--excerpt-->
 
 Based on our positive experience with Van 1.0 we planned to use plusnuts extensively for Van 2.0.  Unlike Van 1.0 we planned to use existing factory holes to the maximum extent possible.  
 

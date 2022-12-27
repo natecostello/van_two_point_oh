@@ -9,7 +9,7 @@ title: Battery Interconnect Electroplating Trials
 author: Nate
 date: 2021-07-26
 tags:
- - van
+ - build
  - electrical
  - battery
  
@@ -22,6 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We are electroplating our battery interconnects with Nickel to provide corrosion resistance.  Our first attempt/protocol failed but we learned some valuable lessons.**<!--excerpt-->
 
 We are electroplating our battery interconnects with Nickel to provide corrosion resistance.  We spend a lot of time in highly corrosive salty air.  The [busbar design guide](https://copperalliance.org.uk/resources/pub-22-copper-busbars-guidance-design-installation-2/) from copperalliance.org.uk advises that it is a good idea in harsh high humidity environments.  We electroplated the connection points on Van 1.0 using tin, and a brush method.  It turned out ok, but opted to go with a bath this time around.
 

@@ -9,7 +9,7 @@ title: Battery Interconnect Fabrication Trials
 author: Nate
 date: 2021-07-04
 tags:
- - van
+ - build
  - electrical
  - battery
  
@@ -22,6 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We performed some fabrication trials of our series and parallel interconnects.  We concluded that portions of the design were not able to fabricated.  Based on these lessons we planned another design iteration.**<!--excerpt-->
 
 We laid out our plans and design for our battery interconnects in a [previous post](/blog/2021-6-26-battery-interconnect-design/battery-interconnect-design).  Start there if you want some context.  This is post is about the difference between theory and practice.  Hah.  
 

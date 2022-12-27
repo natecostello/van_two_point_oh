@@ -9,7 +9,6 @@ title: Van 2.0 Order
 author: Nate
 date: 2020-12-15
 tags:
- - van
  - vehicular
  - build
  
@@ -23,7 +22,7 @@ cover:
 	# url: url
 ---
 
-TLDR:  We ordered an extended length, high roof, AWD 2021 Ford Transit Cargo Van.
+**TLDR: We ordered an extended length, high roof, AWD 2021 Ford Transit Cargo Van.**<!--excerpt-->
 
 We have a dedicated article on our order [here](/van/vehicular/order_options/order_options).  That article contains a lot more detail on what exactly we optioned and why.
 

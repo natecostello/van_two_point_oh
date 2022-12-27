@@ -9,7 +9,7 @@ title: Battery Interconnect Electroplating Trials Part II
 author: Nate
 date: 2021-08-15
 tags:
- - van
+ - build
  - electrical
  - battery
  
@@ -22,6 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We are electroplating our battery interconnects with Nickel to provide corrosion resistance.  We upgraded our rig based on the lessons from our first failure.  We upgraded our protocol based on some advice from a chemically inclined friend.  The latter got us an acceptable result.**<!--excerpt-->
 
 We implemented several lessons learned based on the [first trial](/blog/2021-7-26-electroplating-part-i/electroplating-trials).  These included:
 

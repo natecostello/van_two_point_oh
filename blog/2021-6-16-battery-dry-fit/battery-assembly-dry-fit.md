@@ -9,7 +9,7 @@ title: Battery Assembly Dry-fit
 author: Nate
 date: 2021-06-16
 tags:
- - van
+ - build
  - electrical
  - battery
  
@@ -22,6 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We assembled our LFP cells and other components to ensure everything fit up properly.  We verified our battery design was physically sound.**<!--excerpt-->
 
 We are doing a trial of the battery assembly to make sure we can get good final dimensions (primarily for cell interconnections) and verify the physical design works.
 

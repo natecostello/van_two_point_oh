@@ -9,9 +9,9 @@ title: 24V Alternator Install
 author: Nate
 date: 2022-01-23
 tags:
- - van
  - build
  - electrical
+ - alternator
  
 metatags:
 	# no metatags
@@ -22,8 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
-
-**TLDR:** The alternator install was a bit of a challenge due to the tolerancing of the bracket and the incorrect length of the supplied belt.  If you have the right length belt and some basic power tools (if needed), the physical install should only take about 4 hours for two people.
+**TLDR: We installed a dedicated 180A 24V alternator to charge our battery.  The alternator install was a bit of a challenge due to the tolerancing of the bracket and the incorrect length of the supplied belt.**<!--excerpt-->
 
 For the reasons identified [here](/van/electrical/electrical_overview/electrical), we opted to install a dedicated 24V alternator.  As documented [here](/van/electrical/alternator_charging/alternator_charging), we selected a 185A alternator kit for the transit sold by American Power Systems.
 

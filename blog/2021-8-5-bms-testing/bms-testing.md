@@ -9,7 +9,7 @@ title: REC BMS Testing
 author: Nate
 date: 2021-08-05
 tags:
- - van
+ - testing
  - electrical
  - battery
  
@@ -22,6 +22,7 @@ cover:
 	# source: [vecteezy]
 	# url: url
 ---
+**TLDR: We tested and captured data to prove out and characterize the REC BMS protection and operation.  This was based on our previous work to get an RPi to communicate with our Riden power supply, our digital multimeter, and the BMS.**<!--excerpt-->
 
 Its good practice to test equipment that you will depend on for protection.  Given the cost and stored energy in our battery system, we decided to exercise the key protections provided by the BMS before we hook it up for initial charge.  
 
