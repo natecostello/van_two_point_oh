@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We tested and captured data to prove out and characterize the REC BMS protection and operation.  This was based on our previous work to get an RPi to communicate with our Riden power supply, our digital multimeter, and the BMS.'
 ---
-**TLDR: We tested and captured data to prove out and characterize the REC BMS protection and operation.  This was based on our previous work to get an RPi to communicate with our Riden power supply, our digital multimeter, and the BMS.**<!--excerpt-->
+**TLDR: We tested and captured data to prove out and characterize the REC BMS protection and operation.  This was based on our previous work to get an RPi to communicate with our Riden power supply, our digital multimeter, and the BMS.**
 
 Its good practice to test equipment that you will depend on for protection.  Given the cost and stored energy in our battery system, we decided to exercise the key protections provided by the BMS before we hook it up for initial charge.  
 

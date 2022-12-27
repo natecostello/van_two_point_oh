@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We are electroplating our battery interconnects with Nickel to provide corrosion resistance.  We upgraded our rig based on the lessons from our first failure.  We upgraded our protocol based on some advice from a chemically inclined friend.  The latter got us an acceptable result.'
 ---
-**TLDR: We are electroplating our battery interconnects with Nickel to provide corrosion resistance.  We upgraded our rig based on the lessons from our first failure.  We upgraded our protocol based on some advice from a chemically inclined friend.  The latter got us an acceptable result.**<!--excerpt-->
+**TLDR: We are electroplating our battery interconnects with Nickel to provide corrosion resistance.  We upgraded our rig based on the lessons from our first failure.  We upgraded our protocol based on some advice from a chemically inclined friend.  The latter got us an acceptable result.**
 
 We implemented several lessons learned based on the [first trial](/blog/2021-7-26-electroplating-part-i/electroplating-trials).  These included:
 

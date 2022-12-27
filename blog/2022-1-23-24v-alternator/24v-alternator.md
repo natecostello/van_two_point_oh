@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We installed a dedicated 180A 24V alternator to charge our battery.  The alternator install was a bit of a challenge due to the tolerancing of the bracket and the incorrect length of the supplied belt.'
 ---
-**TLDR: We installed a dedicated 180A 24V alternator to charge our battery.  The alternator install was a bit of a challenge due to the tolerancing of the bracket and the incorrect length of the supplied belt.**<!--excerpt-->
+**TLDR: We installed a dedicated 180A 24V alternator to charge our battery.  The alternator install was a bit of a challenge due to the tolerancing of the bracket and the incorrect length of the supplied belt.**
 
 For the reasons identified [here](/van/electrical/electrical_overview/electrical), we opted to install a dedicated 24V alternator.  As documented [here](/van/electrical/alternator_charging/alternator_charging), we selected a 185A alternator kit for the transit sold by American Power Systems.
 

@@ -20,9 +20,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We used a pneumatic tool to install 1/4-20 plusnuts in about every compatible factory hole.  In hindsight we would have used the star-lock-washer approach to improve spin-out resistance.'
 ---
-**TLDR: We used a pneumatic tool to install 1/4-20 plusnuts in about every compatible factory hole.  In hindsight we would have used the star-lock-washer approach to improve spin-out resistance.**<!--excerpt-->
+**TLDR: We used a pneumatic tool to install 1/4-20 plusnuts in about every compatible factory hole.  In hindsight we would have used the star-lock-washer approach to improve spin-out resistance.**
 
 Based on our positive experience with Van 1.0 we planned to use plusnuts extensively for Van 2.0.  Unlike Van 1.0 we planned to use existing factory holes to the maximum extent possible.  
 

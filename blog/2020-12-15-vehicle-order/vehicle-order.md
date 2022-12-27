@@ -23,7 +23,7 @@ cover:
 tldr:
 ---
 
-**TLDR: We ordered an extended length, high roof, AWD 2021 Ford Transit Cargo Van.**<!--excerpt-->
+**TLDR: We ordered an extended length, high roof, AWD 2021 Ford Transit Cargo Van.**
 
 We have a dedicated article on our order [here](/van/vehicular/order_options/order_options).  That article contains a lot more detail on what exactly we optioned and why.
 

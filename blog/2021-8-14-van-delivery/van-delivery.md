@@ -20,8 +20,8 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We took delivery of our van.'
 ---
-**We took delivery of our van.**<!--excerpt-->
+**TLDR: We took delivery of our van.**
 
 Its Here!  More to come.

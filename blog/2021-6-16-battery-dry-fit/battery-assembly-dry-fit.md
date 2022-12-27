@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We assembled our LFP cells and other components to ensure everything fit up properly.  We verified our battery design was physically sound.'
 ---
-**TLDR: We assembled our LFP cells and other components to ensure everything fit up properly.  We verified our battery design was physically sound.**<!--excerpt-->
+**TLDR: We assembled our LFP cells and other components to ensure everything fit up properly.  We verified our battery design was physically sound.**
 
 We are doing a trial of the battery assembly to make sure we can get good final dimensions (primarily for cell interconnections) and verify the physical design works.
 

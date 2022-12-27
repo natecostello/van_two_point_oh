@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'Based on our fabrication trials, we redesigned the parallel and series interconnects that join the individual cells to form our battery.  The fabrication required for our new design is covered by what we proved in the trials.  We ordered production material.'
 ---
-**TLDR: Based on our fabrication trials, we redesigned the parallel and series interconnects that join the individual cells to form our battery.  The fabrication required for our new design is covered by what we proved in the trials.  We ordered production material.**<!--excerpt-->
+**TLDR: Based on our fabrication trials, we redesigned the parallel and series interconnects that join the individual cells to form our battery.  The fabrication required for our new design is covered by what we proved in the trials.  We ordered production material.**
 
 To make our cells function as a battery we have to connect them together in a specific pattern.  We take two cells, and connect the positive terminals together and connect the negative terminals together.  We're referring to the things that make these (parallel) connections as the "parallel" interconnects.  Those join two cells in parallel for kind of an uber-cell.  We then connect 8 of those uber-cells together in series, positive to negative and so on.  We're referring to the things that make these (series) connections as the "series" interconnects.  
 

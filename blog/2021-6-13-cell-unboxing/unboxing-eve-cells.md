@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We unboxed and took physical measurements on our LFP cells that will form our battery.'
 ---
-**TLDR: We unboxed and took physical measurements on our LFP cells that will form our battery.**<!--excerpt-->
+**TLDR: We unboxed and took physical measurements on our LFP cells that will form our battery.**
 
 We received our cells in late May, but haven't had a chance to actually open them.  Today was the day.
 

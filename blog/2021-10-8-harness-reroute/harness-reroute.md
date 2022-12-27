@@ -20,9 +20,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We rerouted the factory harness in the cargo area.  For our build, it made sense.  YMMV.'
 ---
-**TLDR: We rerouted the factory harness in the cargo area.  For our build, it made sense.  YMMV.**<!--excerpt-->
+**TLDR: We rerouted the factory harness in the cargo area.  For our build, it made sense.  YMMV.**
 
 For our build we planned to have soft overhead storage mounted L-track running down the ceiling and walls.  The L-Track mounts using plusnuts that installed in the square holes used to mount the factory plastic harness guard.  We also planned to install the air handler for our Undermount AC system in the same location.
 

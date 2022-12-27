@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We measured, planned, and ran all of our branch circuit wiring.  We also ran conduit for future expansion.'
 ---
-**We measured, planned, and ran all of our branch circuit wiring.  We also ran conduit for future expansion.**<!--excerpt-->
+**TLDR: We measured, planned, and ran all of our branch circuit wiring.  We also ran conduit for future expansion.**
 
 Van 1.0 gave us a pretty good feel for what we needed in terms of electrical circuits.  Many are dictated by major loads (fridge, lights, etc).  Others are dictated by personal choices like number of AC circuits and plug locations, USB charging locations, and switch locations.
 

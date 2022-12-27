@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We used Dynamat Extreme for sound dampening.'
 ---
-**TLDR: We used Dynamat Extreme for sound dampening.**<!--excerpt-->
+**TLDR: We used Dynamat Extreme for sound dampening.**
 
 ## Sound Dampening
 

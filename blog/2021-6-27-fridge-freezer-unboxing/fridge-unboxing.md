@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'This is Sophia's first post.  It describes our unboxing... which is very great and interesting.'
 ---
-**TLDR: This is **Sophia's** first *post*.  It describes our unboxing... which is very great and interesting.**<!--excerpt-->  
+**TLDR: This is **Sophia's** first *post*.  It describes our unboxing... which is very great and interesting.**  
 
 I could go on and on and on and on... but first I would like to offer more details on how to open a box.
 

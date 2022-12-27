@@ -20,9 +20,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We setup an RPi to communicate with and control to our Riden RD6018.  This will allow us to script and automate testing of van electrical components down the road.'
 ---
-TLDR: We setup an RPi to communicate with and control to our Riden RD6018.  This will allow us to script and automate testing of van electrical components down the road.<!--excerpt-->
+**TLDR: We setup an RPi to communicate with and control to our Riden RD6018.  This will allow us to script and automate testing of van electrical components down the road.**
 
 ### Why bother getting an RPi talking to a Riden RD6018
 Why? Because you can script and automate testing.  Why an RPi? Because I don't trust hooking up my prized laptop to unknown equipment.  Thats about it.  It required a little poking around and some familiarity with the command line.

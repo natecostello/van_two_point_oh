@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We successfully completed the fabrication of our battery interconnects.'
 ---
-**TLDR: We successfully completed the fabrication of our battery interconnects.**<!--excerpt-->
+**TLDR: We successfully completed the fabrication of our battery interconnects.**
 
 A very productive day.  Our final battery interconnect materials delivered from sendcutsend on July 12th.
 ![flat bars](flat-bars.jpeg)

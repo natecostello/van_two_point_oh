@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We discovered an anomaly with BMS cell voltage measurements during benchtop testing.  With the help of REC we found it was an issue with our battery simulator, which we resolved.'
 ---
-**TLDR: We discovered an anomaly with BMS cell voltage measurements during benchtop testing.  With the help of REC we found it was an issue with our battery simulator, which we resolved.**<!--excerpt-->
+**TLDR: We discovered an anomaly with BMS cell voltage measurements during benchtop testing.  With the help of REC we found it was an issue with our battery simulator, which we resolved.**
 
 ### Wringing out the REC Q BMS
 

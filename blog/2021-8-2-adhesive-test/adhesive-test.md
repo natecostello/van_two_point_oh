@@ -23,9 +23,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'Weldwood Landau Top and Trim contact adhesive can be used to successfully stick neoprene to CoreRigid corrugated ABS panels.  This means we have identified a suitable alternative to plywood for our interior wall panels.'
 ---
-**TLDR: Weldwood Landau Top and Trim contact adhesive can be used to successfully stick neoprene to CoreRigid corrugated ABS panels.  This means we have identified a suitable alternative to plywood for our interior wall panels.**<!--excerpt-->
+**TLDR: Weldwood Landau Top and Trim contact adhesive can be used to successfully stick neoprene to CoreRigid corrugated ABS panels.  This means we have identified a suitable alternative to plywood for our interior wall panels.**
 
 On a cool day in the fall of 2019 and four years into our first vanbuild, we were finally moved to install the plumbing in Van 1.0.  We removed the plywood panels of the bed platform to access the garage space below.  In the process we discovered little black constellations of mildew that had big-banged their way across the garage night sky / bottom side of the bed platform.  Based on this discovery and our proclivity for moist environments we resolved to limit organic materials in future builds.
 

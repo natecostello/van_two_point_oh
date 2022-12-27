@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We performed some fabrication trials of our series and parallel interconnects.  We concluded that portions of the design were not able to fabricated.  Based on these lessons we planned another design iteration.'
 ---
-**TLDR: We performed some fabrication trials of our series and parallel interconnects.  We concluded that portions of the design were not able to fabricated.  Based on these lessons we planned another design iteration.**<!--excerpt-->
+**TLDR: We performed some fabrication trials of our series and parallel interconnects.  We concluded that portions of the design were not able to fabricated.  Based on these lessons we planned another design iteration.**
 
 We laid out our plans and design for our battery interconnects in a [previous post](/blog/2021-6-26-battery-interconnect-design/battery-interconnect-design).  Start there if you want some context.  This is post is about the difference between theory and practice.  Hah.  
 

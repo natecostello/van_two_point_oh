@@ -20,9 +20,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We used automotive felt, neoprene, and thinsulate for thermal (and some acoustic) insulation of the walls and ceiling.'
 ---
-**TLDR: We used automotive felt, neoprene, and thinsulate for thermal (and some acoustic) insulation of the walls and ceiling.**<!--excerpt-->
+**TLDR: We used automotive felt, neoprene, and thinsulate for thermal (and some acoustic) insulation of the walls and ceiling.**
 
 Insulation is the great divider of our time.  We put our faith in physics, and in this house we believe:
 
