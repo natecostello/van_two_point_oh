@@ -16,7 +16,7 @@ metatags:
 	# no metatags
 cover: 
 	# image file
- img: 
+ img: cover.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url

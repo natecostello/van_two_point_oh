@@ -20,7 +20,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: 'We ordered an extended length, high roof, AWD 2021 Ford Transit Cargo Van.'
 ---
 
 **TLDR: We ordered an extended length, high roof, AWD 2021 Ford Transit Cargo Van.**
