@@ -31,7 +31,7 @@ tldr:
 
 ## Cell
 
-A little confliced on whether to have an LTE Booster/Repeater inside.  We have found that cell reception does suffer pretty dramatically inside the vehicle.  However; I'm not thrilled about having a separate antenna/booster (like weboost) when we already have external antenna's for the cellular internet.  WeBoost seems to be the most common.  [Sure Call](https://www.amazon.com/stores/page/E93D848B-8085-40A6-B436-79490DDDE867?ingress=2&visitId=e1d47c44-7233-47a1-81a1-bd091e484e9d&ref_=ast_bln) is another option.
+A little conflicted on whether to have an LTE Booster/Repeater inside.  We have found that cell reception does suffer pretty dramatically inside the vehicle.  However; I'm not thrilled about having a separate antenna/booster (like weboost) when we already have external antenna's for the cellular internet.  WeBoost seems to be the most common.  [Sure Call](https://www.amazon.com/stores/page/E93D848B-8085-40A6-B436-79490DDDE867?ingress=2&visitId=e1d47c44-7233-47a1-81a1-bd091e484e9d&ref_=ast_bln) is another option.
 
 ## Internet
 
@@ -64,17 +64,34 @@ Note on wifi-as-wan implementation.  [This thread](https://forum.peplink.com/t/n
 
 One key requirement is to use external antenna(s) for connection to the cellular internet source.  This could be a high-gain omni or uni-directional.  For the cell connection, a pointable, high gain directional might make sense.  For full LTE usage, MIMO is required.  Pyonting makes a few options like [this](https://poynting.tech/antennas-accessories/antennas/farming-agricultural-antennas/xpol-2-5g/?compare=12221,12222,12223,12224) directional (11 dBi).  For MIMO, it looks like the directionals are usually panel shaped.
 
-### Wifi for Networking
+## Networking
 
-With use we've determined that it would be nice to have decent wifi access outside the van.  This will allow working inside and out, and allow use of the van as a hotspot while staying at motels.  To support this we need an outside access point.  Its desireable to employ devices that support seamless roaming.  This will minimize connection drops and degredation when moving from inside to outside.  The TP Link EAP225-outdoor supports this functionality.  The only downside is it consumes about 10 watts per hotspot per the spec sheet.  Actual consumption is unknown.  We would employ one unit inside the van and one outside.  We should survey to see what our existing network looks like outside the van...if it is strong in the immediate vacinity, seamless might not be needed which would allow us to shift to their lower power lower bandwith unit that draws about 3 watts.
+Much like Van 1.0, Van 2.0 has its own internal Van Area Network, or VAN for short.  This networks allows things like our phones, laptops, sonos, etc, to all stay connected to a fixed network irrespective of the internet source (like campground wifi).
 
-Its unclear whether seamless roaming requires a controller.  There are docker images for controllers that can run on rPis.
+For the first several months we used the same Archer C7 running open WRT that we had used in our home and in Van 1.0.  This functions as a primary router, 4-port switch, and wifi source.
 
-Some more data points on the EAP225 power usage:
+## Wifi AP
+
+With some use of the van under our belt, we decided to improve WiFi coverage outside of the van.  The use case we are most interested in is being able to access the van's network and internet source while the van is parked and we are residing in a motel, relatives, etc.  Another is to allow us to use our sonos system outside.  To keep things simple we plan to run the same AP inside the van.
+
+We evaluated several different options (Ubiquity, Mikrotik, and TP-Link).  We haven't been super impressed with our existing Mikrotik Groove.  The Ubiquity outdoor access points seem scarce and out of stock everywhere.  By elimination we settled on the TP-Link options.  They have a 2.4ghz BGN option called the EAP-110-outdoor and a dual band BGNAC option called the EAP225-outdoor.  Both are powered by passive 24V POE.  They both have pros and cons.  
+
+The EAP-110 only has a 100Mbps ethernet connection and doesn't support seamless roaming.  On the positive side, the EAP-110 advertises a 3.1W draw and is $40.  The EAP-225 has a gigabit ethernet connection, supports seamless roaming, and support much faster connections.  However it advertises a 10.5W and is $70.  This one was a toughy.  Purchasing a such a limited product as the EAP-110 in 2022 seems silly, but that efficiency is very attractive.  Especially since we plan to run one inside and outside.  Going with the EAP-225 meant and extra 20 watts of constant draw if the numbers are accurate.  Even if we de-power the outdoor unit (which we might), we're still looking at an extra 10 watts to run the internal unit.  We did some digging around and found some reports on reddit of much lower actual power draw:
 
 * [A reddit user comments here](https://www.reddit.com/r/TPLink_Omada/comments/w3t993/comment/ih1rk9h/) says they've never seen power consumption over about 3W for their EAP225.
 
 * [A reddit user comments here](https://www.reddit.com/r/HomeNetworking/comments/p5setb/comment/h9cfqt1/) says their EAP225 idles at about 3 Watts.
+
+Since the EAP225 actual draws are in the ball park of the EAP-110, we decided to go that route.  One open questions is whether the devices can be powered directly by the 24V system.  We'll do some testing to verify 12V power, 24V power, and 28V power.  To get fast seamless roaming, the TP-link controller must be present.  It can be run in a container on an rPi.
+
+## Switch
+
+To allow for expanding our network, we need a switch.  We're looking at two APs (one ethernet port each), a router (potentially consuming two ethernet ports), a wifi-as-wan source (one ethernet port), starlink (one ethernet port), the Victron Cerbo (one ethernet port), our logging rPI (one ethernet port), and our media rPi or future NAS (one ethernet port).  For our initial topology, we'll use our existing TP-Link Archer C7 to aggregate our internet sources (wifi-as-wan and starlink).  This leaves a need for a switch with six or more ports.  We also need VLAN support it must run on 12V or 24V power.  That second constraint eliminate options from D-Link and TP-Link.  We strongly considered the MikroTik CSS610-8G-2S+IN, which we could power direct from the battery, but decided against because we don't need 10G SFP+ and its advertised power usage was higher than the other alternative.  We settled on the NetGear GS108E.  It's got VLANs, is powered from 12V, and has a maximum advertised draw of 4.45 watts.  It's also only $40.
+
+In the future, if we ditch our C7 we'll probably pick up another 5 port switch for the internet sources and one router connection.  We'd run the second router connection to the 8-port switch above.
+
+
+
 ### Integration
 
 How to Integrate the sources and internal network is an open question.  
