@@ -6,6 +6,7 @@ MCOR Tampa (George):
 (813) 362-5454 
 90% Crystalline for slider, rear, and dash
 40% Crystalline for pass/driver side (lowest legal for FL) - will do %20
+This is who we went with.
 
 
 Total estimate: 
