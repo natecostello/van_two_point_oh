@@ -79,5 +79,18 @@ Supplier Quote $1333
 
 Ordered 3/3/21 for Delivery 5/20/21
 
-### 
+### Operational Observations Notes
 
+12-31-2022 0000-1200
+Turned of all loads except:
+Fridge and Freezer
+Archer C7
+Cerbo
+Logging Pi
+Freezer Ran continuously until ~0528, then began cycling.
+Fridge cycles on and off every 70 seconds or so (about a 50% duty cycle)
+Van Internal Temps: 76-72F
+
+Average F/F Power was 60.5W for 12 hour period
+Average F/F Power was 53.6W for period when freezer was cycling
+Running F/F Power is 88W.
