@@ -1,16 +1,20 @@
 Can use an arduino micro connected and powered via USB a device running a NUTS server to power down all comms equipment.  Micro will use [this code](https://github.com/abratchik/HIDPowerDevice).
 
+Probably need a way to cut and restore all power to force a reset/simulate a restart of mains.
+
 Loads:
 
-EAP-225-outdoor 10W
-EAP-225-outdoor 10W
-Router 10W
-GS108E 5W
-NAS 20W
-Cerbo 2W
-Pi 5W
+EAP-225-outdoor 10W Expected 3W
+EAP-225-outdoor 10W Expected 3W
+Router 10W          Expected 5.6W
+GS108E 5W           Expected 4.55W
+DS 220+ NAS 20W     Expected 15W 
+Cerbo 3W            Expected 3W
+Pi 5W               Expected 4.5W
 
-Total: 62W
+Expected = 38.65W at 12V = 3.22
+
+
 
 Assuming these are powered at 12V, with a 90% efficiency, the upstream power is 68W.  
 
@@ -22,6 +26,16 @@ Alternative:
 
 If we omit the 24V capability and just go with 12V, then we can use the existing 12V source and auctioneer that with the vehicle.  That eliminates two power conversion modules.  The downside is no 24V uninterupted power, but the router, synology NAS's, all run at 12V.  The EAP-225s can run as low as 10V [allegedgly](https://community.tp-link.com/en/business/forum/topic/162938).  We'd double our diode losses, but thats ok.  We need to check and see what the nominal vehicle voltage vs our house converter source is.  We woudn't want it to draw off the vehicle battery when the vehicle isn't running (we'd lose the benefit of the UPS if it was drawn down and shut off).  Think about using a NC relay that is closed upon loss of house power to allow vehicle power, like an ABT.  Depends whether the equipment has a ride though capability (enough input capacitance).
 
-See relay design.  It precludes power from vehicle if house power is available irrespective of voltages.  Consumption with Bosch relay is less than 2W.  Using smaller relays should get power consumption down to less than 0.4W.  Like [this one](https://media.distributordatasolutions.com/schneider2/2021q1/documents/eedf429d2d945a80426aa25d8e6b170edc109931.pdf).
+See relay design.  It precludes power from vehicle if house power is available irrespective of voltages.  Consumption with Bosch relay is less than 2W.  Using smaller relays should get power consumption down to about 0.2W.  Like [this one](https://www.mouser.com/datasheet/2/357/1/276XAXH_12D_document-3067861.pdf).
 
-Two of [these](https://www.amazon.com/BOJACK-18X35-Aluminum-Electrolytic-Capacitors/dp/B08KTK8DFT) in parallel should work well for hold up capacitance with redundancy.  Smaller relays switch in about 10ms.
+[This 5 pack](https://www.amazon.com/BOJACK-18X35-Aluminum-Electrolytic-Capacitors/dp/B08KTK8DFT) in parallel should work well for hold up capacitance with redundancy and lots of margin.  Smaller relays switch in about 10ms.
+
+With 12V, 4 ohms would charge this bank in 1 second. Peak current is 3 Amps.  Peak power is 36W.  One of [these](https://www.amazon.com/gp/product/B075DLSC5H/) would work fine.  Total energy is 3.6J, so average over the second is 1W.  [These](https://www.amazon.com/TOUHIA-Wirewound-Ceramic-Resistor-Inductionless/dp/B07VP43ZXC) are smaller and would still work fine.
+
+[This project box](https://www.amazon.com/Otdorpatio-Waterproof-Electrical-Electronic-200x120x75/dp/B08N1DD5WJ) fits everything.
+
+For the above project box, it looks like the switch would sit on top of it perfectly which is a good use of space.
+
+The stock mini running the blink sketch consumes about 4.5 mA.
+
+As long as we size wires above the input fuse sizes on the respective sources, we don't need to worry about fusing the output before the branch circuit blocks.
