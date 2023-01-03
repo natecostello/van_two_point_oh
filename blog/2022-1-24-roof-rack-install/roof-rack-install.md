@@ -73,3 +73,25 @@ eternabonded the factory plugs
 
 NOTE: Roof rack is 137" end to end.
 Hooks/Studs in 8020 cross members would be 137 - 2*0.75 = 135.5 = 11' 3.5" center to center
+
+1-2-2023
+Solar Panel T-shooting
+Tampa, 12:48
+Front most
+VOC 44.9
+ISC 2.7A
+I-connected 2.62A
+
+Front Middle
+VOC 43.8V
+ISC 2.62A
+
+
+Rear
+VOC
+ISC
+I-Connected 2.5
+
+VRM 5.2A
+
+Based on these, I think its correct and I can skip measuring the rears.
