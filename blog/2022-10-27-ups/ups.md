@@ -39,3 +39,9 @@ For the above project box, it looks like the switch would sit on top of it perfe
 The stock mini running the blink sketch consumes about 4.5 mA.
 
 As long as we size wires above the input fuse sizes on the respective sources, we don't need to worry about fusing the output before the branch circuit blocks.
+
+12V to usb converters appear pretty ubiquitous on Amazon.  Based on this I think I'm leaning towards ditching a dedicated 5V out (saving a fuse block and large power block).
+
+A five way terminal block would work for input and output power.  Like [this](https://www.amazon.com/dp/B08BDS8L3N/) but perhaps a lower ampacity version.
+
+Needs on/off, vehicle source override, indication of power sources, indication of power source in use, alarm, alarm cutout.
