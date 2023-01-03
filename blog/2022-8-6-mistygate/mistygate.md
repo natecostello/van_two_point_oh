@@ -28,4 +28,12 @@ Purchased grate material
 12-16-2022
 Purchased Aluminum flat bar
 
+1-1-2023
+Installed aluminum bar with VHB
+Installed grate, but too floppy and not holding (should have scuffed)
+
+1-2-2023
+Ordering 1/2 1/8 aluminum flat bar for verticals
+https://docs.google.com/spreadsheets/d/1BjMtbgCNEiRAJeGTX1tJmbIwtguQ2OwXgFV9McPPzyY/
+
 
