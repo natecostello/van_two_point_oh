@@ -18,7 +18,7 @@ BCM Notes:
 All fuses appear to have power at all times except:
 #30 never has power (even when running)
 
-Ended up just following they same steps as the forum.
+Ended up just following they same steps as the forum. (29 in BCM) (5 in driver side fuse box)
 
 1021-10-23:
 installed the and routed power and rear camera
@@ -31,3 +31,9 @@ Turns out fuse 18 on the driver side fuse box is now in use.  Changed ACC power 
 Mounted rear camera on brake light, and drilled assembly and routed thorugh it.  Will add cable gland later.
 
 Fuse 7 location is actually dead.  Switched to fuse 5.
+
+2022-1-4:
+re wiring.  only using ACC power (don't need parked cam since usually blocked anyway).
+rain delay
+after finishing wiring, realized the converter I bought is USB micro and not USB mini (for vantop).  Doh!
+Buttoned up, will order right angle micro to mini adapter once in key  west

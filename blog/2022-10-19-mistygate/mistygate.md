@@ -36,4 +36,16 @@ Installed grate, but too floppy and not holding (should have scuffed)
 Ordering 1/2 1/8 aluminum flat bar for verticals
 https://docs.google.com/spreadsheets/d/1BjMtbgCNEiRAJeGTX1tJmbIwtguQ2OwXgFV9McPPzyY/
 
+1-3-2023
+Picked up flat bar
+Wrapped in black contact paper and VHB'd into place
+Realized it was to easy to turn into a parallelagrem
+Trimmed grate to fit in front of bars and zip tied into place
+Zip ties to large and bump 8020 on open and close
+
+1-4-2023
+Replaced zipties with smaller ones, now no interferance
+Disabled lower lock on sliders with metal clips
+
+
 
