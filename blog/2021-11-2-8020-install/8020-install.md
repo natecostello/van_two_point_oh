@@ -1,3 +1,36 @@
+---
+type: post
+section: blog
+categories: 
+ # one or more categories is permitted
+ - structural
+navTitle: 
+title: 8020 Assembly and Install
+author: Nate
+date: 2021-11-02
+tags:
+ - structural
+ - build
+ - '8020'
+ 
+metatags:
+	# no metatags
+cover: 
+	# image file
+ img: cover.jpeg
+	# if attribution is needed
+	# source: [vecteezy]
+	# url: url
+tldr: 'We built Van 2.0's structure with 15 series 8020 extruded aluminum based on its precision, strength, and popularity among DIY van conversion projects. Ordering cut-to-length and counter-bored pieces made assembly and install a breeze.'
+---
+
+**TLDR: We built Van 2.0's structure with 15 series 8020 extruded aluminum based on its precision, strength, and popularity among DIY van conversion projects. Ordering cut-to-length and counter-bored pieces made assembly and install a breeze.**
+
+
+2020-10-28:
+Picked up 8020
+Sorted and inventoried
+
 2021-11-2
 Started assemblying driver side 8020
 
@@ -144,3 +177,42 @@ Slotted holes on rear panel
 21-12-19
 Bolted up rear panels
 
+2021-12-15
+Moved the driver side 8020 into the van
+Made some wall panel tweaks
+Installed wall brackets
+Drilled 4 holes
+Primed 4 holes
+
+2021-12-16
+Fabbed floor brackeets
+Through-bolted structure to floor
+Loctited and torqued structure to wall 8020
+Soph finalized wall panel tweaks and installed
+
+2021-12-19
+Drilled 1/5 inch holes for sink drain and Gas line
+Moved Passenger side into van
+Initial fit and snug to wall
+Plan to install foreward-most upper and low cross beams prior to locking down passenger side.
+
+2021-12-20
+Cut all 8 cross members
+Installed two cross members
+Marked and drilled passenger through bolt holes (all holes except lower cross member)
+Painted/Primed passenger holes
+
+
+2021-12-27
+Fabbed floor brackets for passenger side
+
+2021-12-28
+Fabbed one more bracket, bolted down passenger side
+loctited/torqued passenger side to wall
+Loctited forward cross members
+
+
+Threaded holes in D-pillar for cross member are M10-1.5.  At least 1/8 clearence from bolt body to top of 1/8 angle, on top of 8020.
+
+2022-2-11
+Primed and painted passenger brackets
