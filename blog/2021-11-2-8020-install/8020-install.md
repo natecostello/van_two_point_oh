@@ -26,6 +26,7 @@ tldr: 'We built Van 2.0's structure with 15 series 8020 extruded aluminum based 
 
 **TLDR: We built Van 2.0's structure with 15 series 8020 extruded aluminum based on its precision, strength, and popularity among DIY van conversion projects. Ordering cut-to-length and counter-bored pieces made assembly and install a breeze.**
 
+This is all rough notes and draft prose.
 
 2020-10-28:
 Picked up 8020
