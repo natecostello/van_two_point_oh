@@ -45,7 +45,7 @@ _A better shot from inside the well._
 
 Note, this doesn't reflect full time effort.  It's mostly evenings and partial days, limited by work, warm sun to unfurl balled up plastic liners, etc.
 
-* Soph installed weathertech rear mudflaps (10-21-2021)
+* Installed WeatherTech rear mudflaps (10-21-2021)
 * Installed passenger side wheel well liner (11-21-2021)
 * Installed driver side wheel well liner (12-5-2021)
 * Added some VHB (2021-12-16)

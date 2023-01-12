@@ -217,3 +217,30 @@ Threaded holes in D-pillar for cross member are M10-1.5.  At least 1/8 clearence
 
 2022-2-11
 Primed and painted passenger brackets
+
+## Timeline:
+
+Note, this doesn't reflect full time effort.  It's mostly evenings and partial days, limited by work, delivery times, wood shop access, etc.
+
+* Ordered 8020 ()
+* Picked up 8020 at PennAir, uncrated, sorted, inventoried, and taped smooth sides (20-18-2021)
+* Started driver side assembly (11-2-2021)
+* Fabricated tool for tightening short sections (11-4-2021)
+* Completed driver side assembly, trial load of driver side (11-5-2021)
+* Assembled passenger side (11-7-2021)
+* Trial load of passenger side, cut rear fore-aft 8020 pieces to length (70 in), cut rear-most athwart 8020 piece to length (61.25 in), unloaded from van, measured for backside wood panels (11-8-2021)
+* Picked up Okoume, cut backside wood panels (11-9-2021)
+* Removed D-pillar 12V power point to eliminate interference, drilled and fitup upper backside wood panels (2021-11-11)
+* Drilled and fitup lower backside wood panels (11-12-2021)
+* Noodling on electrical layout, relocated planned espar location away from driver side rear (11-14-2021)
+* Located holes in backside panels for passing wiring and anything else, noodling on general panel to 8020 mounting, began final squaring of driver side assembly (11-15-2021)
+* Cut wheel well backside panel, Added holes in backside panels, sanded/sprayed  3 coats of spar urethane on backside panels (11-16-2021)
+* Sanded/sprayed final coat of spar urethane on backside panels, fabricated floor-through-bolting spacers (11-18-2021)
+* Brushed spar urethane on backside panel edges, installed 8020 vertical piece in electrical area, completed final squaring of driver side assembly (11-20-2021)
+* Added temporary/supplemental squaring support, began torquing and lock-titing driver side assembly (12-2-2021)
+* Continued torquing and lock-titing driver side assembly (12-3-2021)
+* Completed torquing and lock-titing driver side assembly (12-5-2021)
+* Discovered misaligned backside panel mounting holes due to squaring (12-9-2021)
+* Dremel-slotted select backside panel mounting holes, installed tee-nuts for Multiplus, adhered ~1/16 in UHMW to Multiplus to clear inside raised edge of tee-nuts (12-11-2021)
+* 
+
