@@ -21,7 +21,7 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr: 'We built Van 2.0's structure with 15 series 8020 extruded aluminum based on its precision, strength, and popularity among DIY van conversion projects. Ordering cut-to-length and counter-bored pieces made assembly and install a breeze.'
+tldr: "We built Van 2.0's structure with 15 series 8020 extruded aluminum based on its precision, strength, and popularity among DIY van conversion projects. Ordering cut-to-length and counter-bored pieces made assembly and install a breeze."
 ---
 
 **TLDR: We built Van 2.0's structure with 15 series 8020 extruded aluminum based on its precision, strength, and popularity among DIY van conversion projects. Ordering cut-to-length and counter-bored pieces made assembly and install a breeze.**
