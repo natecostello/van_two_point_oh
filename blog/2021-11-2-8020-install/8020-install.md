@@ -218,6 +218,66 @@ Threaded holes in D-pillar for cross member are M10-1.5.  At least 1/8 clearence
 2022-2-11
 Primed and painted passenger brackets
 
+## Worth mentioning
+12 V power point interference
+
+## Cross Member Notes
+Notes:
+Rear Cross member is 58+3 3/8 (can make 1/2 or drop to a quarter) = 61 3/8 - will round down to 61 1/4
+Rear fore-aft length is cut to 70 inches (can tolerate stock on of 1/8-1/4)
+
+13.5 + 3 3/8 lower edge of upper rail to top of wall 8020 - same at front of driver galley = 13 4/8 + 3 3/8 = 16 7/8 
+20 3/8 + 3 3/8 inner edge of wheel well structure to inner edge fore-aft = 23 6/8 = 23 3/4
+
+## Though Bolting Notes
+
+Notes on Thru-bolting
+Planning to use 3/8 ID 3/4 OD FR4 Tube for spacer through floor
+Using 1/8 inch thick FR4 sheet for spacer above bracket
+1/4 ID 3/4 OD Washer on outside
+Grade 5 1/4-20 bolt 2.5 inches long zinc
+1/4-20 Grade 5 lock nut zinc
+
+21-11-18:
+fab'd floor spacers (per below)
+
+Through bolting spacer thickness update:
+
+Assuming nominal foam dimension:
+
+Length: 0.4in + 0.5 in + 12mm (BB) + 2mm (lon marine) = 22.86mm + 12mm + 2mm = 36.860mm = 1.4511811 in = 1 7.2/16 in
+
+Assuming expanded pvc + VHB tapee
+Length: 13/16 + 0.045 + 12mm + 2mm = 20.6375mm + 1.143mm + 12mm + 2mm = 35.781mm = 1.40870079 in = 1 6.5/16 in
+
+Spacer should be 1 3/8 to 1 7/16.  Shoot for just over 1 3/8.
+
+## Bolting to tie downs (not used)
+Threaded holes in D-pillar for cross member are M10-1.5.  At least 1/8 clearence from bolt body to top of 1/8 angle, on top of 8020.
+
+## 8020 torquing 
+8020 torque guide lines:
+http://fandl8020.com/wp-content/uploads/2015/01/EBN-Spring15.pdf
+spoiler: 10-15 ft-lbs (call it 10 with loctite and angled drive)
+started torquing and locktiting
+
+## Notes on Multiplus/MPPT Mounting
+Notes on Multiplus and SmartSolar Mounting
+-Threaded fastners get super mixed review
+-Tee Nuts on Van 1.0 were finicky but ok
+-Planning to use M6 screw in tee nuts
+-Ordering #7 1/2 wood screw to support
+
+Installed Tee-nuts for multiplus (and screwed up mounting an inch high)
+
+Tee-nuts protrude through slightly ~1/16 so we need a spacer on the bottom so the multiplus is bearing on the panel and not push out the tee nuts - looks like 3 layers of uhmw tape will be sufficient.  I'll add some to the back of the upper mount as well.
+
+Considering spacing off the MPPT to give better airflow since now tight:
+
+Max we can space out is 1 inch to prevent aux mppt from being proud of structure.  M6 standoff max out at a stand off length of 51mm, so wont allow for 2nd MPPT.  1/4-20 options will work: [four of these](https://www.mcmaster.com/93620A194/) and [four of these](https://www.mcmaster.com/93620A035/) would work.  And we will need [these](https://www.mcmaster.com/90611A113/).  The four inch spacers are $$$ so we'll wait until we get that aux MPPT.  Alternatively we can use the 1/4-20 tee-nuts and 4 [3/4 inch spacers](https://www.mcmaster.com/92415A867/).  This leaves the other options available in the future. 
+
+Ended up going with 5/16 hardware as the 1/4-20 tee nuts were wimpy.  Used a step bit to open up the holes in the MPPT.  Mounting design is: 5/16 screw in tee nut, panel, 1.25 inch fender washer, 0.75 inch spacer, 1.5 inch 5/16 wide flange button head screw.
+
 ## Timeline:
 
 Note, this doesn't reflect full time effort.  It's mostly evenings and partial days, limited by work, delivery times, wood shop access, etc.
