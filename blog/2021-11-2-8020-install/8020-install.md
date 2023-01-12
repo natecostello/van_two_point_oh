@@ -303,7 +303,7 @@ Ended up going with 5/16 hardware as the 1/4-20 tee nuts were wimpy.  Used a ste
 
 Note, this doesn't reflect full time effort.  It's mostly evenings and partial days, limited by work, delivery times, wood shop access, etc.
 
-* Ordered 8020 ()
+* Ordered 8020 (9-9-2021)
 * Picked up 8020 at PennAir, uncrated, sorted, inventoried, and taped smooth sides (20-18-2021)
 * Started driver side assembly (11-2-2021)
 * Fabricated tool for tightening short sections (11-4-2021)
