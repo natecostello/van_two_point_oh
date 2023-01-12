@@ -218,8 +218,29 @@ Threaded holes in D-pillar for cross member are M10-1.5.  At least 1/8 clearence
 2022-2-11
 Primed and painted passenger brackets
 
+## Photos and Time lapses
+
+![inventory](inventory.jpeg)
+
+![model and bom](model-bom.jpeg)
+
+![special tool fabrication](special-tool-fab.jpeg)
+
+![special tool use](special-tool-use.jpeg)
+
+![assembling](assembling.jpeg)
+
+![backside panel](back-panel.jpeg)
+
+![floor bolting stack](floor-bolting.jpeg)
+
+![floor bolting insitu](floor-bolting-insitu.jpeg)
+
+
+
 ## Worth mentioning
 12 V power point interference
+PennAir and ordering through local affiliate
 
 ## Cross Member Notes
 Notes:
@@ -288,10 +309,10 @@ Note, this doesn't reflect full time effort.  It's mostly evenings and partial d
 * Fabricated tool for tightening short sections (11-4-2021)
 * Completed driver side assembly, trial load of driver side (11-5-2021)
 * Assembled passenger side (11-7-2021)
-* Trial load of passenger side, cut rear fore-aft 8020 pieces to length (70 in), cut rear-most athwart 8020 piece to length (61.25 in), unloaded from van, measured for backside wood panels (11-8-2021)
-* Picked up Okoume, cut backside wood panels (11-9-2021)
-* Removed D-pillar 12V power point to eliminate interference, drilled and fitup upper backside wood panels (2021-11-11)
-* Drilled and fitup lower backside wood panels (11-12-2021)
+* Trial load of passenger side, cut rear fore-aft 8020 pieces to length (70 in), cut rear-most athwart 8020 piece to length (61.25 in), unloaded from van, measured for backside panels (11-8-2021)
+* Picked up Okoume, cut backside panels (11-9-2021)
+* Removed D-pillar 12V power point to eliminate interference, drilled and fitup upper backside panels (2021-11-11)
+* Drilled and fitup lower backside panels (11-12-2021)
 * Noodling on electrical layout, relocated planned espar location away from driver side rear (11-14-2021)
 * Located holes in backside panels for passing wiring and anything else, noodling on general panel to 8020 mounting, began final squaring of driver side assembly (11-15-2021)
 * Cut wheel well backside panel, Added holes in backside panels, sanded/sprayed  3 coats of spar urethane on backside panels (11-16-2021)
@@ -302,7 +323,7 @@ Note, this doesn't reflect full time effort.  It's mostly evenings and partial d
 * Completed torquing and loc-titing driver side assembly (12-5-2021)
 * Discovered misaligned backside panel mounting holes due to squaring (12-9-2021)
 * Dremel-slotted select backside panel mounting holes, installed driver side backside panels, installed tee-nuts for Multiplus, adhered 4 layers of UHMW tape to Multiplus bracket to clear inside raised edge of tee-nuts (12-11-2021)
-* Installed tee-nuts in backside wood panels to attach upper edge to 8020 brackets, installed wheel well backside panel (12-12-2021)
+* Installed tee-nuts in backside panels to attach upper edge to 8020 brackets, installed wheel well backside panel (12-12-2021)
 * Installed 5/16 in tee-nuts for MPPT, enlarged MPPT mounting holes to accomodate 5/16 in fasteners (12-14-2021)
 * Loaded driver side assembly into the van, tweaked plastic wall panels to ensure removable, drilled and primed/painted 4 driver side floor-through-bolting holes (12-15-2021)
 * Started final squaring passenger side assembly, fabricated driver side floor-through-bolting brackets, through-bolted driver side assembly to floor, primed and painted driver side through-bolting hardware under van, torqued and loc-tited driver side assembly to wall 8020, finalized plastic van wall panels and installed (12-16-2021)
