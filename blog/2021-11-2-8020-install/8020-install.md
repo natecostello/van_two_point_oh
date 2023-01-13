@@ -26,6 +26,25 @@ tldr: "We built Van 2.0's structure with 15 series 8020 extruded aluminum based 
 
 **TLDR: We built Van 2.0's structure with 15 series 8020 extruded aluminum based on its precision, strength, and popularity among DIY van conversion projects. Ordering cut-to-length and counter-bored pieces made assembly and install a breeze.**
 
+We ordered our 8020 through a local-ish affiliate named PennAir.  When I originally called 8020 they recommended not ordering directly for such a large order.  PennAir was great to work with and made pickup super easy.  
+
+![model and bom](model-bom.jpeg)
+_We checked each piece of as we unloaded._
+
+We spent the first night checking the delivery vs our BOM and found no issues.  We also put some masking tape on the smooth faces that would be exposed on the galley fronts.
+
+![inventory](inventory.jpeg)
+_A nice organized laydown area always makes things easier._
+
+Early in the assembly, we found that we could not tighten the anchor fasteners in the short six inch cross members in the rear portions of the structure.  To solve this problem we cut a rounded hex key short and to use with a small ratchet.
+
+![special tool fabrication](special-tool-fab.jpeg)
+_Every thing you need to know to make your own._
+
+![special tool use](special-tool-use.jpeg)
+_Here you can see how it works and why its needed._
+
+
 This is all rough notes and draft prose.
 
 2020-10-28:
@@ -220,13 +239,9 @@ Primed and painted passenger brackets
 
 ## Photos and Time lapses
 
-![inventory](inventory.jpeg)
 
-![model and bom](model-bom.jpeg)
 
-![special tool fabrication](special-tool-fab.jpeg)
 
-![special tool use](special-tool-use.jpeg)
 
 ![assembling](assembling.jpeg)
 
