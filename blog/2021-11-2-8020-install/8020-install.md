@@ -26,6 +26,8 @@ tldr: "We built Van 2.0's structure with 15 series 8020 extruded aluminum based 
 
 **TLDR: We built Van 2.0's structure with 15 series 8020 extruded aluminum based on its precision, strength, and popularity among DIY van conversion projects. Ordering cut-to-length and counter-bored pieces made assembly and install a breeze.**
 
+## Structure Assembly
+
 We ordered our 8020 through a local-ish affiliate named PennAir.  When I originally called 8020 they recommended not ordering directly for such a large order.  PennAir was great to work with and made pickup super easy.  
 
 ![model and bom](model-bom.jpeg)
@@ -43,6 +45,51 @@ _Every thing you need to know to make your own._
 
 ![special tool use](special-tool-use.jpeg)
 _Here you can see how it works and why its needed._
+
+Assembly was quick, each side took maybe an hour or so.  The slowest part is just making sure everything stays square.  If we did this again, we would probably design some tooling to help with the holding pieces square during fitup and fastening rather than just using speed squares.
+
+Another tip is to build it on a flat a surface as possible.  The garage floor we assembled on wasn't super flat which made keeping things square more difficult.
+
+![assembling](assembling.jpeg)
+_It gets a little more challenging to keep square once you break into that third dimension._
+
+Here's our driver and passenger side timelapses for your viewing pleasure.
+
+`vimeo: https://vimeo.com/644786579`
+
+`vimeo: https://vimeo.com/644787257`
+
+After assembling each side, in turn, we loaded them into the van for a trial fit.  The only interference we found was on the passenger side D-pillar power point.  We had no anticipated need for this power source, but we relocated it to the D-Pillar access panel.
+
+![driver side fit](driver-trial-load.jpeg)
+
+When we designed the structure, there were a few locations/dimensions that we didn't want to fix in advance.  One of these was the length of the in-board upper fore-aft pieces in the garage.  We wanted the pieces to end as close to the rear doors as possible while supporting an athwart cross piece that spans between the D-pillars.  We ordered these intentionally long, and then once the two assemblies were loaded, we measured in place, removed and cut these two pieces.  Then we were able to measure and cut that rear-most athwart piece.  We could now close the rear doors again.
+
+After the test loads we moved on to final squaring and torquing.  One side at a time, and one joint at a time, interatively, we went back and carefully squared each each structure.  This was time consuming.  Once we had a structure fully squared, we'd use extra brackets to support a single joint, remove each fastener one at a time, add loc-tite, and torque.  Based on [this guide](ebn-spring15.pdf), we settled on 10 ft-lbs.  Then we'd remove the support and move on.  This was also time consuming.  In hindsight with better jigs and squaring tools, we probably could have done all the squaring as part of initial assembly.  While this process was ongoing, we began working on the panels that would fasten to the backside of each assembly.
+
+## Backside Panels
+
+On the driver side we knew that the MPPT and Multiplus would need a surface to mount on, so decided to fasten 1/2" Okoume plywood to the backside of the structure.  Our use of the half-height wall 8020 gives enough space on the backside of the structure for these panels (it also allows the structure to clear the inward curvature of the van).
+
+We opted to extend these panels beyond the electrical area to include the garage area.  Our thinking was that this would give us flexibility to mount/restrain garage items against that panel, keep objects from dropping behind the structure, and provide rigidity to the structure while moving it around ahead of bolting to the wall and through the floor.  For these reasons we included these panels on the passenger side too.
+
+In hindsight, for weight reasons, we'd probably use aluminum stock to mount the electrical components and use PennLight as a backing materials.  This would save approximately 13 lbs (and a lot of urethane and time).  We haven't used the backside panels for restraining gear, and temporary structure could be employed for temporary rigidity.
+
+We cut the panels, drilled the holes and features for attachment and access, and then sprayed four coats of water-based spar urethane (our default treatment for all wood used in the build).
+
+We spent a lot of time figuring out how to mount the electrical equipment in a way that was secure but removable without access to the backside.  We had ok experience with tee-nuts on Van 1.0, so we used them.  However, we opted for the screw in variants to ensure they were more secure.
+
+![backside panel](back-panel.jpeg)
+_In the middle of this image you can see six brass colored M6 screw in tee-nuts.  These receive the fasteners for the Multiplus mounting bracket and the two fasteners at the bottom of the Multiplus.  Along the top of the panel are additional 5/16" screw in tee-nuts for additional attachment points of the panel to the structure via 8020 gusseted brackets.  All other attachments are just 5/16 fasteners, fender washers, and drop-in t-nuts._
+
+
+
+
+
+
+
+
+
 
 
 This is all rough notes and draft prose.
@@ -245,7 +292,7 @@ Primed and painted passenger brackets
 
 ![assembling](assembling.jpeg)
 
-![backside panel](back-panel.jpeg)
+
 
 ![floor bolting stack](floor-bolting.jpeg)
 
@@ -319,7 +366,7 @@ Ended up going with 5/16 hardware as the 1/4-20 tee nuts were wimpy.  Used a ste
 Note, this doesn't reflect full time effort.  It's mostly evenings and partial days, limited by work, delivery times, wood shop access, etc.
 
 * Ordered 8020 (9-9-2021)
-* Picked up 8020 at PennAir, uncrated, sorted, inventoried, and taped smooth sides (20-18-2021)
+* Picked up 8020 at PennAir, uncrated, sorted, inventoried, and taped smooth sides (10-18-2021)
 * Started driver side assembly (11-2-2021)
 * Fabricated tool for tightening short sections (11-4-2021)
 * Completed driver side assembly, trial load of driver side (11-5-2021)
