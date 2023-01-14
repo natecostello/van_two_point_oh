@@ -37,3 +37,5 @@ Tested, found leaks, fixed
 
 2-16-2022
 Retest plumbing sat
+
+Later we epoxied the quick disconnects (hatteras)
