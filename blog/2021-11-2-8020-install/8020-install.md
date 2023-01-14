@@ -52,12 +52,10 @@ _It gets a little more challenging to keep square once you break into that third
 
 Here's our driver and passenger side timelapses for your viewing pleasure.
 
-`vimeo: https://vimeo.com/644786579`
-_Driver side._  
+`vimeo: https://vimeo.com/644786579`  
 
 
-`vimeo: https://vimeo.com/644787257`
-_Passenger side._  
+`vimeo: https://vimeo.com/644787257` 
 
 
 After assembling each side, in turn, we loaded them into the van for a trial fit.  The only interference we found was on the passenger side D-pillar power point.  We had no anticipated need for this power source, but we relocated it to the D-Pillar access panel.
@@ -97,7 +95,7 @@ _You can see the 8020 gussets in between the verticals in this image.  You can a
 We spent a lot of time figuring out how to mount the electrical equipment in a way that was secure but removable without access to the backside.  Similar to the gussets mentioned above, we opted to use screw-in tee-nuts.  We had ok experience with tee-nuts on Van 1.0 but wanted something more secure.
 
 ![backside panel](back-panel.jpeg)
-_In the middle of this image you can see six brass colored M6 screw in tee-nuts.  These receive the fasteners for the Multiplus mounting bracket and the two fasteners at the bottom of the Multiplus.  Later we added four additional tee-nuts above the Multiplus mount location for the MPPT.  Along the top of the panel are the additional 5/16" screw in tee-nuts for the 8020 gussets.  All other attachments are just 5/16 fasteners, fender washers, and drop-in t-nuts._
+_In the middle of this image you can see the tee-nuts for the Multiplus and 8020 gussets.  All other attachments are just 5/16 fasteners, fender washers, and drop-in t-nuts._
 
 
 <details>
@@ -137,7 +135,7 @@ For each assembly, after we completed the backside panels install we proceeded w
 We braced it with extra 8020 to make sure all joint remained square during movement.  We loaded it into the van and removed the bracing.  With the structure nearly in place, we could see where all the structure and panels were located against the van internals.  We modified the stock factory wall panel material to cover the van interstitial spaces that aren't covered by our backside panels. We cut and attached them such that they can be easily removed with the assemblies installed.  We did this keep things tidy and provides a little thermal benefit. 
 
 ![van wall panels](van-wall-panels.jpeg)
-_These prevents wires from poking out, and crap from falling into crevices._
+_These prevent wires from poking out, and crap from falling into crevices, etc._
 
 We also had to feed all of our branch wiring that runs in the van interstitials through the accesses we included in the backside panels prior to moving into place.
 
@@ -149,7 +147,7 @@ After we had all the stuff behind the assemblies sorted, we moved them into plac
 ![bracket fabrication](bracket-fab.jpeg)
 _I think everyone can imagine what bracket fabrication looks like, but have some B-roll._
 
-### Through Bolting - Here Be Dragons
+### Begin Through-Bolting Rant - Here Be Dragons
 
 **When you care about the integrity of a bolted joint it is critical to make sure the fastener involved is properly preloaded/tensioned.  If its not, the fastener will likely end up with excessive bending and/or shear stress and will fail.**  This becomes a challenge when you are bolting though materials less compressive strength and/or creep resistance than the fastener involved.  Bolting through a floor composed of wood and foam is a perfect example of this problem.  If you tried to preload the fastener you will just crush and destroy the floor under it and still never get appropriate tension on the fastener.
 
