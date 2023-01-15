@@ -5,9 +5,10 @@ categories:
  # one or more categories is permitted
  - electrical
 navTitle: 
-title: REC Q BMS Wiring
+title: REC Q BMS Wiring V1
+
 author: Nate
-date: 2020-10-26
+date: 2021-03-16
 tags:
  - BMS
  - battery
@@ -15,17 +16,21 @@ tags:
  - concept
  - electrical
  - van
+ - deprecated
 
 metatags:
-	# no metatags
+ - deprecated
 cover: 
 	# image file
  img: rec-bms.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr:
+tldr: "This design is obsolete and deprecated.  It reflected the use of a Blue Sea latching remote battery switch that could be driven like a normally open relay.  It also contains vestigial information related to the Multiplus Compact.  We later changed to the TYCO EV200HAANAA contactor based on testing that showed a continuous parasitic draw by the Blue Sea device when it was open.  In conjunction with that change we altered the pre-charge design based on testing that showed the REC Pre-Charge unit was insufficient to charge the the Multiplus.  Also by that time we had selected the Multiplus 3KVA unit."
 ---
+
+**This design is obsolete and deprecated.  It reflected the use of a Blue Sea latching remote battery switch that could be driven like a normally open relay.  It also contains vestigial information related to the Multiplus Compact.  We later changed to the TYCO EV200HAANAA contactor based on testing that showed a continuous parasitic draw by the Blue Sea device when it was open.  In conjunction with that change we altered the pre-charge design based on testing that showed the REC Pre-Charge unit was insufficient to charge the the Multiplus.  Also by that time we had selected the Multiplus 3KVA unit.**
+
 
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
 
