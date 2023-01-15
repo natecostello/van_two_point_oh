@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: REC Q BMS Wiring
 author: Nate
-date: 2020-10-26
+date: 2022-02-18
 tags:
  - BMS
  - battery
@@ -29,44 +29,29 @@ tldr:
 
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
 
-## Connection Notes
-
-The [Blue Sea 7717 Remote Battery Switch](blue-sea-7717-rbs.pdf) speecifies 16 AWG wire minimum for control connections.  It also specifies 4/0 wire to handle 300A continuous current.
-
 ## Operation
 
 **ON**
 
-[REC Q BMS](http://www.rec-bms.com/datasheet/UserManual_REC_Victron_BMS.pdf) is always powered, Internal relay is normally closed*. When Blue Sea 2155 Remote Control Switch (RS) is closed (PIN 2 connected to PIN 3), Vbat is applied through the RS, through the internal relay, to [REC PRE-CHARGE](http://www.rec-bms.com/datasheet/UserManualPrechargeNew.pdf) BMS+ Input. REC PRE-CHARGE Applies VBat via 66 ohm relay to load side of contactor via System + connection for a preset delay. After the preset delay, REC PRE-CHARGE "energizes" the Blue Sea 7717 Remote Battery Switch (RBS) to close the RBS main contactor. After one second, application of power via System+ is removed and all power flows to the system via the RBS main contactor.  
+[REC Q BMS](http://www.rec-bms.com/datasheet/UserManual_REC_Victron_BMS.pdf) is always powered, Internal relay is normally closed*. When Blue Sea 2155 Remote Control Switch (RS) is closed (PIN 2 connected to PIN 3), Vbat is applied through the RS, through the internal relay, to [REC PRE-CHARGE](http://www.rec-bms.com/datasheet/UserManualPrechargeNew.pdf) BMS+ Input. REC PRE-CHARGE Applies VBat via 66 ohm internal resistor to the load side of the Tyco EV200HAANA (Main Contactor) via System+ connection for a preset delay. After the preset delay, REC PRE-CHARGE energizes the Main Contactor control inputs causing it to close. After one second, application of power via System+ is removed and all power flows to the system via the Main Contactor.  
 
-Note, REC PRE-CHARGE manual states:
->The pre-charge unit closes the power circuit through its internal relay (RELAY ON). The inrush current flows entirely through the pre-charge 66 Ω internal resistor. After 4 seconds the transient current should be approximately zero. The pre-charge energizes the contactor coil through open collector circuit and after 1 second opens the internal relay (RELAY OFF).
-
-It is not 100% clear that the RBS will operate correctly with the REC PRE-CHARGE due to it's use of open collector (i.e., application and removal of GND) operation.  We will have to test.  What is clear is that the Flashing LED functionality associated with manual ON overide will not work since the RBS will not have access to GROUND provided by the REC PRE-CHARGE in that condition.  To regain this, and to mitigate concerns with open-collector control, we may insert and opto-islator.
-
-<details>
-<summary>Opto-Isolated Variant</summary>
-
-![REC Q BMS Wiring Logic Opto](REC_Q_BMS_Wiring_Logic-opto.svg)
-
-</details>  
-  
-  
+Note, REC PRE-CHARGE [manual](usermanualprechargenew_timeset.pdf) states:
+>At system start up the REC Q BMS activates the charging procedure by powering the pre-charge unit. The pre-charge unit closes the power circuit through its internal relay (RELAY ON). The inrush current flows entirely through the precharge 66 Ω internal resistor. After set delay the transient current should be decrease to a safe value. The pre-charge energizes the contactor coil through open collector circuit and after 1 second opens the internal relay (RELAY OFF). All of the system current now passes through the contactor. Normal system operation is achieved. 
 
 **OFF**
 
-When the RS is opened, or the REC Q internal relay is opened*, Vbat is removed from the REC PRE-CHARGE BMS+ input. The RPC will float its Contactor- output continuosly which deenergizes the main contactor coil and opens the main contactor.
+When the RS is opened, or the REC Q internal relay is opened*, Vbat is removed from the REC PRE-CHARGE BMS+ input. The REC PRE-CHARGE will float its Contactor- output (it powers the Main Contactor coil via an open collector configuration) which deenergizes the Main Contactor coil and opens the Main Contactor.
 
 **\*The following events result in the REC Q Internal Relay opening:**
 * Cell Voltage High (cell over voltage switch-off + hysteresis
 * Cell Voltage Low (cell under voltage protection switch-off + hysteresis)
 * Cell Temp High (cell over temp switch-off + hysteresis) 
-* Number of cells or BMS address is not set properl
+* Number of cells or BMS address is not set properly
 * Temperature sensor error (connection problem)
 * Cell Short Circuit or BMS measurement error
 * Main Relay is in short circuit
 * Current measurement disabled or > 2x shunt max current
-* Wrong Cell Chemistry Selecte
+* Wrong Cell Chemistry Selected
 * Cell balancing or measurement failure
 * BMS internal communication failure
 
@@ -83,6 +68,10 @@ This is accomplished by opening the main contactor by the BMS via its internal r
 This is accomplished by opening the main contactor by the BMS via its internal relay.
 
 ## Low Temp BackUp Protection
+TODO: Update this section to 
+* cite documentation of REC CE current capability, 
+* identify the opto isolators and configuration we used.
+* capture our final design (vs "its possible to...")
 
 This is accomplished by disabling each charging source by the BMS via its charger enable opto-coupler.  The REC documentation describes the charger enable as open collector and open emitter, and also as an opto-coupler.  While this could be directly connected to a single component (e.g. MPPT), because it has to control mutliple devices, this signal should drive a relay or relays that will intern signal the component.
 
@@ -112,8 +101,6 @@ Connecting a NO relay between the left and right terminal that is energized (CLO
 One possibility is to use the Charge current control assistant.
 
 **Another possibility is to use the Two-signal BMS support assistant.**   Select "The BMS has one contact which which switches only on a high-cell condition".   Then "The battery is full when [Aux_X] is [open/closed]".  Lastly "[Disable Charger] and [do not adapt SOC] when battery full."  Selecting "battery is full when [Temp_Sense] is [**open**]" and connecting [Temp_Sense] to a NO relay that is energized (CLOSED) when the charger enable signal is provided by the BMS will provide low temp backup protection that is also protected from a broken wire.
-
-Note: The Multiplus Compact only has a temperature sense input, no aux inputs.  Low Temp BackUp protection will depend on being able to use this temperature sense input to support a charge enable control via the assistant.  I have [asked the question here](https://community.victronenergy.com/questions/76757/can-the-multiplus-compact-temperature-sense-input.html).  If the response is negative, I will likely shift the 3KVA Multiplus inspite of its additional parasitic load (20W vs 11W) and slightly higher cost. UPDATE: We ultimately selected the 3KVA Multiplus for flexibility.
 
 ### Alternator/Wakespeed
 
@@ -145,6 +132,8 @@ Alternatively, by setting the voltage parameter in $CPF to 0.0, the charger will
 
 In any case, it will be desirable to implement safe behavior that occurs on a loss of CAN.  We will want a fall back standalone profile that eliminates float, and utilizes a very conservative charge profile (low bulk cutoff), if any charging at all.
 
+TODO: Review documentation and notes, and if so, make the below paragraphs definitive statements.
+
 TODO: This needs verification, but it appears that by custom configuring the Custom Profiles as identified above, on loss of CAN, that profile, selected by DIP switches, is used.  That behavior in conjuction with the **Feature In** would allow the BMS charger enable signal to disable alternator/Wakespeed charging.
 
 TODO: Determine if **Function In** is active high or low.  Specifically, if >8.5V is present, does it force to float, or force to float when >8.5V is not present.  Based on a close read, and the github issue below, I believe this is active high, and will force to float when it is high.  UPDATE: $SCO can be used to set whether Feature/Function in is active HIGH or LOW.
@@ -154,6 +143,8 @@ TODO: Determine which ground the **Function In** is referenced to.  Determine ma
 NOTE: [This Github Issue related to Victron-Wakespeed integration is relevant to **Feature In.**](https://github.com/victronenergy/venus/issues/779)
 
 ### All Together
+
+TODO: Eliminate the TODO below once the details of our actual opto-coupler design above is documented.
 
 TODO: Since we need separate dry contacts or opto-couplers for two components, we will need a "splitter".  A starting place would be [this sparkfun opto-isolator breakout](https://www.sparkfun.com/products/9118).  TODO: Since we need a >8.5v DC 'wet' signal we will also need some conditioning.  Could possibly use the RBSLD inverter.
 
