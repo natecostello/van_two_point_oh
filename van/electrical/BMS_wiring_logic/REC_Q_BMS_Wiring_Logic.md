@@ -68,26 +68,26 @@ This is accomplished by opening the main contactor by the BMS via its internal r
 
 ## Low Temp BackUp Protection
 
-Under a low temperature condition, the main contactor remains closed, but the charge enable signal is removed.  Because we have multiple charging sources, we need to reproduce the charge enable signal in the proper form to each source to disable charging under low temp conditions.  This will also provide an intermediate level of over voltage protection (acting after CAN communication but prior to Main Contactor opening).
+Under a low temperature condition, the main contactor remains closed, but the ```CHARGE ENABLE``` signal is removed.  Because we have multiple charging sources, we need to reproduce the ```CHARGE ENABLE``` signal in the proper form to each source to disable charging under low temp conditions.  This will also provide an intermediate level of over voltage protection (acting after CAN communication but prior to Main Contactor opening).
 
 TODO: Update this section to 
 * identify the opto isolators and configuration we used.
 * capture our final design (vs "its possible to...")
 
-Before we can design a method for distributing the charge enable signal, we need to understand the limits of the BMS hardware related to this signal.  We also need to know the input characteristics of each charging source related to this signal.
+Before we can design a method for distributing the ```CHARGE ENABLE``` signal, we need to understand the limits of the BMS hardware related to this signal.  We also need to know the input characteristics of each charging source related to this signal.
 
-### REC BMS Charge Enable Limits
+### REC BMS ```CHARGE ENABLE``` Limits
 
 The REC documentation describes the charger enable as open collector and open emitter, and also as an opto-coupler, but this doesn't provide all the required information.  REC responded to my questions via an email in April 2021:
 
->What are the ratings/limitations of the Charge Enable ports.  Specifically, can I provide a 24V Vcc?  And what are the limitations of current (so I can correctly design/select the impedance of the output side)?  
+>What are the ratings/limitations of the ```CHARGE ENABLE``` ports.  Specifically, can I provide a 24V Vcc?  And what are the limitations of current (so I can correctly design/select the impedance of the output side)?  
 
 >From specification:  
 >Max DC current @ optocoupler 15 mA  
 >Max DC voltage @ optocoupler 62.5 V  
 
-### MPPT Charge Enable Input Characteristics
-The charge enable signal will be fed to the remote on-off input on the MPPT.
+### MPPT ```REMOTE ON-OFF``` Input Characteristics
+The ```CHARGE ENABLE``` signal will be fed to the ```REMOTE ON-OFF``` input on the MPPT.
 
 From the 150/XX MPPT Manual
 
@@ -103,28 +103,42 @@ From the 150/XX MPPT Manual
 
 Connecting a NO relay between the left and right terminal that is energized (CLOSED) when the charger enable signal is provided by the BMS will provide low temp backup protection that is also protected from a broken wire.
 
-TODO: With ammeter measure current between left and right terminals to determine in line resistance value.
+TODO: 
 
-MPPT Left side to Batt- input = 3.98V
-MPPT Right side to Batt- input = 3.98V
-Using a clamp on ammeter on a 2A scale over the wires shorting the terminals I measured ~0.25A. Clearly this exceeds our max collector current for the opto under consideration if the measurement is accurate.  We'll take an additional measurement with a traditional ammeter.
+1. Temporarily disconnect the left and right terminals from each other.
+2. With a voltmeter measure voltage between the left terminal and VBatt- determine left terminal output voltage
+3. With an ammeter measure current between the left terminal and VBatt-.
+4. Based on 2. and 3., determine in line resistance on the left terminal.
+5. With a voltmeter measure voltage between VBatt+ VBatt- (at the MPPT inputs).
+6. With an ammeter measure current into the right terminal when VBatt+ is applied to it.
+7. Based on 5. and 6., determine input resistance of the right terminal.
 
-### Multiplus Charge Enable Input Characteristics
+Using the information acquired above, determine how to drive the MPPT ```REMOTE ON-OFF``` input with the ```CHARGE ENABLE``` signal.
+
+### Multiplus ```AUX``` Input Characteristics
+In this [discussion](https://community.victronenergy.com/questions/29518/opto-isolator-for-two-signal-bms-assistant.html) a user discusses using an opto-isolator with a 50 mA limit across a Multiplus ```AUX``` input.
+
+This [victron document](manual-connecting-other-lithium-battery-systems-to-multis-and-quattros-en.pdf) states that a small ~1 mA signal is enough for the Multiplus ```AUX``` input to register a high signal.
+
+This [victron document](multiplus-ii-to-multigrid-and-multiplus-comparison-en.pdf) states that the Multiplus II ```AUX``` inputs have a 10KOhm pullup to a 5V source.  It also states that the MultiGrid has the same "FIO" for its ```AUX``` inputs.  This suggests that the ```AUX+``` on the Multiplus has the same arrangement.
+
+These data suggests connecting the output stage of an opto-isolator across the Multiplus ```AUX+``` and ```AUX-``` inputs would draw well below the opto-isolators max collector current (e.g. 50mA).
+
+
 One possibility is to use the Charge current control assistant.
 
-**Another possibility is to use the Two-signal BMS support assistant.**   Select "The BMS has one contact which which switches only on a high-cell condition".   Then "The battery is full when [Aux_X] is [open]".  Lastly "[Disable Charger] and [do not adapt SOC] when battery full."  Connecting [Aux_X+] and [Aux_X-] accross a NO relay that is energized (CLOSED) when the charger enable signal is provided by the BMS will provide low temp backup protection that is also protected from a broken wire.
+Another possibility is to use the ```Two-signal BMS support assistant```.   
+1. Select "The BMS has one contact which which switches only on a high-cell condition".   
+2. Select "The battery is full when [```AUX_X```] is [```OPEN```]".  
+3. Select "[```Disable Charger```] and [```do not adapt SOC```] when battery full".   
+4. Connect an opto-isolator across the Multiplus ```AUX_X+``` and ```AUX_X-``` inputs.
+
+If the opto-isolator is wired such that its output is "CLOSED" when the ```CHARGE ENABLE``` signal is present,  this configuration will provide low temp backup protection and fails conservatively in the case of a broken wire.
 
 TODO: With ammeter measure current between left and right terminals to determine in line resistance value.
 
-In this [discussion](https://community.victronenergy.com/questions/29518/opto-isolator-for-two-signal-bms-assistant.html) a user discusses using an opto-isolator with the same 50 mA limit across a Multiplus aux input.
 
-This [victron document](manual-connecting-other-lithium-battery-systems-to-multis-and-quattros-en.pdf) states that a small ~1 mA signal is enough for the Multiplus aux input to register a high signal.
-
-This [victron document](multiplus-ii-to-multigrid-and-multiplus-comparison-en.pdf) states that the Multiplus II aux inputs have a 10KOhm pullup to a 5V source.  It also states that the MultiGrid has the same "FIO" for its aux inputs.  This suggests that the aux_X+ on the Multiplus has the same arrangement.
-
-These data suggests connecting a Multiplus aux_X+ and aux_X- across the output stage of an opto-isolator would draw well below the 50 mA limit.
-
-### Wakespeed Charge Enable Input Characteristics
+### Wakespeed ```CHARGE ENABLE``` Input Characteristics
 
 The FEATURE IN input on the wakespeed can be configured to stop charging when a High or Low is applied to it.  They took a lookup during a phone call when asked about the input characteristics for the FEATURE IN signal.  Wakespeed support responded to my question via an email in March 2022:
 
@@ -134,12 +148,17 @@ The FEATURE IN input on the wakespeed can be configured to stop charging when a 
 
 This places its input impedance at 8KOhm.
 
-### Charge Enable Design
+### ```CHARGE ENABLE``` Design
 
-Based on the BMS charge enable limits and the and charging source characteristics, we elected to use four (one is a spare) of [these ICStation 12V boards](https://www.amazon.com/dp/B01L1OI1HC/ref=emc_b_5_t?th=1) wired as shown below.  
+Based on the BMS ```CHARGE ENABLE``` limits and the and charging source characteristics, we elected to use four (one is a spare) of [these ICStation 12V boards](https://www.amazon.com/dp/B01L1OI1HC/ref=emc_b_5_t?th=1) wired as shown below.  
+
+These boards use and 817 opto-isolator with max input-side LED limits of 15mA and 62V.  
+
+With the 1KOhm resistors in series with each input-side LED, placing four boards in series will limit the input-side LED current to < 7.2mA satisfying the limits of the opto-isolators and the BMS ```CHARGE ENABLE``` optocoupler.
+
 
 ![currrent-plan](charge-enable-splitting.svg)
-_This is our desire distributing the BMS charge enable signal to the charging sources._
+_This is our desire distributing the BMS ```CHARGE ENABLE``` signal to the charging sources._
 
 ### Alternator/Wakespeed
 
@@ -153,7 +172,7 @@ The wakespeed does have its own battery temperature sense that can be used to li
 
 Also important is its response to loss of sensor and loss of comms:
 
-> **BTemp:** Measured temperature of NTC sensor attached to B-port in degrees C or battery temperature received via external CAN sensor. -99 indicates temperature has not been measured, NTC sender has failed, not attached, and there is no remote temperature information available via the CAN connection.
+> **BTemp:** Measured temperature of NTC sensor attached to B-port in degrees C or battery temperature received via external CAN sensor. -99 indicates temperature has not been measured, NTC sender has failed, or is not attached, and there is no remote temperature information available via the CAN connection.
 
 However, if backup protection coordinated by the BMS is desired, the method below could also be used.
 
@@ -167,7 +186,7 @@ From the [Wakespeed WS500 Quickstart Guide](http://wakespeed.com/WS500quickstart
 
 The wakespeed in stand-along mode can be made to enter a Post-Float mode in which the charger is off but monitoring or a return to bulk.  In the [Wakespeed Configuration Utility Guide](http://wakespeed.com/CU/ConfigurationUtilityGuideWeb.pdf) by configuring the "Exit Duration" of the $CPF entry to a small non-zero number like '1' (looks like minutes), the WS500 will quickly exit float.  By configuring the "Exit Duration" of the $CPE entry to zero, equalization will be disabled.  The $CPP entry is used to configure Post-Float behavior.  Fully disabling the charger, and setting a Battery Voltage corresponding to a return to Bulk is possible. 
 
-Alternatively, by setting the voltage parameter in $CPF to 0.0, the charger will remain in "float" but with charging disabled until it is triggered back into a bulk charge state (e.g. by low battery voltage).  This would only be applicable in a loss of CAN situation.  Need to consider how coordinated with BMS charge enable by way of Feature-In.
+Alternatively, by setting the voltage parameter in $CPF to 0.0, the charger will remain in "float" but with charging disabled until it is triggered back into a bulk charge state (e.g. by low battery voltage).  This would only be applicable in a loss of CAN situation.  Need to consider how coordinated with BMS ```CHARGE ENABLE``` by way of Feature-In.
 
 In any case, it will be desirable to implement safe behavior that occurs on a loss of CAN.  We will want a fall back standalone profile that eliminates float, and utilizes a very conservative charge profile (low bulk cutoff), if any charging at all.
 
