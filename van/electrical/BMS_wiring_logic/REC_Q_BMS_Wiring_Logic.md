@@ -71,7 +71,7 @@ This is accomplished by opening the main contactor by the BMS via its internal r
 Under a low temperature condition, the main contactor remains closed, but the ```CHARGE ENABLE``` signal is removed.  Because we have multiple charging sources, we need to reproduce the ```CHARGE ENABLE``` signal in the proper form to each source to disable charging under low temp conditions.  This will also provide an intermediate level of over voltage protection (acting after CAN communication but prior to Main Contactor opening).
 
 TODO: Update this section to 
-* identify the opto isolators and configuration we used.
+* identify the opto-isolators and configuration we used.
 * capture our final design (vs "its possible to...")
 
 Before we can design a method for distributing the ```CHARGE ENABLE``` signal, we need to understand the limits of the BMS hardware related to this signal.  We also need to know the input characteristics of each charging source related to this signal.
@@ -103,15 +103,25 @@ From the 150/XX MPPT Manual
 
 Connecting a NO relay between the left and right terminal that is energized (CLOSED) when the charger enable signal is provided by the BMS will provide low temp backup protection that is also protected from a broken wire.
 
+On our MPPT, facing it from the front, the H terminal is on the left, the L terminal is on the right.
+
 TODO: 
 
 1. Temporarily disconnect the left and right terminals from each other.
-2. With a voltmeter measure voltage between the left terminal and VBatt- determine left terminal output voltage
-3. With an ammeter measure current between the left terminal and VBatt-.
-4. Based on 2. and 3., determine in line resistance on the left terminal.
-5. With a voltmeter measure voltage between VBatt+ VBatt- (at the MPPT inputs).
-6. With an ammeter measure current into the right terminal when VBatt+ is applied to it.
+2. With a voltmeter measure voltage between the 'L' terminal and 'VBatt-' to determine 'L' terminal output voltage [measured +5.03V]
+3. With an ammeter measure current between the 'L' terminal and VBatt-. [measured 0.04A 45mA / 4.78 milliA / 47.9 microA]
+4. Based on 2. and 3., determine in line resistance on the 'L' terminal.
+5. With a voltmeter measure voltage between the 'H' terminal and 'VBatt-' to determine 'H' terminal voltage [measured ~1 milliV]
+5. With a voltmeter measure voltage between VBatt+ VBatt- (at the MPPT inputs) [measured +26.24V]
+6. With an ammeter measure current into the 'H' terminal when VBatt+ is applied to it [0.58A 592 mA /  measured 75.5 milliA / 760 microA]
 7. Based on 5. and 6., determine input resistance of the right terminal.
+8. With an ammeter measure current between the 'H' and 'L' terminal [measured 0.02A 27 mA / 3.52 milliA / 35.4 microA]
+
+
+During measurement we observed some observed inconsistencies.  Based on that, we consulted the manual.  This led us to test the internal fuses in the Fluke which we found were blown.  We'll remeasure with a known good multimeter.
+Fluke 87 Manual:
+>To calculate the burden voltage: in A, multiply the display reading by 0.03V; in mA, multiply the display reading by 1.8 mV; in µA, multiply the display reading by 100 µV. For example, at a 20 mA display reading, the burden voltage is 20.00 x 1.8 mV = 36 mV.  The approximate resistance between the input terminals is 0.03 ohms for A, 1.8 ohms for mA, and 100 ohms for µA.
+
 
 Using the information acquired above, determine how to drive the MPPT ```REMOTE ON-OFF``` input with the ```CHARGE ENABLE``` signal.
 
@@ -194,9 +204,6 @@ TODO: Review documentation and notes, and if so, make the below paragraphs defin
 
 TODO: This needs verification, but it appears that by custom configuring the Custom Profiles as identified above, on loss of CAN, that profile, selected by DIP switches, is used.  That behavior in conjuction with the **Feature In** would allow the BMS charger enable signal to disable alternator/Wakespeed charging.
 
-TODO: Determine if **Function In** is active high or low.  Specifically, if >8.5V is present, does it force to float, or force to float when >8.5V is not present.  Based on a close read, and the github issue below, I believe this is active high, and will force to float when it is high.  UPDATE: $SCO can be used to set whether Feature/Function in is active HIGH or LOW.
-
-TODO: Determine which ground the **Function In** is referenced to.  Determine max input current draw of **Function In**.
 
 NOTE: [This Github Issue related to Victron-Wakespeed integration is relevant to **Feature In.**](https://github.com/victronenergy/venus/issues/779)
 
