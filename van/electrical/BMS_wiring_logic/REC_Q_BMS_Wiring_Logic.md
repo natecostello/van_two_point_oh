@@ -101,29 +101,31 @@ From the 150/XX MPPT Manual
 >
 > c) A switch between the right terminal and the charge disconnect terminal of a VE.Bus BMS
 
-Connecting a NO relay between the left and right terminal that is energized (CLOSED) when the charger enable signal is provided by the BMS will provide low temp backup protection that is also protected from a broken wire.
+<details>
+<summary>MPPT Remote on-off Testing Details </summary>
+On our MPPT, facing it from the front, the 'H' terminal is on the left, the 'L' terminal is on the right.
 
-On our MPPT, facing it from the front, the H terminal is on the left, the L terminal is on the right.
-
-TODO: 
-
+Testing:
 1. Temporarily disconnect the left and right terminals from each other.
-2. With a voltmeter measure voltage between the 'L' terminal and 'VBatt-' to determine 'L' terminal output voltage [measured +5.03V]
-3. With an ammeter measure current between the 'L' terminal and VBatt-. [measured 0.04A 45mA / 4.78 milliA / 47.9 microA]
+2. With a voltmeter measure voltage between the 'L' terminal and 'VBatt-' to determine 'L' terminal output voltage [measured +4.85V]
+3. With an ammeter measure current between the 'L' terminal and VBatt-. [measured 0.1mA / 106.3 microA]
 4. Based on 2. and 3., determine in line resistance on the 'L' terminal.
-5. With a voltmeter measure voltage between the 'H' terminal and 'VBatt-' to determine 'H' terminal voltage [measured ~1 milliV]
-5. With a voltmeter measure voltage between VBatt+ VBatt- (at the MPPT inputs) [measured +26.24V]
-6. With an ammeter measure current into the 'H' terminal when VBatt+ is applied to it [0.58A 592 mA /  measured 75.5 milliA / 760 microA]
-7. Based on 5. and 6., determine input resistance of the right terminal.
-8. With an ammeter measure current between the 'H' and 'L' terminal [measured 0.02A 27 mA / 3.52 milliA / 35.4 microA]
+R = V/I = 4.85V / 0.0001063A = 45.626KOhm
+5. With a voltmeter measure voltage between the 'H' terminal and 'VBatt-' to determine 'H' terminal voltage [measured -3 milliV]
+6. With a voltmeter measure voltage between VBatt+ VBatt- (at the MPPT inputs) [measured +26.1V]
+7. With an ammeter measure current into the 'H' terminal when VBatt+ is applied to it [ 0.1 milliA / 96.0 microA]
+8. Based on 5. and 6., determine input resistance of the 'H' terminal.
+R = V/I = 26.1V / 0.0000960A = 271.875KOhm
+9. With an ammeter measure current between the 'H' and 'L' terminal [measured 0.1 milliA / 77.3 microA]
+10. Based on 2., 5., and 9., determine resistance in the current flow path from 'L' to 'H'
+R = V/I = 4.85V / 0.0000773A = 62.743KOhm
 
+Note, this R doesn't equal the sum of the other two measurements.  However, it does show that current will not exceed max collector current when an opto-isolator is fully conducting.  
 
-During measurement we observed some observed inconsistencies.  Based on that, we consulted the manual.  This led us to test the internal fuses in the Fluke which we found were blown.  We'll remeasure with a known good multimeter.
-Fluke 87 Manual:
->To calculate the burden voltage: in A, multiply the display reading by 0.03V; in mA, multiply the display reading by 1.8 mV; in µA, multiply the display reading by 100 µV. For example, at a 20 mA display reading, the burden voltage is 20.00 x 1.8 mV = 36 mV.  The approximate resistance between the input terminals is 0.03 ohms for A, 1.8 ohms for mA, and 100 ohms for µA.
+</details>
 
+Our testing showed that the current flowing out of the 'L' terminal into the 'H' is 77 uA when shorted (configuration 'a' above).  When 26V is applied directly to the 'H' terminal the current is flowing is 96 uA (configuration 'b' above).
 
-Using the information acquired above, determine how to drive the MPPT ```REMOTE ON-OFF``` input with the ```CHARGE ENABLE``` signal.
 
 ### Multiplus ```AUX``` Input Characteristics
 In this [discussion](https://community.victronenergy.com/questions/29518/opto-isolator-for-two-signal-bms-assistant.html) a user discusses using an opto-isolator with a 50 mA limit across a Multiplus ```AUX``` input.
