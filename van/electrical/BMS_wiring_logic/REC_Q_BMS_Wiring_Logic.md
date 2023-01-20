@@ -159,7 +159,7 @@ Based on these limits, we elected to use [these ICStation 12V optocoupler boards
 
 These boards use an 817 optocoupler with maximum input-side LED current of 50mA and maximum output collector current and collector-emitter voltage of 50mA and 80V.
 
-We apply VBatt to the ```CHARGE ENABLE``` input on the REC BMS.  The ```CHARGE ENABLE``` output drives the four optocoupler boards in series.  With the 1KOhm resistors in series with each input-side LED, placing four boards in series will limit the input-side LED current to < 7.2mA satisfying the limits of the 817 optocouplers and the BMS ```CHARGE ENABLE``` optocoupler.
+We apply VBatt to the ```CHARGE ENABLE``` input on the REC BMS.  The ```CHARGE ENABLE``` output drives the four optocoupler boards in series.  With the 1KOhm resistors in series with each input-side LED, placing three boards in series will limit the input-side LED current to ~9.6mA satisfying the limits of the 817 optocouplers and the BMS ```CHARGE ENABLE``` optocoupler.
 
 The outputs are wired depending on the equipment each is driving but in all cases the limits of the 817 optocouplers and the charge equipment being driven are met.
 
