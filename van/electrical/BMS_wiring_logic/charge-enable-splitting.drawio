@@ -1,1 +1,503 @@
-<mxfile host="Electron" modified="2022-03-23T14:30:32.967Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/16.5.1 Chrome/96.0.4664.110 Electron/16.0.7 Safari/537.36" etag="j4HRnk-fAbk1BUfcZxFj" version="16.5.1" type="device" pages="2"><diagram name="Page-1" id="7e0a89b8-554c-2b80-1dc8-d5c74ca68de4">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</diagram><diagram name="focus-wakespeed" id="K4y7OYDIa_2Qr8XIL1X6">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</diagram></mxfile>
+<mxfile host="65bd71144e" pages="2">
+    <diagram name="Page-1" id="7e0a89b8-554c-2b80-1dc8-d5c74ca68de4">
+        <mxGraphModel dx="511" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-97" value="REC BMS" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=bottom;" parent="1" vertex="1">
+                    <mxGeometry x="32" y="202" width="148" height="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-62" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="170" y="440" width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-60" value="&lt;p style=&quot;box-sizing: border-box ; padding: 0px ; margin: 0px ; font-weight: 400 ; color: rgb(15 , 17 , 17) ; font-family: &amp;#34;amazon ember&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255) ; line-height: 32px&quot;&gt;&lt;span id=&quot;productTitle&quot; class=&quot;a-size-large product-title-word-break&quot; style=&quot;box-sizing: border-box ; word-break: break-word ; line-height: 32px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Icstation 12V Optocoupler&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=right;verticalAlign=bottom;" parent="BsbLC-XJVURWqmNlItD3-62" vertex="1">
+                    <mxGeometry width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.opto-coupler;" parent="BsbLC-XJVURWqmNlItD3-62" vertex="1">
+                    <mxGeometry x="153" y="100" width="99" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-15" value="1KOhm" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="BsbLC-XJVURWqmNlItD3-62" vertex="1">
+                    <mxGeometry x="20" y="210" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.195;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="BsbLC-XJVURWqmNlItD3-62" source="BsbLC-XJVURWqmNlItD3-2" target="BsbLC-XJVURWqmNlItD3-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="BsbLC-XJVURWqmNlItD3-62" source="BsbLC-XJVURWqmNlItD3-57" target="BsbLC-XJVURWqmNlItD3-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-57" value="10KOhm" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="BsbLC-XJVURWqmNlItD3-62" vertex="1">
+                    <mxGeometry x="252" y="10" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.opto-coupler;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="265" width="99" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.195;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-1" target="BsbLC-XJVURWqmNlItD3-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="129" y="470"/>
+                            <mxPoint x="342" y="470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-89" value="CE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BsbLC-XJVURWqmNlItD3-28" vertex="1" connectable="0">
+                    <mxGeometry x="-0.8329" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-2" target="BsbLC-XJVURWqmNlItD3-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-6" value="MPPT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="510" width="190" height="90" as="geometry">
+                        <mxRectangle x="580" y="260" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-7" value="REMOTE H" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="BsbLC-XJVURWqmNlItD3-6" vertex="1">
+                    <mxGeometry y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-8" value="REMOTE L" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="BsbLC-XJVURWqmNlItD3-6" vertex="1">
+                    <mxGeometry y="60" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-12" target="BsbLC-XJVURWqmNlItD3-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-88" value="CE+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BsbLC-XJVURWqmNlItD3-56" vertex="1" connectable="0">
+                    <mxGeometry x="0.494" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-12" value="V&lt;span style=&quot;font-size: 20px&quot;&gt;cc (~28.8V)&lt;/span&gt;" style="verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.electrical.signal_sources.vdd;shadow=0;dashed=0;align=center;strokeWidth=1;fontSize=24;html=1;flipV=1;" parent="1" vertex="1">
+                    <mxGeometry x="99" y="120" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-7" target="BsbLC-XJVURWqmNlItD3-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-48" value="Multiplus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="790" width="190" height="90" as="geometry">
+                        <mxRectangle x="580" y="260" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-49" value="AUX +" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="BsbLC-XJVURWqmNlItD3-48" vertex="1">
+                    <mxGeometry y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-50" value="AUX -" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="BsbLC-XJVURWqmNlItD3-48" vertex="1">
+                    <mxGeometry y="60" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-53" value="Wakespeed" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="1090" width="190" height="60" as="geometry">
+                        <mxRectangle x="580" y="260" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-54" value="FEATURE IN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="BsbLC-XJVURWqmNlItD3-53" vertex="1">
+                    <mxGeometry y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-63" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="170" y="720" width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-64" value="&lt;span style=&quot;color: rgb(15 , 17 , 17) ; font-family: &amp;#34;amazon ember&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Icstation 12V Optocoupler&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=right;verticalAlign=bottom;" parent="BsbLC-XJVURWqmNlItD3-63" vertex="1">
+                    <mxGeometry width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-65" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.opto-coupler;" parent="BsbLC-XJVURWqmNlItD3-63" vertex="1">
+                    <mxGeometry x="153" y="100" width="99" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-66" value="1KOhm" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="BsbLC-XJVURWqmNlItD3-63" vertex="1">
+                    <mxGeometry x="20" y="210" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.195;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="BsbLC-XJVURWqmNlItD3-63" source="BsbLC-XJVURWqmNlItD3-65" target="BsbLC-XJVURWqmNlItD3-66" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="BsbLC-XJVURWqmNlItD3-63" source="BsbLC-XJVURWqmNlItD3-69" target="BsbLC-XJVURWqmNlItD3-65" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-69" value="10KOhm" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="BsbLC-XJVURWqmNlItD3-63" vertex="1">
+                    <mxGeometry x="252" y="10" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-70" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="170" y="1000" width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-71" value="&lt;span style=&quot;color: rgb(15 , 17 , 17) ; font-family: &amp;#34;amazon ember&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Icstation 12V Optocoupler&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=right;verticalAlign=bottom;" parent="BsbLC-XJVURWqmNlItD3-70" vertex="1">
+                    <mxGeometry width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-72" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.opto-coupler;" parent="BsbLC-XJVURWqmNlItD3-70" vertex="1">
+                    <mxGeometry x="153" y="100" width="99" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-73" value="1KOhm" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="BsbLC-XJVURWqmNlItD3-70" vertex="1">
+                    <mxGeometry x="20" y="210" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.195;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="BsbLC-XJVURWqmNlItD3-70" source="BsbLC-XJVURWqmNlItD3-72" target="BsbLC-XJVURWqmNlItD3-73" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="BsbLC-XJVURWqmNlItD3-70" source="BsbLC-XJVURWqmNlItD3-76" target="BsbLC-XJVURWqmNlItD3-72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-76" value="10KOhm" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="BsbLC-XJVURWqmNlItD3-70" vertex="1">
+                    <mxGeometry x="252" y="10" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.195;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-15" target="BsbLC-XJVURWqmNlItD3-65" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="130" y="660"/>
+                            <mxPoint x="130" y="745"/>
+                            <mxPoint x="342" y="745"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.195;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-66" target="BsbLC-XJVURWqmNlItD3-72" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="130" y="940"/>
+                            <mxPoint x="130" y="1025"/>
+                            <mxPoint x="342" y="1025"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-65" target="BsbLC-XJVURWqmNlItD3-49" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-65" target="BsbLC-XJVURWqmNlItD3-50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-83" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.signal_ground;" parent="1" vertex="1">
+                    <mxGeometry x="106.5" y="1580" width="45" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-72" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="1080" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="402" y="1080"/>
+                            <mxPoint x="540" y="1080"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" target="BsbLC-XJVURWqmNlItD3-12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="920" y="1080"/>
+                            <mxPoint x="920" y="170"/>
+                            <mxPoint x="129" y="170"/>
+                        </Array>
+                        <mxPoint x="540" y="1080" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-100" value="Aux MPPT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="610" width="190" height="90" as="geometry">
+                        <mxRectangle x="580" y="260" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-101" value="REMOTE H" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="BsbLC-XJVURWqmNlItD3-100" vertex="1">
+                    <mxGeometry y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-102" value="REMOTE L" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="BsbLC-XJVURWqmNlItD3-100" vertex="1">
+                    <mxGeometry y="60" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-8" target="BsbLC-XJVURWqmNlItD3-102" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-104" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="170" y="1280" width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-105" value="&lt;span style=&quot;color: rgb(15 , 17 , 17) ; font-family: &amp;#34;amazon ember&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Icstation 12V Optocoupler&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=right;verticalAlign=bottom;" parent="BsbLC-XJVURWqmNlItD3-104" vertex="1">
+                    <mxGeometry width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-106" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.opto-coupler;" parent="BsbLC-XJVURWqmNlItD3-104" vertex="1">
+                    <mxGeometry x="153" y="100" width="99" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-107" value="1KOhm" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="BsbLC-XJVURWqmNlItD3-104" vertex="1">
+                    <mxGeometry x="20" y="210" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.195;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="BsbLC-XJVURWqmNlItD3-104" source="BsbLC-XJVURWqmNlItD3-106" target="BsbLC-XJVURWqmNlItD3-107" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="BsbLC-XJVURWqmNlItD3-104" source="BsbLC-XJVURWqmNlItD3-110" target="BsbLC-XJVURWqmNlItD3-106" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-110" value="10KOhm" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="BsbLC-XJVURWqmNlItD3-104" vertex="1">
+                    <mxGeometry x="252" y="10" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-111" value="Future" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="1360" width="190" height="60" as="geometry">
+                        <mxRectangle x="580" y="260" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-112" value="????" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="BsbLC-XJVURWqmNlItD3-111" vertex="1">
+                    <mxGeometry y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-107" target="BsbLC-XJVURWqmNlItD3-83" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2WT2x-48ixgIDj2uTJeF-1" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Input Side&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;REC BMS CE optocoupler is limited rated to a max of 15mA and 62V.&amp;nbsp; The 817 optocoupler has CTR of &amp;gt;100% at &amp;gt;2mA I_f.&amp;nbsp; At 28.8V, three in series would give 9.6 mA and four would give 7.2 mA.&amp;nbsp; Either is acceptable un-modified.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="255" width="180" height="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="BsbLC-XJVURWqmNlItD3-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.195;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-106" target="BsbLC-XJVURWqmNlItD3-73" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="342" y="1305"/>
+                            <mxPoint x="130" y="1305"/>
+                            <mxPoint x="130" y="1220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2WT2x-48ixgIDj2uTJeF-5" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Output Side&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;The 817 optocoupler has max collector current of 50mA. Wiring as shown below will be will below this limit.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="255" width="130" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="kkuH0vFT5yjaIVFCruNA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="BsbLC-XJVURWqmNlItD3-72" target="BsbLC-XJVURWqmNlItD3-54" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="402.20000000000005" y="1160" as="sourcePoint"/>
+                        <mxPoint x="590" y="1135" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="402" y="1180"/>
+                            <mxPoint x="560" y="1180"/>
+                            <mxPoint x="560" y="1135"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="focus-wakespeed" id="K4y7OYDIa_2Qr8XIL1X6">
+        <mxGraphModel dx="1332" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-0"/>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-1" parent="STBlwLwGWw4QHtBeOQfR-0"/>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-2" value="REC BMS" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=left;verticalAlign=bottom;strokeColor=#000000;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="32" y="202" width="148" height="175" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-3" value="" style="group" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1" connectable="0">
+                    <mxGeometry x="170" y="440" width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-4" value="&lt;p style=&quot;box-sizing: border-box ; padding: 0px ; margin: 0px ; font-weight: 400 ; color: rgb(15 , 17 , 17) ; font-family: &amp;#34;amazon ember&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255) ; line-height: 32px&quot;&gt;&lt;span id=&quot;productTitle&quot; class=&quot;a-size-large product-title-word-break&quot; style=&quot;box-sizing: border-box ; word-break: break-word ; line-height: 32px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Icstation 12V Optocoupler (Modified Resistors)&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=right;verticalAlign=bottom;" parent="STBlwLwGWw4QHtBeOQfR-3" vertex="1">
+                    <mxGeometry width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-5" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.opto-coupler;" parent="STBlwLwGWw4QHtBeOQfR-3" vertex="1">
+                    <mxGeometry x="153" y="100" width="99" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-6" value="Rin" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="STBlwLwGWw4QHtBeOQfR-3" vertex="1">
+                    <mxGeometry x="20" y="210" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.195;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-3" source="STBlwLwGWw4QHtBeOQfR-5" target="STBlwLwGWw4QHtBeOQfR-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-3" source="STBlwLwGWw4QHtBeOQfR-9" target="STBlwLwGWw4QHtBeOQfR-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-9" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="STBlwLwGWw4QHtBeOQfR-3" vertex="1">
+                    <mxGeometry x="252" y="10" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-10" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.opto-coupler;strokeColor=#000000;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="50" y="265" width="99" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.195;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-10" target="STBlwLwGWw4QHtBeOQfR-5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="129" y="470"/>
+                            <mxPoint x="342" y="470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-12" value="CE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="STBlwLwGWw4QHtBeOQfR-11" vertex="1" connectable="0">
+                    <mxGeometry x="-0.8329" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-5" target="STBlwLwGWw4QHtBeOQfR-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-14" value="MPPT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="630" y="510" width="190" height="90" as="geometry">
+                        <mxRectangle x="580" y="260" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-15" value="REMOTE H" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="STBlwLwGWw4QHtBeOQfR-14" vertex="1">
+                    <mxGeometry y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-16" value="REMOTE L" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="STBlwLwGWw4QHtBeOQfR-14" vertex="1">
+                    <mxGeometry y="60" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeColor=#000000;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-19" target="STBlwLwGWw4QHtBeOQfR-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-18" value="CE+" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="STBlwLwGWw4QHtBeOQfR-17" vertex="1" connectable="0">
+                    <mxGeometry x="0.494" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-19" value="V&lt;span style=&quot;font-size: 20px&quot;&gt;cc (~28.8V)&lt;/span&gt;" style="verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.electrical.signal_sources.vdd;shadow=0;dashed=0;align=center;strokeWidth=1;fontSize=24;html=1;flipV=1;strokeColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="99" y="120" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-15" target="STBlwLwGWw4QHtBeOQfR-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-21" value="Multiplus" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="630" y="790" width="190" height="90" as="geometry">
+                        <mxRectangle x="580" y="260" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-22" value="AUX +" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="STBlwLwGWw4QHtBeOQfR-21" vertex="1">
+                    <mxGeometry y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-23" value="AUX -" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="STBlwLwGWw4QHtBeOQfR-21" vertex="1">
+                    <mxGeometry y="60" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-24" value="Wakespeed" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="630" y="1090" width="190" height="60" as="geometry">
+                        <mxRectangle x="580" y="260" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-25" value="FEATURE IN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="STBlwLwGWw4QHtBeOQfR-24" vertex="1">
+                    <mxGeometry y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-26" value="" style="group" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1" connectable="0">
+                    <mxGeometry x="170" y="720" width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-27" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; color: rgb(15 , 17 , 17) ; font-family: &amp;quot;amazon ember&amp;quot; , &amp;quot;arial&amp;quot; , sans-serif&quot;&gt;Icstation 12V Optocoupler (Modified Resistors)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=right;verticalAlign=bottom;" parent="STBlwLwGWw4QHtBeOQfR-26" vertex="1">
+                    <mxGeometry width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-28" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.opto-coupler;" parent="STBlwLwGWw4QHtBeOQfR-26" vertex="1">
+                    <mxGeometry x="153" y="100" width="99" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-29" value="Rin" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="STBlwLwGWw4QHtBeOQfR-26" vertex="1">
+                    <mxGeometry x="20" y="210" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.195;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-26" source="STBlwLwGWw4QHtBeOQfR-28" target="STBlwLwGWw4QHtBeOQfR-29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-26" source="STBlwLwGWw4QHtBeOQfR-32" target="STBlwLwGWw4QHtBeOQfR-28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-32" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="STBlwLwGWw4QHtBeOQfR-26" vertex="1">
+                    <mxGeometry x="252" y="10" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-33" value="" style="group;strokeColor=#EA6B66;fillColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1" connectable="0">
+                    <mxGeometry x="170" y="1000" width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-34" value="&lt;span style=&quot;font-family: &amp;#34;amazon ember&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#ea6b66&quot;&gt;Icstation 12V Optocoupler (Modified Resistors)&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=right;verticalAlign=bottom;" parent="STBlwLwGWw4QHtBeOQfR-33" vertex="1">
+                    <mxGeometry width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-35" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.opto-coupler;strokeColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-33" vertex="1">
+                    <mxGeometry x="153" y="100" width="99" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-36" value="Rout" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;strokeColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-33" vertex="1">
+                    <mxGeometry x="20" y="210" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.195;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-33" source="STBlwLwGWw4QHtBeOQfR-35" target="STBlwLwGWw4QHtBeOQfR-36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-33" source="STBlwLwGWw4QHtBeOQfR-39" target="STBlwLwGWw4QHtBeOQfR-35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-39" value="&lt;font color=&quot;#ea6b66&quot;&gt;Rout&lt;/font&gt;" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;strokeColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-33" vertex="1">
+                    <mxGeometry x="252" y="10" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.195;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-6" target="STBlwLwGWw4QHtBeOQfR-28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="130" y="660"/>
+                            <mxPoint x="130" y="745"/>
+                            <mxPoint x="342" y="745"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.195;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeColor=#000000;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-29" target="STBlwLwGWw4QHtBeOQfR-35" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="130" y="940"/>
+                            <mxPoint x="130" y="1025"/>
+                            <mxPoint x="342" y="1025"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-28" target="STBlwLwGWw4QHtBeOQfR-22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-28" target="STBlwLwGWw4QHtBeOQfR-23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;strokeColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-35" target="STBlwLwGWw4QHtBeOQfR-25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-45" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.signal_ground;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="106.5" y="1580" width="45" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;strokeColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-35" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="1080" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="402" y="1080"/>
+                            <mxPoint x="540" y="1080"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeColor=#EA6B66;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-39" target="STBlwLwGWw4QHtBeOQfR-19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="850" y="1020"/>
+                            <mxPoint x="850" y="170"/>
+                            <mxPoint x="129" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-48" value="Aux MPPT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="630" y="610" width="190" height="90" as="geometry">
+                        <mxRectangle x="580" y="260" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-49" value="REMOTE H" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="STBlwLwGWw4QHtBeOQfR-48" vertex="1">
+                    <mxGeometry y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-50" value="REMOTE L" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="STBlwLwGWw4QHtBeOQfR-48" vertex="1">
+                    <mxGeometry y="60" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-16" target="STBlwLwGWw4QHtBeOQfR-50" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-52" value="" style="group" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1" connectable="0">
+                    <mxGeometry x="170" y="1280" width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-53" value="&lt;span style=&quot;color: rgb(15 , 17 , 17) ; font-family: &amp;#34;amazon ember&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Icstation 12V Optocoupler (Modified Resistors)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;align=right;verticalAlign=bottom;" parent="STBlwLwGWw4QHtBeOQfR-52" vertex="1">
+                    <mxGeometry width="400" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-54" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.opto_electronics.opto-coupler;" parent="STBlwLwGWw4QHtBeOQfR-52" vertex="1">
+                    <mxGeometry x="153" y="100" width="99" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-55" value="Rout" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="STBlwLwGWw4QHtBeOQfR-52" vertex="1">
+                    <mxGeometry x="20" y="210" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.195;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-52" source="STBlwLwGWw4QHtBeOQfR-54" target="STBlwLwGWw4QHtBeOQfR-55" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-52" source="STBlwLwGWw4QHtBeOQfR-58" target="STBlwLwGWw4QHtBeOQfR-54" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-58" value="Rout" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=0;" parent="STBlwLwGWw4QHtBeOQfR-52" vertex="1">
+                    <mxGeometry x="252" y="10" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-59" value="Future" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="630" y="1360" width="190" height="60" as="geometry">
+                        <mxRectangle x="580" y="260" width="50" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-60" value="????" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="STBlwLwGWw4QHtBeOQfR-59" vertex="1">
+                    <mxGeometry y="30" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;endArrow=none;endFill=0;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-55" target="STBlwLwGWw4QHtBeOQfR-45" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-62" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Input Side&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;REC BMS CE optocoupler is limited rated to a max of 15mA and 62V.&amp;nbsp; The 817 optocoupler has CTR of &amp;gt;100% at &amp;gt;2mA I_f.&amp;nbsp; We'll shoot for Rin=28.8/5mA/4&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="200" y="255" width="130" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.195;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeColor=#000000;" parent="STBlwLwGWw4QHtBeOQfR-1" source="STBlwLwGWw4QHtBeOQfR-54" target="STBlwLwGWw4QHtBeOQfR-36" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="342" y="1305"/>
+                            <mxPoint x="130" y="1305"/>
+                            <mxPoint x="130" y="1220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="STBlwLwGWw4QHtBeOQfR-64" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Output Side&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;The 817 optocoupler has max collector current of 50mA. We'll shoot for Rout=28.8/25mA or higher.&amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="STBlwLwGWw4QHtBeOQfR-1" vertex="1">
+                    <mxGeometry x="440" y="255" width="130" height="170" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
