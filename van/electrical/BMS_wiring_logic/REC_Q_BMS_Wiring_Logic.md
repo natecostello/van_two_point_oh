@@ -125,6 +125,7 @@ From the [Wakespeed WS500 Communication and Configuration Guide](http://Wakespee
 Also important is its response to loss of sensor and loss of comms:
 
 > **BTemp:** Measured temperature of NTC sensor attached to B-port in degrees C or battery temperature received via external CAN sensor. -99 indicates temperature has not been measured, NTC sender has failed, or is not attached, and there is no remote temperature information available via the CAN connection.
+
 </details>
 
 
@@ -142,6 +143,7 @@ Regarding Wakespeed-REC-Victron Comms.  [Rick at OGSS](https://www.offgridsoftwa
 >Connect your WS500s in series to VE.CANBus port 2, with a terminator plugged into your last WS500
 
 This suggest that REC has a terminator resistor in it.  This also means we need a WS500 Victron Crossover Cable (WS-VE-CABLE), and a REC to victron CAN adapter cable.  We have both of these. 
+
 </details>
 
 ## ```CHARGE ENABLE``` Signal Distribution
