@@ -32,3 +32,6 @@ Soph aligned bed brackets
 Soph installed super velcro on bed brackets and bed panels
 Installed bed panels
 Loaded in mattress - perfect fit, no cuts
+
+Notes captured on forum:
+https://www.fordtransitusaforum.com/threads/thin-bed-frame.84053/post-1226477
