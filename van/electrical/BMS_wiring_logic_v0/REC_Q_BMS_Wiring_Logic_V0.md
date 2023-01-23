@@ -5,7 +5,7 @@ categories:
  # one or more categories is permitted
  - electrical
 navTitle: 
-title: REC Q BMS Wiring V0
+title: REC Q BMS Wiring and Logic V0
 
 author: Nate
 date: 2020-10-26
@@ -26,10 +26,10 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr: "This design is obsolete and deprecated.  It reflected the use of a latching remote battery switch and thus relied on a the REC Bistable Latching Relay Driver (BSLRD) and a custom designed REC BLSRD Inverter.  A shift was made to a Blue Sea Branded latching remote battery switch that with internal circuitry to present as a normally open contactor.  This eliminated the need for the REC BSLRD and associated inverter."
+tldr: "This design is obsolete and deprecated. This was our zeroth version of the BMS Wiring and Logic design.  It reflected the use of a latching remote battery switch and thus relied on a the REC Bistable Latching Relay Driver (BSLRD) and a custom designed REC BLSRD Inverter.  A shift was made to a Blue Sea Branded latching remote battery switch that with internal circuitry to present as a normally open contactor.  This eliminated the need for the REC BSLRD and associated inverter."
 ---
 
-**This design is obsolete and deprecated.  It reflected the use of a latching remote battery switch and thus relied on a the REC Bistable Latching Relay Driver (BSLRD) and a custom designed REC BLSRD Inverter.  A shift was made to a Blue Sea Branded latching remote battery switch that with internal circuitry to present as a normally open contactor.  This eliminated the need for the REC BSLRD and associated inverter.**
+**This design is obsolete and deprecated. This was our zeroth version of the BMS Wiring and Logic design.  It reflected the use of a latching remote battery switch and thus relied on a the REC Bistable Latching Relay Driver (BSLRD) and a custom designed REC BLSRD Inverter.  A shift was made to a Blue Sea Branded latching remote battery switch that with internal circuitry to present as a normally open contactor.  This eliminated the need for the REC BSLRD and associated inverter.**
 
 # REC Q BMS Wiring Logic
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
