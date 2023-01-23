@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: REC Q BMS Wiring and Logic V4-Draft
 author: Nate
-date: 2022-02-18
+date: 2022-03-27
 tags:
  - BMS
  - battery
@@ -24,13 +24,17 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr: "This is our third revision of the BMS Wiring and Logic.  It reflects our pivot to the TYCO Tyco EV200HAANA as our Main Contactor.  It also reflects our selection of the Multiplus 3KVA inverter charger.  Lastly, it includes a lot of cleanup."
+tldr: "This is our fourth revision of the BMS Wiring and Logic.  It reflects our addition of a custom precharge circuit and significant revision to the main wiring schematic."
 ---
-**This is our third revision of the BMS Wiring and Logic.  It reflects our pivot to the TYCO Tyco EV200HAANA as our Main Contactor.  It also reflects our selection of the Multiplus 3KVA inverter charger.**
+**This is our fourth revision of the BMS Wiring and Logic.  It reflects our addition of a custom precharge circuit and significant revision to the main wiring schematic.**
 
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
 
 ## Operation
+
+**System SECURED**
+
+With the Egis XD 500 switch open, all power is secured to the system with the exception of the REC Q BMS which derives power from its cell connections.  This is mode is for long term storage and maintenance.
 
 **Manual ON**
 

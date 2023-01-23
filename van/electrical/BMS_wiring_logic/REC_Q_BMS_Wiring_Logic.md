@@ -24,13 +24,17 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr: "This is our third revision of the BMS Wiring and Logic.  It reflects our pivot to the TYCO Tyco EV200HAANA as our Main Contactor.  It also reflects our selection of the Multiplus 3KVA inverter charger.  Lastly, it includes a lot of cleanup."
+tldr: "This is our third revision of the BMS Wiring and Logic.  It reflects our pivot to the TYCO Tyco EV200HAANA as our Main Contactor and the addition of an Egis XD 500 manual cutoff switch.  It also reflects our selection of the Multiplus 3KVA inverter charger.  Lastly, it includes a lot of cleanup."
 ---
-**This is our third revision of the BMS Wiring and Logic.  It reflects our pivot to the TYCO Tyco EV200HAANA as our Main Contactor.  It also reflects our selection of the Multiplus 3KVA inverter charger.**
+**This is our third revision of the BMS Wiring and Logic.  It reflects our pivot to the TYCO Tyco EV200HAANA as our Main Contactor and the addition of an Egis XD 500 manual cutoff switch.  It also reflects our selection of the Multiplus 3KVA inverter charger.  Lastly, it includes a lot of cleanup.**
 
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
 
 ## Operation
+
+**System SECURED**
+
+With the Egis XD 500 switch open, all power is secured to the system with the exception of the REC Q BMS which derives power from its cell connections.  This is mode is for long term storage and maintenance.
 
 **Manual ON**
 
