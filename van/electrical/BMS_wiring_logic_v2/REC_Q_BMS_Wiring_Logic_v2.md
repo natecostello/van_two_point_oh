@@ -5,9 +5,9 @@ categories:
  # one or more categories is permitted
  - electrical
 navTitle: 
-title: REC Q BMS Wiring and Logic
+title: REC Q BMS Wiring and Logic V2
 author: Nate
-date: 2022-03-27
+date: 2022-02-18
 tags:
  - BMS
  - battery
@@ -15,8 +15,10 @@ tags:
  - concept
  - electrical
  - van
+ - deprecated
 
 metatags:
+ - deprecated
 	# no metatags
 cover: 
 	# image file
@@ -24,12 +26,11 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr: "This is our third version of the BMS Wiring and Logic design.  It reflects our addition of a custom precharge circuit and significant revisions to the wiring schematic."
+tldr: "This design is obsolete and deprecated.  This was our second version of the BMS Wiring and Logic design.  It reflects our pivot to the TYCO Tyco EV200HAANA as our Main Contactor and the addition of an Egis XD 500 manual cutoff switch.  It also reflects our selection of the Multiplus 3KVA inverter charger.  Lastly, it includes a lot of cleanup."
 ---
-**This is our third version of the BMS Wiring and Logic design.  It reflects our addition of a custom precharge circuit and significant revisions to the main wiring schematic.**
+**This design is obsolete and deprecated.  This was our second version of the BMS Wiring and Logic design.  It reflects our pivot to the TYCO Tyco EV200HAANA as our Main Contactor and the addition of an Egis XD 500 manual cutoff switch.  It also reflects our selection of the Multiplus 3KVA inverter charger.  Lastly, it includes a lot of cleanup.**
 
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
-_This schematic captures the full system upstream of the positive and negative bus.  Greyed-out sections and connections represent design, but not fully implemented portions of the design._
 
 ## Operation
 
