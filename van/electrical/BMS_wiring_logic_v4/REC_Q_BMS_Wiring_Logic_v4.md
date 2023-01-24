@@ -5,9 +5,9 @@ categories:
  # one or more categories is permitted
  - electrical
 navTitle: 
-title: REC Q BMS Wiring and Logic
+title: REC Q BMS Wiring and Logic V4
 author: Nate
-date: 2022-09-22
+date: 2022-06-15
 tags:
  - BMS
  - battery
@@ -15,18 +15,20 @@ tags:
  - concept
  - electrical
  - van
+ - deprecated
 
 metatags:
 	# no metatags
+ - deprecated
 cover: 
 	# image file
  img: rec-bms.jpeg
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr: "This is our fifth version of the BMS Wiring and Logic design.  It reflects our reroute of the Wakespeed 500 'Engine Run' signal through the Cerbo 'Relay1' to allow us to set a state of charge (SOC) range for alternator charging.  We generally limit alternator charging to 95% SOC and below."
+tldr: "This design is obsolete and deprecated.  It was our fourth version of the BMS Wiring and Logic design and was the version implemented for our initial use of the Wakespeed.  It reflects our electrical install of the Wakespeed 500 and partial implementation of the ```CHARGE ENABLE``` optocouplers."
 ---
-**This is our fifth version of the BMS Wiring and Logic design.  It reflects our reroute of the Wakespeed 500 'Engine Run' signal through the Cerbo 'Relay1' to allow us to set a state of charge (SOC) range for alternator charging.  We generally limit alternator charging to 95% SOC and below.**
+**This design is obsolete and deprecated.  It was our fourth version of the BMS Wiring and Logic design and was the version implemented for our initial use of the Wakespeed.  It reflects our electrical install of the Wakespeed 500 and partial implementation of the ```CHARGE ENABLE``` optocouplers.**
 
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
 _This schematic captures the full system upstream of the positive and negative bus.  Greyed-out sections and connections represent design, but not fully implemented portions of the design._
