@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: REC Q BMS Wiring and Logic
 author: Nate
-date: 2022-03-27
+date: 2022-06-15
 tags:
  - BMS
  - battery
@@ -24,9 +24,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr: "This is our third version of the BMS Wiring and Logic design.  It reflects our addition of a custom precharge circuit and significant revisions to the wiring schematic."
+tldr: "This is our fourth version of the BMS Wiring and Logic design.  It reflects our electrical install of the Wakespeed 500 and partial implementation of the ```CHARGE ENABLE``` optocouplers."
 ---
-**This is our third version of the BMS Wiring and Logic design.  It reflects our addition of a custom precharge circuit and significant revisions to the main wiring schematic.**
+**This is our fourth version of the BMS Wiring and Logic design.  It reflects our electrical install of the Wakespeed 500 and partial implementation of the ```CHARGE ENABLE``` optocouplers.**
 
 ![REC Q BMS Wiring Logic](REC_Q_BMS_Wiring_Logic.svg)
 _This schematic captures the full system upstream of the positive and negative bus.  Greyed-out sections and connections represent design, but not fully implemented portions of the design._
