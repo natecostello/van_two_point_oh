@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: REC Q BMS Wiring and Logic V4 - Draft
 author: Nate
-date: 2022-03-27
+date: 2022-06-15
 tags:
  - BMS
  - battery
