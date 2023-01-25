@@ -423,6 +423,30 @@ Boatowners Mechanical and Electrical Manual 4E
 
 11.11.7 GFCI receptacle devices may be installed as part of a convenience outlet installation either in single outlet applications or in multiple feed through installations. (See E-11.13.3.5)
 
+## 2003 Version Section Excerpt
+11.4 DEFINITIONS
+
+Self-limiting - A device whose maximum output is restricted to a specified value by its magnetic and electrical characteristics.
+
+11.12. OVERCURRENT PROTECTION
+11.12.1. FOR DC SYSTEMS
+11.12.1.1. Battery Charging Sources
+
+11.12.1.1.1. Each ungrounded conductor connected to a battery charger, alternator, or other charging source, shall be provided with overcurrent protection within a distance of seven inches (175mm) of the point of connection to the DC electrical system or to the battery.
+
+EXCEPTIONS: 
+1. If the conductor is connected directly to the battery terminal and is contained throughout its entire distance in a sheath or enclosure such as a conduit, junction box, control box or enclosed panel, the overcurrent protection shall be placed as close as practicable to the battery, but not to exceed 72 inches (1.83m).
+
+2. If the conductor is connected to a source of power other than a battery terminal and is contained throughout its entire distance in a sheath or enclosure such as a conduit, junction box, control box or enclosed panel, the overcurrent protection shall be placed as close as practicable to the point of connection to the source of power, but not to exceed 40 inches (1.02m). Overcurrent protection is not required in conductors from self-limiting alternators with integral regulators if the conductor is less than 40 inches (1.02m), is connected to a source of power other than the battery, and is contained throughout its entire distance in a sheath or enclosure. 
+
+11.12.1.1.2. In addition to the provisions of E11.12.1.1.1, the ungrounded conductor shall be provided with overcurrent protection within the charging source, or within seven inches (175mm) of the charging source, based on the maximum output of the device.
+
+EXCEPTION: Self-limiting devices.
+
+11.12.1.2. Overcurrent Protection Device Location - Ungrounded conductors shall be provided with overcurrent protection within a distance of seven inches (175mm) of the point at which the conductor is connected to the source of power measured along the conductor. (See FIGURE 15.) 
+
+## End 2003 Section 11.12 Excerpt
+
 11.13 **PLUGS AND RECEPTACLES**
 
 11.13.1 GENERAL
