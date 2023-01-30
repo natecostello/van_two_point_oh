@@ -313,15 +313,18 @@ _We were happy enough with the first prototype to skip bothering with the second
 
 We mount the bags to the L-track using four of[these 3/8-24 studs](https://www.amazon.com/gp/product/B07YZ4CQ7D/) per bag, two in the top, two in the rear.  The studs are installed with a thin nut that holds them in place irrespective of whether a bag is installed.  The bag is installed by placing the grommet over the stud, against the thin nut, and captured with a washer and another nut.
 
-We take one bag and hold it up in place and mark where the four L-track studs will pass through the grommets.  We then install grommets that will pass over a 3/8 inch stud.  We purchased our [grommet kit](https://www.amazon.com/gp/product/B07FKHHTMZ/) from amazon.  UPDATE: We later reinforced the bags by sewing [webbing](https://www.amazon.com/gp/product/B01KTVB9E0/) into these locations and re-grommeting.  We'd recommend doing that unless you are lightly loading the bags.  
+We take one bag and hold it up in place and mark where the four L-track studs will pass through the grommets.  We then install grommets that will pass over a 3/8 inch stud.  We purchased our [grommet kit](https://www.amazon.com/gp/product/B07FKHHTMZ/) from amazon.  Update: We later reinforced the bags by sewing [webbing](https://www.amazon.com/gp/product/B01KTVB9E0/) into these locations and re-grommeting.  We'd recommend doing that unless you are lightly loading the bags.  
 
-For stiffeners, we use 1/4" expanded PVC sheet.  It's light, can't mold or grow anything, and is available from home depot.  Each bag gets a 14x14 inch stiffener that goes in the square compartments on each end.  Then we add a 14x29ish inch stiffener that sits in the bottom (in the mounted orientation).  These allow help the bags retain their physical shape when loaded.
+For stiffeners, we use 1/4" expanded PVC sheet.  It's light, can't mold or grow anything, and is available from home depot.  Each bag gets a 14x14 inch stiffener that goes in the square compartments on each end.  Then we add a 14x29ish inch stiffener that sits in the bottom (in the mounted orientation).  These allow help the bags retain their physical shape when loaded.  Update:  We later rounded the corners on these to eliminate a wear point against the bag material when loaded.
 
 Our last step was to use a steamer to steam the bags to get all those little wrinkles out.  This purely for aesthetics, but really improves the look.
 
 ![complete and installed](complete.jpeg)
 _Here they are installed, steamed, and loaded._
 
+## What We Would Change
+
+Nothing from the final configuration, we love them.  We would have sewn in the reinforcement webbing upon initial grommeting, rather than waiting to see them fail!  We also would have rounded the stiffener corners from start.
 
 ## Timeline:
 
@@ -332,4 +335,4 @@ Note, this doesn't reflect full time effort.  It's mostly evenings and partial d
 * Cut stiffeners from expanded PVC sheet for the prototype (11-11-2021)
 * Grommeted and installed the remaining 7 bags (11-20-2021)
 * Cut stiffeners for the remaining 7 bags (11-21-2021)
-* Reinforced the grommeted areas with webbing after a few shakedown voyage failures (4-8-2022) 
+* Reinforced the grommeted areas with webbing after a few shakedown voyage failures and rounded stiffener corners (4-8-2022) 
