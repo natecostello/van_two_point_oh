@@ -37,3 +37,9 @@ re wiring.  only using ACC power (don't need parked cam since usually blocked an
 rain delay
 after finishing wiring, realized the converter I bought is USB micro and not USB mini (for vantop).  Doh!
 Buttoned up, will order right angle micro to mini adapter once in key  west
+
+??
+Recieved and installed mini adapter
+
+2022-1-??:
+Vantop stopped working.  Also had noticed that while it was working, we were having issues with ford sync screen not turning on. Need to investigae

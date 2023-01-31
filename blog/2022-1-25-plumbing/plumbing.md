@@ -39,3 +39,5 @@ Tested, found leaks, fixed
 Retest plumbing sat
 
 Later we epoxied the quick disconnects (hatteras)
+
+Later we shifted to two jerry cans (Tampa part 2)
