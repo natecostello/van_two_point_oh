@@ -32,3 +32,11 @@ Delivery of 24V Undermount AC system
 1-31-2023
 Ordered Transit Condenser Brackets from Undermount AC
 
+
+2-6-2023
+started evap bracket design
+2-7-2023
+completed evap bracket design, Ordered evap brackets from send cut send
+
+2-8-2023
+ordered hoses from coldhose
