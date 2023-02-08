@@ -19,6 +19,8 @@ Hose Diameter (outer):
 Wire Length:
 Taxicab battery to compressor 120" with margin.  Adding 24" to be sure.  Will order 12 ft.  ABYC predicted vdrop is 1.5% at max current.  Need to figure out lug size for compressor.
 
+Terminal size:  Compressor terminals are 1/4" per email with undermount AC.
+
 
 Timeline:
 
