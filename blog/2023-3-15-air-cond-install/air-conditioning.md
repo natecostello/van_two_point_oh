@@ -45,6 +45,24 @@ Or two of these: https://www.amazon.com/Odyssea-Bulkhead-Fitting-Aquarium-Filter
 
 For insulation we can pickup .75 pipe insulation from depot and ziptie tight
 
+Emailed undermount about mounting hardware:
+>Still working my install planning without access to the hardware.  Question about the transit mounting brackets:
+
+>The website description says:
+"Only Brackets are included, you will be required to provide bolts and washers to clear the crossmembers. (4 required)"
+
+>What hardware size are the holes in the brackets sized for (1/4? 5/16? etc).  
+
+>Looking under the van at the crossmembers the brackets attach to, there isn't any ability to get a nut on the backside of bolt within the cross member.  That leaves either using 
+1. a threaded insert (plusnut, etc) or 
+2. through-bolting all the way through the cross member
+
+>For 2, I'm concerned that I can't get the appropriate preload on the bolt without deforming the cross member.  Clearly I'm not going to oversize two holes and weld in a sleeve as identified in the BEMM.  So I'm leaning towards approach 1.
+
+>Do you guys have a recommended approach?
+
+
+
 Timeline:
 
 
@@ -68,3 +86,4 @@ ordered hoses from coldhose
 
 2-13-2023
 ordered cables from batterycablesusa
+ordered victron BP from amazon
