@@ -87,3 +87,6 @@ ordered hoses from coldhose
 2-13-2023
 ordered cables from batterycablesusa
 ordered victron BP from amazon
+
+2-17-2023
+evap brackets delivered - fit is good.

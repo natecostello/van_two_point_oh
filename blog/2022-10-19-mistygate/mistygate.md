@@ -48,4 +48,8 @@ Replaced zipties with smaller ones, now no interferance
 Disabled lower lock on sliders with metal clips
 
 
+2-16-2023
+Disassembled mistygate and drilled out lower locking mechanism.  Much smoother.
 
+2-17-2023
+Rebuilt mistygate with rub between lower rail and nosing eliminated, better ziptie-ing.  Works great.
