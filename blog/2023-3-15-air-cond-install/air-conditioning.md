@@ -29,6 +29,9 @@ Battery Cables USA has a min length of 6" hole to hole - I think we can make thi
 * Negative cable will have 1/4" on one end, and 5/16" for connection to main negative bus.
 * Short 6" cable with 1/4" on one end, and 5/16" on other end.
 
+
+Will fuse at 60 to protect BP 65 and wire.  This is common size with our solar fuse.
+
 Floor Pass though:
 
 ```
@@ -61,7 +64,11 @@ Emailed undermount about mounting hardware:
 
 >Do you guys have a recommended approach?
 
-
+Condenser Brackets:
+having send cut send make them
+angle is 1.5x1.5x1/8", 6.3 oz each
+brackets are 8.2oz each.
+43.80 from send cut send if you order 2
 
 Timeline:
 
@@ -90,3 +97,10 @@ ordered victron BP from amazon
 
 2-17-2023
 evap brackets delivered - fit is good.
+
+2-23-2023
+Ordered vent adapter from undermountAC
+Ordered vents from amazon
+Ordered pex crimp tool from amazon
+
+2-23-2023
