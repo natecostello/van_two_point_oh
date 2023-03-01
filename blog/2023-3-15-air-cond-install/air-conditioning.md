@@ -19,6 +19,11 @@ Hose Diameter (outer):
 Wire Length:
 Taxicab battery to compressor 120" with margin.  Adding 24" to be sure.  Will order 12 ft.  ABYC predicted vdrop is 1.5% at max current (~39A).  Need to figure out lug size for compressor.
 
+Updated wirelength (to back driver corner, through pass through, forward, to compressor)
+20 + 55 + 6 + 11 + 40 + 16 = 13ft
+Should order 15 foot lengths
+
+
 Terminal size:  Compressor terminals are 1/4" per email with undermount AC.
 
 Based on max current, a BP-65 will work for cutoff.  Positive cable will have 1/4" terminal on each end.
@@ -103,4 +108,8 @@ Ordered vent adapter from undermountAC
 Ordered vents from amazon
 Ordered pex crimp tool from amazon
 
-2-23-2023
+2-26-2023
+Ordered trunklining and adhesive (from perfect fit) to cover evaporator
+Ordered bulkhead fitting
+Ordered adhesive foam sheet
+Will buy 2.5" holesaw at home depot 
