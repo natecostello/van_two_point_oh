@@ -1,0 +1,127 @@
+# Configuration file for ALTREG
+#
+#     May 10, 2022
+#     Battery system: Generic, LiFeP04, LiFeP04 (Get Home), 1, 560
+#     Alternator: APS, HPI-185EXT-24
+#     BMS: REC, Q BMS 16S
+#     BMS notes: MUST be 'Victron' variant.  BMS directs charging, use with 'LiFeP04 Get-Home' Charge Profile.  Use RJ45 cross-over cable. Supports remote sensing of battery amps and temperature via CAN.
+#
+#     Protected for use only with Wakespeed products.
+#     Any usage without express written permission from Thomason Jones Company LLC is strictly prohibited.
+#     (c)2021 Thomason Jones Company.
+#
+#
+# Change Log: 
+# Changed SCA, Parameter 11, Warmup Delay, to -30 to disable Fast Ramping and perform all ramps at a slow pace.
+#  The intention of the above change is to provide more time for voltage feedback to avoid 
+#  HV-cutoffs during engine starts when at high SOC.
+# Changed CCN, Parameter 4, Shunt At Bat?, to 0 to specify the shunt is at the alternator.
+#
+# ALTREG config file
+$CCN: 0,1,70,1,0,1,1,2,0,0,0.0,0@
+# CCN Parameter 0 - Value '0' - specifies use of DIP switches for battery instance
+# CCN Parameter 1 - Value '1' - sets charging device instance to 1 (default)
+# CCN Parameter 2 - Value '70' - sets the priority of this charging device instance to '70'
+# CCN Parameter 3 - Value '1' - allows the regulator to potentially assume role as "remote battery master"
+# CCN Parameter 4 - Value '0' - specifies the shunt is connected to the alternator (vice battery)
+# CCN Parameter 5 - Value '1' - enables OSEnergy status reception via CAN bus
+# CCN Parameter 6 - Value '1' - enables sending NMEA2000 status messages via CAN
+# CCN Parameter 7 - Value '2' - enables SMA/Victron comms with NO active regulation of battery current to 0A instead of disabling alternator 
+# CCN Parameter 8 - Value '0' - associates regulator with engine it is mounte on (default = 0)
+# CCN Parameter 9 - Value '0' - selects CAN bitrrate of 250kbps (default - matches REC and CERBO)
+# CCN Parameter 10 - Value '0.0' - causes transition to disabled mode when DC-disconnect command is recieved
+# CCN Parameter 11 - Value '0' - disables battery aggregation (default)
+
+$SCA: 0,100,0.84,0.46,0.31,0,0,0,10000,0,0,-30,0,0,0@
+# SCA Parameter 0 - Value '0' - specifies use of the battery sensor for battery temperature
+# SCA Parameter 1 - Value '100' - target upper temperature - lowering for margin from config tool value of 120 for 185 HPI alternator
+# SCA Parameter 2 - Value '0.84' - limits alternator current to 84%% of "demonstrated capability" when not in "small" or "half-power" mode.  This number is based on the 2050 RPM current increase between .46 and .625 derating factors.
+# SCA Parameter 3 - Value '0.46' - limits alternator current to 46% of "demonstrated capability" when in "small" mode
+# SCA Parameter 4 - Value '0.31' - limits alternator current to 31% of "demonstrated capability" when in "half" mode
+# SCA Parameter 5 - Value '0' - disables pull-back factor for reducing field drive at low RPMs (see warning about ingition/run with PBF disabled)
+# SCA Parameter 6 - Value '0' - disables alternator amperage capacity.  With '0', reduced power modes will scale PWM duty cycle which may or may not relate to delivered amperages
+# SCA Parameter 7 - Value '0' - disables a system watts capacity which is used to protect engine or belts
+# SCA Parameter 8 - Value '10000' - amps shunt ratio (50mv/500A)
+# SCA Parameter 9 - Value '0' - do not flip polarity of shunt measurement
+# SCA Parameter 10 - Value '0' - specifies idle RPM.  '0' enables auto determination of idle RPM and is default.
+# SCA Parameter 11 - Value '-30' - specifies the delay in seconds from when first powered before applying load to engine, negative disables fast ramping.
+# SCA Parameter 12 - Value '0' - disables critical "required sensor" checks
+# SCA Parameter 13 - Value '0' - disables ignoring of critical "required sensors"
+# SCA Parameter 14 - Value '0' - disables a BMS current limits
+
+$SCT: 16,2.930769231,0,1,0@
+# SCT Parameter 0 - Value '16' - specifies 16 poles in the alternator (wakespeed gave this value)
+# SCT Parameter 1 - Value '2.930769231' - specifies the engine/alt drive ratio (based on values provided by APS)
+# SCT Parameter 2 - Value '0' - disables a non-zero minimum field if using "Tach Mode" - approach anything other than "disbled" with caution
+# SCT Parameter 3 - Value '1' - enables "Tach Mode" - default is '0' (disabled)
+# SCT Parameter 4 - Value '0' - disable RPM triggered "half power mode"
+
+$SCN: 0,ALTREG,1234@
+# SCN Parameter 0 - Value '0' - reserved, set to '0'
+# SCN Parameter 1 - Value 'ALTREG' - name used for CAN ID
+# SCN Parameter 2 - Value '1234' - regulator password
+
+$SCO: 8,1.12,2.0,0,1,0,0@
+# SCO Parameter 0 - Value '8' - specifies the 8th Charge Profile Entry to be used
+# SCO Parameter 1 - Value '1.12' - battery capacity mulitplier 560AH = 1.12*500 - is overriden by CAN values given
+# SCO Parameter 2 - Value '2.0' - corresponds to a system voltage of 2.0*12 = 24V
+# SCO Parameter 3 - Value '0' - disables "lockout" which prevents changes without a master or factory reset
+# SCO Parameter 4 - Value '1' - Makes Feature-IN (Force to float) active LOW => HIGH means behave normally, LOW means force to float
+# SCO Parameter 5 - Value '0' - specified default Feature-OUT behavior
+# SCO Parameter 6 - Value '0' - Promiscuous mode, default = 0, 1 allows self reset of many faults without power cycle, new in firmware 2.5
+
+
+$CPA:8 13.2,0,0,0@
+# the '8' corresponds to the Charge Profile Table Entry that will be modified by this command
+# CPA Parameter 0 - Value '13.2' - specifies voltage of 13.2 (26.4) to transition from BULK to ACCEPT (Absorption) (only used during loss of CAN)
+# CPA Parameter 1 - Value '0' - disables time/duration based exit of ACCEPT (Absorption)
+# CPA Parameter 2 - Value '0' - disable current based exit of ACCEPT (Absorption)
+# With the above two parameters set to zero, ACCEPT (Absorption) phase is bypassed
+# CPA Parameter 3 - Value '0' - reserved, must be '0'
+
+$CPO:8 0,0,0.0,0@
+# the 8 correpsonds to the Charge Profile Table Entry that will be modified by this command
+# CPO Parameter 0 - Value '0'  - disables OVER-CHARGE
+# CPO Parameter 1 - Value '0' - disables OVER-CHARGE
+# CPO Parameter 2 - Value '0.0' - disables OVER-CHARGE
+# CPO Parameter 3 - Value '0' - disables OVER-CHARGE
+
+$CPF:8 0.0,0,0,0,0,13.1,0@
+# the 8 correpsonds to the Charge Profile Table Entry that will be modified by this command
+# CPF Parameter 0 - Value '0.0' - specifies the voltage used during FLOAT - setting value to '0.0' which will cause all charging to stop during 'FLOAT' which we want since using Charge Enable to Feature-In
+# CPF Parameter 1 - Value '0' - limits amps to battery to '0' during 'FLOAT'
+# CPF Parameter 2 - Value '0' - disables time/duration based exit of FLOAT - May be need to set to 1 (minute) to enter post float if CE signal doesnt restart BULK
+# CPF Parameter 3 - Value '0' - disables a battery-discharge-amps based return to BULK
+# CPF Parameter 4 - Value '0' - disables a amp-hours-discharged based return to BULK
+# CPF Parameter 5 - Value '13.1' - 13.1V voltage based return to BULK - needed since charging is disabled in FLOAT in our config
+# CPF Parameter 6 - Value '0' - disables an SOC based return to BULK - can't work since no CAN is one use case of FLOAT
+
+$CPP:8 0,0.0,0,0.0@
+# the 8 correpsonds to the Charge Profile Table Entry that will be modified by this command
+# CPP Parameter 0 - Value '0' - disables time/duration based exit of POST-FLOAT
+# CPP Parameter 1 - Value '0.0' - disables a voltage based return to BULK
+# CPP Parameter 2 - Value '0' - disables a amp-hours-discharged based return to BULK
+# CPP Parameter 3 - Value '0.0' - disables charging during POST-FLOAT
+# we may need to use some of these if return of charge-enable/feature-in doesn't cause exit of FLOAT
+
+$CPE:8 0.0,0,0,0@
+# the 8 correpsonds to the Charge Profile Table Entry that will be modified by this command
+# CPE Parameter 0 - Value '0.0' - disables EQUALIZE mode
+# CPE Parameter 1 - Value '0' - disables an Amp cap while in EQUALIZE
+# CPE Parameter 2 - Value '0' - disables EQUALIZE mode
+# CPE Parameter 3 - Value '0' - disables amp based exiting of EQUALIZE
+
+$CPB:8 0.0,0,5,50,0.0,7,40,25,250,0.0@
+# the 8 correpsonds to the Charge Profile Table Entry that will be modified by this command
+# CPF Parameter 0 - Value '0.0' - disables temperature based voltage compensation
+# CPF Parameter 1 - Value '0' - stops additional compensation when batt temp is below '0'
+# CPF Parameter 2 - Value '5' - disables charging if battery temp below 5C (default was 2, set to 5 to match REC)
+# CPF Parameter 3 - Value '50' - disables charging if battery temp above 50C (REC is 55 so this value is good)
+# the wakespeed will ignore any BMS charge commands when the above limits are violated
+# CPF Parameter 4 - Value '0.0' - disables battery voltage based reduced charging modes
+# CPF Parameter 5 - Value '7' - if battery temp =< 7C, enter reduced charge mode (default was 5, set to 7 to coordinate with REC)
+# CPF Parameter 6 - Value '40' - if battery temp >= 40C, enter reduced charge mode (default, fine)
+# CPF Parameter 7 - Value '25' - reduced charge mode amps for nominal 500AH battery (0.05C rate)
+# reduced charge overides any BMS charge commands when the above parameters dictate reduced charge mode
+# CPF Parameter 8 - Value '250' - (default 150) max charge rate for nominal 500AH battery (0.5C rate) 
+# CPF Parameter 9 - Value '0.0' - 0-20.0 Max Bat Volts - additional protection, will fault if exceeded, 0.0 disables - new in firmware 2.5
