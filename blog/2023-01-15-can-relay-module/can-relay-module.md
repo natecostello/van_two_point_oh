@@ -7,3 +7,4 @@ Run this in developer tools/console to download chat output as a markdown file:
 Changed BMS Params
 3-6-2023
 Ran a test with multiplus (and MPPT) charging to look for proper charge cutoff.
+Ran a test with wakespeed charging to look for proper charge cutoff.
