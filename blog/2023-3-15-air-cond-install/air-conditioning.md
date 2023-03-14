@@ -49,9 +49,13 @@ Floor thickness: 0.5 + 0.5 + 0.5 + .25 = 1.75  need some protrustion for LOE and
 
 **We could do one of these: https://www.amazon.com/Pack-Threaded-Slip-Bulkhead-Brand/dp/B0195K6QUS 3 or 4" long  ** Winner  Hole saw size is 2.5"
 
+This fits everything, both hoses, pos and neg 6AWG, and the two harnesses that pass through.  Tested.
+
 Or two of these: https://www.amazon.com/Odyssea-Bulkhead-Fitting-Aquarium-Filters/dp/B017KXKHIO/ 2-1/8 long
 
 For insulation we can pickup .75 pipe insulation from depot and ziptie tight
+
+
 
 Emailed undermount about mounting hardware:
 >Still working my install planning without access to the hardware.  Question about the transit mounting brackets:
@@ -113,3 +117,5 @@ Ordered trunklining and adhesive (from perfect fit) to cover evaporator
 Ordered bulkhead fitting
 Ordered adhesive foam sheet
 Will buy 2.5" holesaw at home depot 
+
+delete
