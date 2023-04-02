@@ -10,9 +10,9 @@ author: Nate
 date: 2022-02-27
 tags:
  - vehicular
- - 8020
+ - '8020'
  - solar
- 
+
 metatags:
 	# no metatags
 cover: 
