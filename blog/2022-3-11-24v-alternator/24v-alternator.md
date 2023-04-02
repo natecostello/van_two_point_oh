@@ -7,7 +7,7 @@ categories:
 navTitle: 
 title: 24V Alternator Install
 author: Nate
-date: 2022-01-23
+date: 2022-03-11
 tags:
  - build
  - electrical
