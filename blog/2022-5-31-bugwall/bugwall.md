@@ -9,3 +9,6 @@ Installed side bugwall
 
 2022-6-5
 Added velcro to side bugwall to keep misty in
+
+Adding snaps?
+
