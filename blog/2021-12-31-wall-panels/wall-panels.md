@@ -74,14 +74,14 @@ We ordered fasteners and threaded inserts for the fan and light switch mounting.
 
 Next, we finished templating the wall stiffener panels, drilled them, cut the wall panels to width and length (except for the forward panel), and fit them up to the wall panels, marking holes with transfer screws and impressions from fasteners we had on hand.
 
+![bare-panel-hole-marking.jpeg](bare-panel-hole-marking.jpeg)
+*Fitup of a bare panel to a stiffener panel using neoprene material as spacers to get correct placement.*
+
 ![bare-panel-adding-holes.jpeg](bare-panel-adding-holes.jpeg)
 *Adding holes to the edge of a bare panel to matchholes in a stiffener panel.*
 
 ![bare-panel-fitup-with-holes.jpeg](bare-panel-fitup-with-holes.jpeg)
 *Two bare panels with holes drilled matched to the stiffener panels.*
-
-![bare-panel-hole-marking.jpeg](bare-panel-hole-marking.jpeg)
-*Fitup of a bare panel to a stiffener panel using neoprene material as spacers to get correct placement.*
 
 ## Upholstering the Panels
 
