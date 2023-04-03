@@ -21,9 +21,9 @@ cover:
 	# if attribution is needed
 	# source: [vecteezy]
 	# url: url
-tldr: "We designed and installed custom upholstered wall panels and panel stiffeners in our van, including fans and light switches."
+tldr: "We designed and installed wall panels, made from expanded PVC sheet and upholstered with neoprene and marine vinyl.  These panels are supported by and fastened to custom brackets, stiffening panels, and L-track."
 ---
-**TLDR: We designed and installed custom upholstered wall panels and panel stiffeners in our van, including fans and light switches.**
+**TLDR: We designed and installed wall panels, made from expanded PVC sheet and upholstered with neoprene and marine vinyl.  These panels are supported by and fastened to custom brackets, stiffening panels, and L-track.**
 
 ## Jargon
 
