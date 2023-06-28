@@ -33,13 +33,12 @@ General electrical system design and schematic is [here](/van/electrical/electri
 
 Relevant Battery Management System (BMS) parameters are as follows:
 
-| Setting | Value |
-|BMIN| 3.4 |
-|BVOL| 3.45|
-|CMAX| 3.7|
-|MAXH| 0.25|
-|CHAR| 3.45|
-|CHIS| 0.12|
+BMIN 3.4  
+BVOL 3.45  
+CMAX 3.7  
+MAXH 0.25  
+CHAR 3.45  
+CHIS 0.12
 
 These parameters had been in use since March 5th, 2023.
 
@@ -92,7 +91,7 @@ The initial conditions include a battery lightly discharging (≈4A), normal bat
 
 At 19:15:05 there are indications of the BMS controlled contactor opening (similar indications as anomaly 1). At the same time, there appears to be a 10 second loss of BMS communication evidenced by no BMS sourced data over this period. Around this period, the Wakespeed reports 'BMS Lost'.
 
-About 10 seconds after the contactor opening BMS communication returns, however, the BMS reported SOC is 50%. This is indicative of BMS reset with its default starting SOC. At the same packet the BMS commands a CCL of 41.0A.
+About 10 seconds after the contactor opening, BMS communication returns, however, the BMS reported SOC is 50%. This is indicative of BMS reset with its default starting SOC. At the same packet the BMS commands a CCL of 41.0A.
 
 About 15 seconds after the contactor opening, it appears to close based on non-zero BMS reported battery current and the return Solar MPPT, Multiplus, and Wakespeed measured voltage to the BMS reported value.
 
@@ -111,7 +110,7 @@ At 19:41:27 the wakespeed stops reporting data. This is coincides with our arriv
 
 At 19:57:38 The wakespeed resumes reporting data and indicates an 'Off' state. It likely reset following an engine off-on cycle.
 
-At 19:58:51 the Wakespeed reports a prompt shift to 'Float' a field drive of 83% and a current of 200.5A for 2 seconds. Simultaneously the BMS resets its SOC from 50% to 100% and reduces the commanded CCL from 279.9A to 0A. BMS reported current is 200.6A, Min and max cells are reported to be 3.43V and 3.45V respectively (up from 3.36 before the Wakespeed transient).
+At 19:58:51 the Wakespeed reports a prompt shift to 'Float', a field drive of 83%, and a current of 200.5A for 2 seconds. Simultaneously, the BMS resets its SOC from 50% to 100% and reduces the commanded CCL from 279.9A to 0A. BMS reported current is 200.6A, Min and max cells are reported to be 3.43V and 3.45V respectively (up from 3.36 before the Wakespeed transient). Note, this information is included for completeness but is not indicative of any mal operation of any components.
 
 After this period, the system discharges normally for the next several hours.
 
