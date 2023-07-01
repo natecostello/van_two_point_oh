@@ -139,3 +139,29 @@ Clearly the BMS is dead. The hard resets in SOC and communication drops coincidi
 One significant concern is the way in which it failed. The second cutoff during the second anomaly occured under fairly significant charging. This is potentially damaging to the the alternator diodes and is a primary reason to have a BMS that coordinates cutoffs with the other charging components. The resulting voltage transient as the Multiplus input capacitors were charged led to an excursion over 30V. Thankfully only the USB plugs were damaged in this case and not the fridge, freezer, fans, inverter, etc. We won't know that the alternator is intact until after the BMS is replaced.
 
 Ideally, REC, the OEM for the BMS can provide additional information regarding this failure after they review the data and potentially inspect the unit.
+
+## Installing new BMS
+
+## Random notes
+
+Firmware update issue - progress bar doesn't move.
+
+changing IP address from 192.168.2.99 to the 1.X subdomain to see if that helps it did not
+
+REC confirmed my suspicion that it was related to SD card failure mode
+
+Opened Wifi module
+
+Removed card
+
+Card not recognized by computer
+
+Took 64GB GoPro SD card and formated as MS-DOS Fat using disk utility (FAT 32)
+
+Replaced card in Wifi module
+
+Firmware updated
+
+Initially normal settings were not available. Power cycled wifi unit and full settings available.
+
+Initially wakespeed was showing idle and wasn't visible in VRM and wasn't charging. Changed the REC and Victron canbus bitrate to 250kbps, after which everything worked.
