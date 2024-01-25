@@ -22,4 +22,4 @@ cover:
 tldr: "This is a stub"
 ---
 
-**This is a stub**
+**This is a stub - we may make it an article instead of a post**
