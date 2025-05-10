@@ -1,0 +1,29 @@
+# Configuration file for ALTREG
+#
+#     May 10, 2022
+#     Battery system: Generic, LiFeP04, LiFeP04 (Get Home), 1, 560
+#     Alternator: APS, HPI-185EXT-24
+#     BMS: REC, Q BMS 16S
+#     BMS notes: MUST be 'Victron' variant.  BMS directs charging, use with 'LiFeP04 Get-Home' Charge Profile.  Use RJ45 cross-over cable. Supports remote sensing of battery amps and temperature via CAN.
+#
+#     Protected for use only with Wakespeed products.
+#     Any usage without express written permission from Thomason Jones Company LLC is strictly prohibited.
+#     (c)2021 Thomason Jones Company.
+#
+#
+# Change Log: 
+# Increase normal derate by ~20% in hopes to achieve rated output and earlier cut-on
+# Modified engine/alt drive ratio to reflect a 6" drive pulley to correct engine RPM discrepancy
+#
+# ALTREG config file
+$CCN: 0,1,70,1,1,1,1,2,0,0,0.0,0@
+$SCA: 0,100,0.74,0.46,0.31,0,0,0,10000,0,0,30,0,0,0@
+$SCT: 16,2.930769231,0,1,0@
+$SCN: 0,ALTREG,1234@
+$SCO: 8,1.12,2.0,0,1,0,0@
+$CPA:8 13.2,0,0,0@
+$CPO:8 0,0,0.0,0@
+$CPF:8 0.0,0,0,0,0,13.1,0@
+$CPP:8 0,0.0,0,0.0@
+$CPE:8 0.0,0,0,0@
+$CPB:8 0.0,0,5,50,0.0,7,40,25,250,0.0@

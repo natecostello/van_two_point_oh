@@ -1,0 +1,121 @@
+Notes:
+Kit include 18ft of lines.
+
+Unit will fit on the upper wall L-track in rear most driver side, if overhead bag moves forward about 3 inches, and we compress that side.  Alternatively, could find 24" bag.  This will allow running lines up through floor in garage shelf region, behind wall panel, out around side of wall panel and into the unit.
+
+We will route cooling lines through floor in garage, then up through shelves, and out aft facing panel near top on driverside, then up adjacent to the D-pillar.
+
+Hose Length:
+compressor (outer wall) to frame 13.5"
+frame event with compressor to bumper: 155.75"
+frame back to outer wall 13.5"
+outer wall at floor to top of evap: 77"
+Total: 21.8ft - will buy 25 ft.
+
+Hose Diameter (outer):
+#6 - 39/64
+#10 - 25/32
+
+Wire Length:
+Taxicab battery to compressor 120" with margin.  Adding 24" to be sure.  Will order 12 ft.  ABYC predicted vdrop is 1.5% at max current (~39A).  Need to figure out lug size for compressor.
+
+Updated wirelength (to back driver corner, through pass through, forward, to compressor)
+20 + 55 + 6 + 11 + 40 + 16 = 13ft
+Should order 15 foot lengths
+
+
+Terminal size:  Compressor terminals are 1/4" per email with undermount AC.
+
+Based on max current, a BP-65 will work for cutoff.  Positive cable will have 1/4" terminal on each end.
+Negative cable will have 1/4" on one end, and 5/16" for connection to main negative bus.
+Will need short cable from BP-65 and to Main Positive Bus with 5/16" on one end and 1/4" on other end.
+Battery Cables USA has a min length of 6" hole to hole - I think we can make this length work.
+* Positive cable will have 1/4" terminal on each end.
+* Negative cable will have 1/4" on one end, and 5/16" for connection to main negative bus.
+* Short 6" cable with 1/4" on one end, and 5/16" on other end.
+
+
+Will fuse at 60 to protect BP 65 and wire.  This is common size with our solar fuse.
+
+Floor Pass though:
+
+```
+octave:39> 39/64 + 25/32
+ans = 1.390625000000000
+```
+
+1.5" bulkhead fitting is big enough
+Floor thickness: 0.5 + 0.5 + 0.5 + .25 = 1.75  need some protrustion for LOE and Foam
+
+**We could do one of these: https://www.amazon.com/Pack-Threaded-Slip-Bulkhead-Brand/dp/B0195K6QUS 3 or 4" long  ** Winner  Hole saw size is 2.5"
+
+This fits everything, both hoses, pos and neg 6AWG, and the two harnesses that pass through.  Tested.
+
+Or two of these: https://www.amazon.com/Odyssea-Bulkhead-Fitting-Aquarium-Filters/dp/B017KXKHIO/ 2-1/8 long
+
+For insulation we can pickup .75 pipe insulation from depot and ziptie tight
+
+
+
+Emailed undermount about mounting hardware:
+>Still working my install planning without access to the hardware.  Question about the transit mounting brackets:
+
+>The website description says:
+"Only Brackets are included, you will be required to provide bolts and washers to clear the crossmembers. (4 required)"
+
+>What hardware size are the holes in the brackets sized for (1/4? 5/16? etc).  
+
+>Looking under the van at the crossmembers the brackets attach to, there isn't any ability to get a nut on the backside of bolt within the cross member.  That leaves either using 
+1. a threaded insert (plusnut, etc) or 
+2. through-bolting all the way through the cross member
+
+>For 2, I'm concerned that I can't get the appropriate preload on the bolt without deforming the cross member.  Clearly I'm not going to oversize two holes and weld in a sleeve as identified in the BEMM.  So I'm leaning towards approach 1.
+
+>Do you guys have a recommended approach?
+
+Condenser Brackets:
+having send cut send make them
+angle is 1.5x1.5x1/8", 6.3 oz each
+brackets are 8.2oz each.
+43.80 from send cut send if you order 2
+
+Timeline:
+
+
+10-11-2022
+Ordered 24V Undermount AC system
+
+??
+Delivery of 24V Undermount AC system
+
+1-31-2023
+Ordered Transit Condenser Brackets from Undermount AC
+
+
+2-6-2023
+started evap bracket design
+2-7-2023
+completed evap bracket design, Ordered evap brackets from send cut send
+
+2-8-2023
+ordered hoses from coldhose
+
+2-13-2023
+ordered cables from batterycablesusa
+ordered victron BP from amazon
+
+2-17-2023
+evap brackets delivered - fit is good.
+
+2-23-2023
+Ordered vent adapter from undermountAC
+Ordered vents from amazon
+Ordered pex crimp tool from amazon
+
+2-26-2023
+Ordered trunklining and adhesive (from perfect fit) to cover evaporator
+Ordered bulkhead fitting
+Ordered adhesive foam sheet
+Will buy 2.5" holesaw at home depot 
+
+delete

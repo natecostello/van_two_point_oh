@@ -1,0 +1,167 @@
+With the following notes in triple quotes:
+
+"""
+2021-11-9:
+Picked up 6 sheets of 1/4 PVC
+Cut wall panel pieces (not sure if we actually used these)
+
+12-31-2021
+Confirmed upper factory holes are M8-1.25 and that thread starts ~ 1/2 below surface of wall/neoprene (so add to any length).
+Also confirmed that lower strip of L-track will interfere with any bolt heads using those holes.
+
+1-3-2022
+Designed and placed order for wall panel stiffener brackets.
+
+1-4-2022
+Designed and placed order for wall panel 8020 attachment brackets.
+
+1-6-2022
+Cut two wall stiffeners
+Modified one wall stiffener with wood "wedges" to account for angle.
+
+1-11-2022
+Test fit "wedged stiffener, to much wedge, not worth it
+Upholstered sliding door panel as a trial and installed
+
+1-12-2022
+Cut wall panel 8020 brackets
+
+1-13-2022
+Cut wall stiffener brackets
+Soph installed plus nuts in wall stiffener brackets
+Soph installed puls nuts in wall panel 8020 brackets
+
+1-15-2022
+Marked, drilled, primed, painted holes for stiffener bracket plus nuts
+Cut 2 additional stiffener panels
+Angle drilled 8020 bolting holes to ensure flush/perpendicular bolting
+
+1-16-2022
+Installed plusnuts for angle stiffener brackets
+Installed stiffener brackets and locktited
+Installed wall panel 8020 brackets and locktited
+Temp installed wall stiffeners for templating
+Ordered fasteners and threaded inserts for fan and light switch mounting
+
+Notes:
+Fan Mount plate thickness for fastener length: 0.5 inches
+Wall panel thickness for fastener length: 0.5 inches
+Stiffener thickness for fastener length: 0.5 inches
+Fan fastener head max diameter: 0.27 inches
+Therefore need 1.25-1.5 inch long fasteners ([these](https://www.mcmaster.com/98164A444/)). 
+(went short to allow mounting up in stiffener bracket region)
+
+Light switch thickness for fastener length: 1.06 inches
+Wall panel thickness for fastener length: 0.5 inches
+Stiffener thickness for fastener length: 0.5 inches
+Therefore need 1.75 to 2 inch long fastener
+
+1-17-2022
+Templated wall stiffener panels with holes to mount fans, the Espar controller, and panel fasteners
+Picked up two more expanded PVC sheets at Home Depot
+
+1-18-2022
+Finished templating wall stiffener panels
+Drilled wall panel stiffeners
+Gun didn't work so couldn't urethane
+Cut wall panels to width and length (except fwd panel)
+Fit up wall panels and marked holes with transfer screws and random fasteners
+
+1-19-2022
+Added holes to passenger and driver side mid and aft wall panels.
+Fit checked holes in passenger and driver mid and aft wall panels.
+Sophia Upholstered passenger and driver side mid and aft wall panels.
+
+
+1-20-2022
+4 coats of spar urethane on wall panel stiffeners
+Installed threaded inserts in passenger stiffener
+Sophia added holes to the upholstered panels
+Added disconnects to Passenger Fan
+Added mating disconnects to Passenger Fan wiring (next time offset connectors for easier feed through)
+Modified light switch to come apart easier
+Installed passenger wall panels (holes are tight).  Requires stove bracket loosening and sliding stove forward...keep in mind.
+Installed light switch
+Installed passenger fan
+
+1-23-2020
+Sophia installed threaded inserts on panels
+Sophia swapped L-track spacers for 1/2 inch
+
+1-26-2022
+Soph added 5/16 plus nut for passenger fwd panel fastening
+Soph added through bolted passenger fwd panel in two more locations on fwd edge
+Soph increased hole size on driver side panel
+Soph installed driver mid panel
+
+1-31-2022
+Installed driver aft panel
+Installed driver fan
+Tested both fans SAT
+
+2-28-22
+Soph cut forward driver panel
+
+3-1-22
+Soph covered and installed forward driver panel
+
+"""
+
+Write the content for a blog post.  The tone should be informal and include technical detail for someone trying to reproduce the work.
+
+The output should be the full content of a markdown file in markdown format.
+
+Provide the output in a code text box to allow copying the markdown.
+
+It will include a TLDR at the beginning that summarizes the content focusing on actions.  The TLDR should start with "We..."
+
+It should include section headers of size "##"
+
+The second to last section will be titled "What We Would Change", which you do not need to produce content for.
+
+The dates in the notes can be used by you to determine order, but should not be included in the post.
+
+This post will include the following image files:
+
+bare-panel-adding-holes.jpeg: an image of using a file to add holes to a bare panel that match holes in a stiffener panel
+bare-panel-fitup-with-holes.jpeg: an image of two bare panels with holes drilled matched to the stiffener panels
+bare-panel-hole-markup.jpeg: an image showing the fitup of a bare panel to a stiffener panel using neoprene material as spacers to get correct placement
+complete.jpeg: an image of the completed work
+holes.jpeg: an image of adding holes to a panel with soldering iterations
+lower-wall-panel-bracket-locations.jpeg: a elevation view drawing that shows a panel stiffener and panel bracket locations
+passenger-complete.jpeg: an image that shows the completed passenger side panels, fan, and light switch installed
+slider-panel.jpeg: an image of the completed slider door panel
+stiffener-bracket-holes: an image showing the holes drilled that a stiffener bracket will fasten too
+stiffener-bracket-installed.jpeg: an image showing a stiffener bracket installed
+stiffener-bracket-positioning.jpeg: an image showing use of a stiffener panel, and bare panel material, to correctly set the placement of a stiffener bracket
+upholstered-panel-install.jpeg: an image showing the installation of the rear passenger wall panel
+wall-panel-stiffener.jpeg: an image of a wall panel stiffener with the fan mount and light switch mount installed
+bracket-dims.png: A flat drawing of the stiffener brackets
+bracket-profile-context.png: A sketch that shows the angle and placement of the stiffener brackets
+
+Include the markdown text to insert the photos throughout the content.  If possible locate the photos near relevant content.  Also include a caption in italics under each image.
+
+The post should include a section titled "Jargon" near the beginning.  Under this section it should define the following terms:
+
+Stiffener Bracket: Acutely angled brackets that bolt to underside of the upper wall voids.  They are precisely angled so the exposed face matches the plane of the outward face above the wall void.
+Panel Stiffener: A piece of 1/2" plywood that attaches to the 8020 structure at it's bottom and to a stiffener bracket at it't stop.  These bridge the wall void and provide stiffness and a fastening point for the wall panels to allow mounting fans and controls.
+Panel Bracket: Small, slightly angled brackets that are mounted to the backside of the upper 8020 structure.  They provide a fastening point for the upholstered wall panels.
+
+Below is a general template for the markdown file:
+
+**TLDR: [Insert TLDR text]**
+
+## Section 1
+[Insert some content]
+## Section 2
+[Insert more content]
+## Section X
+[Insert even more content]
+
+## What We Would Change
+
+END FIRST PROMPT
+
+SECOND PROMPT
+
+Provide the text for new section at the end titled "Timeline".  It will contain a bulleted list of sentence fragments of what was done on each day listed in the notes provided.  In the notes, dates precede the actions completed on that date.  Each bulleted fragment should end with the date of the associated actions in parenthesis.  The date format should be the three letter abbreviation of the day of the week, capitalized and followed by YYYY-MM-DD.  The output should be markdown text in a codebox.
