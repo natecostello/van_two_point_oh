@@ -81,7 +81,7 @@ All other categories/sections are generally focused on design.
 
 That "other" content began as design musings captured in markdown format, sketchup, and drawio schematics contained in a github repo starting in the spring of 2020.  Much later we worked to finesse that information into a website form.  As a result pockets of information no longer accurate or badly organized, a problem we're working to correct over time.  If you see something confusing, inconsistent or incorrect, let us know and we'll prioritize fixing it.
 
-There is also information not captured in the site at all.  We'd encourage you to looked at the github repo itself if you want to see it all.
+There is also information not captured in the site at all.  We'd encourage you to look at the github repo itself if you want to see it all.
 
 We never intend to use affiliate links to avoid any conflict on recommending or sourcing products.  If you see what looks like one, it was accidentally copied from another source.  Point it out and we'll fix it.
 
