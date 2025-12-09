@@ -91,13 +91,17 @@ We'll use [stainless hose clamps](https://www.homedepot.com/p/Everbilt-3-4-1-3-4
 
 ~~[1 inch ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44396) runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.~~
 
-UPDATE:  We didn't like how much volume the 1 inch ID line consumed.  Thus we are shifting towards 1/2 ID material:
+~~UPDATE:  We didn't like how much volume the 1 inch ID line consumed.  Thus we are shifting towards 1/2 ID material:~~
 
 ~~The sink drain connects to a [1-1/2 inch FIP to FIP 90 degree elbow](https://www.usplastic.com/catalog/item.aspx?itemid=34834) that in turn connects to a [1-1/2 to 1 inch reducing nipple (MIP)](https://www.usplastic.com/catalog/item.aspx?itemid=135126) that in turn connects to a [1 to 1 inch FIP connector](https://www.mcmaster.com/46885K184/)  that in turn connects to a [1 to 1/2 inch reducing nipple (MIP)](https://www.mcmaster.com/46885K303/) that in turn connects to a [1/2 MIP to 1/2 inch FIP 80 degree elbow](https://www.mcmaster.com/46885K122/) that connects to a [1/2 inch FNPT to 1/2 inch barb adapter](https://www.mcmaster.com/5218K749/).~~
 
-2025-3-30 UPDATE: The drain occasionally clogged, so we are eliminating the right angles.  The sink drain connects to a [1-1/2 inch FIP to MIP 45 degree street elbow](https://www.banjocorp.com/banjo/Pipe-Fittings/SL150-45/p/2827167) that in turn connects to a [1-1/2 inch to 1 inch reducing coupling (FIP)](https://www.banjocorp.com/banjo/Pipe-Fittings/RC150-100/p/2826172) that in turn connects to a [1 to 1/2 inch reducing nipple (MIP)](https://www.mcmaster.com/46885K303/) that connects to a [1/2 inch FNPT to 1/2 inch barb adapter](https://www.mcmaster.com/5218K749/).
+~~2025-3-30 UPDATE: The drain occasionally clogged, so we are eliminating the right angles.  The sink drain connects to a [1-1/2 inch FIP to MIP 45 degree street elbow](https://www.banjocorp.com/banjo/Pipe-Fittings/SL150-45/p/2827167) that in turn connects to a [1-1/2 inch to 1 inch reducing coupling (FIP)](https://www.banjocorp.com/banjo/Pipe-Fittings/RC150-100/p/2826172) that in turn connects to a [1 to 1/2 inch reducing nipple (MIP)](https://www.mcmaster.com/46885K303/) that connects to a [1/2 inch FNPT to 1/2 inch barb adapter](https://www.mcmaster.com/5218K749/).~~
 
-[1/2 ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44394)runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.
+~~[1/2 ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44394)runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.~~
+
+2025-12-08 UPDATE: The drain still clogged, so we are pivoting back to 1 inch ID hose.  The sink drain connects to a [1-1/2 inch FIP to MIP 45 degree street elbow](https://www.banjocorp.com/banjo/Pipe-Fittings/SL150-45/p/2827167) that in turn connects to a [Bushing Adapter, 1-1/2 NPT Male x 1 NPT Female](https://www.mcmaster.com/46885K266/) that in turn connects to a [Adapter 1" Hose ID, 1" NPT Male](https://www.mcmaster.com/5218K716/).
+
+[1" ID, 1-19/64 OD Reinforced Tubing 5ft](https://www.mcmaster.com/52375k17/) runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.
 
 ### BOM
 
