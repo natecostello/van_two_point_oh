@@ -99,7 +99,7 @@ We'll use [stainless hose clamps](https://www.homedepot.com/p/Everbilt-3-4-1-3-4
 
 ~~[1/2 ID reinforced PVC hose](https://www.usplastic.com/catalog/item.aspx?itemid=44394)runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.~~
 
-2025-12-08 UPDATE: The drain still clogged, so we are pivoting back to 1 inch ID hose.  The sink drain connects to a [1-1/2 inch FIP to MIP 45 degree street elbow](https://www.banjocorp.com/banjo/Pipe-Fittings/SL150-45/p/2827167) that in turn connects to a [Bushing Adapter, 1-1/2 NPT Male x 1 NPT Female](https://www.mcmaster.com/46885K266/) that in turn connects to a [Adapter 1" Hose ID, 1" NPT Male](https://www.mcmaster.com/5218K716/).
+2025-12-08 UPDATE: The drain still clogged, so we are pivoting back to 1 inch ID hose.  The sink drain connects to a [1-1/2 inch FIP to MIP 45 degree street elbow](https://www.banjocorp.com/banjo/Pipe-Fittings/SL150-45/p/2827167) that in turn connects connects to a [1-1/2 inch to 1 inch reducing coupling (FIP)](https://www.banjocorp.com/banjo/Pipe-Fittings/RC150-100/p/2826172) that in turn connects to a [Adapter 1" Hose ID, 1" NPT Male](https://www.mcmaster.com/5218K716/).
 
 [1" ID, 1-19/64 OD Reinforced Tubing 5ft](https://www.mcmaster.com/52375k17/) runs from the above barbed connection overboard through the 1.5 inch hole added though the vehicle floor.
 
